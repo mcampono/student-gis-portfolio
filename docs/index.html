@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2007-12-31">
-<meta name="description" content="A student cartography project mapping the traverse of NASA’s SPIRIT rover within Gusev Crater on Mars.">
+<meta name="description" content="A reconstructed portfolio of GIS projects and experiences completed while I was a student at Tennessee Tech University, Roane State Community College, and the University of New Mexico.">
 
-<title>Mars SPIRIT Rover Traverse Map</title>
+<title>Student GIS Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,74 +27,126 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="index_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="index_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="index_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
 </head>
 
-<body class="quarto-light">
+<body class="nav-fixed quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul class="collapse">
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
-  <li><a href="#project-context" id="toc-project-context" class="nav-link" data-scroll-target="#project-context">Project Context</a></li>
-  <li><a href="#solving-the-coordinate-problem" id="toc-solving-the-coordinate-problem" class="nav-link" data-scroll-target="#solving-the-coordinate-problem">Solving the Coordinate Problem</a></li>
-  <li><a href="#exploring-the-map-at-multiple-scales" id="toc-exploring-the-map-at-multiple-scales" class="nav-link" data-scroll-target="#exploring-the-map-at-multiple-scales">Exploring the Map at Multiple Scales</a></li>
-  <li><a href="#original-project-description" id="toc-original-project-description" class="nav-link" data-scroll-target="#original-project-description">Original Project Description</a></li>
-  <li><a href="#from-class-project-to-conference-submission" id="toc-from-class-project-to-conference-submission" class="nav-link" data-scroll-target="#from-class-project-to-conference-submission">From Class Project to Conference Submission</a></li>
-  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
-  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
-  </ul>
-</nav>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
 </div>
-<main class="content" id="quarto-document-content">
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mars SPIRIT Rover Traverse Map</h1>
-<p class="subtitle lead">My first substantial cartographic project using ArcMap</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">Cartography</div>
-    <div class="quarto-category">Student Work</div>
-    <div class="quarto-category">RSCC</div>
-    <div class="quarto-category">Conference Presentation</div>
-    <div class="quarto-category">Planetary GIS</div>
-  </div>
-  </div>
+<h1 class="title">Student GIS Portfolio</h1>
+<p class="subtitle lead">Coursework, research, service, and professional development from my time as a GIS student</p>
+</div>
 
 <div>
   <div class="description">
-    A student cartography project mapping the traverse of NASA’s SPIRIT rover within Gusev Crater on Mars.
+    A reconstructed portfolio of GIS projects and experiences completed while I was a student at Tennessee Tech University, Roane State Community College, and the University of New Mexico.
   </div>
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 31, 2007</p>
-    </div>
-  </div>
   
     
   </div>
@@ -105,129 +156,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<p>This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in <strong>GIS 105: Computer Cartography</strong> at Roane State Community College during fall 2008.</p>
-<p>The poster follows the traverse of NASA’s <strong>SPIRIT rover</strong> across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/mars_full_map.png" class="lightbox" data-gallery="mars-spirit-gallery" title="Complete Mars SPIRIT Rover traverse poster."><img src="images/mars_full_map.png" class="img-fluid figure-img" alt="Complete student cartography poster showing the location of Gusev Crater and the traverse of NASA's SPIRIT rover on Mars."></a></p>
-<figcaption>Complete Mars SPIRIT Rover traverse poster.</figcaption>
-</figure>
+<section id="learning-gis-one-project-at-a-time" class="level1 content-block">
+<h1>Learning GIS One Project at a Time</h1>
+<p>This portfolio presents selected GIS, cartography, research, volunteer, and professional-development work completed while I was a student. Most of the projects come from the GIS Certificate program at <strong>Roane State Community College</strong> and my graduate studies at the <strong>University of New Mexico</strong>, with additional context from my first GIS courses at <strong>Tennessee Tech University</strong>.</p>
+<p>I reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio—even when the path into a career is not direct.</p>
+<p><a href="./projects.html" class="btn btn-primary btn-lg" role="button">Explore the Projects</a> <a href="./learning-path.html" class="btn btn-outline-primary btn-lg" role="button">Read My Learning Path</a></p>
+</section>
+<hr>
+<section id="a-nonlinear-path-into-gis" class="level2 content-block">
+<h2 class="anchored" data-anchor-id="a-nonlinear-path-into-gis">A Nonlinear Path into GIS</h2>
+<p>My path into GIS was neither direct nor carefully planned. I first encountered GIS as an undergraduate at Tennessee Tech, but initially pursued graduate study and a career in education. Several years later, I returned to the subject by enrolling full-time in the GIS Certificate program at Roane State Community College while working and attending classes at night.</p>
+<p>I began that transition in fall 2008, just as the Great Recession was affecting employment throughout the geospatial industry. Although entering the field took longer than expected, coursework, volunteer GIS projects, conferences, professional organizations, and new relationships helped me continue developing both technical skills and confidence.</p>
+<p>Graduate study at the University of New Mexico added advanced coursework, funded research assistantships, independent thesis research, conference presentations, and applied work supporting statewide geospatial programs. Over time, experiences that once seemed disconnected—including education, GIS, research, outreach, and professional service—came together to support a career drawing on all of them.</p>
+<p>The projects in this portfolio document that progression: from learning individual GIS tools to designing independent projects, conducting research, communicating results, serving professional communities, and applying geospatial skills to real problems.</p>
+<p><a href="./learning-path.html" class="btn btn-outline-secondary" role="button">Read the Full Story</a></p>
+</section>
+<hr>
+<section id="explore-the-portfolio" class="level2 content-block">
+<h2 class="anchored" data-anchor-id="explore-the-portfolio">Explore the Portfolio</h2>
+<div class="grid">
+<section id="selected-projects" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="selected-projects">Selected Projects</h3>
+<p>Explore coursework, community GIS, cartography, spatial analysis, web GIS, remote sensing, and independent research.</p>
+<p><a href="./projects.html">View selected projects →</a></p>
+</section>
+<section id="graduate-research" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="graduate-research">Graduate Research</h3>
+<p>See how coursework, a thesis, funded assistantships, conference presentations, and applied research contributed to my graduate education.</p>
+<p><a href="./graduate-research.html">Explore graduate research →</a></p>
+</section>
+<section id="conferences-and-service" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="conferences-and-service">Conferences and Service</h3>
+<p>Follow the progression from student attendee and volunteer to presenter, conference organizer, professional leader, and educator.</p>
+<p><a href="./conferences-service.html">Explore conferences and service →</a></p>
+</section>
 </div>
 </section>
-<section id="project-context" class="level2">
-<h2 class="anchored" data-anchor-id="project-context">Project Context</h2>
-<p>The assignment provided an opportunity to practice cartographic design while working with an unusual geographic setting and data source. Rather than mapping a location on Earth, I used planetary imagery and rover-position information to document SPIRIT’s movement after landing in Gusev Crater.</p>
-<p>The completed poster included:</p>
-<ul>
-<li>a small-scale locator map showing Gusev Crater on Mars;</li>
-<li>a regional map relating Gusev Crater to Elysium Mons and Ma’adim Vallis;</li>
-<li>an enlarged view of Gusev Crater;</li>
-<li>a detailed map of the rover traverse;</li>
-<li>the locations of the lander, backshell, parachute, and heat-shield impact;</li>
-<li>descriptive text explaining the mission and mapping process.</li>
-</ul>
+<hr>
+<section id="featured-student-projects" class="level2 content-block">
+<h2 class="anchored" data-anchor-id="featured-student-projects">Featured Student Projects</h2>
+<p>These projects represent several stages of my development as a GIS student. Each began in a different context, but together they demonstrate how classroom assignments, independent research, volunteer work, and funded projects can become meaningful portfolio examples.</p>
+<div class="grid">
+<section id="camp-davy-crockett-asset-inventory" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="camp-davy-crockett-asset-inventory">Camp Davy Crockett Asset Inventory</h3>
+<p><strong>Roane State Community College</strong></p>
+<p>An independent field-based project involving geodatabase design, domains and subtypes, GPS data collection, asset photography, data processing, and maps created for both camp management and visitors.</p>
+<p>View project →</p>
 </section>
-<section id="solving-the-coordinate-problem" class="level2">
-<h2 class="anchored" data-anchor-id="solving-the-coordinate-problem">Solving the Coordinate Problem</h2>
-<p>The most significant technical challenge was correctly placing the rover path on the Martian surface.</p>
-<p>The rover-position data from the Mars Exploration Rover Analyst’s Notebook used x- and y-values measured in meters from a local origin at the landing site. Those values did not use the origin of the map’s coordinate system, so importing them directly would have placed the traverse in the wrong location.</p>
-<p>I addressed this by:</p>
+<section id="arches-national-park" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="arches-national-park">Arches National Park</h3>
+<p><strong>Roane State Community College</strong></p>
+<p>A collaborative geodatabase project combining two-dimensional and three-dimensional visualization, demographics, elevation, fire hazard, trails, streams, recreation, and wildlife habitat analysis.</p>
+<p>View project →</p>
+</section>
+<section id="gis-thesis" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="gis-thesis">GIS Thesis</h3>
+<p><strong>University of New Mexico</strong></p>
+<p>An example of the complete graduate research process, including literature development, proposal design, spatial methods, analysis, interpretation, and presentation of findings.</p>
+<p>View project →</p>
+</section>
+<section id="haiti-earthquake-data-comparison" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="haiti-earthquake-data-comparison">Haiti Earthquake Data Comparison</h3>
+<p><strong>University of New Mexico</strong></p>
+<p>A comparison of asserted and authoritative geospatial data associated with the January 2010 Haiti earthquake, emphasizing data quality and emergency decision-making.</p>
+<p>View project →</p>
+</section>
+<section id="predictive-crime-mapping" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="predictive-crime-mapping">Predictive Crime Mapping</h3>
+<p><strong>University of New Mexico</strong></p>
+<p>Funded graduate research examining predictive crime-mapping methods and the robustness of kernel-density hotspot maps, later presented at regional GIS conferences.</p>
+<p>View project →</p>
+</section>
+<section id="american-red-cross-shelter-accessibility" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
+<h3 class="anchored" data-anchor-id="american-red-cross-shelter-accessibility">American Red Cross Shelter Accessibility</h3>
+<p><strong>Volunteer GIS Project</strong></p>
+<p>An applied volunteer project mapping emergency shelter locations and examining potential geographic gaps in shelter coverage.</p>
+<p>View project →</p>
+</section>
+</div>
+<p><a href="./projects.html" class="btn btn-primary" role="button">Browse All Projects</a></p>
+</section>
+<hr>
+<section id="what-this-portfolio-demonstrates" class="level2 content-block">
+<h2 class="anchored" data-anchor-id="what-this-portfolio-demonstrates">What This Portfolio Demonstrates</h2>
+<p>A student portfolio can include much more than polished final maps. The materials preserved here include:</p>
+<ul>
+<li>class projects and technical exercises;</li>
+<li>independent and collaborative research;</li>
+<li>field data collection and database design;</li>
+<li>maps developed through multiple rounds of revision;</li>
+<li>reports, presentations, posters, and conference materials;</li>
+<li>volunteer GIS and professional service;</li>
+<li>funded graduate assistantship projects;</li>
+<li>reflections on what worked, what changed, and what I would approach differently today.</li>
+</ul>
+<p>The artifacts reflect the software, technology, data, and cartographic practices available when they were created. Original work is presented honestly, with newly written context added to explain its purpose and significance.</p>
+<p><a href="./about.html" class="btn btn-outline-secondary" role="button">About This Portfolio</a></p>
+</section>
+<hr>
+<section id="a-note-for-students" class="level2 content-block">
+<h2 class="anchored" data-anchor-id="a-note-for-students">A Note for Students</h2>
+<p>This site is an example, not a required formula. A strong portfolio does not need to contain the same number or types of projects. Its purpose is to help visitors understand:</p>
 <ol type="1">
-<li>determining the mapped coordinates of the SPIRIT landing site in ArcMap;</li>
-<li>importing the rover’s original x- and y-values into Microsoft Excel;</li>
-<li>adding the landing-site coordinate offsets to the rover-position values;</li>
-<li>importing the adjusted coordinates into ArcMap;</li>
-<li>checking the resulting traverse against the landing site and surrounding imagery.</li>
+<li>what problem or question you addressed;</li>
+<li>what role you played;</li>
+<li>what data, methods, and tools you used;</li>
+<li>what you produced or discovered;</li>
+<li>what you learned from the experience.</li>
 </ol>
-<p>Applying those offsets moved the rover track into its correct mapped position and allowed me to complete the poster.</p>
-</section>
-<section id="exploring-the-map-at-multiple-scales" class="level2">
-<h2 class="anchored" data-anchor-id="exploring-the-map-at-multiple-scales">Exploring the Map at Multiple Scales</h2>
-<p>The poster used a sequence of locator and detail maps to help readers move from the entire planet to the immediate landing area.</p>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/small_scale_locator.png" class="lightbox" data-gallery="mars-spirit-gallery" title="Small-scale locator map showing the location of Gusev Crater relative to the entire surface of Mars."><img src="images/small_scale_locator.png" class="img-fluid figure-img" alt="Map of the entire surface of Mars with Gusev Crater identified."></a></p>
-<figcaption>Small-scale locator map showing the location of Gusev Crater relative to the entire surface of Mars.</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/locator_map_large_scale.png" class="lightbox" data-gallery="mars-spirit-gallery" title="Regional locator map showing Gusev Crater in relation to Elysium Mons and Ma’adim Vallis."><img src="images/locator_map_large_scale.png" class="img-fluid figure-img" alt="Regional map of Mars showing Gusev Crater relative to Elysium Mons and Ma'adim Vallis."></a></p>
-<figcaption>Regional locator map showing Gusev Crater in relation to Elysium Mons and Ma’adim Vallis.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/gusev_crater_enlarged.png" class="lightbox" data-gallery="mars-spirit-gallery" title="Enlarged view of Gusev Crater showing the SPIRIT rover traverse."><img src="images/gusev_crater_enlarged.png" class="img-fluid figure-img" alt="Enlarged map of Gusev Crater showing the path traveled by the SPIRIT rover."></a></p>
-<figcaption>Enlarged view of Gusev Crater showing the SPIRIT rover traverse.</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/landing_site_detail.png" class="lightbox" data-gallery="mars-spirit-gallery" title="Detailed landing-site map showing the lander, backshell, parachute, and heat-shield impact locations."><img src="images/landing_site_detail.png" class="img-fluid figure-img" alt="Detailed map of the SPIRIT landing area showing the rover lander, backshell, parachute, and heat-shield impact locations."></a></p>
-<figcaption>Detailed landing-site map showing the lander, backshell, parachute, and heat-shield impact locations.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="original-project-description" class="level2">
-<h2 class="anchored" data-anchor-id="original-project-description">Original Project Description</h2>
-<p>The original poster included a written explanation of the project, the rover mission, and the coordinate adjustment used to place the traverse correctly.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/write_up.png" class="lightbox" data-gallery="mars-spirit-gallery" title="Original descriptive text included in the Mars SPIRIT Rover poster."><img src="images/write_up.png" class="img-fluid figure-img" alt="Original text panel from the student poster describing the SPIRIT rover mapping project and coordinate-adjustment process."></a></p>
-<figcaption>Original descriptive text included in the Mars SPIRIT Rover poster.</figcaption>
-</figure>
-</div>
-<p>The information from this original text panel has been incorporated into the accessible webpage text above so visitors do not need to read the explanation from an image.</p>
-</section>
-<section id="from-class-project-to-conference-submission" class="level2">
-<h2 class="anchored" data-anchor-id="from-class-project-to-conference-submission">From Class Project to Conference Submission</h2>
-<p>My instructor and advisor, <strong>Pat Wurth</strong>, encouraged students to attend professional GIS events and submit work to conference map galleries. Following her recommendation, I entered this poster in the map gallery at the <strong>November 2008 Northeast Tennessee GIS User Group Conference in Kingsport, Tennessee</strong>.</p>
-<p>This was the first map I submitted at a GIS conference. Attending the meeting allowed me to see professional and student GIS work, reconnect with one of my earlier GIS professors, meet people working in the field, and begin participating in Tennessee’s professional GIS community.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/DSC00807.JPG" class="lightbox" data-gallery="mars-spirit-gallery" title="Standing beside the Mars SPIRIT Rover poster at the 2008 Northeast Tennessee GIS User Group Conference."><img src="images/DSC00807.JPG" class="img-fluid figure-img" alt="Michael Camponovo standing beside his Mars SPIRIT Rover traverse poster at a regional GIS conference in Kingsport, Tennessee, in 2008."></a></p>
-<figcaption>Standing beside the Mars SPIRIT Rover poster at the 2008 Northeast Tennessee GIS User Group Conference.</figcaption>
-</figure>
-</div>
-</section>
-<section id="what-i-learned" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
-<p>This project taught me several lessons that extended beyond the finished poster:</p>
-<ul>
-<li>GIS data may use a local coordinate origin that must be reconciled with the map’s coordinate system.</li>
-<li>Spreadsheet calculations can support GIS data preparation and coordinate adjustment.</li>
-<li>Locator maps at multiple scales can help readers understand an unfamiliar geographic setting.</li>
-<li>A course project can become a professional-development opportunity when it is shared beyond the classroom.</li>
-<li>Presenting work publicly helped me begin building confidence as a member of the GIS community.</li>
-</ul>
-</section>
-<section id="looking-back" class="level2">
-<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
-<p>This map reflects my skills, the available software, and common cartographic practices at an early point in my GIS education. Some design choices are different from those I would make today, but I have preserved the original poster rather than redesigning it.</p>
-<p>Its value lies not only in the finished map, but also in what it represents: an early technical challenge, my first substantial ArcMap project, and my first experience sharing student GIS work at a professional conference.</p>
+<p>The strongest portfolio is one that clearly and accurately represents your own development.</p>
 </section>
 
-</main>
-<!-- /main column -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -629,38 +671,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Student GIS Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: learning-path.qmd
+        text: Learning Path
+      - href: graduate-research.qmd
+        text: Graduate Research
+      - href: conferences-service.qmd
+        text: Conferences & Service
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    lightbox: true

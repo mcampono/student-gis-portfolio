@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Student GIS Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected GIS, cartography, research, volunteer, and professional-development work completed while I was a student. Most of the projects come from the GIS Certificate program at Roane State Community College and my graduate studies at the University of New Mexico, with additional context from my first GIS courses at Tennessee Tech University.\nI reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio—even when the path into a career is not direct.\nExplore the Projects Read My Learning Path"
+  },
+  {
+    "objectID": "index.html#a-nonlinear-path-into-gis",
+    "href": "index.html#a-nonlinear-path-into-gis",
+    "title": "Student GIS Portfolio",
+    "section": "A Nonlinear Path into GIS",
+    "text": "A Nonlinear Path into GIS\nMy path into GIS was neither direct nor carefully planned. I first encountered GIS as an undergraduate at Tennessee Tech, but initially pursued graduate study and a career in education. Several years later, I returned to the subject by enrolling full-time in the GIS Certificate program at Roane State Community College while working and attending classes at night.\nI began that transition in fall 2008, just as the Great Recession was affecting employment throughout the geospatial industry. Although entering the field took longer than expected, coursework, volunteer GIS projects, conferences, professional organizations, and new relationships helped me continue developing both technical skills and confidence.\nGraduate study at the University of New Mexico added advanced coursework, funded research assistantships, independent thesis research, conference presentations, and applied work supporting statewide geospatial programs. Over time, experiences that once seemed disconnected—including education, GIS, research, outreach, and professional service—came together to support a career drawing on all of them.\nThe projects in this portfolio document that progression: from learning individual GIS tools to designing independent projects, conducting research, communicating results, serving professional communities, and applying geospatial skills to real problems.\nRead the Full Story"
+  },
+  {
+    "objectID": "index.html#explore-the-portfolio",
+    "href": "index.html#explore-the-portfolio",
+    "title": "Student GIS Portfolio",
+    "section": "Explore the Portfolio",
+    "text": "Explore the Portfolio\n\n\nSelected Projects\nExplore coursework, community GIS, cartography, spatial analysis, web GIS, remote sensing, and independent research.\nView selected projects →\n\n\nGraduate Research\nSee how coursework, a thesis, funded assistantships, conference presentations, and applied research contributed to my graduate education.\nExplore graduate research →\n\n\nConferences and Service\nFollow the progression from student attendee and volunteer to presenter, conference organizer, professional leader, and educator.\nExplore conferences and service →"
+  },
+  {
+    "objectID": "index.html#featured-student-projects",
+    "href": "index.html#featured-student-projects",
+    "title": "Student GIS Portfolio",
+    "section": "Featured Student Projects",
+    "text": "Featured Student Projects\nThese projects represent several stages of my development as a GIS student. Each began in a different context, but together they demonstrate how classroom assignments, independent research, volunteer work, and funded projects can become meaningful portfolio examples.\n\n\nCamp Davy Crockett Asset Inventory\nRoane State Community College\nAn independent field-based project involving geodatabase design, domains and subtypes, GPS data collection, asset photography, data processing, and maps created for both camp management and visitors.\nView project →\n\n\nArches National Park\nRoane State Community College\nA collaborative geodatabase project combining two-dimensional and three-dimensional visualization, demographics, elevation, fire hazard, trails, streams, recreation, and wildlife habitat analysis.\nView project →\n\n\nGIS Thesis\nUniversity of New Mexico\nAn example of the complete graduate research process, including literature development, proposal design, spatial methods, analysis, interpretation, and presentation of findings.\nView project →\n\n\nHaiti Earthquake Data Comparison\nUniversity of New Mexico\nA comparison of asserted and authoritative geospatial data associated with the January 2010 Haiti earthquake, emphasizing data quality and emergency decision-making.\nView project →\n\n\nPredictive Crime Mapping\nUniversity of New Mexico\nFunded graduate research examining predictive crime-mapping methods and the robustness of kernel-density hotspot maps, later presented at regional GIS conferences.\nView project →\n\n\nAmerican Red Cross Shelter Accessibility\nVolunteer GIS Project\nAn applied volunteer project mapping emergency shelter locations and examining potential geographic gaps in shelter coverage.\nView project →\n\n\nBrowse All Projects"
+  },
+  {
+    "objectID": "index.html#what-this-portfolio-demonstrates",
+    "href": "index.html#what-this-portfolio-demonstrates",
+    "title": "Student GIS Portfolio",
+    "section": "What This Portfolio Demonstrates",
+    "text": "What This Portfolio Demonstrates\nA student portfolio can include much more than polished final maps. The materials preserved here include:\n\nclass projects and technical exercises;\nindependent and collaborative research;\nfield data collection and database design;\nmaps developed through multiple rounds of revision;\nreports, presentations, posters, and conference materials;\nvolunteer GIS and professional service;\nfunded graduate assistantship projects;\nreflections on what worked, what changed, and what I would approach differently today.\n\nThe artifacts reflect the software, technology, data, and cartographic practices available when they were created. Original work is presented honestly, with newly written context added to explain its purpose and significance.\nAbout This Portfolio"
+  },
+  {
+    "objectID": "index.html#a-note-for-students",
+    "href": "index.html#a-note-for-students",
+    "title": "Student GIS Portfolio",
+    "section": "A Note for Students",
+    "text": "A Note for Students\nThis site is an example, not a required formula. A strong portfolio does not need to contain the same number or types of projects. Its purpose is to help visitors understand:\n\nwhat problem or question you addressed;\nwhat role you played;\nwhat data, methods, and tools you used;\nwhat you produced or discovered;\nwhat you learned from the experience.\n\nThe strongest portfolio is one that clearly and accurately represents your own development."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html",
+    "href": "projects/mars-spirit-rover/index.html",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "",
+    "text": "This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in GIS 105: Computer Cartography at Roane State Community College during fall 2008.\nThe poster follows the traverse of NASA’s SPIRIT rover across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.\n\n\n\nComplete Mars SPIRIT Rover traverse poster."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#project-overview",
+    "href": "projects/mars-spirit-rover/index.html#project-overview",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "",
+    "text": "This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in GIS 105: Computer Cartography at Roane State Community College during fall 2008.\nThe poster follows the traverse of NASA’s SPIRIT rover across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.\n\n\n\nComplete Mars SPIRIT Rover traverse poster."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#project-context",
+    "href": "projects/mars-spirit-rover/index.html#project-context",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Project Context",
+    "text": "Project Context\nThe assignment provided an opportunity to practice cartographic design while working with an unusual geographic setting and data source. Rather than mapping a location on Earth, I used planetary imagery and rover-position information to document SPIRIT’s movement after landing in Gusev Crater.\nThe completed poster included:\n\na small-scale locator map showing Gusev Crater on Mars;\na regional map relating Gusev Crater to Elysium Mons and Ma’adim Vallis;\nan enlarged view of Gusev Crater;\na detailed map of the rover traverse;\nthe locations of the lander, backshell, parachute, and heat-shield impact;\ndescriptive text explaining the mission and mapping process."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#solving-the-coordinate-problem",
+    "href": "projects/mars-spirit-rover/index.html#solving-the-coordinate-problem",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Solving the Coordinate Problem",
+    "text": "Solving the Coordinate Problem\nThe most significant technical challenge was correctly placing the rover path on the Martian surface.\nThe rover-position data from the Mars Exploration Rover Analyst’s Notebook used x- and y-values measured in meters from a local origin at the landing site. Those values did not use the origin of the map’s coordinate system, so importing them directly would have placed the traverse in the wrong location.\nI addressed this by:\n\ndetermining the mapped coordinates of the SPIRIT landing site in ArcMap;\nimporting the rover’s original x- and y-values into Microsoft Excel;\nadding the landing-site coordinate offsets to the rover-position values;\nimporting the adjusted coordinates into ArcMap;\nchecking the resulting traverse against the landing site and surrounding imagery.\n\nApplying those offsets moved the rover track into its correct mapped position and allowed me to complete the poster."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#exploring-the-map-at-multiple-scales",
+    "href": "projects/mars-spirit-rover/index.html#exploring-the-map-at-multiple-scales",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Exploring the Map at Multiple Scales",
+    "text": "Exploring the Map at Multiple Scales\nThe poster used a sequence of locator and detail maps to help readers move from the entire planet to the immediate landing area.\n\n\n\n\n\n\nSmall-scale locator map showing the location of Gusev Crater relative to the entire surface of Mars.\n\n\n\n\n\n\n\nRegional locator map showing Gusev Crater in relation to Elysium Mons and Ma’adim Vallis.\n\n\n\n\n\n\n\n\n\n\n\nEnlarged view of Gusev Crater showing the SPIRIT rover traverse.\n\n\n\n\n\n\n\nDetailed landing-site map showing the lander, backshell, parachute, and heat-shield impact locations."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#original-project-description",
+    "href": "projects/mars-spirit-rover/index.html#original-project-description",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Original Project Description",
+    "text": "Original Project Description\nThe original poster included a written explanation of the project, the rover mission, and the coordinate adjustment used to place the traverse correctly.\n\n\n\nOriginal descriptive text included in the Mars SPIRIT Rover poster.\n\n\nThe information from this original text panel has been incorporated into the accessible webpage text above so visitors do not need to read the explanation from an image."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#from-class-project-to-conference-submission",
+    "href": "projects/mars-spirit-rover/index.html#from-class-project-to-conference-submission",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "From Class Project to Conference Submission",
+    "text": "From Class Project to Conference Submission\nMy instructor and advisor, Pat Wurth, encouraged students to attend professional GIS events and submit work to conference map galleries. Following her recommendation, I entered this poster in the map gallery at the November 2008 Northeast Tennessee GIS User Group Conference in Kingsport, Tennessee.\nThis was the first map I submitted at a GIS conference. Attending the meeting allowed me to see professional and student GIS work, reconnect with one of my earlier GIS professors, meet people working in the field, and begin participating in Tennessee’s professional GIS community.\n\n\n\nStanding beside the Mars SPIRIT Rover poster at the 2008 Northeast Tennessee GIS User Group Conference."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#what-i-learned",
+    "href": "projects/mars-spirit-rover/index.html#what-i-learned",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project taught me several lessons that extended beyond the finished poster:\n\nGIS data may use a local coordinate origin that must be reconciled with the map’s coordinate system.\nSpreadsheet calculations can support GIS data preparation and coordinate adjustment.\nLocator maps at multiple scales can help readers understand an unfamiliar geographic setting.\nA course project can become a professional-development opportunity when it is shared beyond the classroom.\nPresenting work publicly helped me begin building confidence as a member of the GIS community."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#looking-back",
+    "href": "projects/mars-spirit-rover/index.html#looking-back",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis map reflects my skills, the available software, and common cartographic practices at an early point in my GIS education. Some design choices are different from those I would make today, but I have preserved the original poster rather than redesigning it.\nIts value lies not only in the finished map, but also in what it represents: an early technical challenge, my first substantial ArcMap project, and my first experience sharing student GIS work at a professional conference."
+  }
+]

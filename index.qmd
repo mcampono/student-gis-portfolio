@@ -1,0 +1,210 @@
+---
+title: "Student GIS Portfolio"
+subtitle: "Coursework, research, service, and professional development from my time as a GIS student"
+description: "A reconstructed portfolio of GIS projects and experiences completed while I was a student at Tennessee Tech University, Roane State Community College, and the University of New Mexico."
+page-layout: full
+title-block-banner: false
+toc: false
+---
+
+::: {.content-block}
+
+# Learning GIS One Project at a Time
+
+This portfolio presents selected GIS, cartography, research, volunteer, and professional-development work completed while I was a student. Most of the projects come from the GIS Certificate program at **Roane State Community College** and my graduate studies at the **University of New Mexico**, with additional context from my first GIS courses at **Tennessee Tech University**.
+
+I reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio—even when the path into a career is not direct.
+
+[Explore the Projects](projects.qmd){.btn .btn-primary .btn-lg role="button"}
+[Read My Learning Path](learning-path.qmd){.btn .btn-outline-primary .btn-lg role="button"}
+
+:::
+
+---
+
+::: {.content-block}
+
+## A Nonlinear Path into GIS
+
+My path into GIS was neither direct nor carefully planned. I first encountered GIS as an undergraduate at Tennessee Tech, but initially pursued graduate study and a career in education. Several years later, I returned to the subject by enrolling full-time in the GIS Certificate program at Roane State Community College while working and attending classes at night.
+
+I began that transition in fall 2008, just as the Great Recession was affecting employment throughout the geospatial industry. Although entering the field took longer than expected, coursework, volunteer GIS projects, conferences, professional organizations, and new relationships helped me continue developing both technical skills and confidence.
+
+Graduate study at the University of New Mexico added advanced coursework, funded research assistantships, independent thesis research, conference presentations, and applied work supporting statewide geospatial programs. Over time, experiences that once seemed disconnected—including education, GIS, research, outreach, and professional service—came together to support a career drawing on all of them.
+
+The projects in this portfolio document that progression: from learning individual GIS tools to designing independent projects, conducting research, communicating results, serving professional communities, and applying geospatial skills to real problems.
+
+[Read the Full Story](learning-path.qmd){.btn .btn-outline-secondary role="button"}
+
+:::
+
+---
+
+::: {.content-block}
+
+## Explore the Portfolio
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Selected Projects
+
+Explore coursework, community GIS, cartography, spatial analysis, web GIS, remote sensing, and independent research.
+
+[View selected projects →](projects.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Graduate Research
+
+See how coursework, a thesis, funded assistantships, conference presentations, and applied research contributed to my graduate education.
+
+[Explore graduate research →](graduate-research.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Conferences and Service
+
+Follow the progression from student attendee and volunteer to presenter, conference organizer, professional leader, and educator.
+
+[Explore conferences and service →](conferences-service.qmd)
+
+:::
+
+:::
+
+:::
+
+---
+
+::: {.content-block}
+
+## Featured Student Projects
+
+These projects represent several stages of my development as a GIS student. Each began in a different context, but together they demonstrate how classroom assignments, independent research, volunteer work, and funded projects can become meaningful portfolio examples.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Camp Davy Crockett Asset Inventory
+
+**Roane State Community College**
+
+An independent field-based project involving geodatabase design, domains and subtypes, GPS data collection, asset photography, data processing, and maps created for both camp management and visitors.
+
+[View project →](projects/camp-davy-crockett/index.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Arches National Park
+
+**Roane State Community College**
+
+A collaborative geodatabase project combining two-dimensional and three-dimensional visualization, demographics, elevation, fire hazard, trails, streams, recreation, and wildlife habitat analysis.
+
+[View project →](projects/arches-national-park/index.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### GIS Thesis
+
+**University of New Mexico**
+
+An example of the complete graduate research process, including literature development, proposal design, spatial methods, analysis, interpretation, and presentation of findings.
+
+[View project →](projects/gis-thesis/index.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Haiti Earthquake Data Comparison
+
+**University of New Mexico**
+
+A comparison of asserted and authoritative geospatial data associated with the January 2010 Haiti earthquake, emphasizing data quality and emergency decision-making.
+
+[View project →](projects/haiti-earthquake-data/index.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### Predictive Crime Mapping
+
+**University of New Mexico**
+
+Funded graduate research examining predictive crime-mapping methods and the robustness of kernel-density hotspot maps, later presented at regional GIS conferences.
+
+[View project →](projects/predictive-crime-mapping/index.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+### American Red Cross Shelter Accessibility
+
+**Volunteer GIS Project**
+
+An applied volunteer project mapping emergency shelter locations and examining potential geographic gaps in shelter coverage.
+
+[View project →](projects/red-cross-shelter-accessibility/index.qmd)
+
+:::
+
+:::
+
+[Browse All Projects](projects.qmd){.btn .btn-primary role="button"}
+
+:::
+
+---
+
+::: {.content-block}
+
+## What This Portfolio Demonstrates
+
+A student portfolio can include much more than polished final maps. The materials preserved here include:
+
+- class projects and technical exercises;
+- independent and collaborative research;
+- field data collection and database design;
+- maps developed through multiple rounds of revision;
+- reports, presentations, posters, and conference materials;
+- volunteer GIS and professional service;
+- funded graduate assistantship projects;
+- reflections on what worked, what changed, and what I would approach differently today.
+
+The artifacts reflect the software, technology, data, and cartographic practices available when they were created. Original work is presented honestly, with newly written context added to explain its purpose and significance.
+
+[About This Portfolio](about.qmd){.btn .btn-outline-secondary role="button"}
+
+:::
+
+---
+
+::: {.content-block}
+
+## A Note for Students
+
+This site is an example, not a required formula. A strong portfolio does not need to contain the same number or types of projects. Its purpose is to help visitors understand:
+
+1. what problem or question you addressed;
+2. what role you played;
+3. what data, methods, and tools you used;
+4. what you produced or discovered;
+5. what you learned from the experience.
+
+The strongest portfolio is one that clearly and accurately represents your own development.
+
+:::

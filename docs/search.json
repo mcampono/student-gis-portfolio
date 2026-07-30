@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "projects/cartography-portfolio/index.html",
+    "href": "projects/cartography-portfolio/index.html",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#course-overview",
+    "href": "projects/cartography-portfolio/index.html#course-overview",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#design-process-and-tools",
+    "href": "projects/cartography-portfolio/index.html#design-process-and-tools",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Design Process and Tools",
+    "text": "Design Process and Tools\nThe course emphasized iterative design rather than one-pass production. Projects typically moved through a sequence of sketching, construction, critique, revision, and final refinement.\nThe primary tools and methods included:\n\nhand-drawn sketches used to explore layout, proportion, and spatial relationships;\nAdobe Illustrator for manually constructing and refining final maps;\nMicrosoft Excel for calculating rates, proportional-symbol sizes, and other numerical values;\npeer critique and instructor feedback to identify weaknesses and improve design decisions;\nrepeated revision of typography, hierarchy, figure-ground contrast, balance, and map composition.\n\nThe selected projects below show both finished maps and intermediate stages where surviving materials are available."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#brazil-reference-map",
+    "href": "projects/cartography-portfolio/index.html#brazil-reference-map",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Brazil Reference Map",
+    "text": "Brazil Reference Map\n\nAssignment and Design Goal\nThe Brazil reference-map project focused on building a clear and visually balanced regional map through a series of deliberate design decisions. I developed the map in stages, gradually adding geographic information, refining labels, and establishing a visual hierarchy among national, state, physical, and reference features.\nThe intermediate versions show how the composition changed as additional information was introduced. Each stage required reconsidering spacing, typography, line weight, contrast, feature emphasis, and the relationships among map elements. The final map was completed in Adobe Illustrator after several rounds of revision and feedback.\n\n\nDesign Progression\n\n\n\n\n\n\nEarly version of the Brazil reference map showing the initial geographic framework and state boundaries.\n\n\n\n\n\n\n\nIntermediate version with additional geographic information and a developing visual hierarchy.\n\n\n\n\n\n\n\n\n\nLater revision showing further refinement of labels, symbols, and visual hierarchy.\n\n\n\n\n\n\n\nFinal Brazil reference map completed in Adobe Illustrator.\n\n\n\n\n\n\n\nWhat I Learned\nThis project reinforced the value of building a map in stages. Adding more information did not simply mean placing more features on the page; each addition required reconsidering the entire visual hierarchy.\nThe progression also helped me see how typography, line weight, spacing, and contrast work together. The final map was not the product of a single design decision, but of many small revisions made across the full composition."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
+    "href": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Visualizing One Dataset in Multiple Ways",
+    "text": "Visualizing One Dataset in Multiple Ways\nSeveral assignments used the same dataset—2004 alcohol-related traffic fatalities—to examine how different cartographic methods influence interpretation.\nAcross the sequence, I created proportional-symbol maps using three scaling methods, a choropleth map, and a contiguous-area cartogram. Although I have not located the choropleth map, the surviving work still documents the central purpose of the exercise: comparing how symbol size, classification, shading, and geographic distortion communicate the same underlying data differently.\nUsing a common dataset made it easier to focus on the strengths and limitations of each design method rather than on differences in subject matter."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
+    "href": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Comparing Proportional Symbol Methods",
+    "text": "Comparing Proportional Symbol Methods\n\nAssignment and Design Goal\nThis assignment compared three methods for displaying the same dataset: 2004 alcohol-related traffic fatalities in the 50 states and the District of Columbia.\nEach map was produced in grayscale and used proportional circles, but the circle sizes were determined using a different method:\n\nsquare-root scaling;\nFlannery scaling;\nrange-graded natural breaks.\n\nCreating the maps required more than changing symbol sizes. Each version had to function as a complete cartographic composition, including titles, legends, typography, figure-ground contrast, and balanced page layout. Because the symbols were constructed manually in Adobe Illustrator, the assignment also required careful calculation and consistent placement.\n\n\nMap Comparison\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using Flannery proportional-circle scaling.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using range-graded natural-breaks symbols.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using square-root proportional-circle scaling.\n\n\n\n\n\n\n\nEvaluating the Methods\nThe three techniques created noticeably different impressions of the same data.\nThe range-graded natural-breaks method did not represent the variation especially well because a few high values acted as outliers and occupied two of the four classes. That compressed most of the remaining values into only two categories and concealed much of the detail present in the original data.\nSquare-root and Flannery scaling both preserved an individual symbol size for each value. Their primary limitation was perceptual: similarly sized circles could be difficult to distinguish, especially among the largest symbols.\nFlannery scaling addressed that problem by enlarging the largest circles somewhat more aggressively while only slightly enlarging smaller circles. Based on that comparison, I concluded that the Flannery method communicated this dataset most effectively.\n\n\nWhat I Learned\nThis assignment showed that symbol scaling is not a neutral technical choice. Different methods can emphasize, compress, or obscure variation even when they use the same values.\nIt also reinforced the importance of matching the symbolization method to both the data distribution and the way people visually compare area."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
+    "href": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Contiguous-Area Cartogram",
+    "text": "Contiguous-Area Cartogram\n\nAssignment and Design Goal\nThe contiguous-area cartogram used the rate of alcohol-related traffic fatalities per 100,000 people to resize the states. Instead of using shading or proportional symbols, the area of each state represented its value.\nThe assignment required two competing goals:\n\nstate areas had to change enough to represent the data;\ngeographic contiguity and recognizable state shapes had to be preserved as much as possible.\n\nI first calculated the approximate area required for each state and then constructed the map by hand on graph paper.\n\n\nSketching and Revision\nThe two sketches document the trial-and-error process of fitting the states together. I repeatedly adjusted their shapes and positions while trying to preserve neighboring relationships.\n\n\n\n\n\n\nInitial hand-drawn cartogram sketch exploring the proportional size, shape, and position of each state.\n\n\n\n\n\n\n\nRevised hand-drawn cartogram sketch showing adjustments to state shapes and contiguity.\n\n\n\n\n\nAfter resolving the overall structure by hand, I recreated and refined the cartogram in Adobe Illustrator.\n\n\n\nFinal contiguous-area cartogram completed in Adobe Illustrator.\n\n\n\n\nWhat I Learned\nThis project demonstrated that a cartogram is not simply a distorted conventional map. It is a negotiated design in which statistical proportionality, geographic relationships, recognition, and visual legibility must all be balanced.\nThe hand-drawn process was especially useful because it forced me to work through contiguity and proportion before moving into digital production."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#additional-course-work",
+    "href": "projects/cartography-portfolio/index.html#additional-course-work",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Additional Course Work",
+    "text": "Additional Course Work\nThe course included additional assignments that are not represented visually on this page.\nOne assignment used the same alcohol-related traffic fatality dataset to create a choropleth map, extending the comparison among proportional symbols, classified shading, and cartogram-based representation. I have not located a surviving copy of that map.\nFor the independent final project, I mapped socioeconomic and demographic indicators associated with gentrification in Santa Fe, New Mexico. Although I still have written materials related to that research, I have not found a copy of the final map suitable for inclusion here.\nThese missing artifacts are part of the course history, but this portfolio emphasizes the projects for which I can present both the finished work and meaningful evidence of the design process."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#what-i-learned-3",
+    "href": "projects/cartography-portfolio/index.html#what-i-learned-3",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "What I Learned",
+    "text": "What I Learned\nAcross the semester, I developed a stronger understanding of cartography as an iterative design discipline.\nThe course taught me to:\n\nbegin with sketches rather than software;\nbuild visual hierarchy deliberately;\ntreat typography as a central cartographic element;\nevaluate how symbolization methods shape interpretation;\nrevise maps in response to critique;\nbalance accuracy, legibility, and visual appeal;\nseparate the design process from the analytical workflow;\nrecognize that strong maps are constructed through repeated refinement.\n\nThe experience also gave me a lasting appreciation for slowing down the mapmaking process. Because every symbol and label had to be placed manually, each decision was visible and intentional."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#looking-back",
+    "href": "projects/cartography-portfolio/index.html#looking-back",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis course remains one of the most enjoyable and influential parts of my graduate education. It gave me space to concentrate on the final deliverable, experiment with multiple versions of the same idea, and receive detailed feedback from peers and the instructor.\nThe surviving projects document more than finished maps. They show a process of sketching, testing, revising, comparing, and refining. That process continues to shape how I approach cartography, visual communication, and the way I teach students to evaluate their own work."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Student GIS Portfolio",

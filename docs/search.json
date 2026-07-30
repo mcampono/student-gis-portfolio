@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "projects/demographics-suitability/index.html",
+    "href": "projects/demographics-suitability/index.html",
+    "title": "Business Location Suitability Analysis",
+    "section": "",
+    "text": "For this independent project in GIS 220 at Roane State Community College, I was asked to select a hypothetical business, define the factors that would influence its location, find the necessary data, build a suitability model, and present a final recommendation.\nI created a fictional outdoor guiding company called Camponovo Adventure Travel. The concept combined guided outdoor experiences with equipment, transportation, trained guides, first-aid knowledge, and trip documentation through photographs and video.\nThe analysis followed two stages:\n\ncompare four candidate cities and identify the strongest regional market;\nconduct a more detailed site-selection analysis within the selected city.\n\nThe project ultimately recommended Bend, Oregon, then identified two commercially zoned areas within the city’s highest-ranked block groups."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#project-overview",
+    "href": "projects/demographics-suitability/index.html#project-overview",
+    "title": "Business Location Suitability Analysis",
+    "section": "",
+    "text": "For this independent project in GIS 220 at Roane State Community College, I was asked to select a hypothetical business, define the factors that would influence its location, find the necessary data, build a suitability model, and present a final recommendation.\nI created a fictional outdoor guiding company called Camponovo Adventure Travel. The concept combined guided outdoor experiences with equipment, transportation, trained guides, first-aid knowledge, and trip documentation through photographs and video.\nThe analysis followed two stages:\n\ncompare four candidate cities and identify the strongest regional market;\nconduct a more detailed site-selection analysis within the selected city.\n\nThe project ultimately recommended Bend, Oregon, then identified two commercially zoned areas within the city’s highest-ranked block groups."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#defining-the-business",
+    "href": "projects/demographics-suitability/index.html#defining-the-business",
+    "title": "Business Location Suitability Analysis",
+    "section": "Defining the Business",
+    "text": "Defining the Business\nThe business concept reflected my own interest in outdoor recreation. Camponovo Adventure Travel was designed to make outdoor experiences easier for clients by reducing the amount of planning and equipment they would need to manage themselves.\n\n\n\n\n\n\nOpening slide introducing the business-location project.\n\n\n\n\n\n\n\nSlide connecting the business concept to my interest in outdoor activities.\n\n\n\n\n\n\n\n\n\nSummary of the spatial requirements for the business.\n\n\n\n\n\n\n\nOther requirements considered for the business, including natural areas, colleges, airports, and highways."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#building-the-suitability-criteria",
+    "href": "projects/demographics-suitability/index.html#building-the-suitability-criteria",
+    "title": "Business Location Suitability Analysis",
+    "section": "Building the Suitability Criteria",
+    "text": "Building the Suitability Criteria\nI developed the suitability criteria by combining market characteristics, workforce needs, accessibility, environmental setting, and quality-of-life measures.\nThe primary criteria included:\n\na likely client population between approximately 45 and 60 years old;\nparticipation by both men and women;\nhigher income and college education;\nproximity to national parks, national forests, rivers, mountains, and other outdoor amenities;\naccess by airport or highway;\nproximity to a college that could provide a workforce;\na reputation for outdoor recreation;\na clean and visually appealing setting;\nrelatively short commute times;\nmanageable population size;\nlower pollution;\nreasonable cost of living.\n\nThe original presentation included highlighted excerpts from market-research sources describing adventure travelers as both men and women, generally ages 45–60, and college educated. I no longer have enough documentation to identify or verify those sources, so I treat those criteria as part of the project’s historical context rather than as current market evidence.\n\n\n\nHistorical market-research excerpts used to identify likely adventure-travel customers."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#selecting-candidate-cities",
+    "href": "projects/demographics-suitability/index.html#selecting-candidate-cities",
+    "title": "Business Location Suitability Analysis",
+    "section": "Selecting Candidate Cities",
+    "text": "Selecting Candidate Cities\nI used historical Outside magazine “Best Places to Live” lists to narrow the initial set of possibilities to four locations:\n\nBend, Oregon;\nBishop, California;\nDurango, Colorado;\nKnoxville, Tennessee, used as a comparison location.\n\nEach location was evaluated through a combination of maps, demographic measures, transportation access, environmental characteristics, and outdoor-recreation context.\n\n\n\n\n\n\nThe four candidate locations considered in the suitability analysis.\n\n\n\n\n\n\n\nRepresentative map of Durango, Colorado, showing transportation access.\n\n\n\n\n\n\n\nRepresentative map of Bend, Oregon, showing elevation trends."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#comparing-the-cities",
+    "href": "projects/demographics-suitability/index.html#comparing-the-cities",
+    "title": "Business Location Suitability Analysis",
+    "section": "Comparing the Cities",
+    "text": "Comparing the Cities\nI created roughly a dozen maps for each candidate location. These maps highlighted natural features, transportation networks, aerial imagery, and other location characteristics.\nI also compared demographic and quality-of-life measures using a simple ordinal scoring system. For most criteria, each city received a score from 1 to 4, with 4 representing the strongest result. I assigned negative values to measures where a higher value was considered a disadvantage, including total population and pollution.\nThe positive criteria included:\n\npercentage of workers commuting less than 30 minutes;\nhousehold income;\neducational attainment;\nsize of the potential employee pool;\nsize of the potential client pool.\n\nThe negative criteria included:\n\ntotal population;\npollution ranking.\n\n\n\n\nComparison of commute times, used as a quality-of-life measure.\n\n\n\n\n\nFinal city-ranking table showing Bend and Durango tied for the highest score.\n\n\nThe final scores were:\n\n\n\nLocation\nFinal score\n\n\n\n\nBend, Oregon\n8\n\n\nDurango, Colorado\n8\n\n\nBishop, California\n7\n\n\nKnoxville, Tennessee\n7\n\n\n\nThis was a straightforward ordinal ranking rather than a statistically calibrated weighted model. Every category contributed equally to the final score."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#resolving-the-benddurango-tie",
+    "href": "projects/demographics-suitability/index.html#resolving-the-benddurango-tie",
+    "title": "Business Location Suitability Analysis",
+    "section": "Resolving the Bend–Durango Tie",
+    "text": "Resolving the Bend–Durango Tie\nBend and Durango tied for the highest overall score, so I conducted an additional comparison.\nI examined the visible amount of green and natural space surrounding each city and confirmed that both had nearby colleges with outdoor-recreation programs. Those programs could support a steady workforce while giving students opportunities to earn money and possibly receive academic credit.\nThe final tie-breaker was cost of living. At the time of the project:\n\nDurango was estimated to be 66% more expensive than Knoxville;\nBend was estimated to be 42% more expensive than Knoxville.\n\nBased on the lower relative cost of living, I selected Bend, Oregon as the strongest overall location.\n\n\n\nCost-of-living comparison used to resolve the tie between Bend and Durango."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#selecting-a-site-within-bend",
+    "href": "projects/demographics-suitability/index.html#selecting-a-site-within-bend",
+    "title": "Business Location Suitability Analysis",
+    "section": "Selecting a Site Within Bend",
+    "text": "Selecting a Site Within Bend\nAfter choosing Bend, I conducted a second-stage analysis to identify suitable areas within the city.\nI contacted the Bend GIS department and requested zoning data. I then combined that information with U.S. Census block-group data describing:\n\nhousehold income;\neducational attainment;\ntarget client population.\n\nI ranked the block groups using those demographic measures, identified the highest-ranked areas, and then compared them with commercial zoning.\n\n\n\nFinal block-group suitability ranking within Bend.\n\n\n\n\n\nCommercially zoned areas located within the highest-ranked block groups.\n\n\nThis process identified two commercially zoned areas within the highest-ranked block groups as potential locations for Camponovo Adventure Travel."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#final-recommendation",
+    "href": "projects/demographics-suitability/index.html#final-recommendation",
+    "title": "Business Location Suitability Analysis",
+    "section": "Final Recommendation",
+    "text": "Final Recommendation\nThe analysis recommended Bend, Oregon as the strongest city for the hypothetical business.\nBend combined:\n\naccess to outdoor amenities;\na strong outdoor-recreation identity;\na suitable client profile;\naccess to a potential college-based workforce;\nreasonable transportation access;\na lower estimated cost of living than Durango.\n\nWithin Bend, the second-stage analysis identified commercially zoned areas that also fell within the strongest demographic block groups."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#what-i-learned",
+    "href": "projects/demographics-suitability/index.html#what-i-learned",
+    "title": "Business Location Suitability Analysis",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project was my first experience developing an end-to-end suitability analysis around a self-defined business problem.\nIt required me to:\n\ntranslate a business idea into measurable spatial criteria;\nfind and evaluate multiple external datasets;\ncompare locations at regional and local scales;\ncreate maps for four candidate cities;\ndevelop a scoring system;\nresolve a tie using additional qualitative and quantitative criteria;\ncontact a local government GIS office for data;\ncombine demographic suitability with zoning;\npresent a clear recommendation.\n\nThe project also showed me that suitability analysis involves more than producing a final ranked map. The analyst must decide which variables matter, how they should be measured, how they should be combined, and what limitations affect the recommendation."
+  },
+  {
+    "objectID": "projects/demographics-suitability/index.html#looking-back",
+    "href": "projects/demographics-suitability/index.html#looking-back",
+    "title": "Business Location Suitability Analysis",
+    "section": "Looking Back",
+    "text": "Looking Back\nThe project was ambitious for an early GIS course and successfully connected demographic analysis, business planning, cartography, and site selection. Its strongest feature was the two-stage workflow: first selecting a city, then narrowing the recommendation to commercially zoned areas within that city.\nThere are several things I would approach differently today:\n\nuse more inclusive and better-documented market research;\ndistinguish more carefully between county-, city-, block-group-, and parcel-level data;\ndocument the sources and dates of pollution and cost-of-living measures;\napply explicit weights based on business priorities;\ntest how sensitive the result is to changes in weights and rankings;\nvalidate the recommendation with current market and competitive data.\n\nEven with those limitations, the project remains an important example of my early development as a GIS analyst. It shows the transition from making individual maps to designing a complete analytical workflow that supported a practical recommendation."
+  },
+  {
     "objectID": "projects/cartography-portfolio/index.html",
     "href": "projects/cartography-portfolio/index.html",
     "title": "Graduate Cartographic Design Portfolio",

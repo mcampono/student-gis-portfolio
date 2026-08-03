@@ -52,5 +52,8 @@
   },
   "projects.qmd": {
     "projects.html": "a5afc771"
+  },
+  "projects/volunteer-gis/volunteer-gis-index.qmd": {
+    "volunteer-gis-index.html": "0db9081b"
   }
 }

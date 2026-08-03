@@ -1,5 +1,180 @@
 [
   {
+    "objectID": "projects/mars-spirit-rover/index.html",
+    "href": "projects/mars-spirit-rover/index.html",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "",
+    "text": "This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in GIS 105: Computer Cartography at Roane State Community College during fall 2008.\nThe poster follows the traverse of NASA’s SPIRIT rover across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.\n\n\n\nComplete Mars SPIRIT Rover traverse poster."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#project-overview",
+    "href": "projects/mars-spirit-rover/index.html#project-overview",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "",
+    "text": "This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in GIS 105: Computer Cartography at Roane State Community College during fall 2008.\nThe poster follows the traverse of NASA’s SPIRIT rover across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.\n\n\n\nComplete Mars SPIRIT Rover traverse poster."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#project-context",
+    "href": "projects/mars-spirit-rover/index.html#project-context",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Project Context",
+    "text": "Project Context\nThe assignment provided an opportunity to practice cartographic design while working with an unusual geographic setting and data source. Rather than mapping a location on Earth, I used planetary imagery and rover-position information to document SPIRIT’s movement after landing in Gusev Crater.\nThe completed poster included:\n\na small-scale locator map showing Gusev Crater on Mars;\na regional map relating Gusev Crater to Elysium Mons and Ma’adim Vallis;\nan enlarged view of Gusev Crater;\na detailed map of the rover traverse;\nthe locations of the lander, backshell, parachute, and heat-shield impact;\ndescriptive text explaining the mission and mapping process."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#solving-the-coordinate-problem",
+    "href": "projects/mars-spirit-rover/index.html#solving-the-coordinate-problem",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Solving the Coordinate Problem",
+    "text": "Solving the Coordinate Problem\nThe most significant technical challenge was correctly placing the rover path on the Martian surface.\nThe rover-position data from the Mars Exploration Rover Analyst’s Notebook used x- and y-values measured in meters from a local origin at the landing site. Those values did not use the origin of the map’s coordinate system, so importing them directly would have placed the traverse in the wrong location.\nI addressed this by:\n\ndetermining the mapped coordinates of the SPIRIT landing site in ArcMap;\nimporting the rover’s original x- and y-values into Microsoft Excel;\nadding the landing-site coordinate offsets to the rover-position values;\nimporting the adjusted coordinates into ArcMap;\nchecking the resulting traverse against the landing site and surrounding imagery.\n\nApplying those offsets moved the rover track into its correct mapped position and allowed me to complete the poster."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#exploring-the-map-at-multiple-scales",
+    "href": "projects/mars-spirit-rover/index.html#exploring-the-map-at-multiple-scales",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Exploring the Map at Multiple Scales",
+    "text": "Exploring the Map at Multiple Scales\nThe poster used a sequence of locator and detail maps to help readers move from the entire planet to the immediate landing area.\n\n\n\n\n\n\nSmall-scale locator map showing the location of Gusev Crater relative to the entire surface of Mars.\n\n\n\n\n\n\n\nRegional locator map showing Gusev Crater in relation to Elysium Mons and Ma’adim Vallis.\n\n\n\n\n\n\n\n\n\n\n\nEnlarged view of Gusev Crater showing the SPIRIT rover traverse.\n\n\n\n\n\n\n\nDetailed landing-site map showing the lander, backshell, parachute, and heat-shield impact locations."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#original-project-description",
+    "href": "projects/mars-spirit-rover/index.html#original-project-description",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Original Project Description",
+    "text": "Original Project Description\nThe original poster included a written explanation of the project, the rover mission, and the coordinate adjustment used to place the traverse correctly.\n\n\n\nOriginal descriptive text included in the Mars SPIRIT Rover poster.\n\n\nThe information from this original text panel has been incorporated into the accessible webpage text above so visitors do not need to read the explanation from an image."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#from-class-project-to-conference-submission",
+    "href": "projects/mars-spirit-rover/index.html#from-class-project-to-conference-submission",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "From Class Project to Conference Submission",
+    "text": "From Class Project to Conference Submission\nMy instructor and advisor, Pat Wurth, encouraged students to attend professional GIS events and submit work to conference map galleries. Following her recommendation, I entered this poster in the map gallery at the November 2008 Northeast Tennessee GIS User Group Conference in Kingsport, Tennessee.\nThis was the first map I submitted at a GIS conference. Attending the meeting allowed me to see professional and student GIS work, reconnect with one of my earlier GIS professors, meet people working in the field, and begin participating in Tennessee’s professional GIS community.\n\n\n\nStanding beside the Mars SPIRIT Rover poster at the 2008 Northeast Tennessee GIS User Group Conference."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#what-i-learned",
+    "href": "projects/mars-spirit-rover/index.html#what-i-learned",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project taught me several lessons that extended beyond the finished poster:\n\nGIS data may use a local coordinate origin that must be reconciled with the map’s coordinate system.\nSpreadsheet calculations can support GIS data preparation and coordinate adjustment.\nLocator maps at multiple scales can help readers understand an unfamiliar geographic setting.\nA course project can become a professional-development opportunity when it is shared beyond the classroom.\nPresenting work publicly helped me begin building confidence as a member of the GIS community."
+  },
+  {
+    "objectID": "projects/mars-spirit-rover/index.html#looking-back",
+    "href": "projects/mars-spirit-rover/index.html#looking-back",
+    "title": "Mars SPIRIT Rover Traverse Map",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis map reflects my skills, the available software, and common cartographic practices at an early point in my GIS education. Some design choices are different from those I would make today, but I have preserved the original poster rather than redesigning it.\nIts value lies not only in the finished map, but also in what it represents: an early technical challenge, my first substantial ArcMap project, and my first experience sharing student GIS work at a professional conference."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Student GIS Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected GIS, cartography, research, volunteer, and professional-development work completed while I was a student. Most of the projects come from the GIS Certificate program at Roane State Community College and my graduate studies at the University of New Mexico, with additional context from my first GIS courses at Tennessee Tech University.\nI reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio—even when the path into a career is not direct.\nExplore the Projects Read My Learning Path"
+  },
+  {
+    "objectID": "index.html#a-nonlinear-path-into-gis",
+    "href": "index.html#a-nonlinear-path-into-gis",
+    "title": "Student GIS Portfolio",
+    "section": "A Nonlinear Path into GIS",
+    "text": "A Nonlinear Path into GIS\nMy path into GIS was neither direct nor carefully planned. I first encountered GIS as an undergraduate at Tennessee Tech, but initially pursued graduate study and a career in education. Several years later, I returned to the subject by enrolling full-time in the GIS Certificate program at Roane State Community College while working and attending classes at night.\nI began that transition in fall 2008, just as the Great Recession was affecting employment throughout the geospatial industry. Although entering the field took longer than expected, coursework, volunteer GIS projects, conferences, professional organizations, and new relationships helped me continue developing both technical skills and confidence.\nGraduate study at the University of New Mexico added advanced coursework, funded research assistantships, independent thesis research, conference presentations, and applied work supporting statewide geospatial programs. Over time, experiences that once seemed disconnected—including education, GIS, research, outreach, and professional service—came together to support a career drawing on all of them.\nThe projects in this portfolio document that progression: from learning individual GIS tools to designing independent projects, conducting research, communicating results, serving professional communities, and applying geospatial skills to real problems.\nRead the Full Story"
+  },
+  {
+    "objectID": "index.html#explore-the-portfolio",
+    "href": "index.html#explore-the-portfolio",
+    "title": "Student GIS Portfolio",
+    "section": "Explore the Portfolio",
+    "text": "Explore the Portfolio\n\n\nSelected Projects\nExplore coursework, community GIS, cartography, spatial analysis, web GIS, remote sensing, and independent research.\nView selected projects →\n\n\nGraduate Research\nSee how coursework, a thesis, funded assistantships, conference presentations, and applied research contributed to my graduate education.\nExplore graduate research →\n\n\nConferences and Service\nFollow the progression from student attendee and volunteer to presenter, conference organizer, professional leader, and educator.\nExplore conferences and service →"
+  },
+  {
+    "objectID": "index.html#featured-student-projects",
+    "href": "index.html#featured-student-projects",
+    "title": "Student GIS Portfolio",
+    "section": "Featured Student Projects",
+    "text": "Featured Student Projects\nThese projects represent several stages of my development as a GIS student. Each began in a different context, but together they demonstrate how classroom assignments, independent research, volunteer work, and funded projects can become meaningful portfolio examples.\n\n\nCamp Davy Crockett Asset Inventory\nRoane State Community College\nAn independent field-based project involving geodatabase design, domains and subtypes, GPS data collection, asset photography, data processing, and maps created for both camp management and visitors.\nView project →\n\n\nArches National Park\nRoane State Community College\nA collaborative geodatabase project combining two-dimensional and three-dimensional visualization, demographics, elevation, fire hazard, trails, streams, recreation, and wildlife habitat analysis.\nView project →\n\n\nGIS Thesis\nUniversity of New Mexico\nAn example of the complete graduate research process, including literature development, proposal design, spatial methods, analysis, interpretation, and presentation of findings.\nView project →\n\n\nHaiti Earthquake Data Comparison\nUniversity of New Mexico\nA comparison of asserted and authoritative geospatial data associated with the January 2010 Haiti earthquake, emphasizing data quality and emergency decision-making.\nView project →\n\n\nPredictive Crime Mapping\nUniversity of New Mexico\nFunded graduate research examining predictive crime-mapping methods and the robustness of kernel-density hotspot maps, later presented at regional GIS conferences.\nView project →\n\n\nAmerican Red Cross Shelter Accessibility\nVolunteer GIS Project\nAn applied volunteer project mapping emergency shelter locations and examining potential geographic gaps in shelter coverage.\nView project →\n\n\nBrowse All Projects"
+  },
+  {
+    "objectID": "index.html#what-this-portfolio-demonstrates",
+    "href": "index.html#what-this-portfolio-demonstrates",
+    "title": "Student GIS Portfolio",
+    "section": "What This Portfolio Demonstrates",
+    "text": "What This Portfolio Demonstrates\nA student portfolio can include much more than polished final maps. The materials preserved here include:\n\nclass projects and technical exercises;\nindependent and collaborative research;\nfield data collection and database design;\nmaps developed through multiple rounds of revision;\nreports, presentations, posters, and conference materials;\nvolunteer GIS and professional service;\nfunded graduate assistantship projects;\nreflections on what worked, what changed, and what I would approach differently today.\n\nThe artifacts reflect the software, technology, data, and cartographic practices available when they were created. Original work is presented honestly, with newly written context added to explain its purpose and significance.\nAbout This Portfolio"
+  },
+  {
+    "objectID": "index.html#a-note-for-students",
+    "href": "index.html#a-note-for-students",
+    "title": "Student GIS Portfolio",
+    "section": "A Note for Students",
+    "text": "A Note for Students\nThis site is an example, not a required formula. A strong portfolio does not need to contain the same number or types of projects. Its purpose is to help visitors understand:\n\nwhat problem or question you addressed;\nwhat role you played;\nwhat data, methods, and tools you used;\nwhat you produced or discovered;\nwhat you learned from the experience.\n\nThe strongest portfolio is one that clearly and accurately represents your own development."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html",
+    "href": "projects/cartography-portfolio/index.html",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#course-overview",
+    "href": "projects/cartography-portfolio/index.html#course-overview",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#design-process-and-tools",
+    "href": "projects/cartography-portfolio/index.html#design-process-and-tools",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Design Process and Tools",
+    "text": "Design Process and Tools\nThe course emphasized iterative design rather than one-pass production. Projects typically moved through a sequence of sketching, construction, critique, revision, and final refinement.\nThe primary tools and methods included:\n\nhand-drawn sketches used to explore layout, proportion, and spatial relationships;\nAdobe Illustrator for manually constructing and refining final maps;\nMicrosoft Excel for calculating rates, proportional-symbol sizes, and other numerical values;\npeer critique and instructor feedback to identify weaknesses and improve design decisions;\nrepeated revision of typography, hierarchy, figure-ground contrast, balance, and map composition.\n\nThe selected projects below show both finished maps and intermediate stages where surviving materials are available."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#brazil-reference-map",
+    "href": "projects/cartography-portfolio/index.html#brazil-reference-map",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Brazil Reference Map",
+    "text": "Brazil Reference Map\n\nAssignment and Design Goal\nThe Brazil reference-map project focused on building a clear and visually balanced regional map through a series of deliberate design decisions. I developed the map in stages, gradually adding geographic information, refining labels, and establishing a visual hierarchy among national, state, physical, and reference features.\nThe intermediate versions show how the composition changed as additional information was introduced. Each stage required reconsidering spacing, typography, line weight, contrast, feature emphasis, and the relationships among map elements. The final map was completed in Adobe Illustrator after several rounds of revision and feedback.\n\n\nDesign Progression\n\n\n\n\n\n\nEarly version of the Brazil reference map showing the initial geographic framework and state boundaries.\n\n\n\n\n\n\n\nIntermediate version with additional geographic information and a developing visual hierarchy.\n\n\n\n\n\n\n\n\n\nLater revision showing further refinement of labels, symbols, and visual hierarchy.\n\n\n\n\n\n\n\nFinal Brazil reference map completed in Adobe Illustrator.\n\n\n\n\n\n\n\nWhat I Learned\nThis project reinforced the value of building a map in stages. Adding more information did not simply mean placing more features on the page; each addition required reconsidering the entire visual hierarchy.\nThe progression also helped me see how typography, line weight, spacing, and contrast work together. The final map was not the product of a single design decision, but of many small revisions made across the full composition."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
+    "href": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Visualizing One Dataset in Multiple Ways",
+    "text": "Visualizing One Dataset in Multiple Ways\nSeveral assignments used the same dataset—2004 alcohol-related traffic fatalities—to examine how different cartographic methods influence interpretation.\nAcross the sequence, I created proportional-symbol maps using three scaling methods, a choropleth map, and a contiguous-area cartogram. Although I have not located the choropleth map, the surviving work still documents the central purpose of the exercise: comparing how symbol size, classification, shading, and geographic distortion communicate the same underlying data differently.\nUsing a common dataset made it easier to focus on the strengths and limitations of each design method rather than on differences in subject matter."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
+    "href": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Comparing Proportional Symbol Methods",
+    "text": "Comparing Proportional Symbol Methods\n\nAssignment and Design Goal\nThis assignment compared three methods for displaying the same dataset: 2004 alcohol-related traffic fatalities in the 50 states and the District of Columbia.\nEach map was produced in grayscale and used proportional circles, but the circle sizes were determined using a different method:\n\nsquare-root scaling;\nFlannery scaling;\nrange-graded natural breaks.\n\nCreating the maps required more than changing symbol sizes. Each version had to function as a complete cartographic composition, including titles, legends, typography, figure-ground contrast, and balanced page layout. Because the symbols were constructed manually in Adobe Illustrator, the assignment also required careful calculation and consistent placement.\n\n\nMap Comparison\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using Flannery proportional-circle scaling.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using range-graded natural-breaks symbols.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using square-root proportional-circle scaling.\n\n\n\n\n\n\n\nEvaluating the Methods\nThe three techniques created noticeably different impressions of the same data.\nThe range-graded natural-breaks method did not represent the variation especially well because a few high values acted as outliers and occupied two of the four classes. That compressed most of the remaining values into only two categories and concealed much of the detail present in the original data.\nSquare-root and Flannery scaling both preserved an individual symbol size for each value. Their primary limitation was perceptual: similarly sized circles could be difficult to distinguish, especially among the largest symbols.\nFlannery scaling addressed that problem by enlarging the largest circles somewhat more aggressively while only slightly enlarging smaller circles. Based on that comparison, I concluded that the Flannery method communicated this dataset most effectively.\n\n\nWhat I Learned\nThis assignment showed that symbol scaling is not a neutral technical choice. Different methods can emphasize, compress, or obscure variation even when they use the same values.\nIt also reinforced the importance of matching the symbolization method to both the data distribution and the way people visually compare area."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
+    "href": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Contiguous-Area Cartogram",
+    "text": "Contiguous-Area Cartogram\n\nAssignment and Design Goal\nThe contiguous-area cartogram used the rate of alcohol-related traffic fatalities per 100,000 people to resize the states. Instead of using shading or proportional symbols, the area of each state represented its value.\nThe assignment required two competing goals:\n\nstate areas had to change enough to represent the data;\ngeographic contiguity and recognizable state shapes had to be preserved as much as possible.\n\nI first calculated the approximate area required for each state and then constructed the map by hand on graph paper.\n\n\nSketching and Revision\nThe two sketches document the trial-and-error process of fitting the states together. I repeatedly adjusted their shapes and positions while trying to preserve neighboring relationships.\n\n\n\n\n\n\nInitial hand-drawn cartogram sketch exploring the proportional size, shape, and position of each state.\n\n\n\n\n\n\n\nRevised hand-drawn cartogram sketch showing adjustments to state shapes and contiguity.\n\n\n\n\n\nAfter resolving the overall structure by hand, I recreated and refined the cartogram in Adobe Illustrator.\n\n\n\nFinal contiguous-area cartogram completed in Adobe Illustrator.\n\n\n\n\nWhat I Learned\nThis project demonstrated that a cartogram is not simply a distorted conventional map. It is a negotiated design in which statistical proportionality, geographic relationships, recognition, and visual legibility must all be balanced.\nThe hand-drawn process was especially useful because it forced me to work through contiguity and proportion before moving into digital production."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#additional-course-work",
+    "href": "projects/cartography-portfolio/index.html#additional-course-work",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Additional Course Work",
+    "text": "Additional Course Work\nThe course included additional assignments that are not represented visually on this page.\nOne assignment used the same alcohol-related traffic fatality dataset to create a choropleth map, extending the comparison among proportional symbols, classified shading, and cartogram-based representation. I have not located a surviving copy of that map.\nFor the independent final project, I mapped socioeconomic and demographic indicators associated with gentrification in Santa Fe, New Mexico. Although I still have written materials related to that research, I have not found a copy of the final map suitable for inclusion here.\nThese missing artifacts are part of the course history, but this portfolio emphasizes the projects for which I can present both the finished work and meaningful evidence of the design process."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#what-i-learned-3",
+    "href": "projects/cartography-portfolio/index.html#what-i-learned-3",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "What I Learned",
+    "text": "What I Learned\nAcross the semester, I developed a stronger understanding of cartography as an iterative design discipline.\nThe course taught me to:\n\nbegin with sketches rather than software;\nbuild visual hierarchy deliberately;\ntreat typography as a central cartographic element;\nevaluate how symbolization methods shape interpretation;\nrevise maps in response to critique;\nbalance accuracy, legibility, and visual appeal;\nseparate the design process from the analytical workflow;\nrecognize that strong maps are constructed through repeated refinement.\n\nThe experience also gave me a lasting appreciation for slowing down the mapmaking process. Because every symbol and label had to be placed manually, each decision was visible and intentional."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#looking-back",
+    "href": "projects/cartography-portfolio/index.html#looking-back",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis course remains one of the most enjoyable and influential parts of my graduate education. It gave me space to concentrate on the final deliverable, experiment with multiple versions of the same idea, and receive detailed feedback from peers and the instructor.\nThe surviving projects document more than finished maps. They show a process of sketching, testing, revising, comparing, and refining. That process continues to shape how I approach cartography, visual communication, and the way I teach students to evaluate their own work."
+  },
+  {
     "objectID": "projects/demographics-suitability/index.html",
     "href": "projects/demographics-suitability/index.html",
     "title": "Business Location Suitability Analysis",
@@ -77,178 +252,52 @@
     "text": "Looking Back\nThe project was ambitious for an early GIS course and successfully connected demographic analysis, business planning, cartography, and site selection. Its strongest feature was the two-stage workflow: first selecting a city, then narrowing the recommendation to commercially zoned areas within that city.\nThere are several things I would approach differently today:\n\nuse more inclusive and better-documented market research;\ndistinguish more carefully between county-, city-, block-group-, and parcel-level data;\ndocument the sources and dates of pollution and cost-of-living measures;\napply explicit weights based on business priorities;\ntest how sensitive the result is to changes in weights and rankings;\nvalidate the recommendation with current market and competitive data.\n\nEven with those limitations, the project remains an important example of my early development as a GIS analyst. It shows the transition from making individual maps to designing a complete analytical workflow that supported a practical recommendation."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html",
-    "href": "projects/cartography-portfolio/index.html",
-    "title": "Graduate Cartographic Design Portfolio",
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html",
+    "title": "GIS Through Community Service",
     "section": "",
-    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+    "text": "These projects represent three different ways I used geospatial and communication skills in service to schools, nonprofit organizations, and professional associations.\nThe work included mapping student locations to support school-bus planning, producing a statewide floodplain-management newsletter, and developing a shelter-accessibility analysis for the American Red Cross. Some projects were highly technical, while others centered on communication, coordination, and relationship building.\nTogether, these experiences helped me move beyond completing classroom assignments and begin responding to the needs of real organizations. They also showed me that effective service does not always depend on advanced analysis. Sometimes the most valuable contribution is organizing information, making a process visible, protecting sensitive data, or helping people communicate across institutional boundaries."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html#course-overview",
-    "href": "projects/cartography-portfolio/index.html#course-overview",
-    "title": "Graduate Cartographic Design Portfolio",
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html#overview",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html#overview",
+    "title": "GIS Through Community Service",
     "section": "",
-    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+    "text": "These projects represent three different ways I used geospatial and communication skills in service to schools, nonprofit organizations, and professional associations.\nThe work included mapping student locations to support school-bus planning, producing a statewide floodplain-management newsletter, and developing a shelter-accessibility analysis for the American Red Cross. Some projects were highly technical, while others centered on communication, coordination, and relationship building.\nTogether, these experiences helped me move beyond completing classroom assignments and begin responding to the needs of real organizations. They also showed me that effective service does not always depend on advanced analysis. Sometimes the most valuable contribution is organizing information, making a process visible, protecting sensitive data, or helping people communicate across institutional boundaries."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html#design-process-and-tools",
-    "href": "projects/cartography-portfolio/index.html#design-process-and-tools",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Design Process and Tools",
-    "text": "Design Process and Tools\nThe course emphasized iterative design rather than one-pass production. Projects typically moved through a sequence of sketching, construction, critique, revision, and final refinement.\nThe primary tools and methods included:\n\nhand-drawn sketches used to explore layout, proportion, and spatial relationships;\nAdobe Illustrator for manually constructing and refining final maps;\nMicrosoft Excel for calculating rates, proportional-symbol sizes, and other numerical values;\npeer critique and instructor feedback to identify weaknesses and improve design decisions;\nrepeated revision of typography, hierarchy, figure-ground contrast, balance, and map composition.\n\nThe selected projects below show both finished maps and intermediate stages where surviving materials are available."
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html#south-valley-academy-bus-route-planning",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html#south-valley-academy-bus-route-planning",
+    "title": "GIS Through Community Service",
+    "section": "South Valley Academy Bus Route Planning",
+    "text": "South Valley Academy Bus Route Planning\n\nCommunity Need\nAs a new GIS professional in Albuquerque, I was approached by a neighbor who worked for South Valley Academy and asked whether GIS could help with school-bus route planning for its middle- and high-school students.\nAs a magnet school, South Valley Academy did not have access to the same district transportation-planning resources available to many other schools. The people responsible for bus routing relied largely on institutional knowledge, driver experience, and historical routes when planning future service.\nWe decided to test a more data-driven approach.\n\n\nGIS Workflow\nThe project began by geocoding the home addresses of enrolled middle-school and high-school students. The student locations were symbolized by grade level so staff could see the geographic distribution of the two groups.\nThe teacher coordinating the project then worked with bus drivers to verify that the mapped locations were represented in the routes and that no enrolled students had been overlooked. Staff used that review to update the school’s historical routes with current enrollment information.\n\n\n\nPrivacy-redacted map of South Valley Academy student locations used to support school-bus route planning.\n\n\n\n\nPrivacy and Data Protection\nThe operational map contained student home addresses and was never intended for public distribution. For this portfolio, the individual locations have been deliberately blurred so they cannot be readily identified or reverse engineered.\nThe redacted image documents the geographic scale and purpose of the project without publishing student-level information.\n\n\nOutcome\nThe project gave school staff and drivers a common geographic reference for reviewing their routes. Rather than relying only on historical practice and memory, they could compare current enrollment locations with the existing transportation network and revise service where needed.\n\n\nWhat I Learned\nThis project reinforced several lessons:\n\nrelatively simple GIS methods can improve an established planning process;\nlocal operational knowledge remains essential for validating mapped results;\na map can create a shared frame of reference among people with different responsibilities;\nsensitive location data require deliberate protection, even when the project itself is old;\nuseful community GIS does not always require a complex model or sophisticated analysis."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html#brazil-reference-map",
-    "href": "projects/cartography-portfolio/index.html#brazil-reference-map",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Brazil Reference Map",
-    "text": "Brazil Reference Map\n\nAssignment and Design Goal\nThe Brazil reference-map project focused on building a clear and visually balanced regional map through a series of deliberate design decisions. I developed the map in stages, gradually adding geographic information, refining labels, and establishing a visual hierarchy among national, state, physical, and reference features.\nThe intermediate versions show how the composition changed as additional information was introduced. Each stage required reconsidering spacing, typography, line weight, contrast, feature emphasis, and the relationships among map elements. The final map was completed in Adobe Illustrator after several rounds of revision and feedback.\n\n\nDesign Progression\n\n\n\n\n\n\nEarly version of the Brazil reference map showing the initial geographic framework and state boundaries.\n\n\n\n\n\n\n\nIntermediate version with additional geographic information and a developing visual hierarchy.\n\n\n\n\n\n\n\n\n\nLater revision showing further refinement of labels, symbols, and visual hierarchy.\n\n\n\n\n\n\n\nFinal Brazil reference map completed in Adobe Illustrator.\n\n\n\n\n\n\n\nWhat I Learned\nThis project reinforced the value of building a map in stages. Adding more information did not simply mean placing more features on the page; each addition required reconsidering the entire visual hierarchy.\nThe progression also helped me see how typography, line weight, spacing, and contrast work together. The final map was not the product of a single design decision, but of many small revisions made across the full composition."
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html#nmfma-high-waters-newsletter",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html#nmfma-high-waters-newsletter",
+    "title": "GIS Through Community Service",
+    "section": "NMFMA High Waters Newsletter",
+    "text": "NMFMA High Waters Newsletter\n\nWhy I Took on the Role\nWhen I joined the New Mexico Floodplain Managers Association (NMFMA), I was still developing my knowledge of emergency management, floodplain administration, hazard mitigation, and risk communication in New Mexico.\nMy director at the University of New Mexico’s Earth Data Analysis Center, Shirley Baros, volunteered me to organize and produce NMFMA’s quarterly newsletter, High Waters. What began as a way to accelerate my own learning became a substantial professional-service role that continued for several years.\n\n\nEditorial and Coordination Work\nProducing each issue required regular communication with stakeholders across New Mexico. I contacted people such as:\n\nthe State Floodplain Administrator;\nthe State Hazard Mitigation Officer;\nNMFMA officers and committee chairs;\nlocal floodplain managers;\nemergency-management professionals;\nFEMA and other federal partners;\nresearchers, engineers, and GIS professionals;\nmembers leading mitigation, education, and outreach projects.\n\nI requested updates, gathered short articles, edited submissions, organized photographs and graphics, designed the publication, and assembled the material into a coherent quarterly issue.\n\n\nWhat the Newsletter Covered\nHigh Waters documented a wide range of association and statewide activity, including:\n\nfloodplain-management workshops and conferences;\nCertified Floodplain Manager information;\nNational Flood Insurance Program updates;\nFEMA Risk MAP activities;\nhazard-mitigation grants and projects;\nflood-awareness and school-outreach programs;\nweather and preparedness information;\nlidar, GIS, and mapping updates;\nlocal community projects;\nprofessional recognition;\nstate and federal program news.\n\nThe newsletter served as both a member communication tool and an informal archive of flood-risk reduction work occurring across New Mexico.\n\n\nSelected Issues\nThe portfolio includes selected covers from 2014 through 2016. Together, they show the range of material I coordinated and the evolution of the newsletter over several years.\n\n\n\n\n\n\nJune 2014 cover of the NMFMA High Waters newsletter.\n\n\n\n\n\n\n\nJune 2016 cover of the NMFMA High Waters newsletter.\n\n\n\n\n\n\n\nMarch 2016 cover of the NMFMA High Waters newsletter.\n\n\n\n\n\n\n\nSelected Complete Issue\n\nJune 2016\n\n\n\nProfessional Growth\nEditing High Waters made me a central point of contact within the state’s floodplain-management community. The role kept me informed about mitigation planning, outreach, training, mapping, and Risk MAP work across New Mexico.\nThat broader awareness made me more effective in my professional responsibilities at EDAC. It helped me understand how individual projects fit within statewide and federal programs, strengthened my relationships with partners, and improved my ability to manage and communicate complex work.\n\n\nWhat I Learned\nThis volunteer role taught me that professional service can produce knowledge and relationships that are difficult to gain through assigned project work alone.\nI learned to:\n\nrequest and coordinate contributions from busy stakeholders;\ntranslate technical and programmatic information for a broad professional audience;\nmaintain a recurring publication schedule;\norganize material from many organizations into a consistent product;\nrecognize connections among mitigation, mapping, outreach, policy, and training;\nuse communication as a form of risk reduction and professional capacity building."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
-    "href": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Visualizing One Dataset in Multiple Ways",
-    "text": "Visualizing One Dataset in Multiple Ways\nSeveral assignments used the same dataset—2004 alcohol-related traffic fatalities—to examine how different cartographic methods influence interpretation.\nAcross the sequence, I created proportional-symbol maps using three scaling methods, a choropleth map, and a contiguous-area cartogram. Although I have not located the choropleth map, the surviving work still documents the central purpose of the exercise: comparing how symbol size, classification, shading, and geographic distortion communicate the same underlying data differently.\nUsing a common dataset made it easier to focus on the strengths and limitations of each design method rather than on differences in subject matter."
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html#knox-county-american-red-cross-shelter-accessibility-analysis",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html#knox-county-american-red-cross-shelter-accessibility-analysis",
+    "title": "GIS Through Community Service",
+    "section": "Knox County American Red Cross Shelter Accessibility Analysis",
+    "text": "Knox County American Red Cross Shelter Accessibility Analysis\n\nUnderstanding the Need\nAs I completed my GIS certificate at Roane State Community College, I was looking for volunteer opportunities that combined my technical skills with my interest in natural hazards.\nI contacted the director of the Knox County American Red Cross office and arranged a meeting to learn how the organization identified and recruited emergency shelters. As she described the existing process, I realized that the problem could be approached as a GIS suitability analysis.\nThe Red Cross initially wanted a map of existing shelters and the communities they served. From that starting point, we developed a workflow to identify areas where future shelter recruitment might improve coverage.\n\n\nMapping Existing Shelter Coverage\nWe geocoded the existing shelter locations and created one-mile buffers around them. That distance was selected using organizational experience indicating that people generally seek emergency shelter close to home.\nThe service areas established which parts of Knox County were already covered and provided a basis for identifying communities outside the existing network.\n\n\n\nAmerican Red Cross shelter locations, one-mile coverage areas, and underserved block groups in Knox County.\n\n\nView the recovered full-resolution shelter coverage map\n\n\nIdentifying Populations Likely to Need Additional Support\nThe next stage focused on block groups outside the existing shelter service areas. Census and American Community Survey data were used to examine characteristics associated with additional support needs during an emergency.\nThe analysis included indicators such as:\n\nlower household income;\nlimited access to a private automobile;\ndisability;\nlanguage isolation;\nolder residents;\nhouseholds with children.\n\nThese indicators were not intended to suggest that every person in a selected area would require assistance. They were used to identify communities where transportation, communication, mobility, or caregiving needs might complicate emergency response.\n\n\n\n\n\n\nBlock-group distribution of households earning less than $35,000.\n\n\n\n\n\n\n\nBlock-group distribution of workers without access to a private automobile.\n\n\n\n\n\n\n\nSupporting Future Shelter Recruitment\nThe final map combined:\n\nexisting shelter locations;\none-mile service areas;\nCensus block-group boundaries;\nmajor transportation corridors;\nidentified at-risk areas outside current shelter coverage.\n\nThe Red Cross used the maps as an initial planning resource for future shelter expansion and recruitment across Knox County.\n\n\nRecovering the Historical Project\nFor this portfolio, I imported the original ArcMap document into ArcGIS Pro so I could recover and review the historical analysis layers.\nI preserved the original results rather than recalculating them with current demographic data. The maps therefore document the project as it was completed in 2009 and should not be interpreted as a current assessment of shelter coverage or social vulnerability in Knox County.\n\n\nWhat I Learned\nThis project was especially important because it was the first time I recognized an organization’s informal planning process as a GIS suitability problem and translated that process into a repeatable spatial workflow.\nIt taught me to:\n\nbegin with a partner’s operational knowledge rather than with a preferred GIS technique;\ndistinguish between existing service coverage and unmet need;\ncombine proximity with demographic indicators;\nexplain suitability results carefully and avoid treating model outputs as certainties;\ndesign analysis around a practical organizational decision;\npreserve enough documentation that older work can be understood and responsibly revisited."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
-    "href": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Comparing Proportional Symbol Methods",
-    "text": "Comparing Proportional Symbol Methods\n\nAssignment and Design Goal\nThis assignment compared three methods for displaying the same dataset: 2004 alcohol-related traffic fatalities in the 50 states and the District of Columbia.\nEach map was produced in grayscale and used proportional circles, but the circle sizes were determined using a different method:\n\nsquare-root scaling;\nFlannery scaling;\nrange-graded natural breaks.\n\nCreating the maps required more than changing symbol sizes. Each version had to function as a complete cartographic composition, including titles, legends, typography, figure-ground contrast, and balanced page layout. Because the symbols were constructed manually in Adobe Illustrator, the assignment also required careful calculation and consistent placement.\n\n\nMap Comparison\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using Flannery proportional-circle scaling.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using range-graded natural-breaks symbols.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using square-root proportional-circle scaling.\n\n\n\n\n\n\n\nEvaluating the Methods\nThe three techniques created noticeably different impressions of the same data.\nThe range-graded natural-breaks method did not represent the variation especially well because a few high values acted as outliers and occupied two of the four classes. That compressed most of the remaining values into only two categories and concealed much of the detail present in the original data.\nSquare-root and Flannery scaling both preserved an individual symbol size for each value. Their primary limitation was perceptual: similarly sized circles could be difficult to distinguish, especially among the largest symbols.\nFlannery scaling addressed that problem by enlarging the largest circles somewhat more aggressively while only slightly enlarging smaller circles. Based on that comparison, I concluded that the Flannery method communicated this dataset most effectively.\n\n\nWhat I Learned\nThis assignment showed that symbol scaling is not a neutral technical choice. Different methods can emphasize, compress, or obscure variation even when they use the same values.\nIt also reinforced the importance of matching the symbolization method to both the data distribution and the way people visually compare area."
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html#shared-lessons",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html#shared-lessons",
+    "title": "GIS Through Community Service",
+    "section": "Shared Lessons",
+    "text": "Shared Lessons\nAlthough these three projects served different organizations, they shared several important characteristics.\n\nStart With the Partner’s Process\nEach project began by listening to how people were already doing their work. GIS and communication tools were useful because they clarified, organized, or strengthened an existing process, not because the technology itself was the goal.\n\n\nMatch the Method to the Need\nThe South Valley Academy project needed geocoding, verification, and a shared map. The American Red Cross project required a more structured suitability analysis. NMFMA needed consistent communication and coordination rather than a new spatial model.\nThe appropriate level of technical complexity differed, but each project benefited from a clear understanding of the audience and intended use.\n\n\nProtect Sensitive Information\nStudent home addresses and emergency-planning data required care. The public versions of these projects emphasize the workflow and lessons while withholding or obscuring information that should not be distributed.\n\n\nCommunication Is Part of GIS Practice\nThe NMFMA work showed that maps and analyses do not create impact on their own. Programs also need documentation, outreach, stakeholder coordination, and accessible explanations.\n\n\nVolunteer Work Can Build Professional Capacity\nThese projects helped me develop technical experience, subject-matter knowledge, confidence, and professional relationships before I had accumulated a long record of paid GIS work."
   },
   {
-    "objectID": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
-    "href": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Contiguous-Area Cartogram",
-    "text": "Contiguous-Area Cartogram\n\nAssignment and Design Goal\nThe contiguous-area cartogram used the rate of alcohol-related traffic fatalities per 100,000 people to resize the states. Instead of using shading or proportional symbols, the area of each state represented its value.\nThe assignment required two competing goals:\n\nstate areas had to change enough to represent the data;\ngeographic contiguity and recognizable state shapes had to be preserved as much as possible.\n\nI first calculated the approximate area required for each state and then constructed the map by hand on graph paper.\n\n\nSketching and Revision\nThe two sketches document the trial-and-error process of fitting the states together. I repeatedly adjusted their shapes and positions while trying to preserve neighboring relationships.\n\n\n\n\n\n\nInitial hand-drawn cartogram sketch exploring the proportional size, shape, and position of each state.\n\n\n\n\n\n\n\nRevised hand-drawn cartogram sketch showing adjustments to state shapes and contiguity.\n\n\n\n\n\nAfter resolving the overall structure by hand, I recreated and refined the cartogram in Adobe Illustrator.\n\n\n\nFinal contiguous-area cartogram completed in Adobe Illustrator.\n\n\n\n\nWhat I Learned\nThis project demonstrated that a cartogram is not simply a distorted conventional map. It is a negotiated design in which statistical proportionality, geographic relationships, recognition, and visual legibility must all be balanced.\nThe hand-drawn process was especially useful because it forced me to work through contiguity and proportion before moving into digital production."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#additional-course-work",
-    "href": "projects/cartography-portfolio/index.html#additional-course-work",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Additional Course Work",
-    "text": "Additional Course Work\nThe course included additional assignments that are not represented visually on this page.\nOne assignment used the same alcohol-related traffic fatality dataset to create a choropleth map, extending the comparison among proportional symbols, classified shading, and cartogram-based representation. I have not located a surviving copy of that map.\nFor the independent final project, I mapped socioeconomic and demographic indicators associated with gentrification in Santa Fe, New Mexico. Although I still have written materials related to that research, I have not found a copy of the final map suitable for inclusion here.\nThese missing artifacts are part of the course history, but this portfolio emphasizes the projects for which I can present both the finished work and meaningful evidence of the design process."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#what-i-learned-3",
-    "href": "projects/cartography-portfolio/index.html#what-i-learned-3",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "What I Learned",
-    "text": "What I Learned\nAcross the semester, I developed a stronger understanding of cartography as an iterative design discipline.\nThe course taught me to:\n\nbegin with sketches rather than software;\nbuild visual hierarchy deliberately;\ntreat typography as a central cartographic element;\nevaluate how symbolization methods shape interpretation;\nrevise maps in response to critique;\nbalance accuracy, legibility, and visual appeal;\nseparate the design process from the analytical workflow;\nrecognize that strong maps are constructed through repeated refinement.\n\nThe experience also gave me a lasting appreciation for slowing down the mapmaking process. Because every symbol and label had to be placed manually, each decision was visible and intentional."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#looking-back",
-    "href": "projects/cartography-portfolio/index.html#looking-back",
-    "title": "Graduate Cartographic Design Portfolio",
+    "objectID": "projects/volunteer-gis/volunteer-gis-index.html#looking-back",
+    "href": "projects/volunteer-gis/volunteer-gis-index.html#looking-back",
+    "title": "GIS Through Community Service",
     "section": "Looking Back",
-    "text": "Looking Back\nThis course remains one of the most enjoyable and influential parts of my graduate education. It gave me space to concentrate on the final deliverable, experiment with multiple versions of the same idea, and receive detailed feedback from peers and the instructor.\nThe surviving projects document more than finished maps. They show a process of sketching, testing, revising, comparing, and refining. That process continues to shape how I approach cartography, visual communication, and the way I teach students to evaluate their own work."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Student GIS Portfolio",
-    "section": "",
-    "text": "This portfolio presents selected GIS, cartography, research, volunteer, and professional-development work completed while I was a student. Most of the projects come from the GIS Certificate program at Roane State Community College and my graduate studies at the University of New Mexico, with additional context from my first GIS courses at Tennessee Tech University.\nI reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio—even when the path into a career is not direct.\nExplore the Projects Read My Learning Path"
-  },
-  {
-    "objectID": "index.html#a-nonlinear-path-into-gis",
-    "href": "index.html#a-nonlinear-path-into-gis",
-    "title": "Student GIS Portfolio",
-    "section": "A Nonlinear Path into GIS",
-    "text": "A Nonlinear Path into GIS\nMy path into GIS was neither direct nor carefully planned. I first encountered GIS as an undergraduate at Tennessee Tech, but initially pursued graduate study and a career in education. Several years later, I returned to the subject by enrolling full-time in the GIS Certificate program at Roane State Community College while working and attending classes at night.\nI began that transition in fall 2008, just as the Great Recession was affecting employment throughout the geospatial industry. Although entering the field took longer than expected, coursework, volunteer GIS projects, conferences, professional organizations, and new relationships helped me continue developing both technical skills and confidence.\nGraduate study at the University of New Mexico added advanced coursework, funded research assistantships, independent thesis research, conference presentations, and applied work supporting statewide geospatial programs. Over time, experiences that once seemed disconnected—including education, GIS, research, outreach, and professional service—came together to support a career drawing on all of them.\nThe projects in this portfolio document that progression: from learning individual GIS tools to designing independent projects, conducting research, communicating results, serving professional communities, and applying geospatial skills to real problems.\nRead the Full Story"
-  },
-  {
-    "objectID": "index.html#explore-the-portfolio",
-    "href": "index.html#explore-the-portfolio",
-    "title": "Student GIS Portfolio",
-    "section": "Explore the Portfolio",
-    "text": "Explore the Portfolio\n\n\nSelected Projects\nExplore coursework, community GIS, cartography, spatial analysis, web GIS, remote sensing, and independent research.\nView selected projects →\n\n\nGraduate Research\nSee how coursework, a thesis, funded assistantships, conference presentations, and applied research contributed to my graduate education.\nExplore graduate research →\n\n\nConferences and Service\nFollow the progression from student attendee and volunteer to presenter, conference organizer, professional leader, and educator.\nExplore conferences and service →"
-  },
-  {
-    "objectID": "index.html#featured-student-projects",
-    "href": "index.html#featured-student-projects",
-    "title": "Student GIS Portfolio",
-    "section": "Featured Student Projects",
-    "text": "Featured Student Projects\nThese projects represent several stages of my development as a GIS student. Each began in a different context, but together they demonstrate how classroom assignments, independent research, volunteer work, and funded projects can become meaningful portfolio examples.\n\n\nCamp Davy Crockett Asset Inventory\nRoane State Community College\nAn independent field-based project involving geodatabase design, domains and subtypes, GPS data collection, asset photography, data processing, and maps created for both camp management and visitors.\nView project →\n\n\nArches National Park\nRoane State Community College\nA collaborative geodatabase project combining two-dimensional and three-dimensional visualization, demographics, elevation, fire hazard, trails, streams, recreation, and wildlife habitat analysis.\nView project →\n\n\nGIS Thesis\nUniversity of New Mexico\nAn example of the complete graduate research process, including literature development, proposal design, spatial methods, analysis, interpretation, and presentation of findings.\nView project →\n\n\nHaiti Earthquake Data Comparison\nUniversity of New Mexico\nA comparison of asserted and authoritative geospatial data associated with the January 2010 Haiti earthquake, emphasizing data quality and emergency decision-making.\nView project →\n\n\nPredictive Crime Mapping\nUniversity of New Mexico\nFunded graduate research examining predictive crime-mapping methods and the robustness of kernel-density hotspot maps, later presented at regional GIS conferences.\nView project →\n\n\nAmerican Red Cross Shelter Accessibility\nVolunteer GIS Project\nAn applied volunteer project mapping emergency shelter locations and examining potential geographic gaps in shelter coverage.\nView project →\n\n\nBrowse All Projects"
-  },
-  {
-    "objectID": "index.html#what-this-portfolio-demonstrates",
-    "href": "index.html#what-this-portfolio-demonstrates",
-    "title": "Student GIS Portfolio",
-    "section": "What This Portfolio Demonstrates",
-    "text": "What This Portfolio Demonstrates\nA student portfolio can include much more than polished final maps. The materials preserved here include:\n\nclass projects and technical exercises;\nindependent and collaborative research;\nfield data collection and database design;\nmaps developed through multiple rounds of revision;\nreports, presentations, posters, and conference materials;\nvolunteer GIS and professional service;\nfunded graduate assistantship projects;\nreflections on what worked, what changed, and what I would approach differently today.\n\nThe artifacts reflect the software, technology, data, and cartographic practices available when they were created. Original work is presented honestly, with newly written context added to explain its purpose and significance.\nAbout This Portfolio"
-  },
-  {
-    "objectID": "index.html#a-note-for-students",
-    "href": "index.html#a-note-for-students",
-    "title": "Student GIS Portfolio",
-    "section": "A Note for Students",
-    "text": "A Note for Students\nThis site is an example, not a required formula. A strong portfolio does not need to contain the same number or types of projects. Its purpose is to help visitors understand:\n\nwhat problem or question you addressed;\nwhat role you played;\nwhat data, methods, and tools you used;\nwhat you produced or discovered;\nwhat you learned from the experience.\n\nThe strongest portfolio is one that clearly and accurately represents your own development."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html",
-    "href": "projects/mars-spirit-rover/index.html",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "",
-    "text": "This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in GIS 105: Computer Cartography at Roane State Community College during fall 2008.\nThe poster follows the traverse of NASA’s SPIRIT rover across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.\n\n\n\nComplete Mars SPIRIT Rover traverse poster."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#project-overview",
-    "href": "projects/mars-spirit-rover/index.html#project-overview",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "",
-    "text": "This map was my first substantial cartographic project using ArcMap. I completed it as an individual project in GIS 105: Computer Cartography at Roane State Community College during fall 2008.\nThe poster follows the traverse of NASA’s SPIRIT rover across the surface of Mars within Gusev Crater. It combines maps at several scales, moving from the rover’s location on Mars to a detailed view of the landing site, rover path, and associated spacecraft components.\n\n\n\nComplete Mars SPIRIT Rover traverse poster."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#project-context",
-    "href": "projects/mars-spirit-rover/index.html#project-context",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "Project Context",
-    "text": "Project Context\nThe assignment provided an opportunity to practice cartographic design while working with an unusual geographic setting and data source. Rather than mapping a location on Earth, I used planetary imagery and rover-position information to document SPIRIT’s movement after landing in Gusev Crater.\nThe completed poster included:\n\na small-scale locator map showing Gusev Crater on Mars;\na regional map relating Gusev Crater to Elysium Mons and Ma’adim Vallis;\nan enlarged view of Gusev Crater;\na detailed map of the rover traverse;\nthe locations of the lander, backshell, parachute, and heat-shield impact;\ndescriptive text explaining the mission and mapping process."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#solving-the-coordinate-problem",
-    "href": "projects/mars-spirit-rover/index.html#solving-the-coordinate-problem",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "Solving the Coordinate Problem",
-    "text": "Solving the Coordinate Problem\nThe most significant technical challenge was correctly placing the rover path on the Martian surface.\nThe rover-position data from the Mars Exploration Rover Analyst’s Notebook used x- and y-values measured in meters from a local origin at the landing site. Those values did not use the origin of the map’s coordinate system, so importing them directly would have placed the traverse in the wrong location.\nI addressed this by:\n\ndetermining the mapped coordinates of the SPIRIT landing site in ArcMap;\nimporting the rover’s original x- and y-values into Microsoft Excel;\nadding the landing-site coordinate offsets to the rover-position values;\nimporting the adjusted coordinates into ArcMap;\nchecking the resulting traverse against the landing site and surrounding imagery.\n\nApplying those offsets moved the rover track into its correct mapped position and allowed me to complete the poster."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#exploring-the-map-at-multiple-scales",
-    "href": "projects/mars-spirit-rover/index.html#exploring-the-map-at-multiple-scales",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "Exploring the Map at Multiple Scales",
-    "text": "Exploring the Map at Multiple Scales\nThe poster used a sequence of locator and detail maps to help readers move from the entire planet to the immediate landing area.\n\n\n\n\n\n\nSmall-scale locator map showing the location of Gusev Crater relative to the entire surface of Mars.\n\n\n\n\n\n\n\nRegional locator map showing Gusev Crater in relation to Elysium Mons and Ma’adim Vallis.\n\n\n\n\n\n\n\n\n\n\n\nEnlarged view of Gusev Crater showing the SPIRIT rover traverse.\n\n\n\n\n\n\n\nDetailed landing-site map showing the lander, backshell, parachute, and heat-shield impact locations."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#original-project-description",
-    "href": "projects/mars-spirit-rover/index.html#original-project-description",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "Original Project Description",
-    "text": "Original Project Description\nThe original poster included a written explanation of the project, the rover mission, and the coordinate adjustment used to place the traverse correctly.\n\n\n\nOriginal descriptive text included in the Mars SPIRIT Rover poster.\n\n\nThe information from this original text panel has been incorporated into the accessible webpage text above so visitors do not need to read the explanation from an image."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#from-class-project-to-conference-submission",
-    "href": "projects/mars-spirit-rover/index.html#from-class-project-to-conference-submission",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "From Class Project to Conference Submission",
-    "text": "From Class Project to Conference Submission\nMy instructor and advisor, Pat Wurth, encouraged students to attend professional GIS events and submit work to conference map galleries. Following her recommendation, I entered this poster in the map gallery at the November 2008 Northeast Tennessee GIS User Group Conference in Kingsport, Tennessee.\nThis was the first map I submitted at a GIS conference. Attending the meeting allowed me to see professional and student GIS work, reconnect with one of my earlier GIS professors, meet people working in the field, and begin participating in Tennessee’s professional GIS community.\n\n\n\nStanding beside the Mars SPIRIT Rover poster at the 2008 Northeast Tennessee GIS User Group Conference."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#what-i-learned",
-    "href": "projects/mars-spirit-rover/index.html#what-i-learned",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "What I Learned",
-    "text": "What I Learned\nThis project taught me several lessons that extended beyond the finished poster:\n\nGIS data may use a local coordinate origin that must be reconciled with the map’s coordinate system.\nSpreadsheet calculations can support GIS data preparation and coordinate adjustment.\nLocator maps at multiple scales can help readers understand an unfamiliar geographic setting.\nA course project can become a professional-development opportunity when it is shared beyond the classroom.\nPresenting work publicly helped me begin building confidence as a member of the GIS community."
-  },
-  {
-    "objectID": "projects/mars-spirit-rover/index.html#looking-back",
-    "href": "projects/mars-spirit-rover/index.html#looking-back",
-    "title": "Mars SPIRIT Rover Traverse Map",
-    "section": "Looking Back",
-    "text": "Looking Back\nThis map reflects my skills, the available software, and common cartographic practices at an early point in my GIS education. Some design choices are different from those I would make today, but I have preserved the original poster rather than redesigning it.\nIts value lies not only in the finished map, but also in what it represents: an early technical challenge, my first substantial ArcMap project, and my first experience sharing student GIS work at a professional conference."
+    "text": "Looking Back\nThese projects established a pattern that continued throughout my career: using GIS and communication not only as technical tools, but also as ways to support communities, educators, public agencies, nonprofit organizations, and professional networks.\nThey also changed how I think about service. Effective volunteer work is not defined by the complexity of the technology. Its value comes from understanding a real need, producing something people can use, protecting those affected by the work, and following through reliably."
   }
 ]

@@ -1,0 +1,308 @@
+---
+title: "Conferences & Professional Service"
+subtitle: "Learning, contributing, and building a professional community"
+description: "A reflection on how conferences, professional organizations, presentations, and service shaped my development from GIS student to educator and professional leader."
+categories:
+  - Conferences
+  - Professional Service
+  - GIS Education
+  - Career Development
+toc: true
+toc-depth: 2
+---
+
+## Why Conferences Mattered
+
+Conferences gave me access to a professional community before I had a professional position.
+
+When I began studying GIS at Roane State Community College in 2008, I was changing careers during the Great Recession. Employers were reducing staff, and entry-level opportunities were scarce. Professional conferences became one of the few places where I could learn directly from people already working in the field, see the kinds of projects they were completing, and begin making my own work visible.
+
+At first, I attended because the Tennessee Geographic Information Council offered students free registration in exchange for volunteer hours. That practical arrangement opened the door to something much more important.
+
+Through conferences and professional organizations, I learned that professional development happens through more than formal coursework. It also happens by listening, asking questions, volunteering, presenting, following up, and contributing consistently over time.
+
+## Beginning as a Student
+
+As a student member of the **Tennessee Geographic Information Council (TNGIC)**, I volunteered at regional and statewide GIS meetings, submitted maps to student galleries, and attended as many presentations as possible.
+
+My first substantial conference submission was a poster documenting the traverse of NASA’s SPIRIT rover across the surface of Mars. I completed the map in a cartography course at Roane State and presented it at a regional GIS meeting in Kingsport, Tennessee, in 2008.
+
+That experience gave me an opportunity to:
+
+- share student work with professional GIS practitioners;
+- receive feedback beyond the classroom;
+- reconnect with former instructors;
+- meet people working in different parts of the geospatial profession;
+- see how professionals explained technical projects;
+- begin building confidence as a member of the GIS community.
+
+
+The map itself was important, but the larger value came from showing up and participating. A classroom project became a professional-development experience because it was shared beyond the classroom.
+
+## Learning by Being Present
+
+As a student, I did not always understand every presentation I attended. That was not a reason to stay away.
+
+Conferences helped me learn:
+
+- which software and methods practitioners were using;
+- what kinds of problems agencies and companies were trying to solve;
+- how projects were scoped and explained;
+- which technical skills appeared repeatedly across organizations;
+- how GIS professionals communicated with clients, managers, and the public;
+- what questions I needed to investigate after the conference.
+
+Repeated exposure helped unfamiliar topics become understandable. It also gave me a clearer picture of the profession than I could have gained from course descriptions or online job postings alone.
+
+## Building a Professional Community in New Mexico
+
+When I moved to Albuquerque in 2010, I had to build a professional network in a new state.
+
+I joined the **New Mexico Geographic Information Council (NMGIC)** as a student member and continued the pattern I had begun in Tennessee. I attended meetings, presented projects, applied for professional-development opportunities, and remained active while completing graduate study at the University of New Mexico.
+
+I also became involved with the **New Mexico Floodplain Managers Association (NMFMA)** while working with the Earth Data Analysis Center.
+
+Through NMFMA, I participated in a professional community that included:
+
+- local floodplain administrators;
+- emergency managers;
+- engineers;
+- GIS professionals;
+- university researchers;
+- state agency leaders;
+- FEMA and other federal partners;
+- natural-hazards educators and outreach specialists.
+
+The organization helped me understand how GIS, floodplain management, emergency preparedness, public policy, and risk communication intersected across the state.
+
+
+![Presenting or participating at a New Mexico GIS or floodplain-management conference.](images/conferences-service/new-mexico-conference.jpg){.lightbox group="conference-service" fig-alt="NMFMA members (l to r) Stephen Scissons, Michael Camponovo, and Bill Borthwick participate in a USACE Silver Jackets planning event in Massachusetts."}
+
+
+## Professional Service as a Learning Strategy
+
+My work with NMFMA included producing the quarterly newsletter, *High Waters*.
+
+That role required me to contact professionals across New Mexico, request project updates, gather articles and photographs, edit submissions, organize content, and document activities in floodplain management, mitigation, outreach, GIS, training, and emergency preparedness.
+
+The newsletter became an important learning tool because it exposed me to work taking place far beyond my assigned projects.
+
+Professional service helped me:
+
+- understand statewide programs and priorities;
+- build relationships with subject-matter experts;
+- learn the language of floodplain management and hazard mitigation;
+- connect local projects to state and federal initiatives;
+- become a reliable point of contact within the professional community;
+- improve my communication and coordination skills.
+
+Service was not separate from professional development. It was one of the ways professional development occurred.
+
+[Read more about the *High Waters* newsletter and other volunteer projects](projects/volunteer-gis/)
+
+## From Attendee to Contributor
+
+Over time, my role at conferences changed.
+
+I began as a student observer and volunteer. Later, I became a presenter, committee participant, organizer, and professional resource.
+
+My contributions included:
+
+- submitting presentation abstracts;
+- presenting technical and applied projects;
+- sharing updates on FEMA Risk MAP activities;
+- discussing public outreach and web-mapping projects;
+- filling gaps when scheduled speakers could not attend;
+- helping organize sessions and workshops;
+- coordinating information among presenters and participants;
+- serving on professional committees;
+- supporting education and outreach activities.
+
+This transition was important. Professional credibility did not come from attending once or introducing myself to one influential person. It developed through repeated participation and useful contributions.
+
+## Presenting Work Publicly
+
+Presenting at conferences strengthened both my technical and communication skills.
+
+Preparing a presentation required me to decide:
+
+- what the audience needed to understand;
+- which details were essential;
+- how much background information to provide;
+- how to explain methods without overwhelming the audience;
+- which maps, diagrams, or screenshots best supported the story;
+- how to acknowledge limitations;
+- what the audience should remember after the session.
+
+Public presentation also created opportunities for feedback, questions, and follow-up conversations that often improved the work.
+
+A project could generate several kinds of value:
+
+1. the original technical result;
+2. the process of explaining it clearly;
+3. the relationships created through discussion;
+4. later opportunities that emerged because someone remembered the work.
+
+
+![Presenting a GIS, Risk MAP, or outreach project at a professional meeting.](images/conferences-service/conference-award.jpg){.lightbox group="conference-service" fig-alt="EDAC receives an award from NMFMA for contributions to the organization."}
+
+
+## Returning to Tennessee
+
+When I returned to Tennessee in 2016, professional relationships became especially important.
+
+I reconnected with former TNGIC contacts, renewed my membership, submitted an abstract for the statewide conference, and made it known that I was interested in a position at the University of Tennessee that combined GIS teaching and outreach.
+
+At the conference, I:
+
+- presented my scheduled project;
+- filled in for a last-minute cancellation;
+- asked whether anyone from the university department was attending;
+- met someone who had helped write the job posting;
+- invited him to attend my sessions;
+- joined his education and outreach committee;
+- created a legitimate reason to remain involved and continue contributing.
+
+The conference did not replace the formal hiring process. It gave me an opportunity to demonstrate the exact combination of technical knowledge, communication ability, teaching experience, and outreach interest that the position required.
+
+I was hired at UTK on June 27, 2016.
+
+The full career story is described on the [Learning Path](learning-path.qmd) page.
+
+## When Participation Became Leadership
+
+After benefiting from TNGIC as a student and job seeker, I continued participating as a professional.
+
+My later service has included:
+
+- education and outreach committee work;
+- conference planning;
+- board service;
+- organizing professional-development opportunities;
+- supporting regional meetings and statewide conferences;
+- encouraging student participation;
+- helping students submit maps, posters, and presentations;
+- connecting students with professionals and employers;
+- creating outreach activities for schools and educators.
+
+The progression matters:
+
+> I first entered professional organizations because I needed access to the community. Over time, I became responsible for helping sustain that community and create access for others.
+
+
+![Supporting students or colleagues at a professional GIS conference.](images/conferences-service/preparing-presentation.jpg){.lightbox group="conference-service" fig-alt="Michael Camponovo prepares a presentation on volunteered geographic information while a graduate student at UNM."}
+
+
+## Creating Opportunities for Students
+
+My own student experience strongly influences how I encourage students to participate today.
+
+Students may believe they need to wait until they are experts before attending a conference or submitting work. My experience suggests the opposite.
+
+Conferences can help students:
+
+- understand how classroom skills connect to professional practice;
+- see the range of careers available in GIS;
+- receive feedback on their work;
+- practice explaining technical decisions;
+- meet potential mentors and employers;
+- identify skills they want to develop;
+- become more comfortable in professional settings;
+- see themselves as legitimate members of the field.
+
+I encourage students to attend, volunteer, present, submit maps, ask questions, and follow up with the people they meet.
+
+The goal is not simply to collect contacts. It is to begin participating in a professional community.
+
+## What Conferences Taught Me
+
+### Professional Learning Extends Beyond the Classroom
+
+Courses provide structure and technical foundations. Conferences reveal how those skills are being used, adapted, debated, and combined in practice.
+
+### Repeated Participation Builds Familiarity and Trust
+
+A single introduction may be forgotten. Consistent participation allows people to observe your interests, reliability, and growth over time.
+
+### Volunteering Creates Real Opportunities to Contribute
+
+Volunteering provides a useful role, a reason to interact with organizers and participants, and a way to support the professional community before asking it for help.
+
+### Presenting Makes Work Visible
+
+A presentation demonstrates more than technical skill. It also reveals how well someone can organize ideas, explain decisions, respond to questions, and communicate with an audience.
+
+### Service Develops Professional Knowledge
+
+Committee work, newsletters, workshops, and conference planning expose volunteers to people, problems, and institutional processes they might not encounter in their assigned jobs.
+
+### Students Belong in Professional Spaces
+
+Students do not need to wait until graduation to participate. Professional identity begins forming while they are still learning.
+
+## Practical Advice for Students
+
+### Attend Before You Feel Ready
+
+You will not understand every presentation. Attend anyway.
+
+### Volunteer
+
+Registration tables, map galleries, session support, and event logistics create natural opportunities to meet people while doing useful work.
+
+### Submit Something
+
+A course project, poster, map, dashboard, or research presentation can become a conversation starter and a source of feedback.
+
+### Introduce Yourself
+
+Tell people what you are studying, what interests you, and what you are trying to learn.
+
+### Ask Specific Questions
+
+Questions about a method, dataset, career path, or project decision are easier to answer than a general request for advice.
+
+### Follow Up
+
+A brief message after the conference can help turn a short conversation into a lasting professional relationship.
+
+### Stay Involved
+
+Professional communities are built through repeated participation, not one-time attendance.
+
+### Contribute Before You Need Help
+
+Don Asher’s advice remains central to how I think about professional relationships:
+
+> You make friends before you need friends.
+
+## The Cycle of Professional Service
+
+My relationship with professional organizations has followed a cycle:
+
+1. **Access** — I entered through student membership and conference volunteering.
+2. **Learning** — I observed professional work and developed new technical and communication skills.
+3. **Visibility** — I submitted maps, presented projects, and shared my interests.
+4. **Opportunity** — Relationships and demonstrated work contributed to education and employment opportunities.
+5. **Contribution** — I served on committees, produced publications, organized events, and supported outreach.
+6. **Mentoring** — I began helping students and colleagues gain access to the same professional communities.
+
+The cycle continues. I still attend conferences to learn, maintain relationships, and discover new work. I also attend with the responsibility to help make those spaces more useful and welcoming for others.
+
+## Looking Back
+
+Conferences did not provide a simple shortcut into the GIS profession.
+
+They provided something more durable:
+
+- a place to learn from people doing the work;
+- a setting where student projects could become visible;
+- repeated opportunities to contribute;
+- relationships built before they were urgently needed;
+- a professional community that continued across jobs and states.
+
+I began as a student volunteer trying to enter the field during an economic crisis.
+
+Over time, I became a presenter, project partner, committee member, organizer, board member, educator, and mentor.
+
+That progression is one of the most important outcomes represented in this portfolio.

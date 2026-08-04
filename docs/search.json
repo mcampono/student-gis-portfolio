@@ -210,6 +210,76 @@
     "text": "A Note for Students\nThis site is an example, not a required formula. A strong portfolio does not need to contain the same number or types of projects. Its purpose is to help visitors understand:\n\nwhat problem or question you addressed;\nwhat role you played;\nwhat data, methods, and tools you used;\nwhat you produced or discovered;\nwhat you learned from the experience.\n\nThe strongest portfolio is one that clearly and accurately represents your own development."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Standing beside my Mars SPIRIT Rover poster at a regional GIS conference in 2008."
+  },
+  {
+    "objectID": "about.html#about-this-portfolio",
+    "href": "about.html#about-this-portfolio",
+    "title": "About",
+    "section": "About This Portfolio",
+    "text": "About This Portfolio\nThis site is a reconstructed portfolio of GIS, cartography, research, volunteer, and professional-service work from my time as a student and early-career GIS professional.\nIt includes projects completed while earning a GIS certificate at Roane State Community College, pursuing graduate study at the University of New Mexico, volunteering with community and professional organizations, and beginning my career in applied geospatial work.\nThe portfolio is not intended to present every project as polished by current professional standards. Its purpose is to show how skills, judgment, confidence, and professional awareness developed over time.\nSome of the work is technically strong. Some of it is rough. Some projects are incomplete because only part of the original material survived. Together, however, they show a much more realistic learning process than a collection containing only finished professional work."
+  },
+  {
+    "objectID": "about.html#why-i-built-it",
+    "href": "about.html#why-i-built-it",
+    "title": "About",
+    "section": "Why I Built It",
+    "text": "Why I Built It\nI created this portfolio primarily as an example for students in GEOG 499, the capstone course for the Geographic Information Science and Technology program at the University of Tennessee Knoxville.\nStudents are often asked to build a portfolio near the end of a degree program, but many have never seen a realistic example of what one can contain. They may assume that every project must be visually perfect, technically advanced, or completed for a major employer before it deserves to be included.\nMy own experience suggests otherwise.\nCourse projects, independent studies, conference posters, volunteer work, newsletters, presentations, and early professional assignments can all demonstrate useful skills when they are carefully documented and placed in context.\nA strong portfolio does more than display final products. It explains:\n\nthe problem being addressed;\nthe audience or partner;\nthe data and methods;\nthe decisions made during the process;\nthe result or recommendation;\nthe limitations of the work;\nwhat the author learned;\nwhat the author would do differently today.\n\nThis site is intended to model that kind of reflection."
+  },
+  {
+    "objectID": "about.html#what-is-included",
+    "href": "about.html#what-is-included",
+    "title": "About",
+    "section": "What Is Included",
+    "text": "What Is Included\nThe portfolio currently brings together several kinds of work.\n\nRoane State Community College\nProjects from my GIS certificate program document the beginning of my formal geospatial education. They include cartography, suitability analysis, field and outdoor-recreation projects, natural-hazards work, and independent GIS assignments.\n\n\nUniversity of New Mexico\nGraduate coursework and research show the next stage of development, including cartographic design, web mapping, spatial analysis, research, and applied geospatial problem solving.\n\n\nVolunteer and Community GIS\nSeveral projects were completed for schools, nonprofit organizations, and professional associations. These experiences helped me build practical skills and a professional network before I had accumulated much paid GIS experience.\n\n\nConferences and Professional Service\nConference participation, map galleries, presentations, association service, and newsletter production helped me become part of the professional GIS community. These experiences were central to my career development and are included alongside the technical projects.\n\n\nEarly-Career Applied Work\nSome projects reflect my transition from student work into applied research, natural-hazards planning, outreach, and project management."
+  },
+  {
+    "objectID": "about.html#how-the-work-was-reconstructed",
+    "href": "about.html#how-the-work-was-reconstructed",
+    "title": "About",
+    "section": "How the Work Was Reconstructed",
+    "text": "How the Work Was Reconstructed\nMost of these projects were created long before I had a consistent digital-archiving system.\nThe materials were recovered from:\n\nold hard drives;\ncourse folders;\nexported maps;\nPowerPoint presentations;\nPDF newsletters;\nArcMap documents;\nconference photographs;\nreports and written assignments;\npartial project folders;\nfiles preserved by former employers, instructors, or collaborators.\n\nIn several cases, I imported old ArcMap documents into ArcGIS Pro so I could inspect the original layers and recover usable outputs. In other cases, only a presentation slide or low-resolution export survived.\nThe reconstruction process required several decisions:\n\npreserve the historical work rather than redesigning it to look current;\nexplain missing files or incomplete documentation honestly;\ndistinguish historical analysis from present-day conditions;\nidentify when original data sources could no longer be verified;\nobscure or omit sensitive information;\nconvert image-based explanations into accessible webpage text;\nretain enough context that a reader can understand why the work mattered.\n\nThis process also reinforced an important practical lesson: keep copies of projects, deliverables, source files, and supporting documentation where you can reliably access them, and catalog them as you go. Reconstructing years of work all at once is slow and uncertain. A simple archive with consistent filenames, dates, project descriptions, thumbnails, and notes about collaborators or data sources can save enormous effort later."
+  },
+  {
+    "objectID": "about.html#what-students-should-notice",
+    "href": "about.html#what-students-should-notice",
+    "title": "About",
+    "section": "What Students Should Notice",
+    "text": "What Students Should Notice\n\nEarly Work Does Not Need to Look Like Current Professional Work\nThe purpose of an early portfolio is not to prove that you already had years of experience. It is to show what you were learning, how you approached problems, and how your work improved.\n\n\nContext Matters\nA map or graphic by itself may reveal very little about the person who created it. Explaining the assignment, audience, constraints, and decisions makes the work much more meaningful.\n\n\nReflection Is Part of the Evidence\nBeing able to identify limitations is not a weakness. It demonstrates professional judgment.\nA thoughtful explanation of what you would change today can be more valuable than pretending an older project is flawless.\n\n\nCourse Projects Can Demonstrate Real Skills\nA classroom assignment may still show:\n\ndata preparation;\nspatial analysis;\ncartographic design;\nresearch;\ntechnical troubleshooting;\nwriting;\npresentation;\nproject organization;\ndecision making.\n\nThe setting does not determine whether the skill is valuable.\n\n\nVolunteer Work Counts\nVolunteer projects can provide experience with real partners, real constraints, and real consequences. They can also help students learn how organizations describe problems before those problems have been translated into GIS tasks.\n\n\nProfessional Participation Matters\nConferences, map galleries, student organizations, professional associations, and committee work create opportunities to learn from other people and make your own work visible.\nThese experiences may become as important to a career as the projects completed for a grade.\n\n\nPreservation Is a Professional Skill\nA project is much easier to reuse when the files, data sources, methods, final products, permissions, and lessons learned have been documented.\nArchiving work should be part of the project—not something postponed until years later."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "About Me",
+    "text": "About Me\nI began my professional life as a public-school teacher. In 2008, I left teaching and enrolled in the GIS certificate program at Roane State Community College.\nThat decision started a career transition that included:\n\njoining the Tennessee Geographic Information Council as a student;\nvolunteering at GIS conferences;\nsubmitting student maps to professional map galleries;\ncompleting volunteer GIS projects;\nearning a master’s degree in geography at the University of New Mexico;\nworking at the Earth Data Analysis Center;\nsupporting FEMA Risk MAP and natural-hazards projects across New Mexico;\nreturning to Tennessee in 2016;\njoining the University of Tennessee as a GIS outreach coordinator and instructor.\n\nToday, I work at the intersection of GIS education, outreach, cartography, uncrewed aerial systems, community-engaged projects, and student mentoring.\nMy current professional portfolio documents that work. This site serves a different purpose: it preserves the earlier work that helped me become the professional and educator I am now."
+  },
+  {
+    "objectID": "about.html#how-to-use-this-portfolio",
+    "href": "about.html#how-to-use-this-portfolio",
+    "title": "About",
+    "section": "How to Use This Portfolio",
+    "text": "How to Use This Portfolio\nVisitors can approach the site in several ways:\n\nexplore the featured projects;\nfollow the chronological story on the Learning Path;\nreview volunteer and community-based projects;\nexamine how older work has been contextualized;\ncompare projects from different stages of technical development.\n\nStudents may find it useful to focus less on the appearance of any single product and more on how the project pages explain the work."
+  },
+  {
+    "objectID": "about.html#related-portfolio",
+    "href": "about.html#related-portfolio",
+    "title": "About",
+    "section": "Related Portfolio",
+    "text": "Related Portfolio\nMy current professional work is documented in a separate portfolio:\nVisit my professional portfolio"
+  },
+  {
+    "objectID": "about.html#looking-back",
+    "href": "about.html#looking-back",
+    "title": "About",
+    "section": "Looking Back",
+    "text": "Looking Back\nReconstructing this portfolio has reminded me how much useful evidence can be lost when projects are not preserved and documented.\nIt has also confirmed that professional growth is easier to see across time than within a single finished product.\nThe early maps, volunteer projects, graduate assignments, conference experiences, and applied work represented here were not part of a carefully planned sequence. They were responses to immediate opportunities, interests, problems, and relationships.\nTogether, they became a career."
+  },
+  {
     "objectID": "learning-path.html",
     "href": "learning-path.html",
     "title": "Learning Path",

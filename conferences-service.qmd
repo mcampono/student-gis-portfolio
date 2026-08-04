@@ -76,7 +76,7 @@ Through NMFMA, I participated in a professional community that included:
 The organization helped me understand how GIS, floodplain management, emergency preparedness, public policy, and risk communication intersected across the state.
 
 
-![Presenting or participating at a New Mexico GIS or floodplain-management conference.](images/conferences-service/new-mexico-conference.jpg){.lightbox group="conference-service" fig-alt="NMFMA members (l to r) Stephen Scissons, Michael Camponovo, and Bill Borthwick participate in a USACE Silver Jackets planning event in Massachusetts."}
+![NMFMA members (l to r) Stephen Scissons, Michael Camponovo, and Bill Borthwick participate in a USACE Silver Jackets planning event in Massachusetts.](assets/images/conferences-service/new-mexico-conference.jpg){.lightbox group="conference-service" fig-alt="NMFMA members (l to r) Stephen Scissons, Michael Camponovo, and Bill Borthwick participate in a USACE Silver Jackets planning event in Massachusetts."}
 
 
 ## Professional Service as a Learning Strategy
@@ -144,7 +144,7 @@ A project could generate several kinds of value:
 4. later opportunities that emerged because someone remembered the work.
 
 
-![Presenting a GIS, Risk MAP, or outreach project at a professional meeting.](images/conferences-service/conference-award.jpg){.lightbox group="conference-service" fig-alt="EDAC receives an award from NMFMA for contributions to the organization."}
+![EDAC receives an award from NMFMA for contributions to the organization.](assets/images/conferences-service/conference-award.jpeg){.lightbox group="conference-service" fig-alt="EDAC receives an award from NMFMA for contributions to the organization."}
 
 
 ## Returning to Tennessee
@@ -190,7 +190,7 @@ The progression matters:
 > I first entered professional organizations because I needed access to the community. Over time, I became responsible for helping sustain that community and create access for others.
 
 
-![Supporting students or colleagues at a professional GIS conference.](images/conferences-service/preparing-presentation.jpg){.lightbox group="conference-service" fig-alt="Michael Camponovo prepares a presentation on volunteered geographic information while a graduate student at UNM."}
+![Michael Camponovo prepares a presentation on volunteered geographic information while a graduate student at UNM.](assets/images/conferences-service/preparing-presentation.jpeg){.lightbox group="conference-service" fig-alt="Michael Camponovo prepares a presentation on volunteered geographic information while a graduate student at UNM."}
 
 
 ## Creating Opportunities for Students

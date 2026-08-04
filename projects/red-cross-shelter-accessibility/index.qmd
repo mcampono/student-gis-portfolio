@@ -1,6 +1,0 @@
----
-title: "Project Title"
-draft: true
----
-
-Project page under development.

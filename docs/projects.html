@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Selected GIS, cartography, spatial analysis, and community-service projects completed during my development as a student and early-career GIS professional.">
 
-<title>projects – Student GIS Portfolio</title>
+<title>Projects – Student GIS Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -70,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured-projects'] = new List('listing-featured-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -126,17 +187,185 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link active" data-scroll-target="#featured-projects">Featured Projects</a></li>
+  <li><a href="#projects-in-development" id="toc-projects-in-development" class="nav-link" data-scroll-target="#projects-in-development">Projects in Development</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
+</div>
+
+<div>
+  <div class="description">
+    Selected GIS, cartography, spatial analysis, and community-service projects completed during my development as a student and early-career GIS professional.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="featured-projects" class="level2">
+<h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
+<p>These projects represent several stages of my development in GIS, cartography, spatial analysis, research, and community service. They include work completed at Roane State Community College, the University of New Mexico, and through volunteer partnerships with schools, nonprofit organizations, and professional associations.</p>
+<div id="listing-featured-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Q2FydG9ncmFwaHklMkNTdHVkZW50JTIwV29yayUyQ1JTQ0MlMkNDb25mZXJlbmNlJTIwUHJlc2VudGF0aW9uJTJDUGxhbmV0YXJ5JTIwR0lT" data-listing-date-sort="1199145600000" data-listing-file-modified-sort="1785357063867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="837">
+<a href="./projects/mars-spirit-rover/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/mars-spirit-rover/images/mars_full_map.png" class="thumbnail-image card-img" style="height: 220px;" alt="Complete student poster showing the traverse of NASA&amp;#039;s SPIRIT rover within Gusev Crater on Mars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mars SPIRIT Rover Traverse Map
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FydG9ncmFwaHk='); return false;">Cartography</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNDQw=='); return false;">RSCC</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmVyZW5jZSUyMFByZXNlbnRhdGlvbg=='); return false;">Conference Presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhbmV0YXJ5JTIwR0lT'); return false;">Planetary GIS</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A student cartography project mapping the traverse of NASA’s SPIRIT rover within Gusev Crater on Mars.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Q2FydG9ncmFwaHklMkNWaXN1YWwlMjBDb21tdW5pY2F0aW9uJTJDU3R1ZGVudCUyMFdvcmslMkNVTk0lMkNBZG9iZSUyMElsbHVzdHJhdG9y" data-listing-date-sort="1293858000000" data-listing-file-modified-sort="1785431800989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1514">
+<a href="./projects/cartography-portfolio/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/cartography-portfolio/images/south-america/brazil_finalaa.png" class="thumbnail-image card-img" style="height: 220px;" alt="Final Brazil reference map created manually in Adobe Illustrator.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Graduate Cartographic Design Portfolio
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FydG9ncmFwaHk='); return false;">Cartography</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VmlzdWFsJTIwQ29tbXVuaWNhdGlvbg=='); return false;">Visual Communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VU5N'); return false;">UNM</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QWRvYmUlMjBJbGx1c3RyYXRvcg=='); return false;">Adobe Illustrator</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A portfolio of graduate cartographic design projects created through hand-drawn sketching, Adobe Illustrator, iterative revision, and peer critique.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="U3VpdGFiaWxpdHklMjBBbmFseXNpcyUyQ0J1c2luZXNzJTIwR0lTJTJDRGVtb2dyYXBoaWNzJTJDU3R1ZGVudCUyMFdvcmslMkNSU0ND" data-listing-date-sort="1230786000000" data-listing-file-modified-sort="1785434622142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1337">
+<a href="./projects/demographics-suitability/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/demographics-suitability/images/bend-site-selection/Slide60.PNG" class="thumbnail-image card-img" style="height: 220px;" alt="Map showing commercially zoned areas within the highest-ranked block groups in Bend, Oregon.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Business Location Suitability Analysis
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3VpdGFiaWxpdHklMjBBbmFseXNpcw=='); return false;">Suitability Analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QnVzaW5lc3MlMjBHSVM='); return false;">Business GIS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2dyYXBoaWNz'); return false;">Demographics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNDQw=='); return false;">RSCC</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An independent GIS suitability project comparing four candidate cities and identifying commercially zoned sites within Bend, Oregon.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Q29tbXVuaXR5JTIwR0lTJTJDVm9sdW50ZWVyJTIwU2VydmljZSUyQ0VtZXJnZW5jeSUyME1hbmFnZW1lbnQlMkNFZHVjYXRpb24lMkNQcm9mZXNzaW9uYWwlMjBDb21tdW5pY2F0aW9u" data-listing-file-modified-sort="1785855334025" data-listing-reading-time-sort="10" data-listing-word-count-sort="1827">
+<a href="./projects/volunteer-gis/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/volunteer-gis/images/american-red-cross/shelter-coverage-underserved-areas.png" class="thumbnail-image card-img" style="height: 220px;" alt="Map of American Red Cross shelter locations, one-mile service areas, and underserved communities in Knox County, Tennessee.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GIS Through Community Service
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tbXVuaXR5JTIwR0lT'); return false;">Community GIS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Vm9sdW50ZWVyJTIwU2VydmljZQ=='); return false;">Volunteer Service</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW1lcmdlbmN5JTIwTWFuYWdlbWVudA=='); return false;">Emergency Management</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RWR1Y2F0aW9u'); return false;">Education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZmVzc2lvbmFsJTIwQ29tbXVuaWNhdGlvbg=='); return false;">Professional Communication</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A collection of volunteer projects supporting school transportation, statewide flood-risk communication, and emergency shelter planning.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="projects-in-development" class="level2">
+<h2 class="anchored" data-anchor-id="projects-in-development">Projects in Development</h2>
+<p>The following projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.</p>
+<ul>
+<li>Arches National Park</li>
+<li>Camp Davy Crockett</li>
+<li>Cumberland Trail</li>
+<li>GIS Thesis</li>
+<li>Glacier National Park</li>
+<li>H1N1 Risk Assessment</li>
+<li>Haiti Earthquake Data</li>
+<li>Predictive Crime Mapping</li>
+</ul>
 
 
 
-
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

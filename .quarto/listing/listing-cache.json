@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "projects.qmd": [
+      "projects/mars-spirit-rover/index.qmd",
+      "projects/cartography-portfolio/index.qmd",
+      "projects/demographics-suitability/index.qmd",
+      "projects/volunteer-gis/index.qmd"
+    ]
+  }
+}

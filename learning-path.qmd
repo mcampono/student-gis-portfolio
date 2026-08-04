@@ -1,0 +1,410 @@
+---
+title: "Learning Path"
+subtitle: "Career change, professional community, and the hidden job market"
+description: "A personal account of how coursework, volunteer service, professional relationships, and preparation shaped my transition into GIS."
+categories:
+  - Career Development
+  - GIS Education
+  - Professional Networking
+  - Student Resources
+toc: true
+toc-depth: 2
+---
+
+## The Path Was Not Linear
+
+My career path looks random when reduced to job titles. It makes more sense when viewed as a chain of relationships, volunteer work, coursework, professional service, and small decisions that created later opportunities. The path was not planned. I made decisions based on immediate needs and opportunities, and the long-term effects of those decisions were often unpredictable.
+
+I did not encounter the hidden job market only once. I encountered it repeatedly.
+
+Two ideas help explain the story:
+
+> “You make friends before you need friends.”  
+> — Don Asher
+
+> Chance favors the prepared.
+
+Neither idea means that relationships replace skill. The lesson is that preparation and relationships work together. People need to know what you can do, trust that you will follow through, and remember you when a need or opportunity appears.
+
+This page explains how I moved from public-school teaching into GIS, how volunteer work and professional organizations helped me build experience during the Great Recession, and how a series of relationships eventually led to my position at the University of Tennessee.
+
+## Career Timeline
+
+### 2008 — Leaving Teaching and Starting Over
+
+- Left public-school teaching in May 2008
+- Contacted my former professor, Jason Duke, for advice
+- Began the GIS certificate at Roane State Community College in August
+- Started the transition at the beginning of the Great Recession
+
+### 2008–2009 — Building Skills and Visibility
+
+- Completed three night classes in fall
+- Completed three night classes in spring
+- Finished with an independent project in summer
+- Earned the GIS certificate in August 2009
+- Joined the Tennessee Geographic Information Council
+- Volunteered at conferences
+- Submitted maps and received student recognition
+- Completed volunteer GIS work for the American Red Cross
+
+### 2010–2011 — Moving and Beginning Graduate School
+
+- Moved to Albuquerque in summer 2010
+- Applied unsuccessfully to an engineering firm
+- Began graduate study at the University of New Mexico in January 2011
+- Joined the New Mexico Geographic Information Council
+- Developed a professional relationship with Dr. Karl Benedict
+
+### 2011–2013 — From Student to Applied Researcher
+
+- Received funding through an EPSCoR project connected to DataONE
+- Began working with the Earth Data Analysis Center (EDAC)
+- Built experience through applied GIS and research projects
+- Started full-time work with EDAC around February 2013
+
+### 2013–2016 — Professional Growth
+
+- Supported natural-hazard mitigation and FEMA Risk MAP work
+- Helped pursue and manage grant-funded projects
+- Traveled across New Mexico to work with local, state, and federal partners
+- Presented at conferences and professional meetings
+- Became known for applied GIS, outreach, and project coordination
+
+### 2016 — Returning to Tennessee
+
+- Returned to Tennessee in spring 2016
+- Continued part-time remote work for EDAC
+- Reconnected with TNGIC colleagues
+- Obtained unadvertised, temporary GIS work through an existing relationship
+- Learned about the UTK position through the TNGIC network
+- Presented at the statewide conference and met someone involved in creating the position
+- Was hired at the University of Tennessee on June 27, 2016
+
+## Leaving Teaching and Starting Over
+
+I used to work as a public-school teacher and was miserable. When I decided to change careers, I looked back at my college experience and asked myself which class I had enjoyed most.
+
+The answer was GIS.
+
+I reached out by email to my former undergraduate professor and GIS hero, **Jason Duke**. At the time, Jason worked for the U.S. Fish and Wildlife Service and taught part time because he enjoyed it. He gave me a direct recommendation: earn a GIS certificate from a community college so I would have a formal credential, and he would help me with the rest.
+
+I left teaching in May 2008, enrolled full time at Roane State Community College, and took a job as a pharmacy technician so I could work during the day and attend GIS classes at night.
+
+I began the program in August 2008, almost perfectly timed with the beginning of the Great Recession.
+
+Organizations across the geospatial industry were reducing staff, not hiring entry-level employees. I completed three night classes in the fall, three in the spring, and an independent project during the summer. I finished the certificate in August 2009.
+
+## Building Experience Without a Job
+
+Coursework alone was not enough to overcome the labor market.
+
+As part of my GIS program, I joined the **Tennessee Geographic Information Council (TNGIC)** as a student member. TNGIC hosted regional and statewide conferences and encouraged student participation by offering free registration in exchange for volunteer hours.
+
+I volunteered, submitted maps to student map galleries, attended presentations, and continued participating for the next two years. I received awards for some of my maps and completed volunteer GIS work for the Knox County American Red Cross.
+
+Those experiences gave me:
+
+- stronger technical skills;
+- portfolio material;
+- exposure to real GIS work;
+- professional contacts;
+- experience presenting and discussing my work;
+- evidence that I could complete useful projects for actual organizations.
+
+Even with those accomplishments, I still could not find a GIS job.
+
+Looking back, I was trying to enter the field mainly through online job postings. Don Asher’s work later helped me understand why that approach was so limiting. The most important opportunities in my career would eventually come through professional relationships, visibility, and direct knowledge of organizational needs.
+
+::: {.callout-note}
+## Butterfly Effect
+
+Joining TNGIC as a student seemed like a small decision. Years later, that same professional network would help me find temporary employment, learn about the UTK opening, meet someone involved in writing the position, and demonstrate my fit before the interview process began.
+:::
+
+## Moving to New Mexico
+
+My wife and I later had the opportunity to move across the country. We arrived in Albuquerque during summer 2010, and I immediately restarted the job search.
+
+I found an entry-level GIS opening with an engineering firm and applied. I researched people working in the firm’s GIS division and followed up through emails and telephone calls. I never received a response.
+
+The firm remains unnamed here because I do not blame them. At the time, I was an unknown applicant with limited professional experience. They had no reason to recognize my potential from an application alone.
+
+While searching, I found a funded graduate program at the University of New Mexico. I used my academic work, volunteer experience, professional contacts, and references to strengthen the application. I was selected and began graduate school in January 2011.
+
+I also joined the **New Mexico Geographic Information Council (NMGIC)** so I could begin building a professional community in my new state.
+
+## Graduate School and Professional Relationships
+
+During graduate school, I took a web-mapping course with **Dr. Karl Benedict**. I enjoyed the class and regularly visited his office hours when I needed help or wanted to learn more about his work.
+
+Dr. Benedict was also director of the **Earth Data Analysis Center (EDAC)** and was overseeing a major EPSCoR project connected to **DataONE**.
+
+My original faculty advisor left at the end of my first year, which put my graduate funding at risk. I mentioned the problem to Dr. Benedict. Because we already knew one another through class and office-hour conversations, he understood my interests, abilities, and work habits.
+
+He had funding available, and I began working with him that summer.
+
+That opportunity introduced me to the staff at EDAC, a small applied research center that depended heavily on grant and contract funding. I worked alongside the team and helped with ongoing projects.
+
+Before I completed my master’s degree, the center’s leadership asked whether I wanted to work there full time.
+
+I started full-time work with EDAC around February 2013.
+
+## Why Working Beside the Team Mattered
+
+University hiring processes are slow and formal. Policy required EDAC to interview multiple candidates for the position.
+
+Even so, I entered the process with an important advantage: I already understood the work.
+
+I knew:
+
+- which projects the team was managing;
+- which software and technical skills they needed;
+- how the staff communicated;
+- where I could contribute immediately;
+- which experiences to emphasize in my résumé and cover letter;
+- how to discuss the position during the interview.
+
+This was not about bypassing the hiring process. It was about being prepared because I had already spent time doing the work and learning the organization’s needs.
+
+That is one of the clearest examples of the hidden job market in my career. The opportunity became visible through relationships and proximity to the work before it became a formal application.
+
+## Becoming Known for the Work
+
+At EDAC, I supported natural-hazard mitigation and statewide FEMA Risk Mapping, Assessment, and Planning work.
+
+My responsibilities included:
+
+- contributing to grant writing;
+- helping secure and manage project funding;
+- traveling across New Mexico;
+- meeting local professionals who needed technical assistance;
+- supporting mapping and risk-reduction projects;
+- presenting at professional meetings;
+- coordinating with local, state, and federal partners.
+
+The work was rewarding, and I helped bring millions of dollars in grant funding into New Mexico.
+
+Over time, I moved from being an unknown entry-level applicant to attending state-level meetings with agency leaders, local officials, federal partners, and senior decision-makers.
+
+By my third year at EDAC, the same engineering firm that had not responded to my original application began taking me to lunch and trying to recruit me.
+
+When I reviewed my old sent emails, I discovered that the same two people recruiting me were the individuals I had contacted years earlier. They did not remember those messages, and I never mentioned them.
+
+The lesson was not that they had made a mistake. The difference was that I was no longer unknown. My work, relationships, and reputation had made my value visible.
+
+I thanked them for an excellent lunch and stayed with the EDAC team.
+
+## Professional Service as Career Development
+
+Throughout this period, I remained active in NMGIC and related professional organizations.
+
+I:
+
+- presented at meetings;
+- received a scholarship;
+- attended conferences whenever I could find funding;
+- produced the NMFMA *High Waters* newsletter;
+- communicated with professionals across the state;
+- learned about mitigation, outreach, training, and mapping work beyond my own assignments.
+
+Professional service was not separate from career development. It expanded my knowledge, visibility, and relationships while helping organizations accomplish useful work.
+
+## Returning to Tennessee
+
+In 2016, my mother-in-law was diagnosed with stage-four pancreatic cancer. My wife and I needed to return to Tennessee quickly if we wanted to spend time with her.
+
+My wife, a clinical pharmacist with extensive experience and certifications, found a new job quickly.
+
+I needed to rebuild my employment situation.
+
+EDAC allowed me to continue working remotely at half time. I spent the rest of my time reconnecting with former TNGIC colleagues and letting people know I had returned.
+
+One person I contacted needed temporary GIS help because his employee was leaving for several months of National Guard training. I was a good fit, and because we already knew one another professionally, the arrangement did not require a traditional résumé, cover letter, or interview process.
+
+While I was doing that work, he told me about a position he had seen on the TNGIC email listserv.
+
+The University of Tennessee was looking for someone who could teach introductory GIS courses while also serving as an outreach coordinator.
+
+It was my dream job.
+
+## Preparing for the UTK Opportunity
+
+The UTK position brought together several parts of my background:
+
+- public-school teaching;
+- GIS education;
+- applied technical work;
+- higher education;
+- professional outreach;
+- conference participation;
+- relationship building;
+- project and grant experience.
+
+I renewed my TNGIC membership, submitted an abstract for the upcoming statewide conference, and attended with the UTK position in mind.
+
+At that time, Jason Duke, my former professor and early GIS mentor, was serving as TNGIC president. He helped introduce me to other members of the organization.
+
+I presented my scheduled project and filled in for a last-minute cancellation. I made it clear that I was interested in the UTK position and asked whether anyone from the department was attending.
+
+I met someone who not only worked for the department, but had helped write the job posting.
+
+I invited him to attend my presentations, spent time talking with him throughout the conference, and volunteered for his education and outreach committee so I would have a legitimate reason to remain involved and continue learning from the group.
+
+I was hired at UTK on **June 27, 2016**.
+
+## When the Pieces Converged
+
+From the outside, the path may appear random:
+
+- public-school teacher;
+- pharmacy technician;
+- community-college GIS student;
+- conference volunteer;
+- graduate student;
+- applied researcher;
+- natural-hazards project manager;
+- temporary GIS employee;
+- university outreach coordinator and instructor.
+
+But the UTK position did not emerge from randomness alone.
+
+Each stage contributed something:
+
+| Experience | What it added |
+|---|---|
+| Public-school teaching | Instruction, communication, and student support |
+| RSCC GIS certificate | Technical foundation and formal credential |
+| TNGIC participation | Visibility, relationships, and professional context |
+| Volunteer GIS work | Applied experience and portfolio evidence |
+| UNM graduate study | Advanced technical and research skills |
+| Office-hour conversations | Mentorship and access to new opportunities |
+| EDAC employment | Applied research, grants, hazards, and project management |
+| NMGIC and NMFMA service | Statewide relationships and professional credibility |
+| Return to TNGIC | Immediate access to information and trusted contacts |
+| Conference presentations | Direct evidence of technical and communication skills |
+
+What appeared to be unrelated experiences became a distinctive combination that fit the UTK role unusually well.
+
+## The Hidden Job Market
+
+The hidden job market is not a secret list of jobs.
+
+It is the set of opportunities that become visible through relationships, reputation, timing, and knowledge of organizational needs.
+
+In my experience, it appeared when:
+
+- a professor knew I was losing funding and had another project available;
+- a research team knew my work before a full-time position opened;
+- an employer recruited me after my professional reputation had changed;
+- a TNGIC contact needed temporary help immediately;
+- someone shared the UTK opening through a professional network;
+- I met a person involved in creating the position before the interview;
+- my conference presentations demonstrated the exact mix of skills the job required.
+
+These opportunities still required preparation. Relationships opened doors, but skills, reliability, and evidence of prior work made it possible to walk through them.
+
+## Small Actions and Later Effects
+
+| Small action at the time | Later effect |
+|---|---|
+| Emailing Jason Duke | A clear entry point into GIS education |
+| Joining TNGIC | Conference experience, contacts, temporary work, and the UTK connection |
+| Volunteering at conferences | Visibility and direct interaction with professionals |
+| Submitting student maps | Portfolio material and external validation |
+| Completing Red Cross volunteer work | Real-world GIS experience before paid employment |
+| Visiting Dr. Benedict’s office hours | A professional relationship that led to funding |
+| Joining NMGIC | A professional network in a new state |
+| Producing *High Waters* | Statewide subject-matter knowledge and relationships |
+| Presenting at conferences | Evidence of both technical and communication ability |
+| Reconnecting after returning home | Immediate access to work and information |
+| Joining an outreach committee | Continued contact and a meaningful service role |
+
+This is the butterfly effect in career development. Small decisions can have consequences that are impossible to predict when they are made.
+
+## What I Want Students to Understand
+
+### Make Friends Before You Need Friends
+
+Relationships built only when you need a favor are usually weak. Participate, contribute, and stay in contact before a crisis or job search begins.
+
+### Talk to People
+
+Ask professors what they are working on. Attend office hours. Introduce yourself at conferences. Tell trusted professionals what you are trying to do.
+
+People cannot help connect you with opportunities if they do not know your interests, skills, and goals.
+
+### Do Visible, Useful Work
+
+A portfolio, presentation, volunteer project, or conference contribution gives people evidence of what you can do.
+
+Saying that you have skills is less persuasive than showing completed work.
+
+### Contribute Before You Ask
+
+Volunteer at conferences. Join committees. Help with newsletters, outreach, maps, or events. Professional communities remember people who reliably contribute.
+
+### Build Skills Before the Opportunity Appears
+
+The UTK position required a combination of teaching, GIS, outreach, communication, and relationship building. I did not know years earlier that those skills would eventually converge in one job.
+
+Preparation creates options.
+
+### Expect Setbacks
+
+The Great Recession, unsuccessful applications, lost graduate funding, family illness, and relocation all disrupted the path.
+
+Some setbacks eventually redirected me toward better opportunities, even though they did not feel useful at the time.
+
+### Stay Connected
+
+GIS is a small professional world. Former classmates, colleagues, students, and professional contacts frequently cross paths again.
+
+I have introduced Tennessee GIS professionals moving to New Mexico to former colleagues there. I have connected a former UNM classmate who moved to Nashville with TNGIC contacts. One of my former undergraduate students later sent me a photograph from my old desk at EDAC while she was completing an internship and meeting with the research team.
+
+Relationships continue moving in both directions.
+
+### Help Others Once You Can
+
+I benefited from professors, professional organizations, supervisors, colleagues, and people willing to make introductions.
+
+Now I try to provide those connections for students and peers.
+
+Career success is not only about building a network for yourself. It is also about becoming someone who can help others enter and move through the professional community.
+
+## Related Portfolio Projects
+
+The following projects document several stages of this learning path:
+
+- [Business Location Suitability Analysis](projects/demographics-suitability/)
+- [GIS Through Community Service](projects/volunteer-gis/)
+- [Cartography Portfolio](projects/cartography-portfolio/)
+- [Mars SPIRIT Rover Mapping](projects/mars-spirit-rover/)
+
+Additional graduate research and early-career projects will be added as their original materials are recovered and documented.
+
+## Looking Back
+
+I once thought career progress meant finding the right job posting, submitting the strongest possible application, and waiting for someone to choose me.
+
+My experience taught me something different.
+
+Careers are also built through:
+
+- conversations;
+- service;
+- curiosity;
+- professional communities;
+- repeated visibility;
+- useful work;
+- preparation;
+- relationships maintained over time.
+
+The path was slower and less direct than I expected. It included failed applications, uncertain funding, an economic crisis, and an urgent family move.
+
+But every strong opportunity came when two conditions met:
+
+1. someone knew me or knew my work;
+2. I had developed the skills needed to help.
+
+That is what the hidden job market means to me.

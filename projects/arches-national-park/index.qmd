@@ -25,7 +25,7 @@ tools:
   - Spatial Analyst
   - 3D Analyst
   - Microsoft Excel
-image: "image/fire_hazard-model.png"
+image: "images/fire_hazard-model.png"
 image-alt: "Composite fire-hazard model for Arches National Park combining vegetation, slope, elevation, and aspect."
 featured: false
 tier: 2

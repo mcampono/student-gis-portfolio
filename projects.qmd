@@ -39,7 +39,7 @@ These projects represent several stages of my development in GIS, cartography, s
 
 ## Projects in Development
 
-The following projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.
+The following UNM projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.
 
 - GIS Thesis
 - Haiti Earthquake Data

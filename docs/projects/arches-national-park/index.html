@@ -1,2 +1,1084 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2009-01-01">
+<meta name="description" content="A large group GIS project evaluating environmental conditions, recreation, infrastructure, and wilderness suitability at Arches National Park.">
+
+<title>Arches National Park Wilderness Assessment – Student GIS Portfolio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#reconstructing-the-assignment" id="toc-reconstructing-the-assignment" class="nav-link" data-scroll-target="#reconstructing-the-assignment">Reconstructing the Assignment</a></li>
+  <li><a href="#building-and-managing-the-data" id="toc-building-and-managing-the-data" class="nav-link" data-scroll-target="#building-and-managing-the-data">Building and Managing the Data</a></li>
+  <li><a href="#water-and-terrain-assessment" id="toc-water-and-terrain-assessment" class="nav-link" data-scroll-target="#water-and-terrain-assessment">Water and Terrain Assessment</a></li>
+  <li><a href="#fire-hazard-model" id="toc-fire-hazard-model" class="nav-link" data-scroll-target="#fire-hazard-model">Fire Hazard Model</a></li>
+  <li><a href="#viewshed-and-fire-tower-analysis" id="toc-viewshed-and-fire-tower-analysis" class="nav-link" data-scroll-target="#viewshed-and-fire-tower-analysis">Viewshed and Fire-Tower Analysis</a></li>
+  <li><a href="#trails-and-recreation" id="toc-trails-and-recreation" class="nav-link" data-scroll-target="#trails-and-recreation">Trails and Recreation</a></li>
+  <li><a href="#backcountry-campsite-suitability" id="toc-backcountry-campsite-suitability" class="nav-link" data-scroll-target="#backcountry-campsite-suitability">Backcountry Campsite Suitability</a></li>
+  <li><a href="#wildlife-habitat-and-viewing" id="toc-wildlife-habitat-and-viewing" class="nav-link" data-scroll-target="#wildlife-habitat-and-viewing">Wildlife Habitat and Viewing</a></li>
+  <li><a href="#demographics-and-transportation" id="toc-demographics-and-transportation" class="nav-link" data-scroll-target="#demographics-and-transportation">Demographics and Transportation</a></li>
+  <li><a href="#wilderness-suitability-recommendation" id="toc-wilderness-suitability-recommendation" class="nav-link" data-scroll-target="#wilderness-suitability-recommendation">Wilderness Suitability Recommendation</a></li>
+  <li><a href="#group-work-and-project-scope" id="toc-group-work-and-project-scope" class="nav-link" data-scroll-target="#group-work-and-project-scope">Group Work and Project Scope</a></li>
+  <li><a href="#geodatabase-training" id="toc-geodatabase-training" class="nav-link" data-scroll-target="#geodatabase-training">Geodatabase Training</a></li>
+  <li><a href="#animations-and-3d-visualization" id="toc-animations-and-3d-visualization" class="nav-link" data-scroll-target="#animations-and-3d-visualization">Animations and 3D Visualization</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Arches National Park Wilderness Assessment</h1>
+<p class="subtitle lead">A group geodatabase, resource-management, and spatial-analysis project</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Geodatabase</div>
+    <div class="quarto-category">Spatial Analysis</div>
+    <div class="quarto-category">Suitability Analysis</div>
+    <div class="quarto-category">Natural Resources</div>
+    <div class="quarto-category">Student Work</div>
+    <div class="quarto-category">RSCC</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A large group GIS project evaluating environmental conditions, recreation, infrastructure, and wilderness suitability at Arches National Park.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2009</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This group project was completed for <strong>GIS 110: Geodatabase</strong> at Roane State Community College during spring 2009.</p>
+<p>The project combined geodatabase preparation, resource-management analysis, cartography, raster modeling, vector analysis, demographic assessment, and 3D visualization to evaluate whether land within or adjacent to <strong>Arches National Park</strong> should be considered for wilderness designation.</p>
+<p>The original assignment instructions have not survived. The purpose and workflow described here were reconstructed from the group report, a 91-slide presentation, project notes, maps, animations, and training records.</p>
+<p>The project was completed by:</p>
+<ul>
+<li>R. Bumbalough;</li>
+<li>M. Camponovo;</li>
+<li>D. Soafer.</li>
+</ul>
+<p>The final recommendation was that neither the existing park nor adjacent land was a strong candidate for wilderness designation because of roads, trails, heavy visitation, surrounding infrastructure, terrain, access limitations, and conflicts with established recreation.</p>
+</section>
+<section id="reconstructing-the-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="reconstructing-the-assignment">Reconstructing the Assignment</h2>
+<p>Though the original project prompt is no longer available, the surviving report and presentation make several things clear:</p>
+<ul>
+<li>the class focused on geodatabases and data management;</li>
+<li>the team selected Arches National Park as the study area;</li>
+<li>the work required locating, converting, documenting, and organizing GIS data;</li>
+<li>the group completed several environmental, recreation, infrastructure, and demographic analyses;</li>
+<li>the analyses were used to support a final wilderness-management recommendation.</li>
+</ul>
+<p>The group selected Arches National Park because each member had visited the park and because GIS data were available through the National Park Service and the Utah GIS clearinghouse.</p>
+</section>
+<section id="building-and-managing-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="building-and-managing-the-data">Building and Managing the Data</h2>
+<p>Data preparation was a major part of the project.</p>
+<p>The group collected data from sources including:</p>
+<ul>
+<li>the National Park Service GIS data server;</li>
+<li>the Utah GIS clearinghouse;</li>
+<li>the U.S. Census Bureau;</li>
+<li>Esri TIGER data;</li>
+<li>the Geographic Names Information System;</li>
+<li>the Federal Communications Commission;</li>
+<li>GIS Data Depot;</li>
+<li>other web-based GIS resources.</li>
+</ul>
+<p>The team identified the appropriate 1:24,000 quadrangles, downloaded park and county data, reviewed metadata, checked coordinate systems, and organized the material into a usable project structure.</p>
+<section id="converting-legacy-gis-formats" class="level3">
+<h3 class="anchored" data-anchor-id="converting-legacy-gis-formats">Converting Legacy GIS Formats</h3>
+<p>Some National Park Service data were stored as ArcInfo interchange files with the <code>.e00</code> extension.</p>
+<p>Because the group did not have access to ArcEditor or ArcInfo, the files were converted using:</p>
+<ul>
+<li>Esri Import 71;</li>
+<li><code>ogr2ogr</code> through FWTools;</li>
+<li>instructions from Free Geography Tools.</li>
+</ul>
+<p>This allowed the data to be used in ArcView and ArcMap.</p>
+</section>
+<section id="metadata-and-coordinate-systems" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-and-coordinate-systems">Metadata and Coordinate Systems</h3>
+<p>The project data used several coordinate systems, including:</p>
+<ul>
+<li>NAD 83;</li>
+<li>NAD 27;</li>
+<li>GCS Clarke 1866.</li>
+</ul>
+<p>The team checked projections and metadata in ArcCatalog, imported XML metadata where necessary, and used <strong>Define Projection</strong> when coordinate-system information was missing.</p>
+<p>The working notes document difficulties converting some coverage data because of software-license limitations. That problem became part of the project’s data-management learning process.</p>
+</section>
+<section id="creating-new-data" class="level3">
+<h3 class="anchored" data-anchor-id="creating-new-data">Creating New Data</h3>
+<p>The team also created point data from tabular sources.</p>
+<p>For example, FCC antenna records were collected in Microsoft Excel and converted from latitude and longitude into XY point data for possible viewshed analysis.</p>
+</section>
+</section>
+<section id="water-and-terrain-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="water-and-terrain-assessment">Water and Terrain Assessment</h2>
+<section id="hydrology" class="level3">
+<h3 class="anchored" data-anchor-id="hydrology">Hydrology</h3>
+<p>Hydrography data were downloaded from the National Park Service and converted from <code>.e00</code> format into shapefiles.</p>
+<p>The team compared two sources:</p>
+<ul>
+<li>county hydrography, which contained stream names but less spatial detail;</li>
+<li>National Park Service hydrography, which contained more detailed geometry but lacked names.</li>
+</ul>
+<p>To combine the strengths of both sources, the county stream labels were converted to annotation and then edited to align with the more detailed park hydrography.</p>
+<p>The resulting maps distinguished perennial and intermittent streams and washes.</p>
+<p>The assessment concluded that most mapped channels were dry washes or carried seasonal runoff after heavy rain or snowmelt. The Colorado River formed part of the park boundary but was not readily accessible from inside the park.</p>
+</section>
+<section id="dem-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="dem-preparation">DEM Preparation</h3>
+<p>Nine digital elevation model tiles were used to represent the park and surrounding area.</p>
+<p>The workflow included:</p>
+<ol type="1">
+<li>identifying quadrangles intersecting the park;</li>
+<li>downloading DEM files;</li>
+<li>converting the source data;</li>
+<li>mosaicking the DEMs;</li>
+<li>clipping the mosaic to the park boundary;</li>
+<li>creating hillshade, slope, aspect, and elevation derivatives.</li>
+</ol>
+<p>The elevation raster was reclassified into 500-foot categories. Cell counts were converted into square meters and then acres, and the results were exported to Excel for charting.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/elevation-map.png" class="lightbox" data-gallery="arches-project" title="Area represented by different elevation classes."><img src="images/elevation-map.png" class="img-fluid figure-img" alt="Map showing reclassified elevation categories within Arches National Park."></a></p>
+<figcaption>Area represented by different elevation classes.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="fire-hazard-model" class="level2">
+<h2 class="anchored" data-anchor-id="fire-hazard-model">Fire Hazard Model</h2>
+<p>The group developed a fire-hazard model using four variables:</p>
+<ul>
+<li>slope;</li>
+<li>elevation;</li>
+<li>aspect;</li>
+<li>vegetation flammability.</li>
+</ul>
+<p>The model parameters were informed by online research and an Oregon Forest Service fire-hazard approach.</p>
+<section id="slope" class="level3">
+<h3 class="anchored" data-anchor-id="slope">Slope</h3>
+<p>Slope was reclassified into three categories:</p>
+<ul>
+<li>0–25%;</li>
+<li>26–40%;</li>
+<li>greater than 40%.</li>
+</ul>
+</section>
+<section id="elevation" class="level3">
+<h3 class="anchored" data-anchor-id="elevation">Elevation</h3>
+<p>Elevation was reclassified as:</p>
+<ul>
+<li>below 3,500 feet;</li>
+<li>3,500–5,000 feet;</li>
+<li>above 5,000 feet.</li>
+</ul>
+</section>
+<section id="aspect" class="level3">
+<h3 class="anchored" data-anchor-id="aspect">Aspect</h3>
+<p>Aspect was grouped into:</p>
+<ul>
+<li>flat;</li>
+<li>north, northwest, and northeast;</li>
+<li>east and west;</li>
+<li>south, southwest, and southeast.</li>
+</ul>
+</section>
+<section id="vegetation" class="level3">
+<h3 class="anchored" data-anchor-id="vegetation">Vegetation</h3>
+<p>County vegetation data were clipped to the park boundary. Vegetation classes were assigned flammability ratings and converted from polygons to raster cells.</p>
+</section>
+<section id="combining-the-variables" class="level3">
+<h3 class="anchored" data-anchor-id="combining-the-variables">Combining the Variables</h3>
+<p>The four reclassified rasters were summed in Raster Calculator.</p>
+<p>The resulting values ranged from 4 to 10 and were then classified using the Jenks method into:</p>
+<ul>
+<li>low fire risk;</li>
+<li>medium fire risk;</li>
+<li>high fire risk.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images\fire_hazard-model.png" class="lightbox" data-gallery="arches-project" title="Final low, medium, and high fire-hazard classes."><img src="images\fire_hazard-model.png" class="img-fluid figure-img" alt="Final fire-hazard map created by combining slope, elevation, aspect, and vegetation flammability."></a></p>
+<figcaption>Final low, medium, and high fire-hazard classes.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="viewshed-and-fire-tower-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="viewshed-and-fire-tower-analysis">Viewshed and Fire-Tower Analysis</h2>
+<p>The group used the DEM and Geographic Names Information System summit data to evaluate possible fire-tower locations.</p>
+<p>GNIS records were imported into Excel, processed, exported as a comma-delimited file, and converted into GIS points.</p>
+<p>The team selected summits within Utah and then limited the analysis to summits inside the park boundary. Three candidate summits were identified.</p>
+<p>A field was added to account for:</p>
+<ul>
+<li>ground elevation;</li>
+<li>a 40-foot vertical offset representing the height of a possible fire tower.</li>
+</ul>
+<p>Three viewsheds were created and compared.</p>
+<p>The analysis concluded that <strong>Elephant Butte</strong> provided the broadest visible area and was the strongest candidate location among the three summits.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/viewshed-analysis.png" class="lightbox" data-gallery="arches-project" title="Comparison of candidate fire-tower viewsheds."><img src="images/viewshed-analysis.png" class="img-fluid figure-img" alt="Viewshed comparison for three summit locations in Arches National Park, with Elephant Butte providing the greatest coverage."></a></p>
+<figcaption>Comparison of candidate fire-tower viewsheds.</figcaption>
+</figure>
+</div>
+</section>
+<section id="trails-and-recreation" class="level2">
+<h2 class="anchored" data-anchor-id="trails-and-recreation">Trails and Recreation</h2>
+<section id="trail-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="trail-mapping">Trail Mapping</h3>
+<p>Trail data were extracted from a transportation layer that also included paved roads and four-wheel-drive routes.</p>
+<p>Because the park was too large to display clearly on one layout, the team divided it into three mapping sections:</p>
+<ul>
+<li>northeast;</li>
+<li>northwest;</li>
+<li>southeast.</li>
+</ul>
+<p>Labels were converted to annotation and edited for readability.</p>
+</section>
+<section id="trail-density" class="level3">
+<h3 class="anchored" data-anchor-id="trail-density">Trail Density</h3>
+<p>The Spatial Analyst density tool was used to calculate the concentration of trails across the park.</p>
+</section>
+<section id="trail-difficulty" class="level3">
+<h3 class="anchored" data-anchor-id="trail-difficulty">Trail Difficulty</h3>
+<p>Trail difficulty was based on three weighted factors:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Factor</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trail length</td>
+<td style="text-align: right;">0.20</td>
+</tr>
+<tr class="even">
+<td>Average slope</td>
+<td style="text-align: right;">0.30</td>
+</tr>
+<tr class="odd">
+<td>Total elevation gain</td>
+<td style="text-align: right;">0.50</td>
+</tr>
+</tbody>
+</table>
+<p>Trail length was calculated in ArcMap.</p>
+<p>To estimate elevation gain, the team:</p>
+<ol type="1">
+<li>interpolated trail lines using 3D Analyst;</li>
+<li>created elevation profiles;</li>
+<li>exported profile values;</li>
+<li>calculated total elevation gain in Excel;</li>
+<li>divided elevation gain by trail length to estimate average slope;</li>
+<li>ranked each trail by the three factors;</li>
+<li>calculated a weighted final rank;</li>
+<li>returned the result to ArcMap;</li>
+<li>classified trails as easy, moderate, or difficult.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/trail-difficulty.png" class="lightbox" data-gallery="arches-project" title="Final trail-difficulty classification."><img src="images/trail-difficulty.png" class="img-fluid figure-img" alt="Map classifying Arches National Park trails as easy, moderate, or difficult based on length, average slope, and elevation gain."></a></p>
+<figcaption>Final trail-difficulty classification.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="backcountry-campsite-suitability" class="level2">
+<h2 class="anchored" data-anchor-id="backcountry-campsite-suitability">Backcountry Campsite Suitability</h2>
+<p>The group developed a simple suitability analysis for potential backcountry campsites.</p>
+<p>A suitable location needed to:</p>
+<ul>
+<li>be near water;</li>
+<li>have a slope below approximately 8 degrees;</li>
+<li>be away from roads and buildings;</li>
+<li>fall within a wildlife-viewing area.</li>
+</ul>
+<p>The workflow included:</p>
+<ul>
+<li>buffering perennial streams and springs;</li>
+<li>buffering roads and buildings;</li>
+<li>reclassifying slope;</li>
+<li>intersecting water and wildlife-viewing areas;</li>
+<li>excluding locations overlapping roads and buildings;</li>
+<li>converting the remaining candidate area into raster form;</li>
+<li>using Raster Calculator to identify locations meeting the slope and suitability conditions.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/backcountry-camp-suitability.png" class="lightbox" data-gallery="arches-project" title="Potential backcountry campsite areas."><img src="images/backcountry-camp-suitability.png" class="img-fluid figure-img" alt="Suitability map identifying potential backcountry campsites based on water access, low slope, distance from infrastructure, and wildlife-viewing opportunities."></a></p>
+<figcaption>Potential backcountry campsite areas.</figcaption>
+</figure>
+</div>
+</section>
+<section id="wildlife-habitat-and-viewing" class="level2">
+<h2 class="anchored" data-anchor-id="wildlife-habitat-and-viewing">Wildlife Habitat and Viewing</h2>
+<p>The group identified two large wildlife species with mapped habitat intersecting the park:</p>
+<ul>
+<li>chukar;</li>
+<li>desert bighorn sheep.</li>
+</ul>
+<p>Habitat shapefiles were downloaded from the Utah GIS clearinghouse, checked, and clipped to the park boundary.</p>
+<p>The intersect tool was used to identify areas where both habitats overlapped. That combined area was used as a wildlife-viewing zone and contributed to the campsite-suitability analysis.</p>
+<p>The overlap occurred primarily in the lower portion of the park.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/wildlife-viewing-overlap.png" class="lightbox" data-gallery="arches-project" title="Overlapping chukar and desert bighorn sheep habitat."><img src="images/wildlife-viewing-overlap.png" class="img-fluid figure-img" alt="Map showing overlapping chukar and desert bighorn sheep habitat used to identify wildlife-viewing opportunities."></a></p>
+<figcaption>Overlapping chukar and desert bighorn sheep habitat.</figcaption>
+</figure>
+</div>
+</section>
+<section id="demographics-and-transportation" class="level2">
+<h2 class="anchored" data-anchor-id="demographics-and-transportation">Demographics and Transportation</h2>
+<section id="population-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="population-assessment">Population Assessment</h3>
+<p>The team used 2008 TIGER files and Census Summary File 3 data to examine Grand County population characteristics.</p>
+<p>The workflow included:</p>
+<ul>
+<li>downloading county and block-group boundaries;</li>
+<li>converting Summary File 3 data using Dr.&nbsp;Bruce Ralston’s <code>SF3toTablePro</code>;</li>
+<li>joining tabular data to Census geometry;</li>
+<li>calculating area;</li>
+<li>calculating population density;</li>
+<li>mapping total population;</li>
+<li>mapping population by sex;</li>
+<li>mapping population by race.</li>
+</ul>
+<p>These maps were included as part of the broader regional context for the park.</p>
+</section>
+<section id="roads-and-access" class="level3">
+<h3 class="anchored" data-anchor-id="roads-and-access">Roads and Access</h3>
+<p>Road data were analyzed both inside and outside the park.</p>
+<p>Within the park, the transportation data were separated into:</p>
+<ul>
+<li>paved roads;</li>
+<li>four-wheel-drive roads;</li>
+<li>hiking trails.</li>
+</ul>
+<p>County roads were classified into primary, secondary, and local categories using CFCC codes.</p>
+<p>The team created maps of:</p>
+<ul>
+<li>highways and roads near the park;</li>
+<li>nearby railroad lines;</li>
+<li>road density surrounding the park;</li>
+<li>paved-road density inside the park;</li>
+<li>four-wheel-drive road density;</li>
+<li>combined road density.</li>
+</ul>
+<p>The transportation analysis became one of the main inputs to the wilderness assessment.</p>
+</section>
+</section>
+<section id="wilderness-suitability-recommendation" class="level2">
+<h2 class="anchored" data-anchor-id="wilderness-suitability-recommendation">Wilderness Suitability Recommendation</h2>
+<p>The group evaluated three possible options:</p>
+<ol type="1">
+<li>designate the entire park as wilderness;</li>
+<li>designate part of the park as wilderness;</li>
+<li>acquire adjacent land and designate the expansion as wilderness.</li>
+</ol>
+<section id="entire-park" class="level3">
+<h3 class="anchored" data-anchor-id="entire-park">Entire Park</h3>
+<p>The group did not recommend designating the entire park.</p>
+<p>The reasoning included:</p>
+<ul>
+<li>the park’s relatively small size;</li>
+<li>more than 60 miles of paved and unpaved vehicle routes;</li>
+<li>a dense trail network;</li>
+<li>heavy annual visitation;</li>
+<li>established visitor access and recreation.</li>
+</ul>
+</section>
+<section id="part-of-the-park" class="level3">
+<h3 class="anchored" data-anchor-id="part-of-the-park">Part of the Park</h3>
+<p>The group also concluded that no large section within the existing boundary was well suited for designation.</p>
+<p>The southern section included the visitor center and main park road. The northeastern section contained major roads, paved loops, and heavily visited arches. The northwestern section contained the main road, a four-wheel-drive route, and the park campground.</p>
+</section>
+<section id="adjacent-land" class="level3">
+<h3 class="anchored" data-anchor-id="adjacent-land">Adjacent Land</h3>
+<p>The group did not recommend expanding the park to create a new wilderness area.</p>
+<p>Constraints included:</p>
+<ul>
+<li>Interstate 70 to the north;</li>
+<li>Moab to the south;</li>
+<li>Highway 191 and a railroad to the west;</li>
+<li>the Colorado River gorge;</li>
+<li>the need for major bridge construction to cross the gorge;</li>
+<li>potential conflict with established mountain-biking areas and Moab’s recreation economy.</li>
+</ul>
+</section>
+<section id="final-recommendation" class="level3">
+<h3 class="anchored" data-anchor-id="final-recommendation">Final Recommendation</h3>
+<p>The final recommendation was that <strong>Arches National Park should remain managed as a national park rather than being converted, partially designated, or expanded for wilderness designation</strong>.</p>
+</section>
+</section>
+<section id="group-work-and-project-scope" class="level2">
+<h2 class="anchored" data-anchor-id="group-work-and-project-scope">Group Work and Project Scope</h2>
+<p>This was a large group project with many individual analyses, maps, demonstrations, and presentation components.</p>
+<p>I participated in the project’s data preparation, analysis, documentation, presentation, and geodatabase training, but the exact division of labor cannot be reconstructed with confidence from the available materials.</p>
+</section>
+<section id="geodatabase-training" class="level2">
+<h2 class="anchored" data-anchor-id="geodatabase-training">Geodatabase Training</h2>
+<p>In order to bolster my geodatabase skills, I completed three Esri Virtual Campus training related to geodatabases outside of class.</p>
+<p>The training covered:</p>
+<ul>
+<li>the geodatabase data model;</li>
+<li>creating, editing, and managing geodatabases for ArcGIS Desktop;</li>
+<li>geodatabase subtypes and domains.</li>
+</ul>
+<p>One surviving certificate documents completion of <strong>Basics of the Geodatabase Data Model</strong>, a three-hour Esri course completed on January 14, 2009.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/geodb_basics_cert2.png" class="lightbox" data-gallery="arches-project" title="Certificate for completing Esri’s Basics of the Geodatabase Data Model course."><img src="images/geodb_basics_cert2.png" class="img-fluid figure-img" alt="Esri certificate showing completion of Basics of the Geodatabase Data Model on January 14, 2009."></a></p>
+<figcaption>Certificate for completing Esri’s Basics of the Geodatabase Data Model course.</figcaption>
+</figure>
+</div>
+</section>
+<section id="animations-and-3d-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="animations-and-3d-visualization">Animations and 3D Visualization</h2>
+<p>The project also included short 3D animations and flyovers.</p>
+<p>We created three animations using ArcScene and 3D Analyst:</p>
+<ul>
+<li>a southeast-corner flyover;</li>
+<li>a road flyover;</li>
+<li>3D views of the park.</li>
+</ul>
+<p>These animations helped communicate terrain, access, and landscape constraints in ways that were difficult to show in static maps.</p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>This project required a much broader workflow than a single map assignment.</p>
+<p>It provided experience with:</p>
+<ul>
+<li>locating data from multiple clearinghouses;</li>
+<li>organizing a large group data collection;</li>
+<li>checking metadata and coordinate systems;</li>
+<li>converting legacy GIS formats;</li>
+<li>working within software-license limitations;</li>
+<li>creating data from tabular coordinates;</li>
+<li>mosaicking and clipping elevation data;</li>
+<li>deriving slope, aspect, hillshade, and elevation classes;</li>
+<li>building raster-overlay models;</li>
+<li>using viewshed analysis;</li>
+<li>calculating trail difficulty;</li>
+<li>combining vector and raster suitability criteria;</li>
+<li>creating and editing annotation;</li>
+<li>using 3D Analyst;</li>
+<li>communicating a final management recommendation.</li>
+</ul>
+<p>The project also demonstrated that data preparation often consumes as much time as the visible analysis.</p>
+</section>
+<section id="looking-back" class="level2">
+<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
+<p>This was one of the largest and most ambitious projects from my GIS certificate program.</p>
+<p>Its scope was much broader than I would recommend for a single modern portfolio page, so this reconstruction focuses on the major workflows and representative outputs rather than reproducing every map and presentation slide.</p>
+<p>Several limitations are clear in retrospect:</p>
+<ul>
+<li>the original assignment instructions are missing;</li>
+<li>the individual division of labor is not fully documented;</li>
+<li>some analytical criteria were simplified;</li>
+<li>several models relied on categorical ranks rather than validated predictive relationships;</li>
+<li>the demographic analysis included variables that were not central to the final wilderness question;</li>
+<li>some data sources and software tools are now obsolete;</li>
+<li>the wilderness recommendation reflected the project’s assumptions and available evidence rather than a formal National Park Service planning process.</li>
+</ul>
+<p>Even with those limitations, the project remains valuable because it shows an early attempt to integrate data management, environmental analysis, recreation planning, cartography, and decision support within one coordinated GIS workflow.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

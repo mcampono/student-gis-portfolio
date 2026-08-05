@@ -25,8 +25,8 @@ tools:
   - Spatial Analyst
   - 3D Analyst
   - Microsoft Excel
-image: "images/wilderness-assessment.png"
-image-alt: "Map or presentation graphic summarizing the wilderness suitability assessment for Arches National Park."
+image: "image/fire_hazard-model.png"
+image-alt: "Composite fire-hazard model for Arches National Park combining vegetation, slope, elevation, and aspect."
 featured: false
 tier: 2
 toc: true
@@ -38,7 +38,7 @@ lightbox: true
 
 This group project was completed for **GIS 110: Geodatabase** at Roane State Community College during spring 2009.
 
-The surviving materials indicate that the project combined geodatabase preparation, resource-management analysis, cartography, raster modeling, vector analysis, demographic assessment, and 3D visualization to evaluate whether land within or adjacent to **Arches National Park** should be considered for wilderness designation.
+The project combined geodatabase preparation, resource-management analysis, cartography, raster modeling, vector analysis, demographic assessment, and 3D visualization to evaluate whether land within or adjacent to **Arches National Park** should be considered for wilderness designation.
 
 The original assignment instructions have not survived. The purpose and workflow described here were reconstructed from the group report, a 91-slide presentation, project notes, maps, animations, and training records.
 
@@ -50,17 +50,10 @@ The project was completed by:
 
 The final recommendation was that neither the existing park nor adjacent land was a strong candidate for wilderness designation because of roads, trails, heavy visitation, surrounding infrastructure, terrain, access limitations, and conflicts with established recreation.
 
-<!--
-Replace the filename below once a representative image has been selected.
-
-![Overview of the Arches National Park wilderness assessment.](images/wilderness-assessment.png){.lightbox group="arches-project" fig-alt="Map or presentation graphic summarizing the wilderness assessment for Arches National Park."}
--->
 
 ## Reconstructing the Assignment
 
-The original project prompt is no longer available, so the exact assignment language cannot be reproduced.
-
-The surviving report and presentation make several things clear:
+Though the original project prompt is no longer available, the surviving report and presentation make several things clear:
 
 - the class focused on geodatabases and data management;
 - the team selected Arches National Park as the study area;
@@ -134,11 +127,6 @@ The resulting maps distinguished perennial and intermittent streams and washes.
 
 The assessment concluded that most mapped channels were dry washes or carried seasonal runoff after heavy rain or snowmelt. The Colorado River formed part of the park boundary but was not readily accessible from inside the park.
 
-<!--
-Suggested hydrology image:
-
-![Hydrology and washes within Arches National Park.](images/hydrology.png){.lightbox group="arches-project" fig-alt="Map of perennial and intermittent streams, washes, and the Colorado River near Arches National Park."}
--->
 
 ### DEM Preparation
 
@@ -155,17 +143,10 @@ The workflow included:
 
 The elevation raster was reclassified into 500-foot categories. Cell counts were converted into square meters and then acres, and the results were exported to Excel for charting.
 
-<!--
-Suggested DEM images:
 
-::: {layout-ncol=2}
+![Area represented by different elevation classes.](images/elevation-map.png){.lightbox group="arches-project" fig-alt="Map showing reclassified elevation categories within Arches National Park."}
 
-![Hillshade and elevation model for Arches National Park.](images/dem-hillshade.png){.lightbox group="arches-project" fig-alt="Hillshade or elevation map created from a mosaic of nine digital elevation models covering Arches National Park."}
 
-![Area represented by different elevation classes.](images/elevation-classes.png){.lightbox group="arches-project" fig-alt="Map or chart showing reclassified elevation categories within Arches National Park."}
-
-:::
--->
 
 ## Fire Hazard Model
 
@@ -217,21 +198,10 @@ The resulting values ranged from 4 to 10 and were then classified using the Jenk
 - medium fire risk;
 - high fire risk.
 
-<!--
-Suggested fire model gallery:
 
-::: {layout-ncol=2}
+![Final low, medium, and high fire-hazard classes.](images\fire_hazard-model.png){.lightbox group="arches-project" fig-alt="Final fire-hazard map created by combining slope, elevation, aspect, and vegetation flammability."}
 
-![Slope categories used in the fire-hazard model.](images/fire-slope.png){.lightbox group="arches-project" fig-alt="Reclassified slope categories used in the Arches National Park fire-hazard model."}
 
-![Aspect categories used in the fire-hazard model.](images/fire-aspect.png){.lightbox group="arches-project" fig-alt="Reclassified terrain aspect categories used in the Arches National Park fire-hazard model."}
-
-![Elevation categories used in the fire-hazard model.](images/fire-elevation.png){.lightbox group="arches-project" fig-alt="Reclassified elevation categories used in the Arches National Park fire-hazard model."}
-
-![Final low, medium, and high fire-hazard classes.](images/fire-hazard.png){.lightbox group="arches-project" fig-alt="Final fire-hazard map created by combining slope, elevation, aspect, and vegetation flammability."}
-
-:::
--->
 
 ## Viewshed and Fire-Tower Analysis
 
@@ -250,11 +220,9 @@ Three viewsheds were created and compared.
 
 The analysis concluded that **Elephant Butte** provided the broadest visible area and was the strongest candidate location among the three summits.
 
-<!--
-Suggested viewshed image:
 
 ![Comparison of candidate fire-tower viewsheds.](images/viewshed-analysis.png){.lightbox group="arches-project" fig-alt="Viewshed comparison for three summit locations in Arches National Park, with Elephant Butte providing the greatest coverage."}
--->
+
 
 ## Trails and Recreation
 
@@ -298,17 +266,10 @@ To estimate elevation gain, the team:
 8. returned the result to ArcMap;
 9. classified trails as easy, moderate, or difficult.
 
-<!--
-Suggested trail gallery:
 
-::: {layout-ncol=2}
-
-![Trail density within Arches National Park.](images/trail-density.png){.lightbox group="arches-project" fig-alt="Map showing trail density within Arches National Park."}
 
 ![Final trail-difficulty classification.](images/trail-difficulty.png){.lightbox group="arches-project" fig-alt="Map classifying Arches National Park trails as easy, moderate, or difficult based on length, average slope, and elevation gain."}
 
-:::
--->
 
 ## Backcountry Campsite Suitability
 
@@ -331,11 +292,8 @@ The workflow included:
 - converting the remaining candidate area into raster form;
 - using Raster Calculator to identify locations meeting the slope and suitability conditions.
 
-<!--
-Suggested campsite image:
+![Potential backcountry campsite areas.](images/backcountry-camp-suitability.png){.lightbox group="arches-project" fig-alt="Suitability map identifying potential backcountry campsites based on water access, low slope, distance from infrastructure, and wildlife-viewing opportunities."}
 
-![Potential backcountry campsite areas.](images/backcountry-campsites.png){.lightbox group="arches-project" fig-alt="Suitability map identifying potential backcountry campsites based on water access, low slope, distance from infrastructure, and wildlife-viewing opportunities."}
--->
 
 ## Wildlife Habitat and Viewing
 
@@ -350,17 +308,10 @@ The intersect tool was used to identify areas where both habitats overlapped. Th
 
 The overlap occurred primarily in the lower portion of the park.
 
-<!--
-Suggested wildlife gallery:
 
-::: {layout-ncol=2}
 
-![Desert bighorn sheep habitat within the park.](images/bighorn-habitat.png){.lightbox group="arches-project" fig-alt="Map of desert bighorn sheep habitat within Arches National Park."}
+![Overlapping chukar and desert bighorn sheep habitat.](images/wildlife-viewing-overlap.png){.lightbox group="arches-project" fig-alt="Map showing overlapping chukar and desert bighorn sheep habitat used to identify wildlife-viewing opportunities."}
 
-![Overlapping chukar and desert bighorn sheep habitat.](images/wildlife-overlap.png){.lightbox group="arches-project" fig-alt="Map showing overlapping chukar and desert bighorn sheep habitat used to identify wildlife-viewing opportunities."}
-
-:::
--->
 
 ## Demographics and Transportation
 
@@ -404,17 +355,6 @@ The team created maps of:
 
 The transportation analysis became one of the main inputs to the wilderness assessment.
 
-<!--
-Suggested transportation gallery:
-
-::: {layout-ncol=2}
-
-![Roads and highways surrounding Arches National Park.](images/regional-roads.png){.lightbox group="arches-project" fig-alt="Map of highways, local roads, and railroad infrastructure surrounding Arches National Park."}
-
-![Combined road density within Arches National Park.](images/road-density.png){.lightbox group="arches-project" fig-alt="Map showing the density of paved and four-wheel-drive roads within Arches National Park."}
-
-:::
--->
 
 ## Wilderness Suitability Recommendation
 
@@ -459,27 +399,18 @@ Constraints included:
 
 The final recommendation was that **Arches National Park should remain managed as a national park rather than being converted, partially designated, or expanded for wilderness designation**.
 
-<!--
-Suggested final recommendation image:
-
-![Final wilderness assessment for Arches National Park.](images/wilderness-assessment.png){.lightbox group="arches-project" fig-alt="Final project graphic concluding that neither the existing park nor adjacent land was a preferred candidate for wilderness designation."}
--->
 
 ## Group Work and Project Scope
 
 This was a large group project with many individual analyses, maps, demonstrations, and presentation components.
 
-The surviving report and presentation identify the team members but do not consistently document which person completed each individual map or analytical section.
-
-For that reason, this portfolio presents the project as a **group product** rather than assigning undocumented individual credit.
-
-My surviving files show that I participated in the project’s data preparation, analysis, documentation, presentation, and geodatabase training, but the exact division of labor cannot be reconstructed with confidence from the available materials.
+I participated in the project’s data preparation, analysis, documentation, presentation, and geodatabase training, but the exact division of labor cannot be reconstructed with confidence from the available materials.
 
 ## Geodatabase Training
 
-The course included Esri Virtual Campus training related to geodatabases.
+In order to bolster my geodatabase skills, I completed three Esri Virtual Campus training related to geodatabases outside of class.
 
-I remember completing modules covering:
+The training covered:
 
 - the geodatabase data model;
 - creating, editing, and managing geodatabases for ArcGIS Desktop;
@@ -487,17 +418,15 @@ I remember completing modules covering:
 
 One surviving certificate documents completion of **Basics of the Geodatabase Data Model**, a three-hour Esri course completed on January 14, 2009.
 
-<!--
-Suggested certificate image:
 
-![Certificate for completing Esri's Basics of the Geodatabase Data Model course.](images/geodatabase-certificate.png){.lightbox group="arches-project" fig-alt="Esri certificate showing completion of Basics of the Geodatabase Data Model on January 14, 2009."}
--->
+![Certificate for completing Esri's Basics of the Geodatabase Data Model course.](images/geodb_basics_cert2.png){.lightbox group="arches-project" fig-alt="Esri certificate showing completion of Basics of the Geodatabase Data Model on January 14, 2009."}
+
 
 ## Animations and 3D Visualization
 
 The project also included short 3D animations and flyovers.
 
-The presentation references:
+We created three animations using ArcScene and 3D Analyst:
 
 - a southeast-corner flyover;
 - a road flyover;
@@ -505,23 +434,6 @@ The presentation references:
 
 These animations helped communicate terrain, access, and landscape constraints in ways that were difficult to show in static maps.
 
-<!--
-Add video files after converting or reviewing the original animations.
-
-### Southeast Park Flyover
-
-<video controls width="100%">
-  <source src="animations/southeast-flyover.mp4" type="video/mp4">
-  Your browser does not support embedded video.
-</video>
-
-### Road Flyover
-
-<video controls width="100%">
-  <source src="animations/road-flyover.mp4" type="video/mp4">
-  Your browser does not support embedded video.
-</video>
--->
 
 ## What I Learned
 

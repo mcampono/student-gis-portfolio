@@ -168,6 +168,125 @@
     "text": "Looking Back\nThis course remains one of the most enjoyable and influential parts of my graduate education. It gave me space to concentrate on the final deliverable, experiment with multiple versions of the same idea, and receive detailed feedback from peers and the instructor.\nThe surviving projects document more than finished maps. They show a process of sketching, testing, revising, comparing, and refining. That process continues to shape how I approach cartography, visual communication, and the way I teach students to evaluate their own work."
   },
   {
+    "objectID": "projects/arches-national-park/index.html",
+    "href": "projects/arches-national-park/index.html",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "",
+    "text": "This group project was completed for GIS 110: Geodatabase at Roane State Community College during spring 2009.\nThe project combined geodatabase preparation, resource-management analysis, cartography, raster modeling, vector analysis, demographic assessment, and 3D visualization to evaluate whether land within or adjacent to Arches National Park should be considered for wilderness designation.\nThe original assignment instructions have not survived. The purpose and workflow described here were reconstructed from the group report, a 91-slide presentation, project notes, maps, animations, and training records.\nThe project was completed by:\n\nR. Bumbalough;\nM. Camponovo;\nD. Soafer.\n\nThe final recommendation was that neither the existing park nor adjacent land was a strong candidate for wilderness designation because of roads, trails, heavy visitation, surrounding infrastructure, terrain, access limitations, and conflicts with established recreation."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#project-overview",
+    "href": "projects/arches-national-park/index.html#project-overview",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "",
+    "text": "This group project was completed for GIS 110: Geodatabase at Roane State Community College during spring 2009.\nThe project combined geodatabase preparation, resource-management analysis, cartography, raster modeling, vector analysis, demographic assessment, and 3D visualization to evaluate whether land within or adjacent to Arches National Park should be considered for wilderness designation.\nThe original assignment instructions have not survived. The purpose and workflow described here were reconstructed from the group report, a 91-slide presentation, project notes, maps, animations, and training records.\nThe project was completed by:\n\nR. Bumbalough;\nM. Camponovo;\nD. Soafer.\n\nThe final recommendation was that neither the existing park nor adjacent land was a strong candidate for wilderness designation because of roads, trails, heavy visitation, surrounding infrastructure, terrain, access limitations, and conflicts with established recreation."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#reconstructing-the-assignment",
+    "href": "projects/arches-national-park/index.html#reconstructing-the-assignment",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Reconstructing the Assignment",
+    "text": "Reconstructing the Assignment\nThough the original project prompt is no longer available, the surviving report and presentation make several things clear:\n\nthe class focused on geodatabases and data management;\nthe team selected Arches National Park as the study area;\nthe work required locating, converting, documenting, and organizing GIS data;\nthe group completed several environmental, recreation, infrastructure, and demographic analyses;\nthe analyses were used to support a final wilderness-management recommendation.\n\nThe group selected Arches National Park because each member had visited the park and because GIS data were available through the National Park Service and the Utah GIS clearinghouse."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#building-and-managing-the-data",
+    "href": "projects/arches-national-park/index.html#building-and-managing-the-data",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Building and Managing the Data",
+    "text": "Building and Managing the Data\nData preparation was a major part of the project.\nThe group collected data from sources including:\n\nthe National Park Service GIS data server;\nthe Utah GIS clearinghouse;\nthe U.S. Census Bureau;\nEsri TIGER data;\nthe Geographic Names Information System;\nthe Federal Communications Commission;\nGIS Data Depot;\nother web-based GIS resources.\n\nThe team identified the appropriate 1:24,000 quadrangles, downloaded park and county data, reviewed metadata, checked coordinate systems, and organized the material into a usable project structure.\n\nConverting Legacy GIS Formats\nSome National Park Service data were stored as ArcInfo interchange files with the .e00 extension.\nBecause the group did not have access to ArcEditor or ArcInfo, the files were converted using:\n\nEsri Import 71;\nogr2ogr through FWTools;\ninstructions from Free Geography Tools.\n\nThis allowed the data to be used in ArcView and ArcMap.\n\n\nMetadata and Coordinate Systems\nThe project data used several coordinate systems, including:\n\nNAD 83;\nNAD 27;\nGCS Clarke 1866.\n\nThe team checked projections and metadata in ArcCatalog, imported XML metadata where necessary, and used Define Projection when coordinate-system information was missing.\nThe working notes document difficulties converting some coverage data because of software-license limitations. That problem became part of the project’s data-management learning process.\n\n\nCreating New Data\nThe team also created point data from tabular sources.\nFor example, FCC antenna records were collected in Microsoft Excel and converted from latitude and longitude into XY point data for possible viewshed analysis."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#water-and-terrain-assessment",
+    "href": "projects/arches-national-park/index.html#water-and-terrain-assessment",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Water and Terrain Assessment",
+    "text": "Water and Terrain Assessment\n\nHydrology\nHydrography data were downloaded from the National Park Service and converted from .e00 format into shapefiles.\nThe team compared two sources:\n\ncounty hydrography, which contained stream names but less spatial detail;\nNational Park Service hydrography, which contained more detailed geometry but lacked names.\n\nTo combine the strengths of both sources, the county stream labels were converted to annotation and then edited to align with the more detailed park hydrography.\nThe resulting maps distinguished perennial and intermittent streams and washes.\nThe assessment concluded that most mapped channels were dry washes or carried seasonal runoff after heavy rain or snowmelt. The Colorado River formed part of the park boundary but was not readily accessible from inside the park.\n\n\nDEM Preparation\nNine digital elevation model tiles were used to represent the park and surrounding area.\nThe workflow included:\n\nidentifying quadrangles intersecting the park;\ndownloading DEM files;\nconverting the source data;\nmosaicking the DEMs;\nclipping the mosaic to the park boundary;\ncreating hillshade, slope, aspect, and elevation derivatives.\n\nThe elevation raster was reclassified into 500-foot categories. Cell counts were converted into square meters and then acres, and the results were exported to Excel for charting.\n\n\n\nArea represented by different elevation classes."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#fire-hazard-model",
+    "href": "projects/arches-national-park/index.html#fire-hazard-model",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Fire Hazard Model",
+    "text": "Fire Hazard Model\nThe group developed a fire-hazard model using four variables:\n\nslope;\nelevation;\naspect;\nvegetation flammability.\n\nThe model parameters were informed by online research and an Oregon Forest Service fire-hazard approach.\n\nSlope\nSlope was reclassified into three categories:\n\n0–25%;\n26–40%;\ngreater than 40%.\n\n\n\nElevation\nElevation was reclassified as:\n\nbelow 3,500 feet;\n3,500–5,000 feet;\nabove 5,000 feet.\n\n\n\nAspect\nAspect was grouped into:\n\nflat;\nnorth, northwest, and northeast;\neast and west;\nsouth, southwest, and southeast.\n\n\n\nVegetation\nCounty vegetation data were clipped to the park boundary. Vegetation classes were assigned flammability ratings and converted from polygons to raster cells.\n\n\nCombining the Variables\nThe four reclassified rasters were summed in Raster Calculator.\nThe resulting values ranged from 4 to 10 and were then classified using the Jenks method into:\n\nlow fire risk;\nmedium fire risk;\nhigh fire risk.\n\n\n\n\nFinal low, medium, and high fire-hazard classes."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#viewshed-and-fire-tower-analysis",
+    "href": "projects/arches-national-park/index.html#viewshed-and-fire-tower-analysis",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Viewshed and Fire-Tower Analysis",
+    "text": "Viewshed and Fire-Tower Analysis\nThe group used the DEM and Geographic Names Information System summit data to evaluate possible fire-tower locations.\nGNIS records were imported into Excel, processed, exported as a comma-delimited file, and converted into GIS points.\nThe team selected summits within Utah and then limited the analysis to summits inside the park boundary. Three candidate summits were identified.\nA field was added to account for:\n\nground elevation;\na 40-foot vertical offset representing the height of a possible fire tower.\n\nThree viewsheds were created and compared.\nThe analysis concluded that Elephant Butte provided the broadest visible area and was the strongest candidate location among the three summits.\n\n\n\nComparison of candidate fire-tower viewsheds."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#trails-and-recreation",
+    "href": "projects/arches-national-park/index.html#trails-and-recreation",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Trails and Recreation",
+    "text": "Trails and Recreation\n\nTrail Mapping\nTrail data were extracted from a transportation layer that also included paved roads and four-wheel-drive routes.\nBecause the park was too large to display clearly on one layout, the team divided it into three mapping sections:\n\nnortheast;\nnorthwest;\nsoutheast.\n\nLabels were converted to annotation and edited for readability.\n\n\nTrail Density\nThe Spatial Analyst density tool was used to calculate the concentration of trails across the park.\n\n\nTrail Difficulty\nTrail difficulty was based on three weighted factors:\n\n\n\nFactor\nWeight\n\n\n\n\nTrail length\n0.20\n\n\nAverage slope\n0.30\n\n\nTotal elevation gain\n0.50\n\n\n\nTrail length was calculated in ArcMap.\nTo estimate elevation gain, the team:\n\ninterpolated trail lines using 3D Analyst;\ncreated elevation profiles;\nexported profile values;\ncalculated total elevation gain in Excel;\ndivided elevation gain by trail length to estimate average slope;\nranked each trail by the three factors;\ncalculated a weighted final rank;\nreturned the result to ArcMap;\nclassified trails as easy, moderate, or difficult.\n\n\n\n\nFinal trail-difficulty classification."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#backcountry-campsite-suitability",
+    "href": "projects/arches-national-park/index.html#backcountry-campsite-suitability",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Backcountry Campsite Suitability",
+    "text": "Backcountry Campsite Suitability\nThe group developed a simple suitability analysis for potential backcountry campsites.\nA suitable location needed to:\n\nbe near water;\nhave a slope below approximately 8 degrees;\nbe away from roads and buildings;\nfall within a wildlife-viewing area.\n\nThe workflow included:\n\nbuffering perennial streams and springs;\nbuffering roads and buildings;\nreclassifying slope;\nintersecting water and wildlife-viewing areas;\nexcluding locations overlapping roads and buildings;\nconverting the remaining candidate area into raster form;\nusing Raster Calculator to identify locations meeting the slope and suitability conditions.\n\n\n\n\nPotential backcountry campsite areas."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#wildlife-habitat-and-viewing",
+    "href": "projects/arches-national-park/index.html#wildlife-habitat-and-viewing",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Wildlife Habitat and Viewing",
+    "text": "Wildlife Habitat and Viewing\nThe group identified two large wildlife species with mapped habitat intersecting the park:\n\nchukar;\ndesert bighorn sheep.\n\nHabitat shapefiles were downloaded from the Utah GIS clearinghouse, checked, and clipped to the park boundary.\nThe intersect tool was used to identify areas where both habitats overlapped. That combined area was used as a wildlife-viewing zone and contributed to the campsite-suitability analysis.\nThe overlap occurred primarily in the lower portion of the park.\n\n\n\nOverlapping chukar and desert bighorn sheep habitat."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#demographics-and-transportation",
+    "href": "projects/arches-national-park/index.html#demographics-and-transportation",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Demographics and Transportation",
+    "text": "Demographics and Transportation\n\nPopulation Assessment\nThe team used 2008 TIGER files and Census Summary File 3 data to examine Grand County population characteristics.\nThe workflow included:\n\ndownloading county and block-group boundaries;\nconverting Summary File 3 data using Dr. Bruce Ralston’s SF3toTablePro;\njoining tabular data to Census geometry;\ncalculating area;\ncalculating population density;\nmapping total population;\nmapping population by sex;\nmapping population by race.\n\nThese maps were included as part of the broader regional context for the park.\n\n\nRoads and Access\nRoad data were analyzed both inside and outside the park.\nWithin the park, the transportation data were separated into:\n\npaved roads;\nfour-wheel-drive roads;\nhiking trails.\n\nCounty roads were classified into primary, secondary, and local categories using CFCC codes.\nThe team created maps of:\n\nhighways and roads near the park;\nnearby railroad lines;\nroad density surrounding the park;\npaved-road density inside the park;\nfour-wheel-drive road density;\ncombined road density.\n\nThe transportation analysis became one of the main inputs to the wilderness assessment."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#wilderness-suitability-recommendation",
+    "href": "projects/arches-national-park/index.html#wilderness-suitability-recommendation",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Wilderness Suitability Recommendation",
+    "text": "Wilderness Suitability Recommendation\nThe group evaluated three possible options:\n\ndesignate the entire park as wilderness;\ndesignate part of the park as wilderness;\nacquire adjacent land and designate the expansion as wilderness.\n\n\nEntire Park\nThe group did not recommend designating the entire park.\nThe reasoning included:\n\nthe park’s relatively small size;\nmore than 60 miles of paved and unpaved vehicle routes;\na dense trail network;\nheavy annual visitation;\nestablished visitor access and recreation.\n\n\n\nPart of the Park\nThe group also concluded that no large section within the existing boundary was well suited for designation.\nThe southern section included the visitor center and main park road. The northeastern section contained major roads, paved loops, and heavily visited arches. The northwestern section contained the main road, a four-wheel-drive route, and the park campground.\n\n\nAdjacent Land\nThe group did not recommend expanding the park to create a new wilderness area.\nConstraints included:\n\nInterstate 70 to the north;\nMoab to the south;\nHighway 191 and a railroad to the west;\nthe Colorado River gorge;\nthe need for major bridge construction to cross the gorge;\npotential conflict with established mountain-biking areas and Moab’s recreation economy.\n\n\n\nFinal Recommendation\nThe final recommendation was that Arches National Park should remain managed as a national park rather than being converted, partially designated, or expanded for wilderness designation."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#group-work-and-project-scope",
+    "href": "projects/arches-national-park/index.html#group-work-and-project-scope",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Group Work and Project Scope",
+    "text": "Group Work and Project Scope\nThis was a large group project with many individual analyses, maps, demonstrations, and presentation components.\nI participated in the project’s data preparation, analysis, documentation, presentation, and geodatabase training, but the exact division of labor cannot be reconstructed with confidence from the available materials."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#geodatabase-training",
+    "href": "projects/arches-national-park/index.html#geodatabase-training",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Geodatabase Training",
+    "text": "Geodatabase Training\nIn order to bolster my geodatabase skills, I completed three Esri Virtual Campus training related to geodatabases outside of class.\nThe training covered:\n\nthe geodatabase data model;\ncreating, editing, and managing geodatabases for ArcGIS Desktop;\ngeodatabase subtypes and domains.\n\nOne surviving certificate documents completion of Basics of the Geodatabase Data Model, a three-hour Esri course completed on January 14, 2009.\n\n\n\nCertificate for completing Esri’s Basics of the Geodatabase Data Model course."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#animations-and-3d-visualization",
+    "href": "projects/arches-national-park/index.html#animations-and-3d-visualization",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Animations and 3D Visualization",
+    "text": "Animations and 3D Visualization\nThe project also included short 3D animations and flyovers.\nWe created three animations using ArcScene and 3D Analyst:\n\na southeast-corner flyover;\na road flyover;\n3D views of the park.\n\nThese animations helped communicate terrain, access, and landscape constraints in ways that were difficult to show in static maps."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#what-i-learned",
+    "href": "projects/arches-national-park/index.html#what-i-learned",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project required a much broader workflow than a single map assignment.\nIt provided experience with:\n\nlocating data from multiple clearinghouses;\norganizing a large group data collection;\nchecking metadata and coordinate systems;\nconverting legacy GIS formats;\nworking within software-license limitations;\ncreating data from tabular coordinates;\nmosaicking and clipping elevation data;\nderiving slope, aspect, hillshade, and elevation classes;\nbuilding raster-overlay models;\nusing viewshed analysis;\ncalculating trail difficulty;\ncombining vector and raster suitability criteria;\ncreating and editing annotation;\nusing 3D Analyst;\ncommunicating a final management recommendation.\n\nThe project also demonstrated that data preparation often consumes as much time as the visible analysis."
+  },
+  {
+    "objectID": "projects/arches-national-park/index.html#looking-back",
+    "href": "projects/arches-national-park/index.html#looking-back",
+    "title": "Arches National Park Wilderness Assessment",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis was one of the largest and most ambitious projects from my GIS certificate program.\nIts scope was much broader than I would recommend for a single modern portfolio page, so this reconstruction focuses on the major workflows and representative outputs rather than reproducing every map and presentation slide.\nSeveral limitations are clear in retrospect:\n\nthe original assignment instructions are missing;\nthe individual division of labor is not fully documented;\nsome analytical criteria were simplified;\nseveral models relied on categorical ranks rather than validated predictive relationships;\nthe demographic analysis included variables that were not central to the final wilderness question;\nsome data sources and software tools are now obsolete;\nthe wilderness recommendation reflected the project’s assumptions and available evidence rather than a formal National Park Service planning process.\n\nEven with those limitations, the project remains valuable because it shows an early attempt to integrate data management, environmental analysis, recreation planning, cartography, and decision support within one coordinated GIS workflow."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Student GIS Portfolio",

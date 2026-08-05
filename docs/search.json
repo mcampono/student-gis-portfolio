@@ -840,6 +840,153 @@
     "text": "Looking Back\nThis project is one of the clearest early examples of the kind of applied GIS work that later became central to my professional practice.\nRather than beginning with a supplied dataset and a prescribed series of tools, I had to determine:\n\nwhat information the organization needed;\nhow it could be collected;\nhow it should be organized;\nhow different audiences would use it;\nhow the finished products could remain accessible after the project ended.\n\nSeveral aspects would be handled differently today. A modern workflow might use mobile GIS applications, hosted feature layers, attachments rather than local photo paths, authoritative parcel services, and web maps instead of published desktop map files.\nEven so, the project already contained the core elements of a modern facilities inventory: field collection, structured asset data, controlled attributes, photographs, metadata, multiple user products, and long-term maintenance planning."
   },
   {
+    "objectID": "projects/cumberland-trail/index.html",
+    "href": "projects/cumberland-trail/index.html",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "",
+    "text": "This collaborative project was completed for GIS 230: Project Management at Roane State Community College during spring 2009.\nThe class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.\nThe project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.\nThe team:\n\nscoped the project;\nevaluated feasibility;\nassigned formal roles;\ncreated a schedule;\nstandardized field procedures;\nconducted backpacking data-collection trips;\ncollected GPS waypoints and photographs;\ndocumented attributes and measurements;\nimported and managed the data;\ntracked progress, hours, and costs;\nprepared metadata;\nconducted quality assurance;\ndelivered project files, maps, reports, and a presentation.\n\nMy documented responsibilities included serving as a report writer, secretary, feasibility-study lead, and GPS data collector.\n\n\n\nCollecting a GPS waypoint and field notes for a trail sign."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#project-overview",
+    "href": "projects/cumberland-trail/index.html#project-overview",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "",
+    "text": "This collaborative project was completed for GIS 230: Project Management at Roane State Community College during spring 2009.\nThe class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.\nThe project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.\nThe team:\n\nscoped the project;\nevaluated feasibility;\nassigned formal roles;\ncreated a schedule;\nstandardized field procedures;\nconducted backpacking data-collection trips;\ncollected GPS waypoints and photographs;\ndocumented attributes and measurements;\nimported and managed the data;\ntracked progress, hours, and costs;\nprepared metadata;\nconducted quality assurance;\ndelivered project files, maps, reports, and a presentation.\n\nMy documented responsibilities included serving as a report writer, secretary, feasibility-study lead, and GPS data collector.\n\n\n\nCollecting a GPS waypoint and field notes for a trail sign."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#client-and-project-need",
+    "href": "projects/cumberland-trail/index.html#client-and-project-need",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Client and Project Need",
+    "text": "Client and Project Need\nFrozen Head State Park contains an extensive network of trails used by hikers, horseback riders, and mountain bikers.\nThe project client needed an inventory of infrastructure and natural features located along those trails. The data were intended to supplement an existing geodatabase maintained by park staff.\nThe planned inventory included:\n\nGPS locations;\ndigital photographs;\nfeature descriptions;\nmeasurements;\nelevation;\npositional error;\ncomments and unusual observations;\ndata suitable for transfer into the existing geodatabase.\n\nThe Cumberland Trail presented a particular challenge because portions shown on available maps were incomplete, closed, difficult to access, or not evident on the ground."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#course-and-project-management-requirements",
+    "href": "projects/cumberland-trail/index.html#course-and-project-management-requirements",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Course and Project-Management Requirements",
+    "text": "Course and Project-Management Requirements\nGIS 230 was designed to prepare students to complete independent work in GIS 290.\nThe course emphasized:\n\nplanning and completing a real-world GIS project;\nproject scoping;\nrole assignment;\nscheduling;\nmetadata documentation;\n3D visualization;\nprogress reporting;\npresentation and delivery.\n\nThe group assignment required:\n\na team leader;\ndocumentation management;\npresentation development;\nreport writing;\nquality assurance;\nGIS technical work;\nat least one spatial analysis;\nat least one 3D visualization;\nweekly progress reports;\na final report;\na PowerPoint presentation.\n\nThe project therefore evaluated both the GIS work and the team’s ability to manage time, responsibilities, data, and client expectations."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#feasibility-study",
+    "href": "projects/cumberland-trail/index.html#feasibility-study",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Feasibility Study",
+    "text": "Feasibility Study\nOne of my primary assignments was preparing the project feasibility study.\nThe study evaluated whether the team could realistically collect detailed data along the park’s trail network within the available semester.\n\nMain Constraints\nThe study identified several concerns:\n\nthe park contained more than 80 miles of trails;\nthe project began late because weather delayed the initial client meeting;\nwet winter and spring conditions could prevent photography;\naccess by service road, ATV, or park vehicle was not available;\nall fieldwork had to be completed on foot;\ncanopy cover could affect GPS collection;\nthe semester allowed only a limited period for data collection and quality assurance.\n\nThe study concluded that collecting every trail was unlikely.\nThe recommended strategy was to:\n\nprioritize trails;\nbegin fieldwork as quickly as possible;\ndocument areas that were completed;\ndocument trails still needing work;\navoid future duplication by preserving clear collection records.\n\nThis was an important project-management decision. The feasibility study did not simply ask whether the project was desirable; it assessed what could reasonably be completed with the available people, equipment, weather, access, and time."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#team-organization",
+    "href": "projects/cumberland-trail/index.html#team-organization",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Team Organization",
+    "text": "Team Organization\nThe class assigned formal roles during its first project meeting.\nRoles included:\n\nproject manager and accounting;\nGPS data collection;\npresentation development;\nreport writing and secretarial work;\nanalysis and quality assurance;\nrecord and data management;\nfile storage and backup;\ninternet data collection.\n\nI served as:\n\nreport writer;\nsecretary;\nGPS data collector;\nlead writer for the feasibility study.\n\nThe project’s meeting records document these assignments and the way responsibilities changed as the work progressed."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#meeting-minutes-and-project-documentation",
+    "href": "projects/cumberland-trail/index.html#meeting-minutes-and-project-documentation",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Meeting Minutes and Project Documentation",
+    "text": "Meeting Minutes and Project Documentation\nAs secretary, I prepared meeting minutes documenting project decisions and progress.\nThe minutes recorded items such as:\n\npersonnel assignments;\nclient questions;\navailable GPS receivers and cameras;\nfile-management procedures;\nbackup expectations;\nnaming conventions;\ncoordinate standards;\npilot-study requirements;\ntime sheets;\nbudget totals;\ncollection-trip plans;\ndue dates;\nproject-creep concerns;\ndata-quality instructions.\n\nThe records show the project evolving from an initial assignment into a coordinated field operation.\nFor example, early meetings focused on defining responsibilities and preparing questions for the client. Later meetings addressed coordinate formatting, pilot data, quality assurance, cost tracking, and fieldwork progress."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#field-collection-standards",
+    "href": "projects/cumberland-trail/index.html#field-collection-standards",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Field-Collection Standards",
+    "text": "Field-Collection Standards\nThe team created a standardized procedure so that data collected by different crews and different GPS units could be combined.\n\nCoordinate and Projection Standards\nGPS units were configured to use:\n\nNAD 83;\ndecimal degrees.\n\nFinal data were projected to:\n\nNAD 83;\nTennessee State Plane;\nFIPS 4100;\nfeet.\n\n\n\nPoint Collection\nA waypoint was created for each manmade or natural feature included in the inventory.\nEach waypoint was averaged for approximately 60 seconds when the GPS equipment supported point averaging.\n\n\nNaming Convention\nWaypoint names used:\n\nthe collector’s first and last initials;\na three-digit sequential number.\n\nExample:\nMC012\nPhotographs were assigned matching identifiers so they could be linked to the corresponding feature.\n\n\n\nPhotographs organized using the same identifiers as their corresponding GPS features.\n\n\n\n\nField Records\nThe standard collection sheet included:\n\npoint ID;\ndescription;\nlatitude;\nlongitude;\nelevation;\nassociated positional error;\npicture ID;\nmeasurements;\ncomments.\n\nThe team was instructed to retain coordinate precision to five decimal places and to use positive and negative coordinate values rather than directional letters when preparing data for Excel and ArcMap.\nHandwritten field notes were transferred into a standardized spreadsheet so records from different collection teams could be combined consistently.\n\n\n\nData collection spreadsheet created from handwritten field notes."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#backpacking-data-collection-trips",
+    "href": "projects/cumberland-trail/index.html#backpacking-data-collection-trips",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Backpacking Data-Collection Trips",
+    "text": "Backpacking Data-Collection Trips\nThe project required teams to hike and, in some cases, backpack along trails while carrying:\n\nGPS receivers;\ncameras;\nfield sheets or notebooks;\nmeasuring equipment;\nnormal hiking and overnight gear.\n\n\n\n\nGIS 230 students preparing for a backpacking data-collection trip in Frozen Head State Park.\n\n\n\n\n\nA GIS 230 field team member and his dog during a data-collection hike in Frozen Head State Park.\n\n\nThe group photograph is an important record of the project because it shows that data collection was not limited to roadside features or a short laboratory exercise.\nThe field crews had to manage:\n\ntrail distance;\nterrain;\naccess;\nweather;\nequipment;\nlimited daylight;\nfeature documentation;\ntravel time."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#gps-and-attribute-collection",
+    "href": "projects/cumberland-trail/index.html#gps-and-attribute-collection",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "GPS and Attribute Collection",
+    "text": "GPS and Attribute Collection\nThe GPS photograph shows the workflow described in the project documentation: one team member collected and averaged the waypoint while also recording the feature information needed for later data entry.\n\n\n\nCollecting a GPS waypoint at a trail sign.\n\n\nThe field data were compiled in Microsoft Excel.\nDNR Garmin was used to transfer waypoints from the GPS receivers and export them for use in ArcMap.\n\n\n\nUsing the ArcMap Identify tool to review a collected trail feature.\n\n\nThe project presentation states that:\n\nwaypoint data were converted into shapefiles;\nfield attributes were added to the feature table;\nphotographs were linked to their mapped features."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#data-management",
+    "href": "projects/cumberland-trail/index.html#data-management",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Data Management",
+    "text": "Data Management\nThe project relied on a shared network location for centralized storage.\nThe team created:\n\na predefined folder structure;\nbackup procedures;\na backup log;\nan access and work log;\ndata-transfer expectations;\ndocumentation procedures.\n\nData management proved more difficult than expected.\nThe final report notes that multiple people, collection crews, GPS models, file formats, and transfer steps created confusion. Ensuring that every crew delivered its files correctly and that all files were backed up required active coordination.\nThis became one of the project’s main lessons: collaborative GIS depends on clear data governance as much as field collection."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#quality-assurance",
+    "href": "projects/cumberland-trail/index.html#quality-assurance",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Quality Assurance",
+    "text": "Quality Assurance\nQuality assurance was built into the work plan.\nThe team planned to:\n\nsend a sample of collected data to the client;\nverify naming and coordinate formats;\nreview imported field data;\ncheck for errors;\nassociate metadata;\nlink photographs;\ndocument collected and uncollected trails;\nconduct final corrections before delivery.\n\nThe pilot-data process gave the client an opportunity to review the collection format before the entire project was completed.\nThe meeting records also show continued refinement of standards, including coordinate notation, decimal precision, and treatment of multiple photographs at the same location."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#metadata-and-3d-analyst-training",
+    "href": "projects/cumberland-trail/index.html#metadata-and-3d-analyst-training",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Metadata and 3D Analyst Training",
+    "text": "Metadata and 3D Analyst Training\nMetadata documentation and 3D visualization were formal parts of GIS 230.\nOutside the group fieldwork, I completed two Esri Virtual Campus courses:\n\nCreating and Maintaining Metadata Using ArcGIS Desktop;\nLearning ArcGIS 3D Analyst.\n\nThese courses supported the class objectives of documenting spatial data and creating 3D visualizations.\nThe project required metadata to be collected, preserved, and included with the final documentation."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#schedule-hours-and-budget",
+    "href": "projects/cumberland-trail/index.html#schedule-hours-and-budget",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Schedule, Hours, and Budget",
+    "text": "Schedule, Hours, and Budget\nThe feasibility study established milestones from January through the final presentation on April 28, 2009.\nThe schedule included:\n\nteam formation;\nclient consultation;\nproject scoping;\ntrail assignments;\npilot collection;\nrepeated field-collection and import periods;\nfinal data collection;\nanalysis;\nquality assurance;\npresentation rehearsal;\nfinal delivery.\n\nThe project also treated student time as a project cost.\nMeeting minutes tracked cumulative hours and a calculated project budget. This helped the class connect fieldwork and office work to the time and labor required for professional GIS services.\n\n\n\nFictitious project budget based on tracked labor and project tasks.\n\n\nAs a project-management exercise, the class also created a fictitious professional budget based on recorded labor hours and assigned project tasks. The totals were instructional estimates rather than charges submitted to TDEC."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#deliverables",
+    "href": "projects/cumberland-trail/index.html#deliverables",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Deliverables",
+    "text": "Deliverables\nThe final project produced a combination of digital and printed materials.\n\nDigital Deliverables\nThe planned digital delivery included:\n\nfield photographs;\ndigital data-collection sheets;\nGPS point files;\nshapefiles of infrastructure and natural features;\nArcMap project files;\nmetadata;\na PDF presentation map;\nthe PowerPoint presentation.\n\n\n\nPrinted Deliverables\nPrinted materials included:\n\nfield notes;\ncollection sheets;\nGPS text files;\nmetadata;\na presentation-quality map;\na project binder containing supporting documentation.\n\nThe final materials were presented to the client on April 28, 2009."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#final-map",
+    "href": "projects/cumberland-trail/index.html#final-map",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Final Map",
+    "text": "Final Map\nThe final map combined the collected manmade features with park trails, the Cumberland Trail, streams, the park boundary, hillshade, and elevation information.\n\n\n\nFinal Frozen Head State Park project map.\n\n\nThe map illustrates both the extent of the trail network and the distribution of features documented by the field crews."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#problems-encountered",
+    "href": "projects/cumberland-trail/index.html#problems-encountered",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Problems Encountered",
+    "text": "Problems Encountered\n\nTrails Missing or Incomplete\nSome trails shown on park maps did not exist on the ground.\nThis was especially problematic for portions of the Cumberland Trail on the eastern and western sides of the park.\nCrews spent additional time:\n\nsearching for trail locations;\nverifying endpoints;\ndetermining whether trails were incomplete;\nlearning that some areas were closed or under renovation.\n\n\n\nLimited Vehicle Access\nPark officials did not authorize motorized collection access.\nSome service roads were routinely traveled by park vehicles, but students had to reach those areas on foot.\nThis increased the time and physical effort needed for data collection.\n\n\nMultiple GPS Models\nThe class used personally owned and school-owned GPS receivers from different manufacturers and model generations.\nProblems included:\n\ndifferent setup procedures;\ndifferent download hardware;\ninconsistent capabilities;\nsome units lacking point averaging.\n\n\n\nData Storage and Communication\nCentralized data management became confusing because many team members were responsible for collection, transfer, storage, backup, and analysis.\nThe final report concluded that stronger early communication could have prevented some of those problems.\n\n\nEstimating Field Time\nA pilot estimate of collection time per trail mile did not predict the full field effort accurately.\nEach trail differed in:\n\ndifficulty;\naccess;\nnumber of mapped features;\nvisibility;\ncompletion status;\ntravel time.\n\n\n\nWeather and Travel\nWeather affected both trail access and the ability to use cameras.\nSome team members also faced long drives to reach the park, making efficient task assignment especially important."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#lessons-learned",
+    "href": "projects/cumberland-trail/index.html#lessons-learned",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Lessons Learned",
+    "text": "Lessons Learned\nThe final report identified several major project-management lessons.\n\nLeadership Matters\nA strong project leader was essential for:\n\ndefining goals;\nassigning work;\ntracking progress;\naddressing delays;\ntaking on unassigned duties.\n\n\n\nWeekly Meetings Were Valuable\nRegular progress meetings helped the group:\n\nidentify schedule problems early;\nredistribute work;\nresolve confusion;\ntrack hours;\nmaintain momentum.\n\n\n\nCommunication Needed to Be Explicit\nSome early data-management problems occurred because responsibilities were not understood consistently.\nClear ownership of storage, backup, analysis, and documentation should have been established and repeated more explicitly.\n\n\nPre-Field Research Saves Time\nA short conversation with park staff eventually clarified that some trails were incomplete or closed.\nConducting that research before field visits would have prevented wasted time and travel.\n\n\nAssignments Should Reflect Logistics\nThe final report recognized that team assignments could have better reflected:\n\ntravel distance;\ninterest in fieldwork;\nphysical demands;\navailability;\noffice responsibilities."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#my-contribution",
+    "href": "projects/cumberland-trail/index.html#my-contribution",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "My Contribution",
+    "text": "My Contribution\nBecause this was a group project, the portfolio should distinguish the team’s shared outputs from my documented responsibilities.\nMy contributions included:\n\nparticipating in GPS field collection;\nhelping collect photographs and written field records;\nserving as project secretary;\npreparing and submitting meeting minutes;\nwriting the feasibility study;\ncontributing to report writing;\nparticipating in planning and progress meetings;\nhelping document project decisions and standards.\n\nThe surviving minutes and feasibility study provide unusually strong documentation of those responsibilities."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#what-i-learned",
+    "href": "projects/cumberland-trail/index.html#what-i-learned",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project provided experience with:\n\nplanning a GIS project for a real client;\nevaluating project feasibility;\ndefining scope;\nassigning team roles;\nbuilding a project schedule;\nstandardizing GPS collection;\ncollecting field data in remote terrain;\nmanaging photographs and feature identifiers;\nimporting data with DNR Garmin;\npreparing attribute tables;\nlinking photographs to features;\ndocumenting metadata;\ncoordinating shared files and backups;\ntracking labor and cost;\nconducting pilot quality assurance;\npreparing reports, minutes, and deliverables;\nresponding to incomplete trails, access limitations, and schedule pressure.\n\nThe strongest lesson was that successful GIS work depends on coordination.\nEven technically accurate data can become difficult to use when:\n\nnaming conventions differ;\nequipment behaves inconsistently;\nfile responsibilities are unclear;\nfield crews document features differently;\nproject scope exceeds available time."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#looking-back",
+    "href": "projects/cumberland-trail/index.html#looking-back",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis project was one of my earliest experiences treating GIS as a managed professional service rather than only a technical classroom exercise.\nThe work involved:\n\na client;\na project scope;\nfeasibility analysis;\nformal roles;\nfield crews;\ndeadlines;\nbudgets;\nquality assurance;\ndata standards;\ndeliverables;\nincomplete information;\nchanging conditions.\n\nA modern version would likely use mobile GIS applications, hosted feature layers, shared field forms, automatic photo attachments, real-time synchronization, GNSS receivers with consistent settings, and cloud-based project dashboards.\nThose tools would reduce some of the data-transfer and coordination problems, but they would not remove the need for:\n\nrealistic scope;\nclear leadership;\ncommunication;\nfield planning;\nquality standards;\ndocumentation.\n\nThe project remains valuable because it shows how those fundamentals were learned through a physically demanding, collaborative, real-world GIS assignment."
+  },
+  {
     "objectID": "projects/mars-spirit-rover/index.html",
     "href": "projects/mars-spirit-rover/index.html",
     "title": "Mars SPIRIT Rover Traverse Map",

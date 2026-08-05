@@ -1,2 +1,1213 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2009-01-01">
+<meta name="description" content="A group GIS project-management project that planned and conducted a GPS inventory of infrastructure and natural features along trails in Frozen Head State Park.">
+
+<title>Cumberland Trail Field Inventory at Frozen Head State Park – Student GIS Portfolio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#client-and-project-need" id="toc-client-and-project-need" class="nav-link" data-scroll-target="#client-and-project-need">Client and Project Need</a></li>
+  <li><a href="#course-and-project-management-requirements" id="toc-course-and-project-management-requirements" class="nav-link" data-scroll-target="#course-and-project-management-requirements">Course and Project-Management Requirements</a></li>
+  <li><a href="#feasibility-study" id="toc-feasibility-study" class="nav-link" data-scroll-target="#feasibility-study">Feasibility Study</a></li>
+  <li><a href="#team-organization" id="toc-team-organization" class="nav-link" data-scroll-target="#team-organization">Team Organization</a></li>
+  <li><a href="#meeting-minutes-and-project-documentation" id="toc-meeting-minutes-and-project-documentation" class="nav-link" data-scroll-target="#meeting-minutes-and-project-documentation">Meeting Minutes and Project Documentation</a></li>
+  <li><a href="#field-collection-standards" id="toc-field-collection-standards" class="nav-link" data-scroll-target="#field-collection-standards">Field-Collection Standards</a></li>
+  <li><a href="#backpacking-data-collection-trips" id="toc-backpacking-data-collection-trips" class="nav-link" data-scroll-target="#backpacking-data-collection-trips">Backpacking Data-Collection Trips</a></li>
+  <li><a href="#gps-and-attribute-collection" id="toc-gps-and-attribute-collection" class="nav-link" data-scroll-target="#gps-and-attribute-collection">GPS and Attribute Collection</a></li>
+  <li><a href="#data-management" id="toc-data-management" class="nav-link" data-scroll-target="#data-management">Data Management</a></li>
+  <li><a href="#quality-assurance" id="toc-quality-assurance" class="nav-link" data-scroll-target="#quality-assurance">Quality Assurance</a></li>
+  <li><a href="#metadata-and-3d-analyst-training" id="toc-metadata-and-3d-analyst-training" class="nav-link" data-scroll-target="#metadata-and-3d-analyst-training">Metadata and 3D Analyst Training</a></li>
+  <li><a href="#schedule-hours-and-budget" id="toc-schedule-hours-and-budget" class="nav-link" data-scroll-target="#schedule-hours-and-budget">Schedule, Hours, and Budget</a></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a></li>
+  <li><a href="#final-map" id="toc-final-map" class="nav-link" data-scroll-target="#final-map">Final Map</a></li>
+  <li><a href="#problems-encountered" id="toc-problems-encountered" class="nav-link" data-scroll-target="#problems-encountered">Problems Encountered</a></li>
+  <li><a href="#lessons-learned" id="toc-lessons-learned" class="nav-link" data-scroll-target="#lessons-learned">Lessons Learned</a></li>
+  <li><a href="#my-contribution" id="toc-my-contribution" class="nav-link" data-scroll-target="#my-contribution">My Contribution</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cumberland Trail Field Inventory at Frozen Head State Park</h1>
+<p class="subtitle lead">A collaborative GIS project-management and GPS field-collection project for TDEC</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Project Management</div>
+    <div class="quarto-category">Field Mapping</div>
+    <div class="quarto-category">GPS</div>
+    <div class="quarto-category">Metadata</div>
+    <div class="quarto-category">3D Analyst</div>
+    <div class="quarto-category">Collaborative GIS</div>
+    <div class="quarto-category">Student Work</div>
+    <div class="quarto-category">RSCC</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A group GIS project-management project that planned and conducted a GPS inventory of infrastructure and natural features along trails in Frozen Head State Park.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2009</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This collaborative project was completed for <strong>GIS 230: Project Management</strong> at Roane State Community College during spring 2009.</p>
+<p>The class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.</p>
+<p>The project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.</p>
+<p>The team:</p>
+<ul>
+<li>scoped the project;</li>
+<li>evaluated feasibility;</li>
+<li>assigned formal roles;</li>
+<li>created a schedule;</li>
+<li>standardized field procedures;</li>
+<li>conducted backpacking data-collection trips;</li>
+<li>collected GPS waypoints and photographs;</li>
+<li>documented attributes and measurements;</li>
+<li>imported and managed the data;</li>
+<li>tracked progress, hours, and costs;</li>
+<li>prepared metadata;</li>
+<li>conducted quality assurance;</li>
+<li>delivered project files, maps, reports, and a presentation.</li>
+</ul>
+<p>My documented responsibilities included serving as a <strong>report writer, secretary, feasibility-study lead, and GPS data collector</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-gps-collection.jpeg" class="lightbox" data-gallery="cumberland-trail" title="Collecting a GPS waypoint and field notes for a trail sign."><img src="images/cumberland-trail-gps-collection.jpeg" class="img-fluid figure-img" alt="A student using a handheld GPS receiver and notebook beside a wooden trail sign in Frozen Head State Park."></a></p>
+<figcaption>Collecting a GPS waypoint and field notes for a trail sign.</figcaption>
+</figure>
+</div>
+</section>
+<section id="client-and-project-need" class="level2">
+<h2 class="anchored" data-anchor-id="client-and-project-need">Client and Project Need</h2>
+<p>Frozen Head State Park contains an extensive network of trails used by hikers, horseback riders, and mountain bikers.</p>
+<p>The project client needed an inventory of infrastructure and natural features located along those trails. The data were intended to supplement an existing geodatabase maintained by park staff.</p>
+<p>The planned inventory included:</p>
+<ul>
+<li>GPS locations;</li>
+<li>digital photographs;</li>
+<li>feature descriptions;</li>
+<li>measurements;</li>
+<li>elevation;</li>
+<li>positional error;</li>
+<li>comments and unusual observations;</li>
+<li>data suitable for transfer into the existing geodatabase.</li>
+</ul>
+<p>The Cumberland Trail presented a particular challenge because portions shown on available maps were incomplete, closed, difficult to access, or not evident on the ground.</p>
+</section>
+<section id="course-and-project-management-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="course-and-project-management-requirements">Course and Project-Management Requirements</h2>
+<p>GIS 230 was designed to prepare students to complete independent work in GIS 290.</p>
+<p>The course emphasized:</p>
+<ul>
+<li>planning and completing a real-world GIS project;</li>
+<li>project scoping;</li>
+<li>role assignment;</li>
+<li>scheduling;</li>
+<li>metadata documentation;</li>
+<li>3D visualization;</li>
+<li>progress reporting;</li>
+<li>presentation and delivery.</li>
+</ul>
+<p>The group assignment required:</p>
+<ul>
+<li>a team leader;</li>
+<li>documentation management;</li>
+<li>presentation development;</li>
+<li>report writing;</li>
+<li>quality assurance;</li>
+<li>GIS technical work;</li>
+<li>at least one spatial analysis;</li>
+<li>at least one 3D visualization;</li>
+<li>weekly progress reports;</li>
+<li>a final report;</li>
+<li>a PowerPoint presentation.</li>
+</ul>
+<p>The project therefore evaluated both the GIS work and the team’s ability to manage time, responsibilities, data, and client expectations.</p>
+</section>
+<section id="feasibility-study" class="level2">
+<h2 class="anchored" data-anchor-id="feasibility-study">Feasibility Study</h2>
+<p>One of my primary assignments was preparing the project feasibility study.</p>
+<p>The study evaluated whether the team could realistically collect detailed data along the park’s trail network within the available semester.</p>
+<section id="main-constraints" class="level3">
+<h3 class="anchored" data-anchor-id="main-constraints">Main Constraints</h3>
+<p>The study identified several concerns:</p>
+<ul>
+<li>the park contained more than 80 miles of trails;</li>
+<li>the project began late because weather delayed the initial client meeting;</li>
+<li>wet winter and spring conditions could prevent photography;</li>
+<li>access by service road, ATV, or park vehicle was not available;</li>
+<li>all fieldwork had to be completed on foot;</li>
+<li>canopy cover could affect GPS collection;</li>
+<li>the semester allowed only a limited period for data collection and quality assurance.</li>
+</ul>
+<p>The study concluded that collecting every trail was unlikely.</p>
+<p>The recommended strategy was to:</p>
+<ol type="1">
+<li>prioritize trails;</li>
+<li>begin fieldwork as quickly as possible;</li>
+<li>document areas that were completed;</li>
+<li>document trails still needing work;</li>
+<li>avoid future duplication by preserving clear collection records.</li>
+</ol>
+<p>This was an important project-management decision. The feasibility study did not simply ask whether the project was desirable; it assessed what could reasonably be completed with the available people, equipment, weather, access, and time.</p>
+</section>
+</section>
+<section id="team-organization" class="level2">
+<h2 class="anchored" data-anchor-id="team-organization">Team Organization</h2>
+<p>The class assigned formal roles during its first project meeting.</p>
+<p>Roles included:</p>
+<ul>
+<li>project manager and accounting;</li>
+<li>GPS data collection;</li>
+<li>presentation development;</li>
+<li>report writing and secretarial work;</li>
+<li>analysis and quality assurance;</li>
+<li>record and data management;</li>
+<li>file storage and backup;</li>
+<li>internet data collection.</li>
+</ul>
+<p>I served as:</p>
+<ul>
+<li>report writer;</li>
+<li>secretary;</li>
+<li>GPS data collector;</li>
+<li>lead writer for the feasibility study.</li>
+</ul>
+<p>The project’s meeting records document these assignments and the way responsibilities changed as the work progressed.</p>
+</section>
+<section id="meeting-minutes-and-project-documentation" class="level2">
+<h2 class="anchored" data-anchor-id="meeting-minutes-and-project-documentation">Meeting Minutes and Project Documentation</h2>
+<p>As secretary, I prepared meeting minutes documenting project decisions and progress.</p>
+<p>The minutes recorded items such as:</p>
+<ul>
+<li>personnel assignments;</li>
+<li>client questions;</li>
+<li>available GPS receivers and cameras;</li>
+<li>file-management procedures;</li>
+<li>backup expectations;</li>
+<li>naming conventions;</li>
+<li>coordinate standards;</li>
+<li>pilot-study requirements;</li>
+<li>time sheets;</li>
+<li>budget totals;</li>
+<li>collection-trip plans;</li>
+<li>due dates;</li>
+<li>project-creep concerns;</li>
+<li>data-quality instructions.</li>
+</ul>
+<p>The records show the project evolving from an initial assignment into a coordinated field operation.</p>
+<p>For example, early meetings focused on defining responsibilities and preparing questions for the client. Later meetings addressed coordinate formatting, pilot data, quality assurance, cost tracking, and fieldwork progress.</p>
+</section>
+<section id="field-collection-standards" class="level2">
+<h2 class="anchored" data-anchor-id="field-collection-standards">Field-Collection Standards</h2>
+<p>The team created a standardized procedure so that data collected by different crews and different GPS units could be combined.</p>
+<section id="coordinate-and-projection-standards" class="level3">
+<h3 class="anchored" data-anchor-id="coordinate-and-projection-standards">Coordinate and Projection Standards</h3>
+<p>GPS units were configured to use:</p>
+<ul>
+<li>NAD 83;</li>
+<li>decimal degrees.</li>
+</ul>
+<p>Final data were projected to:</p>
+<ul>
+<li>NAD 83;</li>
+<li>Tennessee State Plane;</li>
+<li>FIPS 4100;</li>
+<li>feet.</li>
+</ul>
+</section>
+<section id="point-collection" class="level3">
+<h3 class="anchored" data-anchor-id="point-collection">Point Collection</h3>
+<p>A waypoint was created for each manmade or natural feature included in the inventory.</p>
+<p>Each waypoint was averaged for approximately 60 seconds when the GPS equipment supported point averaging.</p>
+</section>
+<section id="naming-convention" class="level3">
+<h3 class="anchored" data-anchor-id="naming-convention">Naming Convention</h3>
+<p>Waypoint names used:</p>
+<ul>
+<li>the collector’s first and last initials;</li>
+<li>a three-digit sequential number.</li>
+</ul>
+<p>Example:</p>
+<pre class="text"><code>MC012</code></pre>
+<p>Photographs were assigned matching identifiers so they could be linked to the corresponding feature.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-photo-naming.PNG" class="lightbox" data-gallery="cumberland-trail" title="Photographs organized using the same identifiers as their corresponding GPS features."><img src="images/cumberland-trail-photo-naming.PNG" class="img-fluid figure-img" alt="Folder of field photographs labeled with identifiers such as JE016 through JE031A, demonstrating the naming convention used to link photographs to mapped features."></a></p>
+<figcaption>Photographs organized using the same identifiers as their corresponding GPS features.</figcaption>
+</figure>
+</div>
+</section>
+<section id="field-records" class="level3">
+<h3 class="anchored" data-anchor-id="field-records">Field Records</h3>
+<p>The standard collection sheet included:</p>
+<ul>
+<li>point ID;</li>
+<li>description;</li>
+<li>latitude;</li>
+<li>longitude;</li>
+<li>elevation;</li>
+<li>associated positional error;</li>
+<li>picture ID;</li>
+<li>measurements;</li>
+<li>comments.</li>
+</ul>
+<p>The team was instructed to retain coordinate precision to five decimal places and to use positive and negative coordinate values rather than directional letters when preparing data for Excel and ArcMap.</p>
+<p>Handwritten field notes were transferred into a standardized spreadsheet so records from different collection teams could be combined consistently.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-data-table.PNG" class="lightbox" data-gallery="cumberland-trail" title="Data collection spreadsheet created from handwritten field notes."><img src="images/cumberland-trail-data-table.PNG" class="img-fluid figure-img" alt="Spreadsheet containing point identifiers, feature descriptions, latitude, longitude, elevation, estimated error, photograph identifiers, comments, and measurements for mapped trail features."></a></p>
+<figcaption>Data collection spreadsheet created from handwritten field notes.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="backpacking-data-collection-trips" class="level2">
+<h2 class="anchored" data-anchor-id="backpacking-data-collection-trips">Backpacking Data-Collection Trips</h2>
+<p>The project required teams to hike and, in some cases, backpack along trails while carrying:</p>
+<ul>
+<li>GPS receivers;</li>
+<li>cameras;</li>
+<li>field sheets or notebooks;</li>
+<li>measuring equipment;</li>
+<li>normal hiking and overnight gear.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-field-team.jpeg" class="lightbox" data-gallery="cumberland-trail" title="GIS 230 students preparing for a backpacking data-collection trip in Frozen Head State Park."><img src="images/cumberland-trail-field-team.jpeg" class="img-fluid figure-img" alt="Four student field-team members with backpacks and hiking equipment standing at a Frozen Head State Park trail junction."></a></p>
+<figcaption>GIS 230 students preparing for a backpacking data-collection trip in Frozen Head State Park.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-field-hike.PNG" class="lightbox" data-gallery="cumberland-trail" title="A GIS 230 field team member and his dog during a data-collection hike in Frozen Head State Park."><img src="images/cumberland-trail-field-hike.PNG" class="img-fluid figure-img" alt="A student field-team member wearing a backpack and standing with a dog beside a trail sign in Frozen Head State Park."></a></p>
+<figcaption>A GIS 230 field team member and his dog during a data-collection hike in Frozen Head State Park.</figcaption>
+</figure>
+</div>
+<p>The group photograph is an important record of the project because it shows that data collection was not limited to roadside features or a short laboratory exercise.</p>
+<p>The field crews had to manage:</p>
+<ul>
+<li>trail distance;</li>
+<li>terrain;</li>
+<li>access;</li>
+<li>weather;</li>
+<li>equipment;</li>
+<li>limited daylight;</li>
+<li>feature documentation;</li>
+<li>travel time.</li>
+</ul>
+</section>
+<section id="gps-and-attribute-collection" class="level2">
+<h2 class="anchored" data-anchor-id="gps-and-attribute-collection">GPS and Attribute Collection</h2>
+<p>The GPS photograph shows the workflow described in the project documentation: one team member collected and averaged the waypoint while also recording the feature information needed for later data entry.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-gps-collection.jpeg" class="lightbox" data-gallery="cumberland-trail" title="Collecting a GPS waypoint at a trail sign."><img src="images/cumberland-trail-gps-collection.jpeg" class="img-fluid figure-img" alt="A student using a handheld GPS receiver and recording notes beside a wooden sign identifying the Bird Mountain and Natural Area trails."></a></p>
+<figcaption>Collecting a GPS waypoint at a trail sign.</figcaption>
+</figure>
+</div>
+<p>The field data were compiled in Microsoft Excel.</p>
+<p>DNR Garmin was used to transfer waypoints from the GPS receivers and export them for use in ArcMap.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-identify-tool.PNG" class="lightbox" data-gallery="cumberland-trail" title="Using the ArcMap Identify tool to review a collected trail feature."><img src="images/cumberland-trail-identify-tool.PNG" class="img-fluid figure-img" alt="ArcMap Identify window showing the attributes of a collected manmade trail feature, including point ID, description, coordinates, elevation, comments, and the path to its associated photograph."></a></p>
+<figcaption>Using the ArcMap Identify tool to review a collected trail feature.</figcaption>
+</figure>
+</div>
+<p>The project presentation states that:</p>
+<ul>
+<li>waypoint data were converted into shapefiles;</li>
+<li>field attributes were added to the feature table;</li>
+<li>photographs were linked to their mapped features.</li>
+</ul>
+</section>
+<section id="data-management" class="level2">
+<h2 class="anchored" data-anchor-id="data-management">Data Management</h2>
+<p>The project relied on a shared network location for centralized storage.</p>
+<p>The team created:</p>
+<ul>
+<li>a predefined folder structure;</li>
+<li>backup procedures;</li>
+<li>a backup log;</li>
+<li>an access and work log;</li>
+<li>data-transfer expectations;</li>
+<li>documentation procedures.</li>
+</ul>
+<p>Data management proved more difficult than expected.</p>
+<p>The final report notes that multiple people, collection crews, GPS models, file formats, and transfer steps created confusion. Ensuring that every crew delivered its files correctly and that all files were backed up required active coordination.</p>
+<p>This became one of the project’s main lessons: collaborative GIS depends on clear data governance as much as field collection.</p>
+</section>
+<section id="quality-assurance" class="level2">
+<h2 class="anchored" data-anchor-id="quality-assurance">Quality Assurance</h2>
+<p>Quality assurance was built into the work plan.</p>
+<p>The team planned to:</p>
+<ul>
+<li>send a sample of collected data to the client;</li>
+<li>verify naming and coordinate formats;</li>
+<li>review imported field data;</li>
+<li>check for errors;</li>
+<li>associate metadata;</li>
+<li>link photographs;</li>
+<li>document collected and uncollected trails;</li>
+<li>conduct final corrections before delivery.</li>
+</ul>
+<p>The pilot-data process gave the client an opportunity to review the collection format before the entire project was completed.</p>
+<p>The meeting records also show continued refinement of standards, including coordinate notation, decimal precision, and treatment of multiple photographs at the same location.</p>
+</section>
+<section id="metadata-and-3d-analyst-training" class="level2">
+<h2 class="anchored" data-anchor-id="metadata-and-3d-analyst-training">Metadata and 3D Analyst Training</h2>
+<p>Metadata documentation and 3D visualization were formal parts of GIS 230.</p>
+<p>Outside the group fieldwork, I completed two Esri Virtual Campus courses:</p>
+<ul>
+<li><em>Creating and Maintaining Metadata Using ArcGIS Desktop</em>;</li>
+<li><em>Learning ArcGIS 3D Analyst</em>.</li>
+</ul>
+<p>These courses supported the class objectives of documenting spatial data and creating 3D visualizations.</p>
+<p>The project required metadata to be collected, preserved, and included with the final documentation.</p>
+</section>
+<section id="schedule-hours-and-budget" class="level2">
+<h2 class="anchored" data-anchor-id="schedule-hours-and-budget">Schedule, Hours, and Budget</h2>
+<p>The feasibility study established milestones from January through the final presentation on April 28, 2009.</p>
+<p>The schedule included:</p>
+<ul>
+<li>team formation;</li>
+<li>client consultation;</li>
+<li>project scoping;</li>
+<li>trail assignments;</li>
+<li>pilot collection;</li>
+<li>repeated field-collection and import periods;</li>
+<li>final data collection;</li>
+<li>analysis;</li>
+<li>quality assurance;</li>
+<li>presentation rehearsal;</li>
+<li>final delivery.</li>
+</ul>
+<p>The project also treated student time as a project cost.</p>
+<p>Meeting minutes tracked cumulative hours and a calculated project budget. This helped the class connect fieldwork and office work to the time and labor required for professional GIS services.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-project-budget.PNG" class="lightbox" data-gallery="cumberland-trail" title="Fictitious project budget based on tracked labor and project tasks."><img src="images/cumberland-trail-project-budget.PNG" class="img-fluid figure-img" alt="Project billing spreadsheet showing team hours, billed time, labor categories, estimated cost, project expenses, and a calculated fictional profit."></a></p>
+<figcaption>Fictitious project budget based on tracked labor and project tasks.</figcaption>
+</figure>
+</div>
+<p>As a project-management exercise, the class also created a fictitious professional budget based on recorded labor hours and assigned project tasks. The totals were instructional estimates rather than charges submitted to TDEC.</p>
+</section>
+<section id="deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables">Deliverables</h2>
+<p>The final project produced a combination of digital and printed materials.</p>
+<section id="digital-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="digital-deliverables">Digital Deliverables</h3>
+<p>The planned digital delivery included:</p>
+<ul>
+<li>field photographs;</li>
+<li>digital data-collection sheets;</li>
+<li>GPS point files;</li>
+<li>shapefiles of infrastructure and natural features;</li>
+<li>ArcMap project files;</li>
+<li>metadata;</li>
+<li>a PDF presentation map;</li>
+<li>the PowerPoint presentation.</li>
+</ul>
+</section>
+<section id="printed-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="printed-deliverables">Printed Deliverables</h3>
+<p>Printed materials included:</p>
+<ul>
+<li>field notes;</li>
+<li>collection sheets;</li>
+<li>GPS text files;</li>
+<li>metadata;</li>
+<li>a presentation-quality map;</li>
+<li>a project binder containing supporting documentation.</li>
+</ul>
+<p>The final materials were presented to the client on April 28, 2009.</p>
+</section>
+</section>
+<section id="final-map" class="level2">
+<h2 class="anchored" data-anchor-id="final-map">Final Map</h2>
+<p>The final map combined the collected manmade features with park trails, the Cumberland Trail, streams, the park boundary, hillshade, and elevation information.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cumberland-trail-final-map.PNG" class="lightbox" data-gallery="cumberland-trail" title="Final Frozen Head State Park project map."><img src="images/cumberland-trail-final-map.PNG" class="img-fluid figure-img" alt="Final map of Frozen Head State Park showing labeled trails, the Cumberland Trail, park streams, the park boundary, terrain and elevation, and green symbols representing collected manmade features."></a></p>
+<figcaption>Final Frozen Head State Park project map.</figcaption>
+</figure>
+</div>
+<p>The map illustrates both the extent of the trail network and the distribution of features documented by the field crews.</p>
+</section>
+<section id="problems-encountered" class="level2">
+<h2 class="anchored" data-anchor-id="problems-encountered">Problems Encountered</h2>
+<section id="trails-missing-or-incomplete" class="level3">
+<h3 class="anchored" data-anchor-id="trails-missing-or-incomplete">Trails Missing or Incomplete</h3>
+<p>Some trails shown on park maps did not exist on the ground.</p>
+<p>This was especially problematic for portions of the Cumberland Trail on the eastern and western sides of the park.</p>
+<p>Crews spent additional time:</p>
+<ul>
+<li>searching for trail locations;</li>
+<li>verifying endpoints;</li>
+<li>determining whether trails were incomplete;</li>
+<li>learning that some areas were closed or under renovation.</li>
+</ul>
+</section>
+<section id="limited-vehicle-access" class="level3">
+<h3 class="anchored" data-anchor-id="limited-vehicle-access">Limited Vehicle Access</h3>
+<p>Park officials did not authorize motorized collection access.</p>
+<p>Some service roads were routinely traveled by park vehicles, but students had to reach those areas on foot.</p>
+<p>This increased the time and physical effort needed for data collection.</p>
+</section>
+<section id="multiple-gps-models" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-gps-models">Multiple GPS Models</h3>
+<p>The class used personally owned and school-owned GPS receivers from different manufacturers and model generations.</p>
+<p>Problems included:</p>
+<ul>
+<li>different setup procedures;</li>
+<li>different download hardware;</li>
+<li>inconsistent capabilities;</li>
+<li>some units lacking point averaging.</li>
+</ul>
+</section>
+<section id="data-storage-and-communication" class="level3">
+<h3 class="anchored" data-anchor-id="data-storage-and-communication">Data Storage and Communication</h3>
+<p>Centralized data management became confusing because many team members were responsible for collection, transfer, storage, backup, and analysis.</p>
+<p>The final report concluded that stronger early communication could have prevented some of those problems.</p>
+</section>
+<section id="estimating-field-time" class="level3">
+<h3 class="anchored" data-anchor-id="estimating-field-time">Estimating Field Time</h3>
+<p>A pilot estimate of collection time per trail mile did not predict the full field effort accurately.</p>
+<p>Each trail differed in:</p>
+<ul>
+<li>difficulty;</li>
+<li>access;</li>
+<li>number of mapped features;</li>
+<li>visibility;</li>
+<li>completion status;</li>
+<li>travel time.</li>
+</ul>
+</section>
+<section id="weather-and-travel" class="level3">
+<h3 class="anchored" data-anchor-id="weather-and-travel">Weather and Travel</h3>
+<p>Weather affected both trail access and the ability to use cameras.</p>
+<p>Some team members also faced long drives to reach the park, making efficient task assignment especially important.</p>
+</section>
+</section>
+<section id="lessons-learned" class="level2">
+<h2 class="anchored" data-anchor-id="lessons-learned">Lessons Learned</h2>
+<p>The final report identified several major project-management lessons.</p>
+<section id="leadership-matters" class="level3">
+<h3 class="anchored" data-anchor-id="leadership-matters">Leadership Matters</h3>
+<p>A strong project leader was essential for:</p>
+<ul>
+<li>defining goals;</li>
+<li>assigning work;</li>
+<li>tracking progress;</li>
+<li>addressing delays;</li>
+<li>taking on unassigned duties.</li>
+</ul>
+</section>
+<section id="weekly-meetings-were-valuable" class="level3">
+<h3 class="anchored" data-anchor-id="weekly-meetings-were-valuable">Weekly Meetings Were Valuable</h3>
+<p>Regular progress meetings helped the group:</p>
+<ul>
+<li>identify schedule problems early;</li>
+<li>redistribute work;</li>
+<li>resolve confusion;</li>
+<li>track hours;</li>
+<li>maintain momentum.</li>
+</ul>
+</section>
+<section id="communication-needed-to-be-explicit" class="level3">
+<h3 class="anchored" data-anchor-id="communication-needed-to-be-explicit">Communication Needed to Be Explicit</h3>
+<p>Some early data-management problems occurred because responsibilities were not understood consistently.</p>
+<p>Clear ownership of storage, backup, analysis, and documentation should have been established and repeated more explicitly.</p>
+</section>
+<section id="pre-field-research-saves-time" class="level3">
+<h3 class="anchored" data-anchor-id="pre-field-research-saves-time">Pre-Field Research Saves Time</h3>
+<p>A short conversation with park staff eventually clarified that some trails were incomplete or closed.</p>
+<p>Conducting that research before field visits would have prevented wasted time and travel.</p>
+</section>
+<section id="assignments-should-reflect-logistics" class="level3">
+<h3 class="anchored" data-anchor-id="assignments-should-reflect-logistics">Assignments Should Reflect Logistics</h3>
+<p>The final report recognized that team assignments could have better reflected:</p>
+<ul>
+<li>travel distance;</li>
+<li>interest in fieldwork;</li>
+<li>physical demands;</li>
+<li>availability;</li>
+<li>office responsibilities.</li>
+</ul>
+</section>
+</section>
+<section id="my-contribution" class="level2">
+<h2 class="anchored" data-anchor-id="my-contribution">My Contribution</h2>
+<p>Because this was a group project, the portfolio should distinguish the team’s shared outputs from my documented responsibilities.</p>
+<p>My contributions included:</p>
+<ul>
+<li>participating in GPS field collection;</li>
+<li>helping collect photographs and written field records;</li>
+<li>serving as project secretary;</li>
+<li>preparing and submitting meeting minutes;</li>
+<li>writing the feasibility study;</li>
+<li>contributing to report writing;</li>
+<li>participating in planning and progress meetings;</li>
+<li>helping document project decisions and standards.</li>
+</ul>
+<p>The surviving minutes and feasibility study provide unusually strong documentation of those responsibilities.</p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>This project provided experience with:</p>
+<ul>
+<li>planning a GIS project for a real client;</li>
+<li>evaluating project feasibility;</li>
+<li>defining scope;</li>
+<li>assigning team roles;</li>
+<li>building a project schedule;</li>
+<li>standardizing GPS collection;</li>
+<li>collecting field data in remote terrain;</li>
+<li>managing photographs and feature identifiers;</li>
+<li>importing data with DNR Garmin;</li>
+<li>preparing attribute tables;</li>
+<li>linking photographs to features;</li>
+<li>documenting metadata;</li>
+<li>coordinating shared files and backups;</li>
+<li>tracking labor and cost;</li>
+<li>conducting pilot quality assurance;</li>
+<li>preparing reports, minutes, and deliverables;</li>
+<li>responding to incomplete trails, access limitations, and schedule pressure.</li>
+</ul>
+<p>The strongest lesson was that successful GIS work depends on coordination.</p>
+<p>Even technically accurate data can become difficult to use when:</p>
+<ul>
+<li>naming conventions differ;</li>
+<li>equipment behaves inconsistently;</li>
+<li>file responsibilities are unclear;</li>
+<li>field crews document features differently;</li>
+<li>project scope exceeds available time.</li>
+</ul>
+</section>
+<section id="looking-back" class="level2">
+<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
+<p>This project was one of my earliest experiences treating GIS as a managed professional service rather than only a technical classroom exercise.</p>
+<p>The work involved:</p>
+<ul>
+<li>a client;</li>
+<li>a project scope;</li>
+<li>feasibility analysis;</li>
+<li>formal roles;</li>
+<li>field crews;</li>
+<li>deadlines;</li>
+<li>budgets;</li>
+<li>quality assurance;</li>
+<li>data standards;</li>
+<li>deliverables;</li>
+<li>incomplete information;</li>
+<li>changing conditions.</li>
+</ul>
+<p>A modern version would likely use mobile GIS applications, hosted feature layers, shared field forms, automatic photo attachments, real-time synchronization, GNSS receivers with consistent settings, and cloud-based project dashboards.</p>
+<p>Those tools would reduce some of the data-transfer and coordination problems, but they would not remove the need for:</p>
+<ul>
+<li>realistic scope;</li>
+<li>clear leadership;</li>
+<li>communication;</li>
+<li>field planning;</li>
+<li>quality standards;</li>
+<li>documentation.</li>
+</ul>
+<p>The project remains valuable because it shows how those fundamentals were learned through a physically demanding, collaborative, real-world GIS assignment.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

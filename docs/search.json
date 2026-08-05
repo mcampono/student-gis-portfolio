@@ -630,6 +630,118 @@
     "text": "Looking Back\nI once thought career progress meant finding the right job posting, submitting the strongest possible application, and waiting for someone to choose me.\nMy experience taught me something different.\nCareers are also built through:\n\nconversations;\nservice;\ncuriosity;\nprofessional communities;\nrepeated visibility;\nuseful work;\npreparation;\nrelationships maintained over time.\n\nThe path was slower and less direct than I expected. It included failed applications, uncertain funding, an economic crisis, and an urgent family move.\nBut every strong opportunity came when two conditions met:\n\nsomeone knew me or knew my work;\nI had developed the skills needed to help.\n\nThat is what the hidden job market means to me."
   },
   {
+    "objectID": "projects/camp-davy-crockett/index.html",
+    "href": "projects/camp-davy-crockett/index.html",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "",
+    "text": "This independent capstone project was completed for GIS 290: Directed Research at Roane State Community College during summer 2009.\nCamp Davy Crockett, operated by the Sequoyah Council of the Boy Scouts of America, supports a wide range of summer activities, including lakefront recreation, shooting sports, rope courses, hiking, and traditional Scout programming. Operating those activities requires the camp to maintain numerous roads, buildings, shelters, utilities, campsites, fields, ranges, and other facilities.\nThe project was designed to support that work by creating a geodatabase and maps of manmade features throughout the camp.\nThe workflow included:\n\nfield data collection with GPS;\nattribute collection and photography;\ngeodatabase design;\nmetadata creation;\nheads-up digitizing;\nsubtypes and domains;\nterrain-data preparation;\nstaff and visitor map production;\npublication for use in free Esri viewing applications.\n\nThis was my final project in the Roane State GIS certificate program and was completed independently.\n\n\n\nDetailed facilities map created for Camp Davy Crockett staff."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#project-overview",
+    "href": "projects/camp-davy-crockett/index.html#project-overview",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "",
+    "text": "This independent capstone project was completed for GIS 290: Directed Research at Roane State Community College during summer 2009.\nCamp Davy Crockett, operated by the Sequoyah Council of the Boy Scouts of America, supports a wide range of summer activities, including lakefront recreation, shooting sports, rope courses, hiking, and traditional Scout programming. Operating those activities requires the camp to maintain numerous roads, buildings, shelters, utilities, campsites, fields, ranges, and other facilities.\nThe project was designed to support that work by creating a geodatabase and maps of manmade features throughout the camp.\nThe workflow included:\n\nfield data collection with GPS;\nattribute collection and photography;\ngeodatabase design;\nmetadata creation;\nheads-up digitizing;\nsubtypes and domains;\nterrain-data preparation;\nstaff and visitor map production;\npublication for use in free Esri viewing applications.\n\nThis was my final project in the Roane State GIS certificate program and was completed independently.\n\n\n\nDetailed facilities map created for Camp Davy Crockett staff."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#project-goals",
+    "href": "projects/camp-davy-crockett/index.html#project-goals",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Project Goals",
+    "text": "Project Goals\nThe project had four primary goals:\n\ncreate a geodatabase of manmade features within the camp;\ncreate a detailed map for camp staff;\ncreate a simplified map for campers and visitors that reproduced well when copied;\nconvert the data into formats compatible with free Esri viewing software and, where practical, Google Earth.\n\nThese goals required more than creating a single map. The project needed to produce a structured and maintainable dataset that could support future camp operations."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#field-data-collection",
+    "href": "projects/camp-davy-crockett/index.html#field-data-collection",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Field Data Collection",
+    "text": "Field Data Collection\n\nEquipment and Records\nField data were collected using:\n\na Garmin eTrex Legend HCx GPS receiver;\na field notebook;\na digital camera;\na tape measure.\n\nThe GPS was used to collect point, line, and polygon features. Attribute information was recorded in a notebook and added to the geodatabase later. Photographs were taken to document many mapped features.\n\n\nPoint Features\nPoint locations were averaged for approximately ten seconds per feature.\nExamples included:\n\nflagpoles;\nelectrical boxes;\ndock anchors;\npropane tanks;\nspigots;\nwater tanks;\nutility poles;\nsigns.\n\n\n\nLine Features\nLinear features were walked or driven twice with GPS tracking enabled. The two tracks were then used as a reference when digitizing a representative centerline.\nExamples included:\n\nroads;\ntrails;\nfences;\npowerlines;\nstreams.\n\n\n\nPolygon Features\nPolygon vertices were collected as GPS points and averaged for approximately ten seconds each. The polygons were later digitized in ArcMap using snapping.\nLarge features visible in aerial imagery, including some fields and structures, were digitized directly from the imagery."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#designing-the-geodatabase",
+    "href": "projects/camp-davy-crockett/index.html#designing-the-geodatabase",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Designing the Geodatabase",
+    "text": "Designing the Geodatabase\nA file geodatabase was selected because it offered more flexibility than a personal geodatabase and could store both vector and raster datasets.\nThe geodatabase was planned around feature datasets and classes representing the major categories of camp infrastructure.\n\n\n\nPlanned organization of the Camp Davy Crockett geodatabase.\n\n\nThe primary categories included:\n\nadministrative boundaries;\nutilities;\nstructures;\ntransportation;\ncampsites;\nsigns;\nhydrography;\ncampfire areas;\nshooting ranges;\nactivity fields;\nCOPE facilities;\nAkela’s Challenge facilities.\n\nThe structure was intended to make the database understandable and maintainable rather than placing every feature into an unorganized collection.\n\nExample Feature Classes\nThe geodatabase included features such as:\n\nbuildings, cabins, shelters, and storage buildings;\nroads, parking areas, trailer pads, and trails;\nelectrical boxes, utility poles, tanks, and spigots;\ncampsites and campfire areas;\nrifle, shotgun, and archery ranges;\nassembly, volleyball, pool, and headquarters fields;\nsigns and bulletin boards;\nlake and stream features.\n\n\n\n\nFile geodatabase displayed in ArcCatalog."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#data-preparation-and-metadata",
+    "href": "projects/camp-davy-crockett/index.html#data-preparation-and-metadata",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Data Preparation and Metadata",
+    "text": "Data Preparation and Metadata\nBackground data were collected from several sources.\nThese included:\n\nDigital Ortho Quarter Quadrangles from the Tennessee Spatial Data Server;\nDigital Raster Graphics;\nDigital Elevation Models;\n2008 TIGER shapefiles from the U.S. Census Bureau;\nadministrative boundaries from Esri;\nGeographic Names Information System records;\nEsri World Imagery and US Topographic Map services.\n\nDownloaded data were checked in ArcCatalog for coordinate systems and metadata. Most data were converted to NAD 83 Tennessee State Plane feet to reduce alignment problems.\n\nISO Metadata\nMetadata were created using the ISO Metadata Wizard in ArcCatalog.\nA reusable XML template was created and then adapted for:\n\neach feature class;\neach feature dataset;\nthe complete file geodatabase.\n\n\n\n\nISO Metadata Wizard used to document the project data.\n\n\nThe metadata workflow was important because the project was intended to remain useful after the original fieldwork was complete."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#subtypes-and-domains",
+    "href": "projects/camp-davy-crockett/index.html#subtypes-and-domains",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Subtypes and Domains",
+    "text": "Subtypes and Domains\nSubtypes and domains were created where appropriate to improve consistency during data entry.\nFor example, structure features could be assigned controlled values such as:\n\nbuilding;\ncabin;\nshelter;\nstorage building.\n\n\n\n\nControlled attribute values for structure type.\n\n\nUsing controlled values reduced spelling differences and made the data easier to symbolize, query, and maintain."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#digitizing-and-editing",
+    "href": "projects/camp-davy-crockett/index.html#digitizing-and-editing",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Digitizing and Editing",
+    "text": "Digitizing and Editing\nArcMap was used to digitize and edit line and polygon features.\nSnapping tolerances helped ensure that newly digitized geometry aligned with collected vertices and nearby features.\n\n\n\nSnapping used while digitizing a building feature.\n\n\nThe workflow varied by feature type:\n\npoints were imported directly from GPS data;\nlines were digitized using repeated GPS tracks as reference;\npolygons were digitized from collected vertices;\nlarge visible features were digitized from aerial imagery.\n\nAttribute information collected in the field was added after the spatial features were created."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#photos-and-feature-documentation",
+    "href": "projects/camp-davy-crockett/index.html#photos-and-feature-documentation",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Photos and Feature Documentation",
+    "text": "Photos and Feature Documentation\nPhotographs were linked to mapped features through paths stored in the attribute table.\nThe signs layer, for example, included the sign text and the location of its associated photograph.\n\n\n\nPhotograph paths linked to sign records.\n\n\nThis allowed users to move beyond a symbol on the map and review an image of the actual facility or sign.\nThe approach anticipated later field-inventory systems in which mapped assets are connected to photographs and descriptive records."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#staff-and-visitor-maps",
+    "href": "projects/camp-davy-crockett/index.html#staff-and-visitor-maps",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Staff and Visitor Maps",
+    "text": "Staff and Visitor Maps\nTwo final maps were designed for different audiences.\n\nDetailed Staff Map\nThe staff map was a full-color, large-format product containing the most complete representation of the camp’s facilities and infrastructure.\nIt included features such as:\n\nstructures and shelters;\ncampsites;\nroads and parking;\nutilities;\nranges and activity areas;\nsigns;\nstreams and lake features;\nCOPE and Akela’s Challenge areas.\n\n\n\n\nDetailed Camp Davy Crockett facilities map for staff.\n\n\nThe map was intended to support camp management and maintenance rather than function only as a visitor guide.\n\n\nSimplified Visitor Map\nThe visitor map was simplified for legibility and grayscale reproduction on letter-size paper.\nIt emphasized:\n\nroads;\nstreams;\nmajor structures;\ncampsites;\nparking;\nAkela’s Challenge;\nthe main campfire area;\nthe assembly field.\n\n\n\n\nSimplified visitor map of Camp Davy Crockett.\n\n\nProducing separate maps acknowledged that camp staff and visitors needed different levels of detail. The same database supported both products, but the information hierarchy and visual design changed with the audience."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#publishing-for-free-esri-viewers",
+    "href": "projects/camp-davy-crockett/index.html#publishing-for-free-esri-viewers",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Publishing for Free Esri Viewers",
+    "text": "Publishing for Free Esri Viewers\nA goal of the project was to make the data usable without requiring camp staff to own a full ArcGIS Desktop license.\nThe project was tested in free Esri applications, including ArcReader or ArcExplorer and ArcGIS Explorer.\n\n\n\nPublished camp map viewed in ArcReader or ArcExplorer.\n\n\nThe published map preserved a detailed layer list and symbology while preventing users from accidentally editing the source data.\n\nArcGIS Explorer\nThe project was also reviewed in ArcGIS Explorer.\n\n\n\nCamp data displayed over imagery in ArcGIS Explorer.\n\n\nArcGIS Explorer provided a more visually appealing 3D and imagery-based environment, but the original assessment noted that it performed better with a high-speed internet connection."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#terrain-analysis",
+    "href": "projects/camp-davy-crockett/index.html#terrain-analysis",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Terrain Analysis",
+    "text": "Terrain Analysis\nDigital Elevation Model data were used to create:\n\nhillshade;\nslope;\naspect;\na Triangulated Irregular Network.\n\nThe hillshade was useful as a cartographic background.\nThe slope, aspect, and TIN analyses had more limited value because an accurate camp property boundary could not be obtained during the project. Without a reliable boundary, calculations could not be confidently restricted to the camp property.\nThe terrain products were retained so that they could support later analysis once an authoritative boundary became available."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#deliverables",
+    "href": "projects/camp-davy-crockett/index.html#deliverables",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Deliverables",
+    "text": "Deliverables\nThe completed project included:\n\na project proposal;\na final report;\na file geodatabase;\na detailed camp-staff map;\na simplified visitor map;\ncolor and grayscale map versions;\na published map for free Esri viewing software;\nproject documentation;\na PowerPoint presentation.\n\nThe large-format map could not be plotted during the project because the available plotter was not working, but the digital map was completed."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#limitations-and-future-work",
+    "href": "projects/camp-davy-crockett/index.html#limitations-and-future-work",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Limitations and Future Work",
+    "text": "Limitations and Future Work\n\nCamp Boundary\nThe main limitation was the lack of an authoritative camp boundary.\nThe property assessor initially supplied incomplete data and then became unavailable for several weeks. As a result, the project could not confidently calculate terrain characteristics or other measurements strictly within the camp property.\n\n\nVerification and Maintenance\nThe report recommended that future work include:\n\nverifying existing locations and attributes;\ncollecting missing photographs;\nadding newly constructed facilities;\nupdating the geodatabase as the camp changed.\n\nFeatures identified for future collection included:\n\nthe perimeter fence;\nnature and interpretive trails;\ninformal footpaths;\nindividual COPE course obstacles;\nindividual Akela’s Challenge obstacles;\nnew campsites;\na Frisbee golf course;\na new frontier camp;\na new campfire area.\n\nThis maintenance plan was important because a facilities inventory begins to lose value when it is not updated."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#what-i-learned",
+    "href": "projects/camp-davy-crockett/index.html#what-i-learned",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project combined many of the skills developed across the GIS certificate program.\nIt provided experience with:\n\nplanning an independent GIS project;\nworking with an organizational partner;\ndesigning a field-data collection strategy;\ncollecting point, line, and polygon features with GPS;\nrecording field attributes and photographs;\ndesigning a file geodatabase;\ncreating subtypes and domains;\ndocumenting data with ISO metadata;\nmanaging projections;\nheads-up digitizing with snapping;\nincorporating raster and vector data;\ndesigning products for different audiences;\npublishing GIS content for users without full desktop software;\ndocumenting limitations and future maintenance needs.\n\nThe most important lesson was that a useful organizational GIS project depends on more than accurate geometry. It also requires clear attributes, documentation, photographs, logical database organization, appropriate deliverables, and a plan for future updates."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#looking-back",
+    "href": "projects/camp-davy-crockett/index.html#looking-back",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis project is one of the clearest early examples of the kind of applied GIS work that later became central to my professional practice.\nRather than beginning with a supplied dataset and a prescribed series of tools, I had to determine:\n\nwhat information the organization needed;\nhow it could be collected;\nhow it should be organized;\nhow different audiences would use it;\nhow the finished products could remain accessible after the project ended.\n\nSeveral aspects would be handled differently today. A modern workflow might use mobile GIS applications, hosted feature layers, attachments rather than local photo paths, authoritative parcel services, and web maps instead of published desktop map files.\nEven so, the project already contained the core elements of a modern facilities inventory: field collection, structured asset data, controlled attributes, photographs, metadata, multiple user products, and long-term maintenance planning."
+  },
+  {
     "objectID": "projects/mars-spirit-rover/index.html",
     "href": "projects/mars-spirit-rover/index.html",
     "title": "Mars SPIRIT Rover Traverse Map",

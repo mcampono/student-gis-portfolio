@@ -987,6 +987,111 @@
     "text": "Looking Back\nThis project was one of my earliest experiences treating GIS as a managed professional service rather than only a technical classroom exercise.\nThe work involved:\n\na client;\na project scope;\nfeasibility analysis;\nformal roles;\nfield crews;\ndeadlines;\nbudgets;\nquality assurance;\ndata standards;\ndeliverables;\nincomplete information;\nchanging conditions.\n\nA modern version would likely use mobile GIS applications, hosted feature layers, shared field forms, automatic photo attachments, real-time synchronization, GNSS receivers with consistent settings, and cloud-based project dashboards.\nThose tools would reduce some of the data-transfer and coordination problems, but they would not remove the need for:\n\nrealistic scope;\nclear leadership;\ncommunication;\nfield planning;\nquality standards;\ndocumentation.\n\nThe project remains valuable because it shows how those fundamentals were learned through a physically demanding, collaborative, real-world GIS assignment."
   },
   {
+    "objectID": "projects/h1n1-risk-assessment/index.html",
+    "href": "projects/h1n1-risk-assessment/index.html",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "",
+    "text": "This project was created independently outside regular class time for presentation in the poster competition at the 2009 Middle Tennessee GIS Users Group Forum in Lebanon, Tennessee.\nJoshua Johnson and I collaborated on a demographic risk-assessment poster related to the 2009 H1N1 outbreak. The project combined U.S. Census demographic data with risk criteria cited from the Centers for Disease Control and Prevention.\nThe poster included four related views:\n\na county-level assessment of the population potentially at risk of initial infection;\na block-group assessment of estimated secondary infection risk within households;\na detailed inset of Davidson County;\na density surface showing the concentration of estimated secondary risk within Davidson County.\n\nArcMap was used to prepare and analyze the data. ArcScene was used to create a 3D representation of county-level risk, and the exported maps were assembled into the final poster using image-editing software.\n\n\n\nMichael Camponovo and Joshua Johnson with their H1N1 demographic risk-assessment poster at the 2009 Middle Tennessee GIS Users Group Forum."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#project-overview",
+    "href": "projects/h1n1-risk-assessment/index.html#project-overview",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "",
+    "text": "This project was created independently outside regular class time for presentation in the poster competition at the 2009 Middle Tennessee GIS Users Group Forum in Lebanon, Tennessee.\nJoshua Johnson and I collaborated on a demographic risk-assessment poster related to the 2009 H1N1 outbreak. The project combined U.S. Census demographic data with risk criteria cited from the Centers for Disease Control and Prevention.\nThe poster included four related views:\n\na county-level assessment of the population potentially at risk of initial infection;\na block-group assessment of estimated secondary infection risk within households;\na detailed inset of Davidson County;\na density surface showing the concentration of estimated secondary risk within Davidson County.\n\nArcMap was used to prepare and analyze the data. ArcScene was used to create a 3D representation of county-level risk, and the exported maps were assembled into the final poster using image-editing software.\n\n\n\nMichael Camponovo and Joshua Johnson with their H1N1 demographic risk-assessment poster at the 2009 Middle Tennessee GIS Users Group Forum."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#why-we-created-the-poster",
+    "href": "projects/h1n1-risk-assessment/index.html#why-we-created-the-poster",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Why We Created the Poster",
+    "text": "Why We Created the Poster\nThis project was not a required course assignment.\nJoshua and I decided to develop it because we wanted to create a conference poster that responded to a current public-health concern while demonstrating GIS, demographic analysis, and 3D cartography.\nThe 2009 H1N1 outbreak was receiving significant public attention, and the CDC had identified people younger than 25 as experiencing a greater disease burden than older age groups.\nBecause the event was held in Middle Tennessee, the poster emphasized that region while still showing statewide context."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#collaboration-and-division-of-work",
+    "href": "projects/h1n1-risk-assessment/index.html#collaboration-and-division-of-work",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Collaboration and Division of Work",
+    "text": "Collaboration and Division of Work\nThis was a collaborative project. I completed the county-level initial-risk map, including the ArcScene extrusion of Middle Tennessee counties.\nJoshua completed the block-group analysis used for the middle map, Davidson County inset, and density surface."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#data-sources",
+    "href": "projects/h1n1-risk-assessment/index.html#data-sources",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Data Sources",
+    "text": "Data Sources\nThe poster identifies several data sources:\n\nU.S. Census Bureau 2008 TIGER/Line shapefiles;\nEsri state and county data;\nUSGS Geographic Names Information System data for four-year colleges;\nCDC information describing initial and secondary H1N1 risk criteria.\n\nThe analysis used demographic and geographic data available in 2009.\nThis page documents the original historical project. It should not be interpreted as current public-health guidance or a validated epidemiological model."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#population-at-risk-of-initial-infection",
+    "href": "projects/h1n1-risk-assessment/index.html#population-at-risk-of-initial-infection",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Population at Risk of Initial Infection",
+    "text": "Population at Risk of Initial Infection\nThe top map focused on people aged 0–24.\nFor each county, the number of residents aged 0–24 was normalized by the county’s total population.\nThe mapped value can be described as:\n[ = ]\nThe result represented the percentage of each county’s population that fell within the age group identified by the CDC as having experienced a greater H1N1 disease burden.\n\n3D Emphasis on Middle Tennessee\nThe conference was held in Middle Tennessee, so the final map intentionally treated that region differently.\n\nEast Tennessee and West Tennessee counties remained flat.\nMiddle Tennessee counties were extruded vertically in ArcScene.\nCounties with a higher percentage of residents aged 0–24 appeared taller.\n\nThe vertical dimension therefore reinforced the choropleth classification.\n\n\n\nDraft ArcScene view of county-level H1N1 risk in Tennessee.\n\n\nThe map combined two related variables:\n\ncolor represented the normalized percentage of residents aged 0–24;\nextrusion height emphasized that same value for Middle Tennessee counties.\n\nThis approach made the regional focus visible without removing statewide context."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#estimated-secondary-infection-risk",
+    "href": "projects/h1n1-risk-assessment/index.html#estimated-secondary-infection-risk",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Estimated Secondary Infection Risk",
+    "text": "Estimated Secondary Infection Risk\nThe middle map was titled Population at Risk of Secondary Infection by the 0–24 Age Group per Household.\nIt used block-group data for Middle Tennessee and incorporated a 12% secondary influenza-like infection rate cited in the original research.\nThe surviving files do not include the source data or field-calculation expression used to create this measure.\nThe most plausible reconstruction is that the calculation combined:\n\nthe population aged 0–24;\nhousehold counts or household-related demographic data;\nthe cited 12% rate of secondary infection from close household contact.\n\n\nThe middle map estimated potential secondary influenza-like infection associated with household contact involving people aged 0–24. The original analysis incorporated block-group demographic data and a 12% secondary-infection rate cited in the project research, but the exact field-calculation expression has not survived."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#davidson-county-inset",
+    "href": "projects/h1n1-risk-assessment/index.html#davidson-county-inset",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Davidson County Inset",
+    "text": "Davidson County Inset\nDavidson County was shown in greater detail because its high concentration of block groups made the regional pattern difficult to interpret at the full Middle Tennessee scale.\nThe inset enlarged the block-group analysis and made the local variation within the county more visible.\nThe inset also showed major transportation and institutional features that helped orient the reader."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#density-of-estimated-secondary-risk",
+    "href": "projects/h1n1-risk-assessment/index.html#density-of-estimated-secondary-risk",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Density of Estimated Secondary Risk",
+    "text": "Density of Estimated Secondary Risk\nThe lower-right map displayed the density per square mile of secondary risk per household within Davidson County.\nThe map was created from block-group centroids weighted by the secondary-risk value.\nThe likely workflow was:\n\ncalculate or retain the estimated secondary-risk value for each block group;\nconvert block groups to centroid points;\nuse the secondary-risk field as a weighting variable;\ncreate a density surface;\ndisplay the resulting concentration pattern within Davidson County.\n\nThis is a reconstruction based on the surviving poster and project description. The original processing model has not been recovered."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#final-poster",
+    "href": "projects/h1n1-risk-assessment/index.html#final-poster",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Final Poster",
+    "text": "Final Poster\nThe final poster combined the four analytical views into one coordinated layout.\n\n\n\nFinal H1N1 demographic risk-assessment poster.\n\n\nThe poster’s main text explained that:\n\nthe analysis used CDC risk factors for initial and secondary infection;\npeople younger than 25 were treated as the initial higher-risk population;\nthe top map compared both total and normalized county populations aged 0–24;\nthe middle map represented estimated household secondary infection;\nthe lower maps focused on Davidson County and the concentration of estimated risk.\n\nThe final printed version was produced at large format for the conference poster competition."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#poster-development",
+    "href": "projects/h1n1-risk-assessment/index.html#poster-development",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Poster Development",
+    "text": "Poster Development\nSeveral draft versions survive.\nThese files document the visual-development process:\n\nearly 3D extrusion experiments;\nalternate color and classification choices;\nevolving map placement;\nchanges to legends and text;\nrefinement of the final poster hierarchy.\n\n\n\n\nDraft version of the H1N1 poster during development."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#conference-presentation-and-recognition",
+    "href": "projects/h1n1-risk-assessment/index.html#conference-presentation-and-recognition",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Conference Presentation and Recognition",
+    "text": "Conference Presentation and Recognition\nJoshua and I presented the completed poster at the Middle Tennessee GIS Users Group Forum in Lebanon, Tennessee, in September 2009. We earned 1st place at the conference poster competition."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#historical-and-analytical-limitations",
+    "href": "projects/h1n1-risk-assessment/index.html#historical-and-analytical-limitations",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Historical and Analytical Limitations",
+    "text": "Historical and Analytical Limitations\nThis project should be interpreted as a student cartographic analysis created during the 2009 H1N1 outbreak.\nSeveral limitations are important.\n\nPublic-Health Guidance Has Changed\nThe poster used CDC information available in 2009.\nIt is not current guidance and should not be used to assess present-day influenza or infectious-disease risk.\n\n\nDemographic Risk Is Not Individual Risk\nThe maps used aggregated demographic data.\nThey did not model:\n\nindividual health conditions;\nvaccination;\nbehavior;\nexposure history;\nimmunity;\nhousehold structure in full detail;\nactual reported H1N1 cases;\ntransmission over time.\n\n\n\nEcological Interpretation\nCounty and block-group values describe populations within geographic units.\nThey should not be interpreted as predictions for a specific person.\n\n\nSecondary-Risk Formula Is Incomplete\nThe exact field calculation used for the secondary-risk maps has not been recovered.\nThe surviving poster identifies the inputs and interpretation but not the complete mathematical expression.\n\n\nDensity Surface Is an Estimate\nThe density map transformed block-group values into a continuous surface.\nThat visualization emphasized spatial concentration but did not represent directly observed infections at every location."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#what-i-learned",
+    "href": "projects/h1n1-risk-assessment/index.html#what-i-learned",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project provided experience with:\n\nidentifying a current issue suitable for a GIS poster;\ncollaborating outside formal class requirements;\nusing public-health guidance to frame a spatial question;\ncombining Census demographic data with county and block-group geography;\nnormalizing population counts;\nusing 3D extrusion to emphasize regional patterns;\npreparing ArcMap outputs for ArcScene;\nexporting maps for graphic composition;\ndesigning a large-format conference poster;\nrefining a layout through repeated drafts;\npresenting technical work to a professional GIS audience.\n\nThe project also demonstrated the importance of preserving:\n\ncalculation notes;\nintermediate datasets;\nfield expressions;\nsource documentation;\nfinal and draft layouts;\nphotographs of conference participation.\n\nThe final poster survived, but the missing formula for the secondary-risk analysis shows how difficult it can be to reconstruct a project when the calculation workflow is not documented separately."
+  },
+  {
+    "objectID": "projects/h1n1-risk-assessment/index.html#looking-back",
+    "href": "projects/h1n1-risk-assessment/index.html#looking-back",
+    "title": "H1N1 Risk Assessment for Middle Tennessee",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis project is a strong example of initiative during the early stages of my GIS career.\nJoshua and I were not completing a required assignment. We chose a timely topic, developed an analysis, created a professional poster, and presented it to the regional GIS community.\nSeveral design choices clearly reflect the technology and cartographic conventions of 2009, especially the use of 3D county extrusion and a highly information-dense poster layout.\nA modern version would likely:\n\nuse clearer visual hierarchy;\nreduce the number of competing map elements;\ndocument every calculation in a reproducible notebook or model;\ndistinguish more carefully between demographic vulnerability and epidemiological risk;\nuse current public-health data;\ninclude uncertainty;\nuse interactive web maps or dashboards for detailed block-group exploration.\n\nEven with its limitations, the poster remains important because it documents an early effort to combine GIS, demographic data, public-health communication, conference participation, and collaborative cartographic design."
+  },
+  {
     "objectID": "projects/mars-spirit-rover/index.html",
     "href": "projects/mars-spirit-rover/index.html",
     "title": "Mars SPIRIT Rover Traverse Map",

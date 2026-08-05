@@ -1,2 +1,874 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2009-09-01">
+<meta name="description" content="An independently developed conference poster using demographic data, ArcMap, ArcScene, and spatial analysis to visualize populations potentially at risk during the 2009 H1N1 outbreak.">
+
+<title>H1N1 Risk Assessment for Middle Tennessee – Student GIS Portfolio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#why-we-created-the-poster" id="toc-why-we-created-the-poster" class="nav-link" data-scroll-target="#why-we-created-the-poster">Why We Created the Poster</a></li>
+  <li><a href="#collaboration-and-division-of-work" id="toc-collaboration-and-division-of-work" class="nav-link" data-scroll-target="#collaboration-and-division-of-work">Collaboration and Division of Work</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#population-at-risk-of-initial-infection" id="toc-population-at-risk-of-initial-infection" class="nav-link" data-scroll-target="#population-at-risk-of-initial-infection">Population at Risk of Initial Infection</a></li>
+  <li><a href="#estimated-secondary-infection-risk" id="toc-estimated-secondary-infection-risk" class="nav-link" data-scroll-target="#estimated-secondary-infection-risk">Estimated Secondary Infection Risk</a></li>
+  <li><a href="#davidson-county-inset" id="toc-davidson-county-inset" class="nav-link" data-scroll-target="#davidson-county-inset">Davidson County Inset</a></li>
+  <li><a href="#density-of-estimated-secondary-risk" id="toc-density-of-estimated-secondary-risk" class="nav-link" data-scroll-target="#density-of-estimated-secondary-risk">Density of Estimated Secondary Risk</a></li>
+  <li><a href="#final-poster" id="toc-final-poster" class="nav-link" data-scroll-target="#final-poster">Final Poster</a></li>
+  <li><a href="#poster-development" id="toc-poster-development" class="nav-link" data-scroll-target="#poster-development">Poster Development</a></li>
+  <li><a href="#conference-presentation-and-recognition" id="toc-conference-presentation-and-recognition" class="nav-link" data-scroll-target="#conference-presentation-and-recognition">Conference Presentation and Recognition</a></li>
+  <li><a href="#historical-and-analytical-limitations" id="toc-historical-and-analytical-limitations" class="nav-link" data-scroll-target="#historical-and-analytical-limitations">Historical and Analytical Limitations</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">H1N1 Risk Assessment for Middle Tennessee</h1>
+<p class="subtitle lead">A collaborative demographic risk-mapping poster created for the 2009 Middle Tennessee GIS Users Group Forum</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Public Health</div>
+    <div class="quarto-category">Demographic Analysis</div>
+    <div class="quarto-category">3D Visualization</div>
+    <div class="quarto-category">Cartography</div>
+    <div class="quarto-category">Conference Poster</div>
+    <div class="quarto-category">Collaborative GIS</div>
+    <div class="quarto-category">Student Work</div>
+    <div class="quarto-category">RSCC</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    An independently developed conference poster using demographic data, ArcMap, ArcScene, and spatial analysis to visualize populations potentially at risk during the 2009 H1N1 outbreak.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 1, 2009</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This project was created independently outside regular class time for presentation in the poster competition at the <strong>2009 Middle Tennessee GIS Users Group Forum</strong> in Lebanon, Tennessee.</p>
+<p>Joshua Johnson and I collaborated on a demographic risk-assessment poster related to the 2009 H1N1 outbreak. The project combined U.S. Census demographic data with risk criteria cited from the Centers for Disease Control and Prevention.</p>
+<p>The poster included four related views:</p>
+<ol type="1">
+<li>a county-level assessment of the population potentially at risk of initial infection;</li>
+<li>a block-group assessment of estimated secondary infection risk within households;</li>
+<li>a detailed inset of Davidson County;</li>
+<li>a density surface showing the concentration of estimated secondary risk within Davidson County.</li>
+</ol>
+<p>ArcMap was used to prepare and analyze the data. ArcScene was used to create a 3D representation of county-level risk, and the exported maps were assembled into the final poster using image-editing software.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/h1n1-poster-conference.JPG" class="lightbox" data-gallery="h1n1-project" title="Michael Camponovo and Joshua Johnson with their H1N1 demographic risk-assessment poster at the 2009 Middle Tennessee GIS Users Group Forum."><img src="images/h1n1-poster-conference.JPG" class="img-fluid figure-img" alt="Two student cartographers standing beside their H1N1 demographic risk-assessment poster at a GIS conference."></a></p>
+<figcaption>Michael Camponovo and Joshua Johnson with their H1N1 demographic risk-assessment poster at the 2009 Middle Tennessee GIS Users Group Forum.</figcaption>
+</figure>
+</div>
+</section>
+<section id="why-we-created-the-poster" class="level2">
+<h2 class="anchored" data-anchor-id="why-we-created-the-poster">Why We Created the Poster</h2>
+<p>This project was not a required course assignment.</p>
+<p>Joshua and I decided to develop it because we wanted to create a conference poster that responded to a current public-health concern while demonstrating GIS, demographic analysis, and 3D cartography.</p>
+<p>The 2009 H1N1 outbreak was receiving significant public attention, and the CDC had identified people younger than 25 as experiencing a greater disease burden than older age groups.</p>
+<p>Because the event was held in Middle Tennessee, the poster emphasized that region while still showing statewide context.</p>
+</section>
+<section id="collaboration-and-division-of-work" class="level2">
+<h2 class="anchored" data-anchor-id="collaboration-and-division-of-work">Collaboration and Division of Work</h2>
+<p>This was a collaborative project. I completed the county-level initial-risk map, including the ArcScene extrusion of Middle Tennessee counties.</p>
+<p>Joshua completed the block-group analysis used for the middle map, Davidson County inset, and density surface.</p>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
+<p>The poster identifies several data sources:</p>
+<ul>
+<li>U.S. Census Bureau 2008 TIGER/Line shapefiles;</li>
+<li>Esri state and county data;</li>
+<li>USGS Geographic Names Information System data for four-year colleges;</li>
+<li>CDC information describing initial and secondary H1N1 risk criteria.</li>
+</ul>
+<p>The analysis used demographic and geographic data available in 2009.</p>
+<p>This page documents the original historical project. It should not be interpreted as current public-health guidance or a validated epidemiological model.</p>
+</section>
+<section id="population-at-risk-of-initial-infection" class="level2">
+<h2 class="anchored" data-anchor-id="population-at-risk-of-initial-infection">Population at Risk of Initial Infection</h2>
+<p>The top map focused on people aged 0–24.</p>
+<p>For each county, the number of residents aged 0–24 was normalized by the county’s total population.</p>
+<p>The mapped value can be described as:</p>
+<p>[ = ]</p>
+<p>The result represented the percentage of each county’s population that fell within the age group identified by the CDC as having experienced a greater H1N1 disease burden.</p>
+<section id="d-emphasis-on-middle-tennessee" class="level3">
+<h3 class="anchored" data-anchor-id="d-emphasis-on-middle-tennessee">3D Emphasis on Middle Tennessee</h3>
+<p>The conference was held in Middle Tennessee, so the final map intentionally treated that region differently.</p>
+<ul>
+<li>East Tennessee and West Tennessee counties remained flat.</li>
+<li>Middle Tennessee counties were extruded vertically in ArcScene.</li>
+<li>Counties with a higher percentage of residents aged 0–24 appeared taller.</li>
+</ul>
+<p>The vertical dimension therefore reinforced the choropleth classification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/h1n1-3d-risk-draft.png" class="lightbox" data-gallery="h1n1-project" title="Draft ArcScene view of county-level H1N1 risk in Tennessee."><img src="images/h1n1-3d-risk-draft.png" class="img-fluid figure-img" alt="Draft 3D ArcScene map of Tennessee counties in which Middle Tennessee counties are extruded according to the percentage of residents aged 0–24."></a></p>
+<figcaption>Draft ArcScene view of county-level H1N1 risk in Tennessee.</figcaption>
+</figure>
+</div>
+<p>The map combined two related variables:</p>
+<ul>
+<li>color represented the normalized percentage of residents aged 0–24;</li>
+<li>extrusion height emphasized that same value for Middle Tennessee counties.</li>
+</ul>
+<p>This approach made the regional focus visible without removing statewide context.</p>
+</section>
+</section>
+<section id="estimated-secondary-infection-risk" class="level2">
+<h2 class="anchored" data-anchor-id="estimated-secondary-infection-risk">Estimated Secondary Infection Risk</h2>
+<p>The middle map was titled <strong>Population at Risk of Secondary Infection by the 0–24 Age Group per Household</strong>.</p>
+<p>It used block-group data for Middle Tennessee and incorporated a 12% secondary influenza-like infection rate cited in the original research.</p>
+<p>The surviving files do not include the source data or field-calculation expression used to create this measure.</p>
+<p>The most plausible reconstruction is that the calculation combined:</p>
+<ul>
+<li>the population aged 0–24;</li>
+<li>household counts or household-related demographic data;</li>
+<li>the cited 12% rate of secondary infection from close household contact.</li>
+</ul>
+<blockquote class="blockquote">
+<p>The middle map estimated potential secondary influenza-like infection associated with household contact involving people aged 0–24. The original analysis incorporated block-group demographic data and a 12% secondary-infection rate cited in the project research, but the exact field-calculation expression has not survived.</p>
+</blockquote>
+</section>
+<section id="davidson-county-inset" class="level2">
+<h2 class="anchored" data-anchor-id="davidson-county-inset">Davidson County Inset</h2>
+<p>Davidson County was shown in greater detail because its high concentration of block groups made the regional pattern difficult to interpret at the full Middle Tennessee scale.</p>
+<p>The inset enlarged the block-group analysis and made the local variation within the county more visible.</p>
+<p>The inset also showed major transportation and institutional features that helped orient the reader.</p>
+</section>
+<section id="density-of-estimated-secondary-risk" class="level2">
+<h2 class="anchored" data-anchor-id="density-of-estimated-secondary-risk">Density of Estimated Secondary Risk</h2>
+<p>The lower-right map displayed the <strong>density per square mile of secondary risk per household</strong> within Davidson County.</p>
+<p>The map was created from block-group centroids weighted by the secondary-risk value.</p>
+<p>The likely workflow was:</p>
+<ol type="1">
+<li>calculate or retain the estimated secondary-risk value for each block group;</li>
+<li>convert block groups to centroid points;</li>
+<li>use the secondary-risk field as a weighting variable;</li>
+<li>create a density surface;</li>
+<li>display the resulting concentration pattern within Davidson County.</li>
+</ol>
+<p>This is a reconstruction based on the surviving poster and project description. The original processing model has not been recovered.</p>
+</section>
+<section id="final-poster" class="level2">
+<h2 class="anchored" data-anchor-id="final-poster">Final Poster</h2>
+<p>The final poster combined the four analytical views into one coordinated layout.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/h1n1-final-poster.png" class="lightbox" data-gallery="h1n1-project" title="Final H1N1 demographic risk-assessment poster."><img src="images/h1n1-final-poster.png" class="img-fluid figure-img" alt="Final poster titled Middle Tennessee H1N1 Demographic Risk Assessment, including a 3D county map, a block-group risk map, a Davidson County inset, and a density surface."></a></p>
+<figcaption>Final H1N1 demographic risk-assessment poster.</figcaption>
+</figure>
+</div>
+<p>The poster’s main text explained that:</p>
+<ul>
+<li>the analysis used CDC risk factors for initial and secondary infection;</li>
+<li>people younger than 25 were treated as the initial higher-risk population;</li>
+<li>the top map compared both total and normalized county populations aged 0–24;</li>
+<li>the middle map represented estimated household secondary infection;</li>
+<li>the lower maps focused on Davidson County and the concentration of estimated risk.</li>
+</ul>
+<p>The final printed version was produced at large format for the conference poster competition.</p>
+</section>
+<section id="poster-development" class="level2">
+<h2 class="anchored" data-anchor-id="poster-development">Poster Development</h2>
+<p>Several draft versions survive.</p>
+<p>These files document the visual-development process:</p>
+<ul>
+<li>early 3D extrusion experiments;</li>
+<li>alternate color and classification choices;</li>
+<li>evolving map placement;</li>
+<li>changes to legends and text;</li>
+<li>refinement of the final poster hierarchy.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/h1n1-poster-draft.png" class="lightbox" data-gallery="h1n1-project" title="Draft version of the H1N1 poster during development."><img src="images/h1n1-poster-draft.png" class="img-fluid figure-img" alt="Draft version of the H1N1 demographic risk-assessment poster showing an earlier arrangement of maps, legends, and explanatory text."></a></p>
+<figcaption>Draft version of the H1N1 poster during development.</figcaption>
+</figure>
+</div>
+</section>
+<section id="conference-presentation-and-recognition" class="level2">
+<h2 class="anchored" data-anchor-id="conference-presentation-and-recognition">Conference Presentation and Recognition</h2>
+<p>Joshua and I presented the completed poster at the Middle Tennessee GIS Users Group Forum in Lebanon, Tennessee, in September 2009. We earned 1st place at the conference poster competition.</p>
+</section>
+<section id="historical-and-analytical-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="historical-and-analytical-limitations">Historical and Analytical Limitations</h2>
+<p>This project should be interpreted as a student cartographic analysis created during the 2009 H1N1 outbreak.</p>
+<p>Several limitations are important.</p>
+<section id="public-health-guidance-has-changed" class="level3">
+<h3 class="anchored" data-anchor-id="public-health-guidance-has-changed">Public-Health Guidance Has Changed</h3>
+<p>The poster used CDC information available in 2009.</p>
+<p>It is not current guidance and should not be used to assess present-day influenza or infectious-disease risk.</p>
+</section>
+<section id="demographic-risk-is-not-individual-risk" class="level3">
+<h3 class="anchored" data-anchor-id="demographic-risk-is-not-individual-risk">Demographic Risk Is Not Individual Risk</h3>
+<p>The maps used aggregated demographic data.</p>
+<p>They did not model:</p>
+<ul>
+<li>individual health conditions;</li>
+<li>vaccination;</li>
+<li>behavior;</li>
+<li>exposure history;</li>
+<li>immunity;</li>
+<li>household structure in full detail;</li>
+<li>actual reported H1N1 cases;</li>
+<li>transmission over time.</li>
+</ul>
+</section>
+<section id="ecological-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="ecological-interpretation">Ecological Interpretation</h3>
+<p>County and block-group values describe populations within geographic units.</p>
+<p>They should not be interpreted as predictions for a specific person.</p>
+</section>
+<section id="secondary-risk-formula-is-incomplete" class="level3">
+<h3 class="anchored" data-anchor-id="secondary-risk-formula-is-incomplete">Secondary-Risk Formula Is Incomplete</h3>
+<p>The exact field calculation used for the secondary-risk maps has not been recovered.</p>
+<p>The surviving poster identifies the inputs and interpretation but not the complete mathematical expression.</p>
+</section>
+<section id="density-surface-is-an-estimate" class="level3">
+<h3 class="anchored" data-anchor-id="density-surface-is-an-estimate">Density Surface Is an Estimate</h3>
+<p>The density map transformed block-group values into a continuous surface.</p>
+<p>That visualization emphasized spatial concentration but did not represent directly observed infections at every location.</p>
+</section>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>This project provided experience with:</p>
+<ul>
+<li>identifying a current issue suitable for a GIS poster;</li>
+<li>collaborating outside formal class requirements;</li>
+<li>using public-health guidance to frame a spatial question;</li>
+<li>combining Census demographic data with county and block-group geography;</li>
+<li>normalizing population counts;</li>
+<li>using 3D extrusion to emphasize regional patterns;</li>
+<li>preparing ArcMap outputs for ArcScene;</li>
+<li>exporting maps for graphic composition;</li>
+<li>designing a large-format conference poster;</li>
+<li>refining a layout through repeated drafts;</li>
+<li>presenting technical work to a professional GIS audience.</li>
+</ul>
+<p>The project also demonstrated the importance of preserving:</p>
+<ul>
+<li>calculation notes;</li>
+<li>intermediate datasets;</li>
+<li>field expressions;</li>
+<li>source documentation;</li>
+<li>final and draft layouts;</li>
+<li>photographs of conference participation.</li>
+</ul>
+<p>The final poster survived, but the missing formula for the secondary-risk analysis shows how difficult it can be to reconstruct a project when the calculation workflow is not documented separately.</p>
+</section>
+<section id="looking-back" class="level2">
+<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
+<p>This project is a strong example of initiative during the early stages of my GIS career.</p>
+<p>Joshua and I were not completing a required assignment. We chose a timely topic, developed an analysis, created a professional poster, and presented it to the regional GIS community.</p>
+<p>Several design choices clearly reflect the technology and cartographic conventions of 2009, especially the use of 3D county extrusion and a highly information-dense poster layout.</p>
+<p>A modern version would likely:</p>
+<ul>
+<li>use clearer visual hierarchy;</li>
+<li>reduce the number of competing map elements;</li>
+<li>document every calculation in a reproducible notebook or model;</li>
+<li>distinguish more carefully between demographic vulnerability and epidemiological risk;</li>
+<li>use current public-health data;</li>
+<li>include uncertainty;</li>
+<li>use interactive web maps or dashboards for detailed block-group exploration.</li>
+</ul>
+<p>Even with its limitations, the poster remains important because it documents an early effort to combine GIS, demographic data, public-health communication, conference participation, and collaborative cartographic design.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

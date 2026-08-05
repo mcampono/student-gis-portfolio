@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Selected GIS, cartography, spatial analysis, and community-service projects completed during my development as a student and early-career GIS professional."
+description: "Selected GIS, cartography, spatial analysis, field mapping, internet mapping, and community-service projects completed during my development as a student and early-career GIS professional."
 toc: true
 toc-depth: 2
 listing:
@@ -9,6 +9,11 @@ listing:
       - projects/mars-spirit-rover/index.qmd
       - projects/cartography-portfolio/index.qmd
       - projects/demographics-suitability/index.qmd
+      - projects/arches-national-park/index.qmd
+      - projects/glacier-national-park/index.qmd
+      - projects/camp-davy-crockett/index.qmd
+      - projects/cumberland-trail/index.qmd
+      - projects/h1n1-risk-assessment/index.qmd
       - projects/volunteer-gis/index.qmd
     type: grid
     grid-columns: 2
@@ -27,7 +32,7 @@ listing:
 
 ## Featured Projects
 
-These projects represent several stages of my development in GIS, cartography, spatial analysis, research, and community service. They include work completed at Roane State Community College, the University of New Mexico, and through volunteer partnerships with schools, nonprofit organizations, and professional associations.
+These projects represent several stages of my development in GIS, cartography, spatial analysis, field data collection, internet mapping, project management, research, and community service. They include work completed at Roane State Community College, the University of New Mexico, and through volunteer partnerships with schools, nonprofit organizations, government agencies, and professional associations.
 
 ::: {#featured-projects}
 :::
@@ -36,11 +41,6 @@ These projects represent several stages of my development in GIS, cartography, s
 
 The following projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.
 
-- Arches National Park
-- Camp Davy Crockett
-- Cumberland Trail
 - GIS Thesis
-- Glacier National Park
-- H1N1 Risk Assessment
 - Haiti Earthquake Data
 - Predictive Crime Mapping

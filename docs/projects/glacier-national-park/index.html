@@ -1,2 +1,1159 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2009-01-01">
+<meta name="description" content="An individual internet-mapping project comparing how Glacier National Park GIS data could be prepared, published, queried, and explored across ArcIMS, ArcExplorer, and Google Earth.">
+
+<title>Glacier National Park Internet Mapping Project – Student GIS Portfolio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#project-context" id="toc-project-context" class="nav-link" data-scroll-target="#project-context">Project Context</a></li>
+  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data Collection</a></li>
+  <li><a href="#preparing-the-data" id="toc-preparing-the-data" class="nav-link" data-scroll-target="#preparing-the-data">Preparing the Data</a></li>
+  <li><a href="#raster-processing-and-terrain-products" id="toc-raster-processing-and-terrain-products" class="nav-link" data-scroll-target="#raster-processing-and-terrain-products">Raster Processing and Terrain Products</a></li>
+  <li><a href="#final-cartographic-layouts" id="toc-final-cartographic-layouts" class="nav-link" data-scroll-target="#final-cartographic-layouts">Final Cartographic Layouts</a></li>
+  <li><a href="#arcexplorer-and-arcreader" id="toc-arcexplorer-and-arcreader" class="nav-link" data-scroll-target="#arcexplorer-and-arcreader">ArcExplorer and ArcReader</a></li>
+  <li><a href="#google-earth" id="toc-google-earth" class="nav-link" data-scroll-target="#google-earth">Google Earth</a></li>
+  <li><a href="#arcims-web-map" id="toc-arcims-web-map" class="nav-link" data-scroll-target="#arcims-web-map">ArcIMS Web Map</a></li>
+  <li><a href="#comparing-the-platforms" id="toc-comparing-the-platforms" class="nav-link" data-scroll-target="#comparing-the-platforms">Comparing the Platforms</a></li>
+  <li><a href="#technical-challenges" id="toc-technical-challenges" class="nav-link" data-scroll-target="#technical-challenges">Technical Challenges</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Glacier National Park Internet Mapping Project</h1>
+<p class="subtitle lead">Preparing and publishing GIS data through ArcIMS, ArcExplorer, and Google Earth</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Internet Mapping</div>
+    <div class="quarto-category">Web GIS</div>
+    <div class="quarto-category">ArcIMS</div>
+    <div class="quarto-category">Google Earth</div>
+    <div class="quarto-category">ArcExplorer</div>
+    <div class="quarto-category">Cartography</div>
+    <div class="quarto-category">Student Work</div>
+    <div class="quarto-category">RSCC</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    An individual internet-mapping project comparing how Glacier National Park GIS data could be prepared, published, queried, and explored across ArcIMS, ArcExplorer, and Google Earth.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2009</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This individual final project was completed for <strong>GIS 211: Internet Mapping</strong> at Roane State Community College during spring 2009.</p>
+<p>The project used Glacier National Park as a study area for exploring how the same GIS data could be prepared and delivered through several early internet-mapping environments:</p>
+<ul>
+<li>Esri ArcIMS;</li>
+<li>Esri ArcExplorer and ArcReader;</li>
+<li>Google Earth.</li>
+</ul>
+<p>ArcMap was used to prepare shapefiles, raster layers, terrain products, and finished cartographic layouts. Those datasets were then adapted for use in desktop viewers, Google Earth, and a browser-based ArcIMS application.</p>
+<p>The primary purpose was not simply to create maps of Glacier National Park. It was to compare how different platforms handled:</p>
+<ul>
+<li>map display;</li>
+<li>raster and vector performance;</li>
+<li>layer organization;</li>
+<li>symbology;</li>
+<li>navigation;</li>
+<li>feature identification;</li>
+<li>attribute access;</li>
+<li>spatial and attribute queries;</li>
+<li>public usability.</li>
+</ul>
+<p>The project also produced a set of themed print layouts documenting the source cartography behind the internet maps.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-hydrography.png" class="lightbox" data-gallery="glacier-project" title="Hydrography of Glacier National Park."><img src="images/glacier-hydrography.png" class="img-fluid figure-img" alt="Hydrography map of Glacier National Park showing springs, perennial and intermittent streams, the Flathead River, lakes, the park boundary, and shaded relief."></a></p>
+<figcaption>Hydrography of Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="project-context" class="level2">
+<h2 class="anchored" data-anchor-id="project-context">Project Context</h2>
+<p>Glacier National Park was selected because it offered a complex combination of:</p>
+<ul>
+<li>steep terrain;</li>
+<li>extensive hydrography;</li>
+<li>roads and trails;</li>
+<li>lodges, cabins, ranger stations, and campgrounds;</li>
+<li>wilderness areas;</li>
+<li>natural features;</li>
+<li>numerous raster and vector data sources.</li>
+</ul>
+<p>That variety made the park a useful test case for comparing internet-mapping technologies.</p>
+<p>The project also documented basic visitor information about the park, including its history, lodging, recreation opportunities, and seasonal access. That content provided context for the geographic features included in the maps.</p>
+</section>
+<section id="data-collection" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection">Data Collection</h2>
+<p>Data were assembled from several sources.</p>
+<section id="esri-and-u.s.-census-bureau" class="level3">
+<h3 class="anchored" data-anchor-id="esri-and-u.s.-census-bureau">Esri and U.S. Census Bureau</h3>
+<p>Esri basemap data were used for state and county boundaries.</p>
+<p>TIGER shapefiles for Glacier and Flathead counties supplied:</p>
+<ul>
+<li>roads;</li>
+<li>hydrography;</li>
+<li>lakes;</li>
+<li>county boundaries.</li>
+</ul>
+</section>
+<section id="national-park-service-gis" class="level3">
+<h3 class="anchored" data-anchor-id="national-park-service-gis">National Park Service GIS</h3>
+<p>More detailed park data came from the National Park Service GIS server.</p>
+<p>The available layers included:</p>
+<ul>
+<li>park boundary;</li>
+<li>roads;</li>
+<li>trails;</li>
+<li>streams;</li>
+<li>lakes;</li>
+<li>wilderness areas;</li>
+<li>the Continental Divide.</li>
+</ul>
+<p>Metadata files were downloaded when available.</p>
+</section>
+<section id="geographic-names-information-system" class="level3">
+<h3 class="anchored" data-anchor-id="geographic-names-information-system">Geographic Names Information System</h3>
+<p>The National Park Service data did not include every point of interest needed for the project.</p>
+<p>GNIS records were used to create layers for features such as:</p>
+<ul>
+<li>campgrounds;</li>
+<li>cabins;</li>
+<li>ranger stations;</li>
+<li>arches;</li>
+<li>springs;</li>
+<li>waterfalls;</li>
+<li>summits.</li>
+</ul>
+</section>
+<section id="raster-and-elevation-data" class="level3">
+<h3 class="anchored" data-anchor-id="raster-and-elevation-data">Raster and Elevation Data</h3>
+<p>Raster and terrain data came from:</p>
+<ul>
+<li>GIS Data Depot;</li>
+<li>Montana Geographic Information Clearinghouse.</li>
+</ul>
+<p>The collected raster products included:</p>
+<ul>
+<li>Digital Elevation Models;</li>
+<li>color Digital Orthophoto Quarter Quadrangles;</li>
+<li>Digital Raster Graphics.</li>
+</ul>
+</section>
+</section>
+<section id="preparing-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="preparing-the-data">Preparing the Data</h2>
+<p>All downloaded files were organized within a predefined folder structure.</p>
+<p>ArcCatalog was used to:</p>
+<ul>
+<li>check coordinate systems;</li>
+<li>define missing projections;</li>
+<li>import available metadata;</li>
+<li>rename files for clarity.</li>
+</ul>
+<p>National Park Service data stored as ArcInfo <code>.e00</code> interchange files were converted into shapefiles using Esri Import 71.</p>
+<section id="merging-county-data" class="level3">
+<h3 class="anchored" data-anchor-id="merging-county-data">Merging County Data</h3>
+<p>TIGER datasets for Glacier and Flathead counties were merged to create seamless layers around the park.</p>
+<p>Additional fields were added where needed to support symbology.</p>
+</section>
+<section id="creating-point-of-interest-layers" class="level3">
+<h3 class="anchored" data-anchor-id="creating-point-of-interest-layers">Creating Point-of-Interest Layers</h3>
+<p>GNIS records were imported into Microsoft Excel, sorted by feature type, and cleaned of unnecessary fields.</p>
+<p>The resulting tables were exported as CSV files and added to ArcMap as XY data.</p>
+<p><strong>Select by Attribute</strong> was then used to create separate shapefiles for the different feature classes.</p>
+</section>
+<section id="coordinate-system" class="level3">
+<h3 class="anchored" data-anchor-id="coordinate-system">Coordinate System</h3>
+<p>Because the project data would ultimately be delivered through ArcIMS, the datasets were converted into a common coordinate system:</p>
+<p><strong>NAD 83 UTM Zone 12N</strong></p>
+<p>An identical folder structure was created for the projected copies.</p>
+</section>
+</section>
+<section id="raster-processing-and-terrain-products" class="level2">
+<h2 class="anchored" data-anchor-id="raster-processing-and-terrain-products">Raster Processing and Terrain Products</h2>
+<section id="color-doqq-imagery" class="level3">
+<h3 class="anchored" data-anchor-id="color-doqq-imagery">Color DOQQ Imagery</h3>
+<p>Color DOQQ imagery for the park was merged in Global Mapper.</p>
+<p>Attempts to clip the merged imagery to the park boundary repeatedly caused both Global Mapper and ArcMap to crash. The full mosaic was therefore retained for the project.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-color-doqq.png" class="lightbox" data-gallery="glacier-project" title="Color DOQQ mosaic for Glacier National Park."><img src="images/glacier-color-doqq.png" class="img-fluid figure-img" alt="Color aerial imagery mosaic covering Glacier National Park and clipped visually to the park boundary."></a></p>
+<figcaption>Color DOQQ mosaic for Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="digital-raster-graphics" class="level3">
+<h3 class="anchored" data-anchor-id="digital-raster-graphics">Digital Raster Graphics</h3>
+<p>Nearly 50 Digital Raster Graphics were used.</p>
+<p>Although the files were described as collarless, they still included white borders. When displayed together, those borders covered neighboring quadrangles and created visible gaps.</p>
+<p>Clipping each raster separately was not practical, so white was changed to <strong>No Color</strong> in ArcMap. That allowed adjacent quadrangles to display together, although it also made white map features transparent.</p>
+<p>A white USGS quadrangle layer was placed beneath the DRGs to restore the appearance of white areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-drg.png" class="lightbox" data-gallery="glacier-project" title="Digital Raster Graphic mosaic for Glacier National Park."><img src="images/glacier-drg.png" class="img-fluid figure-img" alt="Mosaic of digitized USGS topographic maps covering Glacier National Park."></a></p>
+<figcaption>Digital Raster Graphic mosaic for Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="elevation-processing" class="level3">
+<h3 class="anchored" data-anchor-id="elevation-processing">Elevation Processing</h3>
+<p>DEM files were converted using the GIS Data Depot’s SDTS2DEM utility.</p>
+<p>The DEMs were then:</p>
+<ol type="1">
+<li>mosaicked;</li>
+<li>clipped to the park boundary;</li>
+<li>processed with Spatial Analyst and 3D Analyst.</li>
+</ol>
+<p>Derived products included:</p>
+<ul>
+<li>hillshade;</li>
+<li>Triangulated Irregular Network;</li>
+<li>50-foot contours;</li>
+<li>100-foot contours;</li>
+<li>200-foot contours.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-tin-hillshade.png" class="lightbox" data-gallery="glacier-project" title="TIN and hillshade representation of Glacier National Park terrain."><img src="images/glacier-tin-hillshade.png" class="img-fluid figure-img" alt="Triangulated Irregular Network elevation classes displayed over hillshade for Glacier National Park."></a></p>
+<figcaption>TIN and hillshade representation of Glacier National Park terrain.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="final-cartographic-layouts" class="level2">
+<h2 class="anchored" data-anchor-id="final-cartographic-layouts">Final Cartographic Layouts</h2>
+<p>Eight thematic layouts were planned using a consistent design.</p>
+<p>Each layout included:</p>
+<ul>
+<li>title;</li>
+<li>main data frame;</li>
+<li>locator map;</li>
+<li>north arrow;</li>
+<li>scale bar;</li>
+<li>legend;</li>
+<li>author;</li>
+<li>date;</li>
+<li>organization;</li>
+<li>datum;</li>
+<li>projection;</li>
+<li>data sources.</li>
+</ul>
+<p>The surviving final layouts document seven of those themes.</p>
+<section id="hydrography" class="level3">
+<h3 class="anchored" data-anchor-id="hydrography">Hydrography</h3>
+<p>The hydrography layout combined springs, perennial and intermittent streams, the Flathead River, park lakes, the park boundary, and shaded relief.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-hydrography.png" class="lightbox" data-gallery="glacier-project" title="Hydrography of Glacier National Park."><img src="images/glacier-hydrography.png" class="img-fluid figure-img" alt="Hydrography map of Glacier National Park showing springs, perennial and intermittent streams, the Flathead River, lakes, the park boundary, and hillshade."></a></p>
+<figcaption>Hydrography of Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="roads-and-railroads" class="level3">
+<h3 class="anchored" data-anchor-id="roads-and-railroads">Roads and Railroads</h3>
+<p>The roads layout distinguished paved and unpaved roads and included nearby railroads.</p>
+<p>Major routes were labeled, including:</p>
+<ul>
+<li>Going-to-the-Sun Road;</li>
+<li>Many Glacier Road;</li>
+<li>Chief Mountain Highway;</li>
+<li>Two Medicine Road;</li>
+<li>Camas Road;</li>
+<li>Inside North Fork Road;</li>
+<li>U.S. Highway 2;</li>
+<li>U.S. Highway 89.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-roads.png" class="lightbox" data-gallery="glacier-project" title="Roads of Glacier National Park."><img src="images/glacier-roads.png" class="img-fluid figure-img" alt="Road map of Glacier National Park showing paved roads, unpaved roads, railroads, major road labels, the park boundary, and shaded relief."></a></p>
+<figcaption>Roads of Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="trails" class="level3">
+<h3 class="anchored" data-anchor-id="trails">Trails</h3>
+<p>The trails layout showed the distribution of the park’s extensive trail system over hillshade.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-trails.png" class="lightbox" data-gallery="glacier-project" title="Trails of Glacier National Park."><img src="images/glacier-trails.png" class="img-fluid figure-img" alt="Trail network of Glacier National Park displayed over shaded relief."></a></p>
+<figcaption>Trails of Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="buildings-and-visitor-facilities" class="level3">
+<h3 class="anchored" data-anchor-id="buildings-and-visitor-facilities">Buildings and Visitor Facilities</h3>
+<p>The buildings layout mapped ranger stations, campgrounds, and cabins.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/glacier-buildings.png" class="lightbox" data-gallery="glacier-project" title="Buildings and facilities of Glacier National Park."><img src="images/glacier-buildings.png" class="img-fluid figure-img" alt="Map of Glacier National Park showing ranger stations, campgrounds, cabins, the park boundary, and shaded relief."></a></p>
+<figcaption>Buildings and facilities of Glacier National Park.</figcaption>
+</figure>
+</div>
+</section>
+<section id="additional-raster-layouts" class="level3">
+<h3 class="anchored" data-anchor-id="additional-raster-layouts">Additional Raster Layouts</h3>
+<p>The color DOQQ, Digital Raster Graphic, and TIN-and-hillshade layouts documented the major raster and terrain products used by the project.</p>
+</section>
+</section>
+<section id="arcexplorer-and-arcreader" class="level2">
+<h2 class="anchored" data-anchor-id="arcexplorer-and-arcreader">ArcExplorer and ArcReader</h2>
+<p>The free Esri ArcExplorer Java Edition was tested as one possible delivery platform.</p>
+<section id="strengths" class="level3">
+<h3 class="anchored" data-anchor-id="strengths">Strengths</h3>
+<p>ArcExplorer and ArcReader could display many project datasets without requiring a full ArcGIS Desktop license.</p>
+<p>Several advantages of these platforms:</p>
+<ul>
+<li>an intuitive interface;</li>
+<li>a useful Identify tool;</li>
+<li>access to full feature attributes;</li>
+<li>support for many raster and vector datasets;</li>
+<li>reasonable user control for a free application.</li>
+</ul>
+</section>
+<section id="limitations" class="level3">
+<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
+<p>Loading all raster and feature layers made ArcExplorer slow and unresponsive.</p>
+<p>Performance improved after raster datasets were removed.</p>
+<p>Other issues included:</p>
+<ul>
+<li>reference scales were not carried over reliably;</li>
+<li>attempts to recreate reference-scale behavior reduced performance;</li>
+<li>some properly projected data occasionally appeared on the wrong side of the globe.</li>
+</ul>
+<p>The report also noted that the experience may have differed if all data had first been converted to KML.</p>
+</section>
+</section>
+<section id="google-earth" class="level2">
+<h2 class="anchored" data-anchor-id="google-earth">Google Earth</h2>
+<p>Google Earth provided the most familiar and visually engaging platform for general users.</p>
+<p>ArcMap’s export tools were used to create KML and KMZ files while retaining much of the layer organization and symbology.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/google-earth-parkwide.jpg" class="lightbox" data-gallery="glacier-project" title="Glacier National Park project layers displayed in Google Earth."><img src="images/google-earth-parkwide.jpg" class="img-fluid figure-img" alt="Glacier National Park GIS layers displayed over satellite imagery in Google Earth, including hydrography, visitor facilities, transportation, and other features."></a></p>
+<figcaption>Glacier National Park project layers displayed in Google Earth.</figcaption>
+</figure>
+</div>
+<section id="strengths-1" class="level3">
+<h3 class="anchored" data-anchor-id="strengths-1">Strengths</h3>
+<p>Google Earth offered:</p>
+<ul>
+<li>high-quality imagery;</li>
+<li>a familiar interface;</li>
+<li>broad public adoption;</li>
+<li>existing geotagged photographs and other content;</li>
+<li>straightforward point and polygon identification;</li>
+<li>visually engaging regional context.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/google-earth-detail.jpg" class="lightbox" data-gallery="glacier-project" title="Detailed Google Earth view of Glacier National Park visitor and natural features."><img src="images/google-earth-detail.jpg" class="img-fluid figure-img" alt="Detailed Google Earth view of Glacier National Park showing lakes, streams, roads, trails, cabins, campgrounds, and other point features over satellite imagery."></a></p>
+<figcaption>Detailed Google Earth view of Glacier National Park visitor and natural features.</figcaption>
+</figure>
+</div>
+</section>
+<section id="placemark-identification" class="level3">
+<h3 class="anchored" data-anchor-id="placemark-identification">Placemark Identification</h3>
+<p>Point features could be inspected and edited as placemarks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/google-earth-placemark.jpg" class="lightbox" data-gallery="glacier-project" title="Google Earth placemark for a Glacier National Park feature."><img src="images/google-earth-placemark.jpg" class="img-fluid figure-img" alt="Google Earth placemark editing window showing a named Glacier National Park feature and its latitude and longitude."></a></p>
+<figcaption>Google Earth placemark for a Glacier National Park feature.</figcaption>
+</figure>
+</div>
+</section>
+<section id="limitations-1" class="level3">
+<h3 class="anchored" data-anchor-id="limitations-1">Limitations</h3>
+<p>Google Earth was less useful for advanced GIS interaction.</p>
+<p>Some specific limitations included:</p>
+<ul>
+<li>line features such as trails and streams were difficult to identify;</li>
+<li>attribute information was limited;</li>
+<li>query tools were not apparent;</li>
+<li>GIS power users had less analytical control than in ArcIMS or ArcExplorer.</li>
+</ul>
+<p>For casual users, those limitations may have mattered less than the visual quality and familiarity of the interface.</p>
+</section>
+</section>
+<section id="arcims-web-map" class="level2">
+<h2 class="anchored" data-anchor-id="arcims-web-map">ArcIMS Web Map</h2>
+<p>ArcIMS was Esri’s earlier web-map server technology.</p>
+<p>The project used the <strong>MXD to AXL converter</strong> to build the initial ArcIMS configuration.</p>
+<p>The resulting application included:</p>
+<ul>
+<li>a browser-based map;</li>
+<li>locator map;</li>
+<li>layer controls;</li>
+<li>active-layer selection;</li>
+<li>zoom and pan tools;</li>
+<li>Identify;</li>
+<li>selection tools;</li>
+<li>attribute queries;</li>
+<li>returned attribute tables.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/arcims-parkwide.jpg" class="lightbox" data-gallery="glacier-project" title="ArcIMS map of Glacier National Park with layers and locator map."><img src="images/arcims-parkwide.jpg" class="img-fluid figure-img" alt="Browser-based ArcIMS application showing Glacier National Park layers, a locator map, navigation tools, and selectable layer controls."></a></p>
+<figcaption>ArcIMS map of Glacier National Park with layers and locator map.</figcaption>
+</figure>
+</div>
+<section id="layer-display-and-navigation" class="level3">
+<h3 class="anchored" data-anchor-id="layer-display-and-navigation">Layer Display and Navigation</h3>
+<p>The ArcIMS application supported views ranging from statewide context to detailed terrain and facility mapping.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/arcims-contours.jpg" class="lightbox" data-gallery="glacier-project" title="Detailed ArcIMS view using contour lines and hillshade."><img src="images/arcims-contours.jpg" class="img-fluid figure-img" alt="Detailed ArcIMS view of Glacier National Park showing terrain, lakes, streams, roads, and closely spaced contour lines."></a></p>
+<figcaption>Detailed ArcIMS view using contour lines and hillshade.</figcaption>
+</figure>
+</div>
+<p>A locator map helped users understand their position when zoomed into the park.</p>
+<p>That feature was identified as an advantage over the other platforms.</p>
+</section>
+<section id="feature-identification" class="level3">
+<h3 class="anchored" data-anchor-id="feature-identification">Feature Identification</h3>
+<p>ArcIMS retained feature attributes and supported identification of narrow or small features.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/arcims-trail-identify.jpg" class="lightbox" data-gallery="glacier-project" title="ArcIMS trail identification with returned attribute records."><img src="images/arcims-trail-identify.jpg" class="img-fluid figure-img" alt="ArcIMS map showing a selected trail segment and its returned attribute-table records."></a></p>
+<figcaption>ArcIMS trail identification with returned attribute records.</figcaption>
+</figure>
+</div>
+</section>
+<section id="attribute-queries" class="level3">
+<h3 class="anchored" data-anchor-id="attribute-queries">Attribute Queries</h3>
+<p>ArcIMS allowed users to construct queries similar to <strong>Select by Attribute</strong> in ArcMap.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/arcims-query.jpg" class="lightbox" data-gallery="glacier-project" title="ArcIMS attribute query for a named waterfall."><img src="images/arcims-query.jpg" class="img-fluid figure-img" alt="ArcIMS query interface selecting a named waterfall from the feature-name field."></a></p>
+<figcaption>ArcIMS attribute query for a named waterfall.</figcaption>
+</figure>
+</div>
+<p>The ability to choose an active layer and draw a box around features also made it easier to select roads, streams, and trails than in Google Earth.</p>
+</section>
+<section id="limitations-2" class="level3">
+<h3 class="anchored" data-anchor-id="limitations-2">Limitations</h3>
+<p>ArcIMS had several technical and design limitations:</p>
+<ul>
+<li>the default interface appeared dated;</li>
+<li>special ArcMap symbology did not always convert successfully;</li>
+<li>the TIN did not import;</li>
+<li>large DOQQ and DRG datasets were not included because of file size;</li>
+<li>some configuration issues might have required additional work in ArcIMS Author.</li>
+</ul>
+<p>Despite those limitations, ArcIMS provided the strongest GIS-oriented query and attribute functionality of the tested platforms.</p>
+</section>
+</section>
+<section id="comparing-the-platforms" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-the-platforms">Comparing the Platforms</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Platform</th>
+<th>Primary Strength</th>
+<th>Main Limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ArcExplorer / ArcReader</td>
+<td>Familiar GIS-style viewing and strong feature identification</td>
+<td>Performance problems with large raster and vector collections</td>
+</tr>
+<tr class="even">
+<td>Google Earth</td>
+<td>Visual appeal, imagery, public familiarity, and easy KML/KMZ sharing</td>
+<td>Limited attribute access and querying</td>
+</tr>
+<tr class="odd">
+<td>ArcIMS</td>
+<td>Browser delivery, locator map, active layers, attribute queries, and feature selection</td>
+<td>Older interface and more complicated configuration</td>
+</tr>
+</tbody>
+</table>
+<p>No single platform performed best in every category.</p>
+<p>The comparison showed that platform choice depended on the intended audience:</p>
+<ul>
+<li>casual visitors benefited from Google Earth’s imagery and familiarity;</li>
+<li>GIS users benefited from ArcIMS querying and ArcExplorer attribute access;</li>
+<li>large raster collections created performance challenges across the available technology.</li>
+</ul>
+</section>
+<section id="technical-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="technical-challenges">Technical Challenges</h2>
+<p>Several difficulties became important parts of the project.</p>
+<section id="large-raster-files" class="level3">
+<h3 class="anchored" data-anchor-id="large-raster-files">Large Raster Files</h3>
+<p>DOQQ mosaics were too large to clip reliably, and the many DRGs required a display workaround.</p>
+<p>The raster datasets also reduced ArcExplorer performance and were omitted from ArcIMS because of their size.</p>
+</section>
+<section id="legacy-data-formats" class="level3">
+<h3 class="anchored" data-anchor-id="legacy-data-formats">Legacy Data Formats</h3>
+<p>National Park Service <code>.e00</code> files required conversion before use.</p>
+</section>
+<section id="projection-consistency" class="level3">
+<h3 class="anchored" data-anchor-id="projection-consistency">Projection Consistency</h3>
+<p>All ArcIMS data had to be converted into one coordinate system to reduce display problems.</p>
+</section>
+<section id="symbology-conversion" class="level3">
+<h3 class="anchored" data-anchor-id="symbology-conversion">Symbology Conversion</h3>
+<p>The MXD-to-AXL conversion worked better with default symbology than with specialized symbols.</p>
+</section>
+<section id="platform-differences" class="level3">
+<h3 class="anchored" data-anchor-id="platform-differences">Platform Differences</h3>
+<p>The same dataset behaved differently across ArcMap, ArcExplorer, Google Earth, and ArcIMS.</p>
+<p>Reference scales, attributes, queries, symbology, and raster performance did not transfer consistently.</p>
+</section>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>This project provided experience with:</p>
+<ul>
+<li>planning an individual internet-mapping project;</li>
+<li>acquiring data from multiple agencies;</li>
+<li>managing metadata and coordinate systems;</li>
+<li>converting legacy GIS formats;</li>
+<li>preparing GNIS point data;</li>
+<li>merging county datasets;</li>
+<li>mosaicking imagery and elevation data;</li>
+<li>troubleshooting raster collars;</li>
+<li>creating hillshade, TINs, and contours;</li>
+<li>designing consistent thematic layouts;</li>
+<li>exporting KML and KMZ;</li>
+<li>configuring an ArcIMS web application;</li>
+<li>comparing user interfaces and platform capabilities;</li>
+<li>evaluating technology for different audiences.</li>
+</ul>
+<p>The most important lesson was that publishing GIS data is not simply a matter of moving an ArcMap document to another platform.</p>
+<p>Each platform imposed its own requirements and tradeoffs involving:</p>
+<ul>
+<li>performance;</li>
+<li>symbology;</li>
+<li>attributes;</li>
+<li>interaction;</li>
+<li>data formats;</li>
+<li>scale behavior;</li>
+<li>user expectations.</li>
+</ul>
+</section>
+<section id="looking-back" class="level2">
+<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
+<p>This project captures a transitional period in web GIS.</p>
+<p>ArcIMS represented a server-based browser map with strong GIS interaction. ArcExplorer and ArcReader offered free desktop access to spatial data. Google Earth emphasized imagery, public accessibility, and KML-based sharing.</p>
+<p>A modern version of the project would likely use hosted feature layers, vector tiles, responsive web maps, pop-ups, web-based filtering, and cloud-hosted imagery. Many of the conversion and performance problems would be approached differently.</p>
+<p>Even so, the project addressed questions that remain relevant:</p>
+<ul>
+<li>Who is the intended user?</li>
+<li>How much GIS functionality does that user need?</li>
+<li>Which attributes must remain accessible?</li>
+<li>How should large raster datasets be delivered?</li>
+<li>What is lost when data move between platforms?</li>
+<li>How should interface design balance simplicity and analytical power?</li>
+</ul>
+<p>Those questions make the project more than a collection of historical software screenshots. It documents an early effort to evaluate web GIS as a communication and data-delivery system.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

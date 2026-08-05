@@ -21,6 +21,104 @@
     "text": "Projects in Development\nThe following projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.\n\nArches National Park\nCamp Davy Crockett\nCumberland Trail\nGIS Thesis\nGlacier National Park\nH1N1 Risk Assessment\nHaiti Earthquake Data\nPredictive Crime Mapping"
   },
   {
+    "objectID": "projects/glacier-national-park/index.html",
+    "href": "projects/glacier-national-park/index.html",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "",
+    "text": "This individual final project was completed for GIS 211: Internet Mapping at Roane State Community College during spring 2009.\nThe project used Glacier National Park as a study area for exploring how the same GIS data could be prepared and delivered through several early internet-mapping environments:\n\nEsri ArcIMS;\nEsri ArcExplorer and ArcReader;\nGoogle Earth.\n\nArcMap was used to prepare shapefiles, raster layers, terrain products, and finished cartographic layouts. Those datasets were then adapted for use in desktop viewers, Google Earth, and a browser-based ArcIMS application.\nThe primary purpose was not simply to create maps of Glacier National Park. It was to compare how different platforms handled:\n\nmap display;\nraster and vector performance;\nlayer organization;\nsymbology;\nnavigation;\nfeature identification;\nattribute access;\nspatial and attribute queries;\npublic usability.\n\nThe project also produced a set of themed print layouts documenting the source cartography behind the internet maps.\n\n\n\nHydrography of Glacier National Park."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#project-overview",
+    "href": "projects/glacier-national-park/index.html#project-overview",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "",
+    "text": "This individual final project was completed for GIS 211: Internet Mapping at Roane State Community College during spring 2009.\nThe project used Glacier National Park as a study area for exploring how the same GIS data could be prepared and delivered through several early internet-mapping environments:\n\nEsri ArcIMS;\nEsri ArcExplorer and ArcReader;\nGoogle Earth.\n\nArcMap was used to prepare shapefiles, raster layers, terrain products, and finished cartographic layouts. Those datasets were then adapted for use in desktop viewers, Google Earth, and a browser-based ArcIMS application.\nThe primary purpose was not simply to create maps of Glacier National Park. It was to compare how different platforms handled:\n\nmap display;\nraster and vector performance;\nlayer organization;\nsymbology;\nnavigation;\nfeature identification;\nattribute access;\nspatial and attribute queries;\npublic usability.\n\nThe project also produced a set of themed print layouts documenting the source cartography behind the internet maps.\n\n\n\nHydrography of Glacier National Park."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#project-context",
+    "href": "projects/glacier-national-park/index.html#project-context",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Project Context",
+    "text": "Project Context\nGlacier National Park was selected because it offered a complex combination of:\n\nsteep terrain;\nextensive hydrography;\nroads and trails;\nlodges, cabins, ranger stations, and campgrounds;\nwilderness areas;\nnatural features;\nnumerous raster and vector data sources.\n\nThat variety made the park a useful test case for comparing internet-mapping technologies.\nThe project also documented basic visitor information about the park, including its history, lodging, recreation opportunities, and seasonal access. That content provided context for the geographic features included in the maps."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#data-collection",
+    "href": "projects/glacier-national-park/index.html#data-collection",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Data Collection",
+    "text": "Data Collection\nData were assembled from several sources.\n\nEsri and U.S. Census Bureau\nEsri basemap data were used for state and county boundaries.\nTIGER shapefiles for Glacier and Flathead counties supplied:\n\nroads;\nhydrography;\nlakes;\ncounty boundaries.\n\n\n\nNational Park Service GIS\nMore detailed park data came from the National Park Service GIS server.\nThe available layers included:\n\npark boundary;\nroads;\ntrails;\nstreams;\nlakes;\nwilderness areas;\nthe Continental Divide.\n\nMetadata files were downloaded when available.\n\n\nGeographic Names Information System\nThe National Park Service data did not include every point of interest needed for the project.\nGNIS records were used to create layers for features such as:\n\ncampgrounds;\ncabins;\nranger stations;\narches;\nsprings;\nwaterfalls;\nsummits.\n\n\n\nRaster and Elevation Data\nRaster and terrain data came from:\n\nGIS Data Depot;\nMontana Geographic Information Clearinghouse.\n\nThe collected raster products included:\n\nDigital Elevation Models;\ncolor Digital Orthophoto Quarter Quadrangles;\nDigital Raster Graphics."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#preparing-the-data",
+    "href": "projects/glacier-national-park/index.html#preparing-the-data",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Preparing the Data",
+    "text": "Preparing the Data\nAll downloaded files were organized within a predefined folder structure.\nArcCatalog was used to:\n\ncheck coordinate systems;\ndefine missing projections;\nimport available metadata;\nrename files for clarity.\n\nNational Park Service data stored as ArcInfo .e00 interchange files were converted into shapefiles using Esri Import 71.\n\nMerging County Data\nTIGER datasets for Glacier and Flathead counties were merged to create seamless layers around the park.\nAdditional fields were added where needed to support symbology.\n\n\nCreating Point-of-Interest Layers\nGNIS records were imported into Microsoft Excel, sorted by feature type, and cleaned of unnecessary fields.\nThe resulting tables were exported as CSV files and added to ArcMap as XY data.\nSelect by Attribute was then used to create separate shapefiles for the different feature classes.\n\n\nCoordinate System\nBecause the project data would ultimately be delivered through ArcIMS, the datasets were converted into a common coordinate system:\nNAD 83 UTM Zone 12N\nAn identical folder structure was created for the projected copies."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#raster-processing-and-terrain-products",
+    "href": "projects/glacier-national-park/index.html#raster-processing-and-terrain-products",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Raster Processing and Terrain Products",
+    "text": "Raster Processing and Terrain Products\n\nColor DOQQ Imagery\nColor DOQQ imagery for the park was merged in Global Mapper.\nAttempts to clip the merged imagery to the park boundary repeatedly caused both Global Mapper and ArcMap to crash. The full mosaic was therefore retained for the project.\n\n\n\nColor DOQQ mosaic for Glacier National Park.\n\n\n\n\nDigital Raster Graphics\nNearly 50 Digital Raster Graphics were used.\nAlthough the files were described as collarless, they still included white borders. When displayed together, those borders covered neighboring quadrangles and created visible gaps.\nClipping each raster separately was not practical, so white was changed to No Color in ArcMap. That allowed adjacent quadrangles to display together, although it also made white map features transparent.\nA white USGS quadrangle layer was placed beneath the DRGs to restore the appearance of white areas.\n\n\n\nDigital Raster Graphic mosaic for Glacier National Park.\n\n\n\n\nElevation Processing\nDEM files were converted using the GIS Data Depot’s SDTS2DEM utility.\nThe DEMs were then:\n\nmosaicked;\nclipped to the park boundary;\nprocessed with Spatial Analyst and 3D Analyst.\n\nDerived products included:\n\nhillshade;\nTriangulated Irregular Network;\n50-foot contours;\n100-foot contours;\n200-foot contours.\n\n\n\n\nTIN and hillshade representation of Glacier National Park terrain."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#final-cartographic-layouts",
+    "href": "projects/glacier-national-park/index.html#final-cartographic-layouts",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Final Cartographic Layouts",
+    "text": "Final Cartographic Layouts\nEight thematic layouts were planned using a consistent design.\nEach layout included:\n\ntitle;\nmain data frame;\nlocator map;\nnorth arrow;\nscale bar;\nlegend;\nauthor;\ndate;\norganization;\ndatum;\nprojection;\ndata sources.\n\nThe surviving final layouts document seven of those themes.\n\nHydrography\nThe hydrography layout combined springs, perennial and intermittent streams, the Flathead River, park lakes, the park boundary, and shaded relief.\n\n\n\nHydrography of Glacier National Park.\n\n\n\n\nRoads and Railroads\nThe roads layout distinguished paved and unpaved roads and included nearby railroads.\nMajor routes were labeled, including:\n\nGoing-to-the-Sun Road;\nMany Glacier Road;\nChief Mountain Highway;\nTwo Medicine Road;\nCamas Road;\nInside North Fork Road;\nU.S. Highway 2;\nU.S. Highway 89.\n\n\n\n\nRoads of Glacier National Park.\n\n\n\n\nTrails\nThe trails layout showed the distribution of the park’s extensive trail system over hillshade.\n\n\n\nTrails of Glacier National Park.\n\n\n\n\nBuildings and Visitor Facilities\nThe buildings layout mapped ranger stations, campgrounds, and cabins.\n\n\n\nBuildings and facilities of Glacier National Park.\n\n\n\n\nAdditional Raster Layouts\nThe color DOQQ, Digital Raster Graphic, and TIN-and-hillshade layouts documented the major raster and terrain products used by the project."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#arcexplorer-and-arcreader",
+    "href": "projects/glacier-national-park/index.html#arcexplorer-and-arcreader",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "ArcExplorer and ArcReader",
+    "text": "ArcExplorer and ArcReader\nThe free Esri ArcExplorer Java Edition was tested as one possible delivery platform.\n\nStrengths\nArcExplorer and ArcReader could display many project datasets without requiring a full ArcGIS Desktop license.\nSeveral advantages of these platforms:\n\nan intuitive interface;\na useful Identify tool;\naccess to full feature attributes;\nsupport for many raster and vector datasets;\nreasonable user control for a free application.\n\n\n\nLimitations\nLoading all raster and feature layers made ArcExplorer slow and unresponsive.\nPerformance improved after raster datasets were removed.\nOther issues included:\n\nreference scales were not carried over reliably;\nattempts to recreate reference-scale behavior reduced performance;\nsome properly projected data occasionally appeared on the wrong side of the globe.\n\nThe report also noted that the experience may have differed if all data had first been converted to KML."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#google-earth",
+    "href": "projects/glacier-national-park/index.html#google-earth",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Google Earth",
+    "text": "Google Earth\nGoogle Earth provided the most familiar and visually engaging platform for general users.\nArcMap’s export tools were used to create KML and KMZ files while retaining much of the layer organization and symbology.\n\n\n\nGlacier National Park project layers displayed in Google Earth.\n\n\n\nStrengths\nGoogle Earth offered:\n\nhigh-quality imagery;\na familiar interface;\nbroad public adoption;\nexisting geotagged photographs and other content;\nstraightforward point and polygon identification;\nvisually engaging regional context.\n\n\n\n\nDetailed Google Earth view of Glacier National Park visitor and natural features.\n\n\n\n\nPlacemark Identification\nPoint features could be inspected and edited as placemarks.\n\n\n\nGoogle Earth placemark for a Glacier National Park feature.\n\n\n\n\nLimitations\nGoogle Earth was less useful for advanced GIS interaction.\nSome specific limitations included:\n\nline features such as trails and streams were difficult to identify;\nattribute information was limited;\nquery tools were not apparent;\nGIS power users had less analytical control than in ArcIMS or ArcExplorer.\n\nFor casual users, those limitations may have mattered less than the visual quality and familiarity of the interface."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#arcims-web-map",
+    "href": "projects/glacier-national-park/index.html#arcims-web-map",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "ArcIMS Web Map",
+    "text": "ArcIMS Web Map\nArcIMS was Esri’s earlier web-map server technology.\nThe project used the MXD to AXL converter to build the initial ArcIMS configuration.\nThe resulting application included:\n\na browser-based map;\nlocator map;\nlayer controls;\nactive-layer selection;\nzoom and pan tools;\nIdentify;\nselection tools;\nattribute queries;\nreturned attribute tables.\n\n\n\n\nArcIMS map of Glacier National Park with layers and locator map.\n\n\n\nLayer Display and Navigation\nThe ArcIMS application supported views ranging from statewide context to detailed terrain and facility mapping.\n\n\n\nDetailed ArcIMS view using contour lines and hillshade.\n\n\nA locator map helped users understand their position when zoomed into the park.\nThat feature was identified as an advantage over the other platforms.\n\n\nFeature Identification\nArcIMS retained feature attributes and supported identification of narrow or small features.\n\n\n\nArcIMS trail identification with returned attribute records.\n\n\n\n\nAttribute Queries\nArcIMS allowed users to construct queries similar to Select by Attribute in ArcMap.\n\n\n\nArcIMS attribute query for a named waterfall.\n\n\nThe ability to choose an active layer and draw a box around features also made it easier to select roads, streams, and trails than in Google Earth.\n\n\nLimitations\nArcIMS had several technical and design limitations:\n\nthe default interface appeared dated;\nspecial ArcMap symbology did not always convert successfully;\nthe TIN did not import;\nlarge DOQQ and DRG datasets were not included because of file size;\nsome configuration issues might have required additional work in ArcIMS Author.\n\nDespite those limitations, ArcIMS provided the strongest GIS-oriented query and attribute functionality of the tested platforms."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#comparing-the-platforms",
+    "href": "projects/glacier-national-park/index.html#comparing-the-platforms",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Comparing the Platforms",
+    "text": "Comparing the Platforms\n\n\n\n\n\n\n\n\nPlatform\nPrimary Strength\nMain Limitation\n\n\n\n\nArcExplorer / ArcReader\nFamiliar GIS-style viewing and strong feature identification\nPerformance problems with large raster and vector collections\n\n\nGoogle Earth\nVisual appeal, imagery, public familiarity, and easy KML/KMZ sharing\nLimited attribute access and querying\n\n\nArcIMS\nBrowser delivery, locator map, active layers, attribute queries, and feature selection\nOlder interface and more complicated configuration\n\n\n\nNo single platform performed best in every category.\nThe comparison showed that platform choice depended on the intended audience:\n\ncasual visitors benefited from Google Earth’s imagery and familiarity;\nGIS users benefited from ArcIMS querying and ArcExplorer attribute access;\nlarge raster collections created performance challenges across the available technology."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#technical-challenges",
+    "href": "projects/glacier-national-park/index.html#technical-challenges",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Technical Challenges",
+    "text": "Technical Challenges\nSeveral difficulties became important parts of the project.\n\nLarge Raster Files\nDOQQ mosaics were too large to clip reliably, and the many DRGs required a display workaround.\nThe raster datasets also reduced ArcExplorer performance and were omitted from ArcIMS because of their size.\n\n\nLegacy Data Formats\nNational Park Service .e00 files required conversion before use.\n\n\nProjection Consistency\nAll ArcIMS data had to be converted into one coordinate system to reduce display problems.\n\n\nSymbology Conversion\nThe MXD-to-AXL conversion worked better with default symbology than with specialized symbols.\n\n\nPlatform Differences\nThe same dataset behaved differently across ArcMap, ArcExplorer, Google Earth, and ArcIMS.\nReference scales, attributes, queries, symbology, and raster performance did not transfer consistently."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#what-i-learned",
+    "href": "projects/glacier-national-park/index.html#what-i-learned",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project provided experience with:\n\nplanning an individual internet-mapping project;\nacquiring data from multiple agencies;\nmanaging metadata and coordinate systems;\nconverting legacy GIS formats;\npreparing GNIS point data;\nmerging county datasets;\nmosaicking imagery and elevation data;\ntroubleshooting raster collars;\ncreating hillshade, TINs, and contours;\ndesigning consistent thematic layouts;\nexporting KML and KMZ;\nconfiguring an ArcIMS web application;\ncomparing user interfaces and platform capabilities;\nevaluating technology for different audiences.\n\nThe most important lesson was that publishing GIS data is not simply a matter of moving an ArcMap document to another platform.\nEach platform imposed its own requirements and tradeoffs involving:\n\nperformance;\nsymbology;\nattributes;\ninteraction;\ndata formats;\nscale behavior;\nuser expectations."
+  },
+  {
+    "objectID": "projects/glacier-national-park/index.html#looking-back",
+    "href": "projects/glacier-national-park/index.html#looking-back",
+    "title": "Glacier National Park Internet Mapping Project",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis project captures a transitional period in web GIS.\nArcIMS represented a server-based browser map with strong GIS interaction. ArcExplorer and ArcReader offered free desktop access to spatial data. Google Earth emphasized imagery, public accessibility, and KML-based sharing.\nA modern version of the project would likely use hosted feature layers, vector tiles, responsive web maps, pop-ups, web-based filtering, and cloud-hosted imagery. Many of the conversion and performance problems would be approached differently.\nEven so, the project addressed questions that remain relevant:\n\nWho is the intended user?\nHow much GIS functionality does that user need?\nWhich attributes must remain accessible?\nHow should large raster datasets be delivered?\nWhat is lost when data move between platforms?\nHow should interface design balance simplicity and analytical power?\n\nThose questions make the project more than a collection of historical software screenshots. It documents an early effort to evaluate web GIS as a communication and data-delivery system."
+  },
+  {
     "objectID": "projects/demographics-suitability/index.html",
     "href": "projects/demographics-suitability/index.html",
     "title": "Business Location Suitability Analysis",

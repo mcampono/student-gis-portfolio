@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2011-01-01">
+<meta name="description" content="A graduate-course retrospective documenting advanced spatial analysis, modeling, network analysis, raster operations, interpolation, spatial statistics, and research on volunteered geographic information.">
+
+<title>Spatial Analysis and Modeling – Student GIS Portfolio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../awards-recognition.html"> 
+<span class="menu-text">Awards &amp; Recognition</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course Overview</a></li>
+  <li><a href="#network-analysis" id="toc-network-analysis" class="nav-link" data-scroll-target="#network-analysis">Network Analysis</a></li>
+  <li><a href="#post-office-closure-scenario" id="toc-post-office-closure-scenario" class="nav-link" data-scroll-target="#post-office-closure-scenario">Post Office Closure Scenario</a></li>
+  <li><a href="#suitability-modeling" id="toc-suitability-modeling" class="nav-link" data-scroll-target="#suitability-modeling">Suitability Modeling</a></li>
+  <li><a href="#raster-analysis" id="toc-raster-analysis" class="nav-link" data-scroll-target="#raster-analysis">Raster Analysis</a></li>
+  <li><a href="#land-cover-change" id="toc-land-cover-change" class="nav-link" data-scroll-target="#land-cover-change">Land-Cover Change</a></li>
+  <li><a href="#terrain-and-surface-analysis" id="toc-terrain-and-surface-analysis" class="nav-link" data-scroll-target="#terrain-and-surface-analysis">Terrain and Surface Analysis</a></li>
+  <li><a href="#yellowstone-road-visibility" id="toc-yellowstone-road-visibility" class="nav-link" data-scroll-target="#yellowstone-road-visibility">Yellowstone Road Visibility</a></li>
+  <li><a href="#tins-and-contours" id="toc-tins-and-contours" class="nav-link" data-scroll-target="#tins-and-contours">TINs and Contours</a></li>
+  <li><a href="#surface-interpolation" id="toc-surface-interpolation" class="nav-link" data-scroll-target="#surface-interpolation">Surface Interpolation</a></li>
+  <li><a href="#ecological-analysis" id="toc-ecological-analysis" class="nav-link" data-scroll-target="#ecological-analysis">Ecological Analysis</a></li>
+  <li><a href="#landslide-analysis" id="toc-landslide-analysis" class="nav-link" data-scroll-target="#landslide-analysis">Landslide Analysis</a></li>
+  <li><a href="#spatial-statistics" id="toc-spatial-statistics" class="nav-link" data-scroll-target="#spatial-statistics">Spatial Statistics</a></li>
+  <li><a href="#narcotics-arrests-in-las-vegas" id="toc-narcotics-arrests-in-las-vegas" class="nav-link" data-scroll-target="#narcotics-arrests-in-las-vegas">Narcotics Arrests in Las Vegas</a></li>
+  <li><a href="#research-paper-assessing-vgi-accuracy" id="toc-research-paper-assessing-vgi-accuracy" class="nav-link" data-scroll-target="#research-paper-assessing-vgi-accuracy">Research Paper: Assessing VGI Accuracy</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Spatial Analysis and Modeling</h1>
+<p class="subtitle lead">Network analysis, raster modeling, interpolation, spatial statistics, and spatial-data quality in GEOG 587</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Spatial Analysis</div>
+    <div class="quarto-category">Network Analysis</div>
+    <div class="quarto-category">Raster Modeling</div>
+    <div class="quarto-category">Spatial Statistics</div>
+    <div class="quarto-category">Interpolation</div>
+    <div class="quarto-category">Terrain Analysis</div>
+    <div class="quarto-category">Graduate Coursework</div>
+    <div class="quarto-category">UNM</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A graduate-course retrospective documenting advanced spatial analysis, modeling, network analysis, raster operations, interpolation, spatial statistics, and research on volunteered geographic information.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2011</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="course-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
+<p><strong>GEOG 587: Spatial Analysis and Modeling</strong> was one of the most challenging and rewarding courses in my graduate program at the University of New Mexico.</p>
+<p>The course covered a broad range of analytical methods, including:</p>
+<ul>
+<li>network analysis;</li>
+<li>raster analysis;</li>
+<li>suitability modeling;</li>
+<li>distance and allocation;</li>
+<li>zonal and focal operations;</li>
+<li>terrain and surface analysis;</li>
+<li>viewshed analysis;</li>
+<li>interpolation;</li>
+<li>land-cover change;</li>
+<li>point-pattern analysis;</li>
+<li>spatial autocorrelation;</li>
+<li>Local Moran’s I;</li>
+<li>spatial-data quality.</li>
+</ul>
+<p>The work required more than completing technical procedures. Assignments regularly asked me to explain assumptions, compare methods, verify results, interpret patterns, and identify limitations.</p>
+<p>This page presents the course as a collection of related analytical themes rather than as a sequence of isolated labs.</p>
+</section>
+<section id="network-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="network-analysis">Network Analysis</h2>
+<p>The course introduced network datasets and several Network Analyst solvers.</p>
+<p>Topics included:</p>
+<ul>
+<li>route analysis;</li>
+<li>closest facility;</li>
+<li>service areas;</li>
+<li>origin-destination cost matrices;</li>
+<li>facility allocation;</li>
+<li>network restrictions;</li>
+<li>travel time versus distance;</li>
+<li>turn restrictions;</li>
+<li>hierarchy;</li>
+<li>barriers.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/network-service-areas.png" class="lightbox" data-gallery="spatial-analysis" title="Network Analyst service-area results showing multiple travel-time breaks."><img src="images/network-service-areas.png" class="img-fluid figure-img" alt="ArcMap Network Analyst display showing overlapping service-area polygons around multiple facilities."></a></p>
+<figcaption>Network Analyst service-area results showing multiple travel-time breaks.</figcaption>
+</figure>
+</div>
+<section id="distance-to-psychiatric-hospitals" class="level3">
+<h3 class="anchored" data-anchor-id="distance-to-psychiatric-hospitals">Distance to Psychiatric Hospitals</h3>
+<p>One exercise examined county-level access to psychiatric hospitals in Georgia.</p>
+<p>The final map summarized the distance from each county to the nearest psychiatric hospital.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/network-psychiatric-hospitals.png" class="lightbox" data-gallery="spatial-analysis" title="Distance of Georgia counties from the nearest psychiatric hospital."><img src="images/network-psychiatric-hospitals.png" class="img-fluid figure-img" alt="Choropleth map of Georgia counties symbolized by distance from the nearest psychiatric hospital, with hospital locations shown as point symbols."></a></p>
+<figcaption>Distance of Georgia counties from the nearest psychiatric hospital.</figcaption>
+</figure>
+</div>
+<p>This exercise reinforced the difference between straight-line distance and travel through a network.</p>
+</section>
+</section>
+<section id="post-office-closure-scenario" class="level2">
+<h2 class="anchored" data-anchor-id="post-office-closure-scenario">Post Office Closure Scenario</h2>
+<p>The midterm included a more substantial network-analysis problem involving a hypothetical post-office closure in Travis County, Texas.</p>
+<p>The workflow:</p>
+<ol type="1">
+<li>assigned census blocks to their nearest post office;</li>
+<li>summarized the population served by each facility;</li>
+<li>identified a candidate facility for closure;</li>
+<li>removed that facility from the network;</li>
+<li>reassigned affected blocks;</li>
+<li>compared travel times before and after closure;</li>
+<li>examined the added demand placed on nearby facilities.</li>
+</ol>
+<p>The selected facility served 19,695 residents across 254 blocks.</p>
+<p>After closure:</p>
+<ul>
+<li>average travel time increased from 9.9 to 13.9 minutes;</li>
+<li>the shortest trip increased from 0.7 to 4.6 minutes;</li>
+<li>the longest trip increased from 25.4 to 28.2 minutes;</li>
+<li>Southeast Station experienced the largest increase in assigned population.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/post-office-closure-cdf.png" class="lightbox" data-gallery="spatial-analysis" title="Cumulative travel-time distributions before and after the hypothetical post-office closure."><img src="images/post-office-closure-cdf.png" class="img-fluid figure-img" alt="Line chart comparing cumulative travel-time distributions before and after a hypothetical post-office closure."></a></p>
+<figcaption>Cumulative travel-time distributions before and after the hypothetical post-office closure.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/post-office-closure-travel-time.png" class="lightbox" data-gallery="spatial-analysis" title="Change in travel time for blocks affected by the post-office closure."><img src="images/post-office-closure-travel-time.png" class="img-fluid figure-img" alt="Choropleth map of affected census blocks symbolized by travel time to a post office after a hypothetical facility closure."></a></p>
+<figcaption>Change in travel time for blocks affected by the post-office closure.</figcaption>
+</figure>
+</div>
+<p>This analysis demonstrated that selecting a facility for closure based only on the smallest customer population could still create meaningful service and capacity consequences elsewhere in the network.</p>
+</section>
+<section id="suitability-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="suitability-modeling">Suitability Modeling</h2>
+<p>Lab 4 focused on raster suitability modeling.</p>
+<p>The first exercise combined several criteria to identify suitable areas for a new school.</p>
+<p>The workflow included:</p>
+<ul>
+<li>converting source data to raster;</li>
+<li>creating distance surfaces;</li>
+<li>reclassifying criteria;</li>
+<li>combining inputs;</li>
+<li>ranking suitability;</li>
+<li>using ModelBuilder to document the process.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/school-suitability-output.png" class="lightbox" data-gallery="spatial-analysis" title="Raster suitability surface for a proposed school."><img src="images/school-suitability-output.png" class="img-fluid figure-img" alt="Raster suitability map showing higher and lower suitability for a proposed school, with existing schools and recreation sites displayed."></a></p>
+<figcaption>Raster suitability surface for a proposed school.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/school-suitability-model.png" class="lightbox" data-gallery="spatial-analysis" title="ModelBuilder workflow used for the school suitability analysis."><img src="images/school-suitability-model.png" class="img-fluid figure-img" alt="ArcGIS ModelBuilder workflow combining reclassified distance and terrain criteria into a final school suitability surface."></a></p>
+<figcaption>ModelBuilder workflow used for the school suitability analysis.</figcaption>
+</figure>
+</div>
+<p>A second suitability exercise evaluated potential locations for a new tourist facility near Lake Tahoe.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/lake-tahoe-suitability.png" class="lightbox" data-gallery="spatial-analysis" title="Lake Tahoe suitability analysis for a new tourist facility."><img src="images/lake-tahoe-suitability.png" class="img-fluid figure-img" alt="Suitability map classifying potential locations for a tourist facility near Lake Tahoe from unsuitable to highly suitable."></a></p>
+<figcaption>Lake Tahoe suitability analysis for a new tourist facility.</figcaption>
+</figure>
+</div>
+<p>These exercises helped establish the importance of:</p>
+<ul>
+<li>selecting meaningful criteria;</li>
+<li>choosing defensible classification thresholds;</li>
+<li>distinguishing classification from reclassification;</li>
+<li>documenting how individual criteria contribute to a final result.</li>
+</ul>
+</section>
+<section id="raster-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="raster-analysis">Raster Analysis</h2>
+<p>The course covered the major categories of raster operations:</p>
+<ul>
+<li>local;</li>
+<li>focal;</li>
+<li>zonal;</li>
+<li>global.</li>
+</ul>
+<p>It also covered:</p>
+<ul>
+<li>raster extraction;</li>
+<li>Boolean logic;</li>
+<li>map algebra;</li>
+<li>Euclidean distance;</li>
+<li>allocation;</li>
+<li>cell statistics;</li>
+<li>neighborhood statistics;</li>
+<li>raster generalization;</li>
+<li>resampling;</li>
+<li>resolution and alignment.</li>
+</ul>
+<section id="zonal-and-focal-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="zonal-and-focal-analysis">Zonal and Focal Analysis</h3>
+<p>Assignments used zonal statistics and Tabulate Area to summarize continuous and categorical rasters within meaningful zones.</p>
+<p>One Yellowstone exercise compared land-cover classes across elevation bands and used focal variety to examine local ecological diversity.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/yellowstone-landcover-elevation.png" class="lightbox" data-gallery="spatial-analysis" title="Yellowstone terrain and land-cover analysis."><img src="images/yellowstone-landcover-elevation.png" class="img-fluid figure-img" alt="Map of Yellowstone National Park showing terrain, water, and vegetation-related raster information."></a></p>
+<figcaption>Yellowstone terrain and land-cover analysis.</figcaption>
+</figure>
+</div>
+<p>The exercise emphasized that zones should be analytically meaningful. Treating every unique elevation value as a separate zone produced results that were technically valid but difficult to interpret.</p>
+</section>
+</section>
+<section id="land-cover-change" class="level2">
+<h2 class="anchored" data-anchor-id="land-cover-change">Land-Cover Change</h2>
+<p>The hands-on final included a land-cover transition analysis comparing 1985 and 2006 data.</p>
+<p>The workflow used:</p>
+<ul>
+<li>raster extraction;</li>
+<li>Tabulate Area;</li>
+<li>a transition matrix;</li>
+<li>conversion of cell areas;</li>
+<li>county-level summaries;</li>
+<li>percent-change calculations.</li>
+</ul>
+<p>The analysis estimated:</p>
+<ul>
+<li>the percentage of forest converted to developed land;</li>
+<li>the percentage of wetlands converted to developed land;</li>
+<li>growth in developed land by county.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/landcover-transition-matrix.png" class="lightbox" data-gallery="spatial-analysis" title="Land-cover transition matrix comparing 1985 and 2006 classes."><img src="images/landcover-transition-matrix.png" class="img-fluid figure-img" alt="Transition matrix showing areas converted among developed land, agriculture, forest, wetland, water, and other land-cover classes between 1985 and 2006."></a></p>
+<figcaption>Land-cover transition matrix comparing 1985 and 2006 classes.</figcaption>
+</figure>
+</div>
+<p>The transition matrix made it possible to distinguish not only how much development increased, but which previous land-cover classes were converted.</p>
+</section>
+<section id="terrain-and-surface-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="terrain-and-surface-analysis">Terrain and Surface Analysis</h2>
+<p>The course included extensive work with:</p>
+<ul>
+<li>digital elevation models;</li>
+<li>slope;</li>
+<li>aspect;</li>
+<li>hillshade;</li>
+<li>contours;</li>
+<li>triangulated irregular networks;</li>
+<li>breaklines;</li>
+<li>viewsheds;</li>
+<li>raster and TIN surfaces.</li>
+</ul>
+</section>
+<section id="yellowstone-road-visibility" class="level2">
+<h2 class="anchored" data-anchor-id="yellowstone-road-visibility">Yellowstone Road Visibility</h2>
+<p>A viewshed exercise calculated which parts of Yellowstone National Park were visible from the road network.</p>
+<p>The resulting raster recorded how many observation locations could see each cell.</p>
+<p>Approximately 53% of the park area was not visible from any of the modeled road observation locations.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/yellowstone-road-visibility.png" class="lightbox" data-gallery="spatial-analysis" title="Yellowstone road visibility grid."><img src="images/yellowstone-road-visibility.png" class="img-fluid figure-img" alt="Viewshed map of Yellowstone National Park showing areas visible and not visible from roads."></a></p>
+<figcaption>Yellowstone road visibility grid.</figcaption>
+</figure>
+</div>
+<p>The exercise also prompted consideration of practical applications such as scenic-route assessment, visual-resource management, wildfire effects, and proposed facility development.</p>
+</section>
+<section id="tins-and-contours" class="level2">
+<h2 class="anchored" data-anchor-id="tins-and-contours">TINs and Contours</h2>
+<p>Another exercise compared contours derived from:</p>
+<ul>
+<li>original elevation points;</li>
+<li>a TIN constructed from those points.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/contour-line-comparison.png" class="lightbox" data-gallery="spatial-analysis" title="Comparison of contours generated from original elevation points and from a TIN."><img src="images/contour-line-comparison.png" class="img-fluid figure-img" alt="Map comparing two sets of contour lines, one generated directly from points and one generated from a TIN."></a></p>
+<figcaption>Comparison of contours generated from original elevation points and from a TIN.</figcaption>
+</figure>
+</div>
+<p>The comparison showed that TIN-derived contours could appear angular where the elevation-point density was low.</p>
+<p>The course also examined the use of polygon boundaries as hard breaks. Editing a TIN with a lake polygon prevented triangles from crossing the shoreline and assigned a consistent elevation to the lake surface.</p>
+</section>
+<section id="surface-interpolation" class="level2">
+<h2 class="anchored" data-anchor-id="surface-interpolation">Surface Interpolation</h2>
+<p>Lab 5 compared several interpolation methods:</p>
+<ul>
+<li>Thiessen polygons;</li>
+<li>inverse distance weighting;</li>
+<li>regularized spline;</li>
+<li>tension spline;</li>
+<li>kriging.</li>
+</ul>
+<p>The work examined:</p>
+<ul>
+<li>local versus global methods;</li>
+<li>exact versus inexact methods;</li>
+<li>interpolation versus extrapolation;</li>
+<li>boundary effects;</li>
+<li>overshoot and undershoot;</li>
+<li>point density;</li>
+<li>search neighborhoods;</li>
+<li>cross-validation.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/idw-spline-difference.png" class="lightbox" data-gallery="spatial-analysis" title="Difference between IDW and spline elevation surfaces."><img src="images/idw-spline-difference.png" class="img-fluid figure-img" alt="Raster map showing positive and negative elevation differences between IDW and spline interpolation surfaces."></a></p>
+<figcaption>Difference between IDW and spline elevation surfaces.</figcaption>
+</figure>
+</div>
+<section id="comparing-interpolation-methods" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-interpolation-methods">Comparing Interpolation Methods</h3>
+<p>A water-quality exercise compared interpolation surfaces for biological oxygen demand.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/interpolation-method-comparison.png" class="lightbox" data-gallery="spatial-analysis" title="Comparison of Thiessen, IDW, regularized spline, and tension spline interpolation results."><img src="images/interpolation-method-comparison.png" class="img-fluid figure-img" alt="Four-panel map comparing Thiessen polygons, IDW, regularized spline, and tension spline surfaces for biological oxygen demand."></a></p>
+<figcaption>Comparison of Thiessen, IDW, regularized spline, and tension spline interpolation results.</figcaption>
+</figure>
+</div>
+<p>The exercise showed that:</p>
+<ul>
+<li>Thiessen polygons were simple and interpretable but imposed abrupt boundaries;</li>
+<li>IDW remained within the sampled range;</li>
+<li>regularized spline could produce unrealistic negative values and strong overshoots;</li>
+<li>tension spline reduced, but did not eliminate, those problems;</li>
+<li>sample placement near the study-area boundary strongly affected the surface.</li>
+</ul>
+</section>
+<section id="cross-validation" class="level3">
+<h3 class="anchored" data-anchor-id="cross-validation">Cross-Validation</h3>
+<p>A separate comparison withheld a percentage of elevation points, interpolated values using IDW, spline, and kriging, and compared the estimated values with the withheld observations.</p>
+<p>For that particular sample, spline produced the lowest average absolute difference, followed by IDW and kriging.</p>
+<p>The broader lesson was more important than the specific ranking: interpolation methods must be evaluated against the phenomenon, the sampling design, and independent observations.</p>
+</section>
+</section>
+<section id="ecological-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="ecological-analysis">Ecological Analysis</h2>
+<p>The hands-on final included an analysis of Sitka spruce distribution.</p>
+<p>The questions included:</p>
+<ul>
+<li>minimum and maximum elevation;</li>
+<li>percentage of Sitka spruce within one kilometer of the coast;</li>
+<li>distribution among ownership classes.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/sitka-spruce-coast.png" class="lightbox" data-gallery="spatial-analysis" title="Sitka spruce located within one kilometer of the coastline."><img src="images/sitka-spruce-coast.png" class="img-fluid figure-img" alt="Terrain map showing Sitka spruce distribution and the subset located within one kilometer of the coastline."></a></p>
+<figcaption>Sitka spruce located within one kilometer of the coastline.</figcaption>
+</figure>
+</div>
+<p>The analysis found that approximately 19% of the mapped Sitka spruce area occurred within one kilometer of the coast.</p>
+</section>
+<section id="landslide-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="landslide-analysis">Landslide Analysis</h2>
+<p>Another final-exam problem examined whether:</p>
+<ul>
+<li>larger landslides occurred on steeper slopes;</li>
+<li>landslides were more common on north-facing terrain.</li>
+</ul>
+<p>The workflow calculated:</p>
+<ul>
+<li>landslide area;</li>
+<li>mean slope within each landslide;</li>
+<li>majority aspect;</li>
+<li>grouped aspect classes;</li>
+<li>scatterplots;</li>
+<li>frequency summaries.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/landslide-area-slope.png" class="lightbox" data-gallery="spatial-analysis" title="Relationship between landslide area and mean slope."><img src="images/landslide-area-slope.png" class="img-fluid figure-img" alt="Scatterplot comparing landslide area with mean slope and showing a downward trend line."></a></p>
+<figcaption>Relationship between landslide area and mean slope.</figcaption>
+</figure>
+</div>
+<p>The results did not support the expectation that larger landslides occurred on steeper slopes.</p>
+<p>The aspect result depended on how “north-facing” terrain was classified, illustrating how analytical conclusions can change with classification decisions.</p>
+</section>
+<section id="spatial-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-statistics">Spatial Statistics</h2>
+<p>The course covered descriptive and inferential spatial statistics, including:</p>
+<ul>
+<li>mean center;</li>
+<li>median center;</li>
+<li>central feature;</li>
+<li>standard distance;</li>
+<li>standard deviational ellipse;</li>
+<li>directional mean;</li>
+<li>nearest-neighbor analysis;</li>
+<li>quadrat analysis;</li>
+<li>Ripley’s K;</li>
+<li>Moran’s I;</li>
+<li>Local Moran’s I;</li>
+<li>spatial weights.</li>
+</ul>
+<p>The study materials emphasized that spatial statistics require attention to:</p>
+<ul>
+<li>study-area boundaries;</li>
+<li>spatial scale;</li>
+<li>normalization;</li>
+<li>neighborhood definitions;</li>
+<li>distance thresholds;</li>
+<li>statistical significance.</li>
+</ul>
+</section>
+<section id="narcotics-arrests-in-las-vegas" class="level2">
+<h2 class="anchored" data-anchor-id="narcotics-arrests-in-las-vegas">Narcotics Arrests in Las Vegas</h2>
+<p>The midterm included a spatial-statistical analysis of narcotics arrests in Las Vegas.</p>
+<p>The workflow:</p>
+<ol type="1">
+<li>counted arrests by census tract;</li>
+<li>normalized arrest counts per 10,000 residents;</li>
+<li>compared rates with median income;</li>
+<li>calculated percent change from 2007 to 2008;</li>
+<li>mapped increases and decreases;</li>
+<li>used Local Moran’s I to identify statistically significant clusters.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/las-vegas-narcotics-rates.png" class="lightbox" data-gallery="spatial-analysis" title="Narcotics arrest rates in Las Vegas for 2007 and 2008."><img src="images/las-vegas-narcotics-rates.png" class="img-fluid figure-img" alt="Side-by-side choropleth maps comparing narcotics arrest rates per 10,000 residents in Las Vegas in 2007 and 2008."></a></p>
+<figcaption>Narcotics arrest rates in Las Vegas for 2007 and 2008.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/las-vegas-local-morans-i.png" class="lightbox" data-gallery="spatial-analysis" title="Local Moran’s I clusters in the percentage change of narcotics arrests."><img src="images/las-vegas-local-morans-i.png" class="img-fluid figure-img" alt="Map of Las Vegas census tracts showing statistically significant high-high clusters in the percentage change of narcotics arrests."></a></p>
+<figcaption>Local Moran’s I clusters in the percentage change of narcotics arrests.</figcaption>
+</figure>
+</div>
+<p>The analysis identified high-high clusters but no statistically significant low-low clusters under the selected spatial-weights settings.</p>
+</section>
+<section id="research-paper-assessing-vgi-accuracy" class="level2">
+<h2 class="anchored" data-anchor-id="research-paper-assessing-vgi-accuracy">Research Paper: Assessing VGI Accuracy</h2>
+<p>The final paper was titled:</p>
+<blockquote class="blockquote">
+<p><em>Measurement Techniques to Assess Accuracy of Volunteered Geographic Information</em></p>
+</blockquote>
+<p>The paper reviewed methods used to evaluate traditional and volunteered geographic information.</p>
+<p>Topics included:</p>
+<ul>
+<li>positional accuracy;</li>
+<li>attribute accuracy;</li>
+<li>completeness;</li>
+<li>semantic accuracy;</li>
+<li>logical consistency;</li>
+<li>temporal quality;</li>
+<li>lineage;</li>
+<li>relative versus absolute accuracy;</li>
+<li>point, line, and polygon comparisons.</li>
+</ul>
+<p>The review examined methods such as:</p>
+<ul>
+<li>buffer-based comparison of linear features;</li>
+<li>Euclidean distance between corresponding points;</li>
+<li>Hausdorff and average-distance measures;</li>
+<li>comparison of network length within grids;</li>
+<li>feature and attribute completeness;</li>
+<li>topology and connectivity;</li>
+<li>source-tag analysis.</li>
+</ul>
+<p>The paper also reviewed early studies comparing OpenStreetMap with authoritative and commercial datasets.</p>
+<p><a href="documents/vgi-accuracy-final-paper.pdf">Download the final paper</a></p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>This course changed how I thought about GIS analysis.</p>
+<p>The strongest lessons were:</p>
+<ul>
+<li>selecting a tool is not the same as selecting an appropriate method;</li>
+<li>data type and measurement scale determine which operations are meaningful;</li>
+<li>resolution and alignment affect raster results;</li>
+<li>zones and classification thresholds must have analytical meaning;</li>
+<li>network accessibility cannot be represented adequately by straight-line distance;</li>
+<li>interpolation requires understanding both the data and the phenomenon;</li>
+<li>spatial patterns must be tested rather than assumed;</li>
+<li>statistical significance depends on neighborhood and weighting decisions;</li>
+<li>verification should be part of every workflow;</li>
+<li>analytical limitations should be documented alongside results.</li>
+</ul>
+</section>
+<section id="looking-back" class="level2">
+<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
+<p>This course represents a transition from procedural GIS to analytical GIScience.</p>
+<p>Earlier coursework often focused on learning what individual tools did. GEOG 587 required me to ask more difficult questions:</p>
+<ul>
+<li>Why is this method appropriate?</li>
+<li>What assumptions does it make?</li>
+<li>How can the result be verified?</li>
+<li>How sensitive is it to scale or classification?</li>
+<li>What does the output actually mean?</li>
+<li>What conclusions are not supported?</li>
+</ul>
+<p>That combination of technical challenge and interpretation is why I remember the course so positively.</p>
+<p>Many of the maps reflect the software and cartographic conventions of 2011, but the analytical questions remain highly relevant. A modern version would use ArcGIS Pro, Python or R notebooks, reproducible workflows, formal cross-validation, and more explicit uncertainty reporting.</p>
+<p>The most important outcome was learning that spatial analysis is not simply a collection of tools. It is a process of matching methods, data, assumptions, and evidence to a geographic question.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

@@ -64,5 +64,8 @@
   },
   "projects/python-geoprocessing-automation/index.qmd": {
     "index.html": "fea1f4ae"
+  },
+  "projects/spatial-analysis-modeling/index.qmd": {
+    "index.html": "2acb0dc5"
   }
 }

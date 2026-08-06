@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Selected GIS, cartography, spatial analysis, field mapping, internet mapping, and community-service projects completed during my development as a student and early-career GIS professional."
+description: "Selected GIS, cartography, spatial analysis, field mapping, internet mapping, research, and community-service projects completed during my development as a student and early-career GIS professional."
 toc: true
 toc-depth: 2
 listing:
@@ -15,6 +15,8 @@ listing:
       - projects/cumberland-trail/index.qmd
       - projects/h1n1-risk-assessment/index.qmd
       - projects/volunteer-gis/index.qmd
+      - projects/developing-thesis-research/index.qmd
+      - projects/assessing-uncertainty-vgi/index.qmd
     type: grid
     grid-columns: 2
     sort: false
@@ -39,8 +41,4 @@ These projects represent several stages of my development in GIS, cartography, s
 
 ## Projects in Development
 
-The following projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.
-
-- GIS Thesis
-- Haiti Earthquake Data
-- Predictive Crime Mapping
+The remaining projects planned for future additions focus primarily on research completed through graduate assistantships and other early professional experiences. They will be added as I recover, review, and document the original materials.

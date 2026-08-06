@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2011-01-01">
+<meta name="description" content="A graduate-course retrospective documenting early web development, interactive mapping, OGC web services, KML, QGIS, GDAL/OGR, and a planned Santa Fe gentrification web-mapping project.">
+
+<title>Internet Mapping and Open Web GIS – Student GIS Portfolio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Student GIS Portfolio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../learning-path.html"> 
+<span class="menu-text">Learning Path</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../graduate-research.html"> 
+<span class="menu-text">Graduate Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences-service.html"> 
+<span class="menu-text">Conferences &amp; Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../awards-recognition.html"> 
+<span class="menu-text">Awards &amp; Recognition</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course Overview</a></li>
+  <li><a href="#starting-with-html-and-css" id="toc-starting-with-html-and-css" class="nav-link" data-scroll-target="#starting-with-html-and-css">Starting with HTML and CSS</a></li>
+  <li><a href="#introductory-javascript" id="toc-introductory-javascript" class="nav-link" data-scroll-target="#introductory-javascript">Introductory JavaScript</a></li>
+  <li><a href="#course-website" id="toc-course-website" class="nav-link" data-scroll-target="#course-website">Course Website</a></li>
+  <li><a href="#new-mexico-rock-climbing-map" id="toc-new-mexico-rock-climbing-map" class="nav-link" data-scroll-target="#new-mexico-rock-climbing-map">New Mexico Rock-Climbing Map</a></li>
+  <li><a href="#ogc-web-service-concepts" id="toc-ogc-web-service-concepts" class="nav-link" data-scroll-target="#ogc-web-service-concepts">OGC Web-Service Concepts</a></li>
+  <li><a href="#building-wms-requests" id="toc-building-wms-requests" class="nav-link" data-scroll-target="#building-wms-requests">Building WMS Requests</a></li>
+  <li><a href="#scale-dependent-imagery" id="toc-scale-dependent-imagery" class="nav-link" data-scroll-target="#scale-dependent-imagery">Scale-Dependent Imagery</a></li>
+  <li><a href="#kml-and-google-earth" id="toc-kml-and-google-earth" class="nav-link" data-scroll-target="#kml-and-google-earth">KML and Google Earth</a></li>
+  <li><a href="#wfs-and-wcs" id="toc-wfs-and-wcs" class="nav-link" data-scroll-target="#wfs-and-wcs">WFS and WCS</a></li>
+  <li><a href="#using-wms-and-wfs-in-qgis" id="toc-using-wms-and-wfs-in-qgis" class="nav-link" data-scroll-target="#using-wms-and-wfs-in-qgis">Using WMS and WFS in QGIS</a></li>
+  <li><a href="#gdal-ogr-and-coordinate-tools" id="toc-gdal-ogr-and-coordinate-tools" class="nav-link" data-scroll-target="#gdal-ogr-and-coordinate-tools">GDAL, OGR, and Coordinate Tools</a></li>
+  <li><a href="#santa-fe-gentrification-web-mapping-project" id="toc-santa-fe-gentrification-web-mapping-project" class="nav-link" data-scroll-target="#santa-fe-gentrification-web-mapping-project">Santa Fe Gentrification Web-Mapping Project</a></li>
+  <li><a href="#preserved-topographic-map-outputs" id="toc-preserved-topographic-map-outputs" class="nav-link" data-scroll-target="#preserved-topographic-map-outputs">Preserved Topographic Map Outputs</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking Back</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Internet Mapping and Open Web GIS</h1>
+<p class="subtitle lead">HTML, JavaScript, Google Maps, OGC services, QGIS, and open-source geospatial tools in GEOG 585</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Web GIS</div>
+    <div class="quarto-category">Internet Mapping</div>
+    <div class="quarto-category">JavaScript</div>
+    <div class="quarto-category">Google Maps</div>
+    <div class="quarto-category">OGC Services</div>
+    <div class="quarto-category">QGIS</div>
+    <div class="quarto-category">Open Source GIS</div>
+    <div class="quarto-category">Graduate Coursework</div>
+    <div class="quarto-category">UNM</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A graduate-course retrospective documenting early web development, interactive mapping, OGC web services, KML, QGIS, GDAL/OGR, and a planned Santa Fe gentrification web-mapping project.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2011</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="course-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
+<p><strong>GEOG 585: Internet Mapping</strong> introduced the technical foundations needed to move GIS data and maps from desktop software to the web.</p>
+<p>At the beginning of the course, I had experience creating GIS data, maps, and desktop projects, but very little knowledge of web development.</p>
+<p>The course progressed from basic HTML and JavaScript into:</p>
+<ul>
+<li>interactive web maps;</li>
+<li>the Google Maps JavaScript API;</li>
+<li>Open Geospatial Consortium services;</li>
+<li>WMS, WFS, and WCS requests;</li>
+<li>KML overlays in Google Earth;</li>
+<li>QGIS as an open-source client;</li>
+<li>GDAL and OGR;</li>
+<li>coordinate conversion with PROJ;</li>
+<li>planning an end-to-end web-mapping application.</li>
+</ul>
+<p>The surviving coursework is incomplete in places, but it documents a clear transition from simple web pages to standards-based web GIS.</p>
+</section>
+<section id="starting-with-html-and-css" class="level2">
+<h2 class="anchored" data-anchor-id="starting-with-html-and-css">Starting with HTML and CSS</h2>
+<p>The earliest exercises focused on basic web-page structure.</p>
+<p>Topics included:</p>
+<ul>
+<li>document structure;</li>
+<li>headings and paragraphs;</li>
+<li>links;</li>
+<li>embedded images;</li>
+<li>unordered and ordered lists;</li>
+<li>definition lists;</li>
+<li>line breaks;</li>
+<li>text emphasis;</li>
+<li>HTML entities;</li>
+<li>basic CSS styling.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/html-foundations.png" class="lightbox" data-gallery="internet-mapping" title="Early HTML exercise created during the first stage of the course."><img src="images/html-foundations.png" class="img-fluid figure-img" alt="Early HTML page showing headings, paragraphs, links, images, lists, and basic styling."></a></p>
+<figcaption>Early HTML exercise created during the first stage of the course.</figcaption>
+</figure>
+</div>
+<p>These assignments were simple, but they established the page structure required for later interactive maps.</p>
+</section>
+<section id="introductory-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="introductory-javascript">Introductory JavaScript</h2>
+<p>A series of small JavaScript exercises introduced:</p>
+<ul>
+<li>alerts;</li>
+<li>confirmation boxes;</li>
+<li>prompt boxes;</li>
+<li>event handling;</li>
+<li>variables;</li>
+<li>arithmetic;</li>
+<li>strings;</li>
+<li>conditional statements;</li>
+<li><code>switch</code> statements;</li>
+<li>functions;</li>
+<li>return values;</li>
+<li>writing content into a page.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/javascript-introduction.png" class="lightbox" data-gallery="internet-mapping" title="Introductory JavaScript exercises involving variables, conditions, and browser events."><img src="images/javascript-introduction.png" class="img-fluid figure-img" alt="JavaScript code demonstrating alerts, variables, conditions, browser events, and simple functions."></a></p>
+<figcaption>Introductory JavaScript exercises involving variables, conditions, and browser events.</figcaption>
+</figure>
+</div>
+<p>The exercises were not map applications by themselves. Their purpose was to establish enough programming logic to build interactive web pages and map interfaces.</p>
+</section>
+<section id="course-website" class="level2">
+<h2 class="anchored" data-anchor-id="course-website">Course Website</h2>
+<p>I also created a basic course homepage that introduced my background, interests, previous GIS experience, and reasons for taking the class.</p>
+<p>The page identified several interests that later became important in my graduate and professional work:</p>
+<ul>
+<li>crowdsourced GIS;</li>
+<li>volunteered geographic information;</li>
+<li>disaster planning and response;</li>
+<li>crime hotspot mapping;</li>
+<li>open-source geographic tools.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/geog585-course-homepage.png" class="lightbox" data-gallery="internet-mapping" title="Original GEOG 585 course homepage."><img src="images/geog585-course-homepage.png" class="img-fluid figure-img" alt="Original course homepage describing interests in crowdsourced GIS, volunteered geographic information, disaster response, crime mapping, and open-source GIS."></a></p>
+<figcaption>Original GEOG 585 course homepage.</figcaption>
+</figure>
+</div>
+<p>The page also linked to the earlier student GIS portfolio I had created with RapidWeaver.</p>
+</section>
+<section id="new-mexico-rock-climbing-map" class="level2">
+<h2 class="anchored" data-anchor-id="new-mexico-rock-climbing-map">New Mexico Rock-Climbing Map</h2>
+<p>The first substantial interactive-map exercise used the Google Maps JavaScript API to display climbing locations across New Mexico.</p>
+<p>The initial version required decisions about:</p>
+<ul>
+<li>geographic extent;</li>
+<li>map center;</li>
+<li>zoom level;</li>
+<li>basemap type;</li>
+<li>marker locations.</li>
+</ul>
+<p>I selected a hybrid basemap so viewers could see both transportation routes and surrounding terrain.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/new-mexico-climbing-map-basic.png" class="lightbox" data-gallery="internet-mapping" title="Initial Google Maps application showing rock-climbing locations in New Mexico."><img src="images/new-mexico-climbing-map-basic.png" class="img-fluid figure-img" alt="Google hybrid map of New Mexico displaying custom climbing-location markers."></a></p>
+<figcaption>Initial Google Maps application showing rock-climbing locations in New Mexico.</figcaption>
+</figure>
+</div>
+<p>A later version expanded the map by adding:</p>
+<ul>
+<li>custom climbing symbols;</li>
+<li>clickable markers;</li>
+<li>information windows;</li>
+<li>descriptive text;</li>
+<li>links to external climbing resources;</li>
+<li>a safety and data-accuracy disclaimer.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/new-mexico-climbing-map-interactive.png" class="lightbox" data-gallery="internet-mapping" title="Expanded New Mexico climbing map with custom markers and information windows."><img src="images/new-mexico-climbing-map-interactive.png" class="img-fluid figure-img" alt="Interactive Google map of New Mexico climbing areas with custom markers and clickable information windows."></a></p>
+<figcaption>Expanded New Mexico climbing map with custom markers and information windows.</figcaption>
+</figure>
+</div>
+<p>The mapped locations included:</p>
+<ul>
+<li>El Rito;</li>
+<li>Tres Piedras;</li>
+<li>Diablo Canyon;</li>
+<li>Las Conchas;</li>
+<li>Palomas Peak;</li>
+<li>Enchanted Tower;</li>
+<li>Socorro Box Canyon.</li>
+</ul>
+<p>This exercise marked the transition from general web development into a functioning thematic web map.</p>
+</section>
+<section id="ogc-web-service-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="ogc-web-service-concepts">OGC Web-Service Concepts</h2>
+<p>The course introduced the major Open Geospatial Consortium web-service models.</p>
+<section id="web-map-service" class="level3">
+<h3 class="anchored" data-anchor-id="web-map-service">Web Map Service</h3>
+<p>A <strong>Web Map Service</strong> returns rendered map images.</p>
+<p>Important requests included:</p>
+<ul>
+<li><code>GetCapabilities</code>;</li>
+<li><code>GetMap</code>.</li>
+</ul>
+<p>A <code>GetMap</code> request required information such as:</p>
+<ul>
+<li>service version;</li>
+<li>requested layers;</li>
+<li>styles;</li>
+<li>coordinate reference system;</li>
+<li>bounding box;</li>
+<li>image width and height;</li>
+<li>output format.</li>
+</ul>
+</section>
+<section id="web-feature-service" class="level3">
+<h3 class="anchored" data-anchor-id="web-feature-service">Web Feature Service</h3>
+<p>A <strong>Web Feature Service</strong> returns vector features and their attributes.</p>
+<p>Important requests included:</p>
+<ul>
+<li><code>GetCapabilities</code>;</li>
+<li><code>DescribeFeatureType</code>;</li>
+<li><code>GetFeature</code>.</li>
+</ul>
+</section>
+<section id="web-coverage-service" class="level3">
+<h3 class="anchored" data-anchor-id="web-coverage-service">Web Coverage Service</h3>
+<p>A <strong>Web Coverage Service</strong> returns raster or other coverage data rather than only a rendered image.</p>
+<p>Important requests included:</p>
+<ul>
+<li><code>GetCapabilities</code>;</li>
+<li><code>DescribeCoverage</code>;</li>
+<li><code>GetCoverage</code>.</li>
+</ul>
+<p>This distinction was fundamental:</p>
+<ul>
+<li>WMS delivered map images;</li>
+<li>WFS delivered vector geometry and attributes;</li>
+<li>WCS delivered raster coverage data.</li>
+</ul>
+</section>
+</section>
+<section id="building-wms-requests" class="level2">
+<h2 class="anchored" data-anchor-id="building-wms-requests">Building WMS Requests</h2>
+<p>Several assignments required constructing WMS requests manually.</p>
+<p>The work included:</p>
+<ul>
+<li>selecting layers;</li>
+<li>identifying supported coordinate systems;</li>
+<li>defining bounding boxes;</li>
+<li>calculating image dimensions;</li>
+<li>matching geographic and pixel aspect ratios;</li>
+<li>requesting transparent PNG images;</li>
+<li>interpreting service metadata;</li>
+<li>testing scale-dependent imagery.</li>
+</ul>
+<section id="bounding-boxes-and-aspect-ratios" class="level3">
+<h3 class="anchored" data-anchor-id="bounding-boxes-and-aspect-ratios">Bounding Boxes and Aspect Ratios</h3>
+<p>One exercise used McKinley County, New Mexico, to compare geographic and image aspect ratios.</p>
+<p>The first request used a 600 × 257 pixel output that matched the original geographic bounding box.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/wms-adjusted-bounding-box.png-aspect-ratio.png" class="lightbox" data-gallery="internet-mapping" title="WMS image using dimensions matched to the geographic bounding-box ratio."><img src="images/wms-adjusted-bounding-box.png-aspect-ratio.png" class="img-fluid figure-img" alt="WMS map image of western New Mexico using dimensions matched to the geographic bounding-box aspect ratio."></a></p>
+<figcaption>WMS image using dimensions matched to the geographic bounding-box ratio.</figcaption>
+</figure>
+</div>
+<p>A second request used a 600 × 400 output and expanded the latitude extent so the image would preserve geographic proportions without stretching.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/wms-corrected-bounding-box.png" class="lightbox" data-gallery="internet-mapping" title="WMS image using an adjusted bounding box for a 600 by 400 pixel output."><img src="images/wms-corrected-bounding-box.png" class="img-fluid figure-img" alt="WMS map image using an expanded north-south extent to match a 600 by 400 pixel display."></a></p>
+<figcaption>WMS image using an adjusted bounding box for a 600 by 400 pixel output.</figcaption>
+</figure>
+</div>
+<p>This exercise demonstrated that output dimensions and geographic extent must be coordinated carefully.</p>
+</section>
+</section>
+<section id="scale-dependent-imagery" class="level2">
+<h2 class="anchored" data-anchor-id="scale-dependent-imagery">Scale-Dependent Imagery</h2>
+<p>The WMS exercises also compared imagery products intended for different map scales:</p>
+<ul>
+<li>Blue Marble 8 km;</li>
+<li>Blue Marble 2 km;</li>
+<li>Blue Marble 500 m;</li>
+<li>Landsat;</li>
+<li>DOQQ imagery;</li>
+<li>MRCOG imagery.</li>
+</ul>
+<p>The service metadata included scale hints indicating when each layer was expected to return useful content.</p>
+<p>The exercises showed that a technically valid WMS request could still return a blank or inappropriate image when:</p>
+<ul>
+<li>the requested scale was outside the layer’s intended range;</li>
+<li>the bounding box was incorrect;</li>
+<li>the output dimensions did not match the requested extent;</li>
+<li>the coordinate reference system was unsuitable.</li>
+</ul>
+</section>
+<section id="kml-and-google-earth" class="level2">
+<h2 class="anchored" data-anchor-id="kml-and-google-earth">KML and Google Earth</h2>
+<p>Lab 6 connected WMS services to Google Earth through KML ground overlays and network links.</p>
+<p>I created separate KML files for several imagery products, including:</p>
+<ul>
+<li>Blue Marble;</li>
+<li>Landsat;</li>
+<li>DOQQ;</li>
+<li>MRCOG imagery.</li>
+</ul>
+<p>The KML files referenced WMS <code>GetMap</code> requests and allowed Google Earth to retrieve imagery for the current view.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/google-earth-wms-overlay.png" class="lightbox" data-gallery="internet-mapping" title="WMS imagery displayed as a KML ground overlay in Google Earth."><img src="images/google-earth-wms-overlay.png" class="img-fluid figure-img" alt="The Google Earth KML files I generated."></a></p>
+<figcaption>WMS imagery displayed as a KML ground overlay in Google Earth.</figcaption>
+</figure>
+</div>
+<p>The exercise demonstrated that Google Earth could refresh the requested imagery as the user stopped zooming and the visible extent changed.</p>
+<p>It also illustrated the role of image format:</p>
+<ul>
+<li>PNG supported transparency;</li>
+<li>JPEG did not.</li>
+</ul>
+</section>
+<section id="wfs-and-wcs" class="level2">
+<h2 class="anchored" data-anchor-id="wfs-and-wcs">WFS and WCS</h2>
+<p>Lab 7 focused on retrieving actual features and coverages.</p>
+<section id="wfs-feature-access" class="level3">
+<h3 class="anchored" data-anchor-id="wfs-feature-access">WFS Feature Access</h3>
+<p>The assignment examined a USGS framework WFS and required interpreting:</p>
+<ul>
+<li>service metadata;</li>
+<li>feature-type names;</li>
+<li>coordinate systems;</li>
+<li>geographic extents;</li>
+<li>supported output formats;</li>
+<li><code>DescribeFeatureType</code>;</li>
+<li><code>GetFeature</code>.</li>
+</ul>
+<p>A downloaded GML response was inspected with <code>ogrinfo</code> to identify:</p>
+<ul>
+<li>layer name;</li>
+<li>geometry;</li>
+<li>feature count;</li>
+<li>extent;</li>
+<li>attribute fields.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/ogr-wfs-inspection.png" class="lightbox" data-gallery="internet-mapping" title="OGR command-line inspection of a downloaded WFS response."><img src="images/ogr-wfs-inspection.png" class="img-fluid figure-img" alt="Command-line output from OGR showing a downloaded WFS layer's geometry, feature count, extent, and attributes."></a></p>
+<figcaption>OGR command-line inspection of a downloaded WFS response.</figcaption>
+</figure>
+</div>
+</section>
+<section id="wcs-raster-access" class="level3">
+<h3 class="anchored" data-anchor-id="wcs-raster-access">WCS Raster Access</h3>
+<p>The WCS exercise required:</p>
+<ul>
+<li>examining temporal coverage;</li>
+<li>constructing a <code>DescribeCoverage</code> request;</li>
+<li>constructing a <code>GetCoverage</code> request;</li>
+<li>downloading a GeoTIFF;</li>
+<li>inspecting the result with <code>gdalinfo</code>.</li>
+</ul>
+<p>The output documented:</p>
+<ul>
+<li>coordinate system;</li>
+<li>raster dimensions;</li>
+<li>pixel size;</li>
+<li>geographic extent;</li>
+<li>raster band information.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdal-wcs-inspection.png" class="lightbox" data-gallery="internet-mapping" title="GDAL command-line inspection of a GeoTIFF downloaded from a WCS."><img src="images/gdal-wcs-inspection.png" class="img-fluid figure-img" alt="Command-line output from GDAL showing coordinate system, dimensions, pixel size, extent, and band information for a downloaded GeoTIFF."></a></p>
+<figcaption>GDAL command-line inspection of a GeoTIFF downloaded from a WCS.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="using-wms-and-wfs-in-qgis" class="level2">
+<h2 class="anchored" data-anchor-id="using-wms-and-wfs-in-qgis">Using WMS and WFS in QGIS</h2>
+<p>Lab 8 shifted from manually constructing service requests to consuming those services in QGIS 1.6.</p>
+<p>The assignment required WMS connections to:</p>
+<ul>
+<li>EDAC imagery;</li>
+<li>FEMA’s National Flood Hazard Layer;</li>
+<li>the NRCS Soil Data Mart.</li>
+</ul>
+<p>It also required WFS connections to:</p>
+<ul>
+<li>RGIS datasets;</li>
+<li>the USGS Gazetteer Framework service.</li>
+</ul>
+<section id="wms-imagery" class="level3">
+<h3 class="anchored" data-anchor-id="wms-imagery">WMS Imagery</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/qgis-edac-wms-imagery.JPG" class="lightbox" data-gallery="internet-mapping" title="EDAC imagery displayed through a WMS connection in QGIS 1.6."><img src="images/qgis-edac-wms-imagery.JPG" class="img-fluid figure-img" alt="QGIS 1.6 displaying remote EDAC imagery loaded through a WMS connection."></a></p>
+<figcaption>EDAC imagery displayed through a WMS connection in QGIS 1.6.</figcaption>
+</figure>
+</div>
+</section>
+<section id="national-park-boundaries" class="level3">
+<h3 class="anchored" data-anchor-id="national-park-boundaries">National Park Boundaries</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/qgis-national-park-wfs.JPG" class="lightbox" data-gallery="internet-mapping" title="National Park Service boundaries loaded through a WFS connection in QGIS."><img src="images/qgis-national-park-wfs.JPG" class="img-fluid figure-img" alt="QGIS 1.6 displaying National Park Service boundary polygons loaded through a WFS connection."></a></p>
+<figcaption>National Park Service boundaries loaded through a WFS connection in QGIS.</figcaption>
+</figure>
+</div>
+</section>
+<section id="usgs-gazetteer-features" class="level3">
+<h3 class="anchored" data-anchor-id="usgs-gazetteer-features">USGS Gazetteer Features</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/qgis-usgs-gazetteer-overview.JPG" class="lightbox" data-gallery="internet-mapping" title="USGS Gazetteer features displayed in QGIS at a broad extent."><img src="images/qgis-usgs-gazetteer-overview.JPG" class="img-fluid figure-img" alt="QGIS 1.6 displaying USGS Gazetteer point features at a broad geographic extent."></a></p>
+<figcaption>USGS Gazetteer features displayed in QGIS at a broad extent.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/qgis-usgs-gazetteer-detail.JPG" class="lightbox" data-gallery="internet-mapping" title="Detailed view of USGS Gazetteer point features in QGIS."><img src="images/qgis-usgs-gazetteer-detail.JPG" class="img-fluid figure-img" alt="QGIS 1.6 displaying a dense cluster of USGS Gazetteer point features at a local scale."></a></p>
+<figcaption>Detailed view of USGS Gazetteer point features in QGIS.</figcaption>
+</figure>
+</div>
+</section>
+<section id="wilderness-areas" class="level3">
+<h3 class="anchored" data-anchor-id="wilderness-areas">Wilderness Areas</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/qgis-wilderness-wfs-overview.JPG" class="lightbox" data-gallery="internet-mapping" title="Wilderness polygons loaded through WFS in QGIS."><img src="images/qgis-wilderness-wfs-overview.JPG" class="img-fluid figure-img" alt="QGIS 1.6 displaying remotely loaded wilderness polygons at a regional scale."></a></p>
+<figcaption>Wilderness polygons loaded through WFS in QGIS.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/qgis-wilderness-wfs-detail.JPG" class="lightbox" data-gallery="internet-mapping" title="Detailed wilderness polygons displayed through WFS in QGIS."><img src="images/qgis-wilderness-wfs-detail.JPG" class="img-fluid figure-img" alt="QGIS 1.6 displaying several wilderness-area polygons loaded from a remote WFS."></a></p>
+<figcaption>Detailed wilderness polygons displayed through WFS in QGIS.</figcaption>
+</figure>
+</div>
+<p>These screenshots preserve several characteristics of early standards-based GIS services:</p>
+<ul>
+<li>remote layers often loaded with minimal default symbology;</li>
+<li>broad service extents could make local data difficult to locate;</li>
+<li>users had to understand the service’s geographic coverage;</li>
+<li>consuming data still required interpretation and navigation.</li>
+</ul>
+</section>
+</section>
+<section id="gdal-ogr-and-coordinate-tools" class="level2">
+<h2 class="anchored" data-anchor-id="gdal-ogr-and-coordinate-tools">GDAL, OGR, and Coordinate Tools</h2>
+<p>The course used the FWTools environment to introduce open-source geospatial command-line utilities.</p>
+<section id="ogr" class="level3">
+<h3 class="anchored" data-anchor-id="ogr">OGR</h3>
+<p><code>ogrinfo</code> was used to inspect vector datasets and report:</p>
+<ul>
+<li>format;</li>
+<li>layer name;</li>
+<li>geometry type;</li>
+<li>feature count;</li>
+<li>extent;</li>
+<li>coordinate reference system;</li>
+<li>attribute schema.</li>
+</ul>
+</section>
+<section id="gdal" class="level3">
+<h3 class="anchored" data-anchor-id="gdal">GDAL</h3>
+<p><code>gdalinfo</code> was used to inspect raster datasets and report:</p>
+<ul>
+<li>format;</li>
+<li>raster dimensions;</li>
+<li>coordinate reference system;</li>
+<li>origin;</li>
+<li>pixel size;</li>
+<li>corner coordinates;</li>
+<li>NoData;</li>
+<li>bands;</li>
+<li>overviews.</li>
+</ul>
+</section>
+<section id="proj-and-cs2cs" class="level3">
+<h3 class="anchored" data-anchor-id="proj-and-cs2cs">PROJ and CS2CS</h3>
+<p>The course also introduced:</p>
+<ul>
+<li><code>proj</code> for converting geographic coordinates into a projected coordinate system;</li>
+<li><code>cs2cs</code> for transforming coordinates from one coordinate system to another.</li>
+</ul>
+<p>These tools reinforced that web GIS depends on more than visual design. It also depends on understanding formats, extents, projections, pixel dimensions, and service metadata.</p>
+</section>
+</section>
+<section id="santa-fe-gentrification-web-mapping-project" class="level2">
+<h2 class="anchored" data-anchor-id="santa-fe-gentrification-web-mapping-project">Santa Fe Gentrification Web-Mapping Project</h2>
+<p>The final sequence of assignments was designed to take one Internet-mapping problem from definition through data acquisition, service implementation, and a basic client interface.</p>
+<p>I proposed a project examining possible gentrification in Santa Fe County.</p>
+<p>The central question was whether changing housing costs and demographic conditions suggested that less-affluent, long-term residents were being displaced.</p>
+<section id="intended-audience" class="level3">
+<h3 class="anchored" data-anchor-id="intended-audience">Intended Audience</h3>
+<p>Potential audiences included:</p>
+<ul>
+<li>government agencies;</li>
+<li>research centers;</li>
+<li>nonprofit organizations;</li>
+<li>community groups;</li>
+<li>concerned residents;</li>
+<li>anyone interested in Santa Fe, Census data, or gentrification.</li>
+</ul>
+</section>
+<section id="proposed-data" class="level3">
+<h3 class="anchored" data-anchor-id="proposed-data">Proposed Data</h3>
+<p>The project planned to compare 1990 and 2000 Census data at several geographic levels.</p>
+<p>Potential indicators included:</p>
+<ul>
+<li>median household income;</li>
+<li>median home value;</li>
+<li>median rent;</li>
+<li>county-level geography;</li>
+<li>census tracts;</li>
+<li>block groups;</li>
+<li>roads;</li>
+<li>streams;</li>
+<li>railroads.</li>
+</ul>
+<p>The proposed coordinate system was NAD83 geographic coordinates, EPSG:4269.</p>
+</section>
+<section id="data-acquisition-and-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-acquisition-and-preparation">Data Acquisition and Preparation</h3>
+<p>The workflow anticipated using:</p>
+<ul>
+<li>Census TIGER data;</li>
+<li>Census demographic tables;</li>
+<li>GISTools;</li>
+<li>ArcMap;</li>
+<li><code>ogrinfo</code>;</li>
+<li>GDAL/OGR-compatible formats.</li>
+</ul>
+<p>The surviving project-planning page documents:</p>
+<ul>
+<li>problem definition;</li>
+<li>study area;</li>
+<li>intended audience;</li>
+<li>geographic extent;</li>
+<li>coordinate system;</li>
+<li>source data;</li>
+<li>technical barriers;</li>
+<li>initial dataset inspection.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/santa-fe-project-planning.png" class="lightbox" data-gallery="internet-mapping" title="Excerpt from the Santa Fe gentrification web-mapping project proposal."><img src="images/santa-fe-project-planning.png" class="img-fluid figure-img" alt="HTML project-planning page describing a proposed web map of gentrification indicators in Santa Fe County."></a></p>
+<figcaption>Excerpt from the Santa Fe gentrification web-mapping project proposal.</figcaption>
+</figure>
+</div>
+<p>No complete final web application survives in the files reviewed for this reconstruction.</p>
+<p>For that reason, this section documents the project design and data-planning stage rather than claiming that the full application was completed.</p>
+</section>
+</section>
+<section id="preserved-topographic-map-outputs" class="level2">
+<h2 class="anchored" data-anchor-id="preserved-topographic-map-outputs">Preserved Topographic Map Outputs</h2>
+<p>Two small topographic image fragments also survive from the course files.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/topographic-map-developed-area.JPG" class="lightbox" data-gallery="internet-mapping" title="Topographic map fragment showing roads, water, structures, and developed features."><img src="images/topographic-map-developed-area.JPG" class="img-fluid figure-img" alt="Topographic map fragment showing transportation, water, buildings, and contour information near a developed area."></a></p>
+<figcaption>Topographic map fragment showing roads, water, structures, and developed features.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/topographic-map-contours.JPG" class="lightbox" data-gallery="internet-mapping" title="Topographic map fragment dominated by contour lines and terrain representation."><img src="images/topographic-map-contours.JPG" class="img-fluid figure-img" alt="Topographic map fragment showing dense contour lines and terrain features."></a></p>
+<figcaption>Topographic map fragment dominated by contour lines and terrain representation.</figcaption>
+</figure>
+</div>
+<p>The surviving files do not clearly identify which assignment produced these images, so they are preserved here as examples of web-delivered map imagery without assigning them to a specific lab.</p>
+</section>
+<section id="what-i-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned">What I Learned</h2>
+<p>This course introduced several concepts that became increasingly important in later GIS work:</p>
+<ul>
+<li>web maps are applications, not only images;</li>
+<li>HTML and CSS provide structure and presentation;</li>
+<li>JavaScript provides interaction;</li>
+<li>APIs simplify access to map platforms;</li>
+<li>OGC standards allow different systems to exchange geographic information;</li>
+<li>WMS, WFS, and WCS serve different purposes;</li>
+<li>coordinate systems and bounding boxes affect every web-map request;</li>
+<li>pixel dimensions and geographic extents must be coordinated;</li>
+<li>scale dependencies affect whether imagery is useful;</li>
+<li>KML can connect Google Earth to remote map services;</li>
+<li>QGIS can consume standards-based services from many organizations;</li>
+<li>GDAL and OGR provide direct access to geospatial formats and metadata;</li>
+<li>service interoperability still requires technical understanding;</li>
+<li>successful web GIS begins with a clearly defined problem and audience.</li>
+</ul>
+</section>
+<section id="looking-back" class="level2">
+<h2 class="anchored" data-anchor-id="looking-back">Looking Back</h2>
+<p>The technology shown here is unmistakably from 2011.</p>
+<p>The course used:</p>
+<ul>
+<li>XHTML;</li>
+<li>early JavaScript;</li>
+<li>Google Maps API conventions that are now obsolete;</li>
+<li>Google Earth network links;</li>
+<li>QGIS 1.6;</li>
+<li>FWTools;</li>
+<li>early WMS, WFS, and WCS implementations;</li>
+<li>web services that are no longer online.</li>
+</ul>
+<p>A modern version would likely use:</p>
+<ul>
+<li>semantic HTML;</li>
+<li>modern CSS;</li>
+<li>JavaScript modules;</li>
+<li>Leaflet, MapLibre, or current Google Maps APIs;</li>
+<li>GeoJSON;</li>
+<li>vector tiles;</li>
+<li>cloud-hosted feature services;</li>
+<li>modern QGIS;</li>
+<li>Python environments;</li>
+<li>Git and GitHub;</li>
+<li>responsive and accessible design.</li>
+</ul>
+<p>Even so, the conceptual foundations remain relevant.</p>
+<p>The course taught me that Internet mapping connects:</p>
+<ul>
+<li>data;</li>
+<li>services;</li>
+<li>standards;</li>
+<li>projections;</li>
+<li>software clients;</li>
+<li>programming;</li>
+<li>interface design;</li>
+<li>user needs.</li>
+</ul>
+<p>It also introduced the open and interoperable GIS environment that later became central to my work with RGIS, FEMA Risk MAP, NMFlood, StoryMaps, and public-facing geospatial communication.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

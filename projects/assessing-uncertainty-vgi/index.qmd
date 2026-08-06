@@ -32,7 +32,7 @@ The project asked:
 
 Volunteers working remotely received messages, translated them, categorized them by emergency need, georeferenced them, and published them through a dynamic web map.
 
-![Haiti administrative boundaries and the location of Port-au-Prince.](images/haiti-locator-map.jpg){.lightbox group="vgi-thesis" fig-alt="Map of Haiti showing departmental boundaries and the location of Port-au-Prince."}
+![Haiti administrative boundaries and the location of Port-au-Prince.](images/haiti-locator-map.png){.lightbox group="vgi-thesis" fig-alt="Map of Haiti showing departmental boundaries and the location of Port-au-Prince."}
 
 ## Why the Study Mattered
 

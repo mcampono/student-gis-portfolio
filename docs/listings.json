@@ -12,5 +12,14 @@
       "/projects/h1n1-risk-assessment/index.html",
       "/projects/volunteer-gis/index.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/camp-davy-crockett/index.html",
+      "/projects/cumberland-trail/index.html",
+      "/projects/h1n1-risk-assessment/index.html",
+      "/projects/mars-spirit-rover/index.html"
+    ]
   }
 ]

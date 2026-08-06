@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-selected-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-selected-projects'] = new List('listing-selected-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -159,8 +219,151 @@ ul.task-list li input[type="checkbox"] {
 <section id="learning-gis-one-project-at-a-time" class="level1 content-block">
 <h1>Learning GIS One Project at a Time</h1>
 <p>This portfolio presents selected GIS, cartography, research, volunteer, and professional-development work completed while I was a student. Most of the projects come from the GIS Certificate program at <strong>Roane State Community College</strong> and my graduate studies at the <strong>University of New Mexico</strong>, with additional context from my first GIS courses at <strong>Tennessee Tech University</strong>.</p>
-<p>I reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio—even when the path into a career is not direct.</p>
+<p>I reconstructed this portfolio from files preserved on old hard drives, archived presentations, reports, maps, and material from a now-defunct personal website. It is intended to show students how coursework and early professional experiences can be documented in a portfolio, even when the path into a career is not direct.</p>
 <p><a href="./projects.html" class="btn btn-primary btn-lg" role="button">Explore the Projects</a> <a href="./learning-path.html" class="btn btn-outline-primary btn-lg" role="button">Read My Learning Path</a></p>
+</section>
+<hr>
+<section id="selected-gis-projects" class="level2 content-block">
+<h2 class="anchored" data-anchor-id="selected-gis-projects">Selected GIS Projects</h2>
+<p>These projects show different stages of my development as a GIS student, from field data collection and project management to spatial analysis, cartography, and conference presentation.</p>
+<div id="listing-selected-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="R2VvZGF0YWJhc2UlMkNGaWVsZCUyME1hcHBpbmclMkNHUFMlMkNDYXJ0b2dyYXBoeSUyQ0ZhY2lsaXRpZXMlMjBNYW5hZ2VtZW50JTJDU3R1ZGVudCUyMFdvcmslMkNSU0ND" data-listing-date-sort="1230786000000" data-listing-file-modified-sort="1785952353735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1859">
+<a href="./projects/camp-davy-crockett/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/camp-davy-crockett/images/cdc_map_small.png" class="thumbnail-image card-img" style="height: 220px;" alt="Simplified facilities map of Camp Davy Crockett created for camp visitors.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Camp Davy Crockett Facilities Geodatabase
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R2VvZGF0YWJhc2U='); return false;">Geodatabase</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmllbGQlMjBNYXBwaW5n'); return false;">Field Mapping</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1BT'); return false;">GPS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FydG9ncmFwaHk='); return false;">Cartography</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmFjaWxpdGllcyUyME1hbmFnZW1lbnQ='); return false;">Facilities Management</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNDQw=='); return false;">RSCC</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An independent GIS capstone project that created a facilities geodatabase, staff map, visitor map, metadata, photographs, and distributable GIS products for Camp Davy…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UHJvamVjdCUyME1hbmFnZW1lbnQlMkNGaWVsZCUyME1hcHBpbmclMkNHUFMlMkNNZXRhZGF0YSUyQzNEJTIwQW5hbHlzdCUyQ0NvbGxhYm9yYXRpdmUlMjBHSVMlMkNTdHVkZW50JTIwV29yayUyQ1JTQ0M=" data-listing-date-sort="1230786000000" data-listing-file-modified-sort="1785956824960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2437">
+<a href="./projects/cumberland-trail/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/cumberland-trail/images/cumberland-trail-gps-collection.jpeg" class="thumbnail-image card-img" style="height: 220px;" alt="A student collecting a GPS waypoint and field notes beside a trail sign in Frozen Head State Park.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cumberland Trail Field Inventory at Frozen Head State Park
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvamVjdCUyME1hbmFnZW1lbnQ='); return false;">Project Management</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmllbGQlMjBNYXBwaW5n'); return false;">Field Mapping</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1BT'); return false;">GPS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWV0YWRhdGE='); return false;">Metadata</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('M0QlMjBBbmFseXN0'); return false;">3D Analyst</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sbGFib3JhdGl2ZSUyMEdJUw=='); return false;">Collaborative GIS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNDQw=='); return false;">RSCC</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A group GIS project-management project that planned and conducted a GPS inventory of infrastructure and natural features along trails in Frozen Head State Park.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UHVibGljJTIwSGVhbHRoJTJDRGVtb2dyYXBoaWMlMjBBbmFseXNpcyUyQzNEJTIwVmlzdWFsaXphdGlvbiUyQ0NhcnRvZ3JhcGh5JTJDQ29uZmVyZW5jZSUyMFBvc3RlciUyQ0NvbGxhYm9yYXRpdmUlMjBHSVMlMkNTdHVkZW50JTIwV29yayUyQ1JTQ0M=" data-listing-date-sort="1251777600000" data-listing-file-modified-sort="1785962681672" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1462">
+<a href="./projects/h1n1-risk-assessment/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/h1n1-risk-assessment/images/h1n1-final-poster.png" class="thumbnail-image card-img" style="height: 220px;" alt="Final H1N1 demographic risk assessment poster for Middle Tennessee.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+H1N1 Risk Assessment for Middle Tennessee
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHVibGljJTIwSGVhbHRo'); return false;">Public Health</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2dyYXBoaWMlMjBBbmFseXNpcw=='); return false;">Demographic Analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('M0QlMjBWaXN1YWxpemF0aW9u'); return false;">3D Visualization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FydG9ncmFwaHk='); return false;">Cartography</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmVyZW5jZSUyMFBvc3Rlcg=='); return false;">Conference Poster</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sbGFib3JhdGl2ZSUyMEdJUw=='); return false;">Collaborative GIS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNDQw=='); return false;">RSCC</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An independently developed conference poster using demographic data, ArcMap, ArcScene, and spatial analysis to visualize populations potentially at risk during the 2009 H1N1…</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Q2FydG9ncmFwaHklMkNTdHVkZW50JTIwV29yayUyQ1JTQ0MlMkNDb25mZXJlbmNlJTIwUHJlc2VudGF0aW9uJTJDUGxhbmV0YXJ5JTIwR0lT" data-listing-date-sort="1199145600000" data-listing-file-modified-sort="1785357063867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="837">
+<a href="./projects/mars-spirit-rover/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/mars-spirit-rover/images/mars_full_map.png" class="thumbnail-image card-img" style="height: 220px;" alt="Complete student poster showing the traverse of NASA&amp;#039;s SPIRIT rover within Gusev Crater on Mars.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mars SPIRIT Rover Traverse Map
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2FydG9ncmFwaHk='); return false;">Cartography</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3R1ZGVudCUyMFdvcms='); return false;">Student Work</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNDQw=='); return false;">RSCC</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmVyZW5jZSUyMFByZXNlbnRhdGlvbg=='); return false;">Conference Presentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGxhbmV0YXJ5JTIwR0lT'); return false;">Planetary GIS</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A student cartography project mapping the traverse of NASA’s SPIRIT rover within Gusev Crater on Mars.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="./projects.html" class="btn btn-primary" role="button">Browse All Projects</a></p>
 </section>
 <hr>
 <section id="a-nonlinear-path-into-gis" class="level2 content-block">
@@ -172,71 +375,6 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="./learning-path.html" class="btn btn-outline-secondary" role="button">Read the Full Story</a></p>
 </section>
 <hr>
-<section id="explore-the-portfolio" class="level2 content-block">
-<h2 class="anchored" data-anchor-id="explore-the-portfolio">Explore the Portfolio</h2>
-<div class="grid">
-<section id="selected-projects" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="selected-projects">Selected Projects</h3>
-<p>Explore coursework, community GIS, cartography, spatial analysis, web GIS, remote sensing, and independent research.</p>
-<p><a href="./projects.html">View selected projects →</a></p>
-</section>
-<section id="graduate-research" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="graduate-research">Graduate Research</h3>
-<p>See how coursework, a thesis, funded assistantships, conference presentations, and applied research contributed to my graduate education.</p>
-<p><a href="./graduate-research.html">Explore graduate research →</a></p>
-</section>
-<section id="conferences-and-service" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="conferences-and-service">Conferences and Service</h3>
-<p>Follow the progression from student attendee and volunteer to presenter, conference organizer, professional leader, and educator.</p>
-<p><a href="./conferences-service.html">Explore conferences and service →</a></p>
-</section>
-</div>
-</section>
-<hr>
-<section id="featured-student-projects" class="level2 content-block">
-<h2 class="anchored" data-anchor-id="featured-student-projects">Featured Student Projects</h2>
-<p>These projects represent several stages of my development as a GIS student. Each began in a different context, but together they demonstrate how classroom assignments, independent research, volunteer work, and funded projects can become meaningful portfolio examples.</p>
-<div class="grid">
-<section id="camp-davy-crockett-asset-inventory" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="camp-davy-crockett-asset-inventory">Camp Davy Crockett Asset Inventory</h3>
-<p><strong>Roane State Community College</strong></p>
-<p>An independent field-based project involving geodatabase design, domains and subtypes, GPS data collection, asset photography, data processing, and maps created for both camp management and visitors.</p>
-<p><a href="./projects/camp-davy-crockett/index.html">View project →</a></p>
-</section>
-<section id="arches-national-park" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="arches-national-park">Arches National Park</h3>
-<p><strong>Roane State Community College</strong></p>
-<p>A collaborative geodatabase project combining two-dimensional and three-dimensional visualization, demographics, elevation, fire hazard, trails, streams, recreation, and wildlife habitat analysis.</p>
-<p><a href="./projects/arches-national-park/index.html">View project →</a></p>
-</section>
-<section id="gis-thesis" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="gis-thesis">GIS Thesis</h3>
-<p><strong>University of New Mexico</strong></p>
-<p>An example of the complete graduate research process, including literature development, proposal design, spatial methods, analysis, interpretation, and presentation of findings.</p>
-<p>View project →</p>
-</section>
-<section id="haiti-earthquake-data-comparison" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="haiti-earthquake-data-comparison">Haiti Earthquake Data Comparison</h3>
-<p><strong>University of New Mexico</strong></p>
-<p>A comparison of asserted and authoritative geospatial data associated with the January 2010 Haiti earthquake, emphasizing data quality and emergency decision-making.</p>
-<p>View project →</p>
-</section>
-<section id="predictive-crime-mapping" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="predictive-crime-mapping">Predictive Crime Mapping</h3>
-<p><strong>University of New Mexico</strong></p>
-<p>Funded graduate research examining predictive crime-mapping methods and the robustness of kernel-density hotspot maps, later presented at regional GIS conferences.</p>
-<p>View project →</p>
-</section>
-<section id="american-red-cross-shelter-accessibility" class="level3 g-col-12 g-col-md-6 g-col-lg-4">
-<h3 class="anchored" data-anchor-id="american-red-cross-shelter-accessibility">American Red Cross Shelter Accessibility</h3>
-<p><strong>Volunteer GIS Project</strong></p>
-<p>An applied volunteer project mapping emergency shelter locations and examining potential geographic gaps in shelter coverage.</p>
-<p><a href="projects/red-cross-shelter-accessibility/index.qmd">View project →</a></p>
-</section>
-</div>
-<p><a href="./projects.html" class="btn btn-primary" role="button">Browse All Projects</a></p>
-</section>
-<hr>
 <section id="what-this-portfolio-demonstrates" class="level2 content-block">
 <h2 class="anchored" data-anchor-id="what-this-portfolio-demonstrates">What This Portfolio Demonstrates</h2>
 <p>A student portfolio can include much more than polished final maps. The materials preserved here include:</p>
@@ -244,10 +382,8 @@ ul.task-list li input[type="checkbox"] {
 <li>class projects and technical exercises;</li>
 <li>independent and collaborative research;</li>
 <li>field data collection and database design;</li>
-<li>maps developed through multiple rounds of revision;</li>
 <li>reports, presentations, posters, and conference materials;</li>
 <li>volunteer GIS and professional service;</li>
-<li>funded graduate assistantship projects;</li>
 <li>reflections on what worked, what changed, and what I would approach differently today.</li>
 </ul>
 <p>The artifacts reflect the software, technology, data, and cartographic practices available when they were created. Original work is presented honestly, with newly written context added to explain its purpose and significance.</p>
@@ -266,6 +402,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>The strongest portfolio is one that clearly and accurately represents your own development.</p>
 </section>
+
 
 
 

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Research completed during my graduate studies at the University of New Mexico, including thesis development, thesis research, publications, and research-assistant projects.">
 
-<title>graduate-research – Student GIS Portfolio</title>
+<title>Graduate Research – Student GIS Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -70,7 +73,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-thesis-research .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-thesis-research'] = new List('listing-thesis-research', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -130,17 +191,125 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#thesis-research" id="toc-thesis-research" class="nav-link active" data-scroll-target="#thesis-research">Thesis Research</a></li>
+  <li><a href="#research-assistant-projects" id="toc-research-assistant-projects" class="nav-link" data-scroll-target="#research-assistant-projects">Research Assistant Projects</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Graduate Research</h1>
+</div>
+
+<div>
+  <div class="description">
+    Research completed during my graduate studies at the University of New Mexico, including thesis development, thesis research, publications, and research-assistant projects.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Graduate school included both an independent thesis and research completed through assistantships, seminars, and collaborative projects. This page separates those two strands while showing how coursework, research design, technical work, and publication contributed to my development as a geographer and GIS professional.</p>
+<section id="thesis-research" class="level2">
+<h2 class="anchored" data-anchor-id="thesis-research">Thesis Research</h2>
+<p>The thesis research began as a broad interest in volunteered geographic information, data quality, and disaster response. It developed across several graduate courses before becoming a focused study of attribute uncertainty in the Ushahidi Haiti deployment.</p>
+<div id="listing-thesis-research" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Vm9sdW50ZWVyZWQlMjBHZW9ncmFwaGljJTIwSW5mb3JtYXRpb24lMkNHSVNjaWVuY2UlMkNEaXNhc3RlciUyMFJlc3BvbnNlJTJDUmVzZWFyY2glMjBEZXNpZ24lMkNHcmFkdWF0ZSUyMENvdXJzZXdvcmslMkNVTk0=" data-listing-date-sort="NaN" data-listing-file-modified-sort="1786047459368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="798">
+<a href="./projects/developing-thesis-research/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/developing-thesis-research/images/thesis-development-thumbnail.png" class="thumbnail-image card-img" style="height: 220px;" alt="A research-development sequence connecting citizen reports, volunteered geographic information, data quality, and emergency response.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Developing a Thesis Research Agenda
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Vm9sdW50ZWVyZWQlMjBHZW9ncmFwaGljJTIwSW5mb3JtYXRpb24='); return false;">Volunteered Geographic Information</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0lTY2llbmNl'); return false;">GIScience</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzYXN0ZXIlMjBSZXNwb25zZQ=='); return false;">Disaster Response</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2glMjBEZXNpZ24='); return false;">Research Design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R3JhZHVhdGUlMjBDb3Vyc2V3b3Jr'); return false;">Graduate Coursework</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VU5N'); return false;">UNM</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A retrospective on how GEOG 501, GEOG 502, and GEOG 525 transformed an initial interest in crowdsourced location data into a graduate thesis research agenda.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Vm9sdW50ZWVyZWQlMjBHZW9ncmFwaGljJTIwSW5mb3JtYXRpb24lMkNVc2hhaGlkaSUyQ0Rpc2FzdGVyJTIwUmVzcG9uc2UlMkNEYXRhJTIwUXVhbGl0eSUyQ0dJU2NpZW5jZSUyQ1RoZXNpcyUyMFJlc2VhcmNoJTJDSGFpdGk=" data-listing-date-sort="1356998400000" data-listing-file-modified-sort="1786048052815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="861">
+<a href="./projects/assessing-uncertainty-vgi/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/assessing-uncertainty-vgi/images/vgi-thesis-thumbnail.png" class="thumbnail-image card-img" style="height: 220px;" alt="Haiti locator map and Ushahidi workflow illustrating volunteered geographic information used in emergency response.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Assessing Uncertainty in Volunteered Geographic Information
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Vm9sdW50ZWVyZWQlMjBHZW9ncmFwaGljJTIwSW5mb3JtYXRpb24='); return false;">Volunteered Geographic Information</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VXNoYWhpZGk='); return false;">Ushahidi</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzYXN0ZXIlMjBSZXNwb25zZQ=='); return false;">Disaster Response</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFF1YWxpdHk='); return false;">Data Quality</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0lTY2llbmNl'); return false;">GIScience</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGhlc2lzJTIwUmVzZWFyY2g='); return false;">Thesis Research</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGFpdGk='); return false;">Haiti</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A graduate thesis examining uncertainty in volunteered geographic information created through the Ushahidi platform after the 2010 Haiti earthquake.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="research-assistant-projects" class="level2">
+<h2 class="anchored" data-anchor-id="research-assistant-projects">Research Assistant Projects</h2>
+<p>My graduate research assistantships provided opportunities to contribute to applied GIScience projects while developing skills in data preparation, spatial analysis, scripting, documentation, and collaborative research.</p>
+<p>These projects will be added as I recover and review the original materials. Planned additions include work related to predictive crime mapping and other research completed through the University of New Mexico’s Earth Data Analysis Center.</p>
 
 
 
-
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

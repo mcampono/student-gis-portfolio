@@ -1,5 +1,9 @@
 {
   "listingMap": {
+    "graduate-research.qmd": [
+      "projects/developing-thesis-research/index.qmd",
+      "projects/assessing-uncertainty-vgi/index.qmd"
+    ],
     "index.qmd": [
       "projects/camp-davy-crockett/index.qmd",
       "projects/cumberland-trail/index.qmd",

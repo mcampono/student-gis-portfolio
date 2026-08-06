@@ -18,7 +18,7 @@
     "href": "projects.html#projects-in-development",
     "title": "Projects",
     "section": "Projects in Development",
-    "text": "Projects in Development\nThe following UNM projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.\n\nGIS Thesis\nHaiti Earthquake Data\nPredictive Crime Mapping"
+    "text": "Projects in Development\nThe following projects are planned for future additions to the portfolio. They will be added as I recover, review, and document the original materials.\n\nGIS Thesis\nHaiti Earthquake Data\nPredictive Crime Mapping"
   },
   {
     "objectID": "projects/spatial-analysis-modeling/index.html",
@@ -915,6 +915,27 @@
     "title": "Learning Path",
     "section": "Looking Back",
     "text": "Looking Back\nI once thought career progress meant finding the right job posting, submitting the strongest possible application, and waiting for someone to choose me.\nMy experience taught me something different.\nCareers are also built through:\n\nconversations;\nservice;\ncuriosity;\nprofessional communities;\nrepeated visibility;\nuseful work;\npreparation;\nrelationships maintained over time.\n\nThe path was slower and less direct than I expected. It included failed applications, uncertain funding, an economic crisis, and an urgent family move.\nBut every strong opportunity came when two conditions met:\n\nsomeone knew me or knew my work;\nI had developed the skills needed to help.\n\nThat is what the hidden job market means to me."
+  },
+  {
+    "objectID": "graduate-research.html",
+    "href": "graduate-research.html",
+    "title": "Graduate Research",
+    "section": "",
+    "text": "Graduate school included both an independent thesis and research completed through assistantships, seminars, and collaborative projects. This page separates those two strands while showing how coursework, research design, technical work, and publication contributed to my development as a geographer and GIS professional."
+  },
+  {
+    "objectID": "graduate-research.html#thesis-research",
+    "href": "graduate-research.html#thesis-research",
+    "title": "Graduate Research",
+    "section": "Thesis Research",
+    "text": "Thesis Research\nThe thesis research began as a broad interest in volunteered geographic information, data quality, and disaster response. It developed across several graduate courses before becoming a focused study of attribute uncertainty in the Ushahidi Haiti deployment.\n\n\n\n\n\n\n\n\n\n\nDeveloping a Thesis Research Agenda\n\n\n\nVolunteered Geographic Information\n\nGIScience\n\nDisaster Response\n\nResearch Design\n\nGraduate Coursework\n\nUNM\n\n\n\nA retrospective on how GEOG 501, GEOG 502, and GEOG 525 transformed an initial interest in crowdsourced location data into a graduate thesis research agenda.\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing Uncertainty in Volunteered Geographic Information\n\n\n\nVolunteered Geographic Information\n\nUshahidi\n\nDisaster Response\n\nData Quality\n\nGIScience\n\nThesis Research\n\nHaiti\n\n\n\nA graduate thesis examining uncertainty in volunteered geographic information created through the Ushahidi platform after the 2010 Haiti earthquake.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "graduate-research.html#research-assistant-projects",
+    "href": "graduate-research.html#research-assistant-projects",
+    "title": "Graduate Research",
+    "section": "Research Assistant Projects",
+    "text": "Research Assistant Projects\nMy graduate research assistantships provided opportunities to contribute to applied GIScience projects while developing skills in data preparation, spatial analysis, scripting, documentation, and collaborative research.\nThese projects will be added as I recover and review the original materials. Planned additions include work related to predictive crime mapping and other research completed through the University of New Mexico’s Earth Data Analysis Center."
   },
   {
     "objectID": "awards-recognition.html",

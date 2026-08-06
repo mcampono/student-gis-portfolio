@@ -14,6 +14,13 @@
     ]
   },
   {
+    "listing": "/graduate-research.html",
+    "items": [
+      "/projects/developing-thesis-research/index.html",
+      "/projects/assessing-uncertainty-vgi/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/projects/camp-davy-crockett/index.html",

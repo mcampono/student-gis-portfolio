@@ -16,6 +16,8 @@ website:
         text: Graduate Research
       - href: conferences-service.qmd
         text: Conferences & Service
+      - href: awards-recognition.qmd
+        text: Awards & Recognition
       - href: about.qmd
         text: About
 

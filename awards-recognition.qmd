@@ -1,0 +1,80 @@
+---
+title: "Student Awards & Recognition"
+description: "Awards, scholarships, academic recognition, and leadership honors earned while I was a student."
+toc: true
+toc-depth: 2
+---
+
+This page documents awards, scholarships, academic recognition, and leadership roles earned while I was a student. It intentionally excludes recognition received later in my professional career.
+
+## University of New Mexico
+
+### NMGIC Southwest User Group Scholarship
+
+**2011**
+
+Awarded a **$1,500 travel scholarship** by the New Mexico Geographic Information Council to attend the 2011 Southwest User Group Conference in Arizona.
+
+As a condition of the award, I later presented the same project at the spring 2012 NMGIC meeting in Albuquerque.
+
+This recognition supported both conference participation and the expectation that student work would be shared with the broader state GIS community.
+
+## Roane State Community College
+
+### Outstanding GIS Student
+
+**2008–2009**
+
+Recognized by Roane State Community College as the **Outstanding GIS Student** for the 2008–2009 academic year.
+
+### First Place — Middle Tennessee H1N1 Demographic Risk Assessment
+
+**2009 Middle Tennessee GIS Forum**
+
+Joshua Johnson and I received **first place** for our collaborative poster, *Middle Tennessee H1N1 Demographic Risk Assessment*.
+
+The poster combined Census demographic data with public-health risk criteria and included:
+
+- a statewide county-level assessment;
+- 3D extrusion of Middle Tennessee counties;
+- block-group analysis of estimated secondary infection risk;
+- a Davidson County inset;
+- a density surface representing the concentration of estimated secondary risk.
+
+[View the H1N1 project](projects/h1n1-risk-assessment/index.qmd)
+
+## Tennessee Technological University
+
+### Esri International User Conference Student Assistantship
+
+**2004**
+
+Selected for a student assistantship to attend the 2004 Esri International User Conference.
+
+The assistantship made it possible to participate in a major international GIS conference between my undergraduate and graduate programs at Tennessee Technological University.
+
+### Huddleston Agricultural Academic Award
+
+Received the **Huddleston Agricultural Academic Award** while completing my undergraduate studies at Tennessee Technological University.
+
+### Dean’s List
+
+Named to the **Dean’s List for eight semesters**.
+
+### President, Agriculture Student Council
+
+Served as **President of the Agriculture Student Council**, providing leadership and representation for students within the College of Agriculture.
+
+## Looking Back
+
+These recognitions reflect several different dimensions of student development:
+
+- academic achievement;
+- leadership;
+- initiative;
+- conference participation;
+- professional engagement;
+- collaborative project work;
+- willingness to share work with broader audiences.
+
+They also show that student recognition does not come from one type of accomplishment. Some awards acknowledged academic performance, while others recognized leadership, project quality, initiative, or participation in the professional GIS community.

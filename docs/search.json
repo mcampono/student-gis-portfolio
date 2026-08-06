@@ -371,221 +371,305 @@
     "text": "Looking Back\nThis project is a strong example of initiative during the early stages of my GIS career.\nJoshua and I were not completing a required assignment. We chose a timely topic, developed an analysis, created a professional poster, and presented it to the regional GIS community.\nSeveral design choices clearly reflect the technology and cartographic conventions of 2009, especially the use of 3D county extrusion and a highly information-dense poster layout.\nA modern version would likely:\n\nuse clearer visual hierarchy;\nreduce the number of competing map elements;\ndocument every calculation in a reproducible notebook or model;\ndistinguish more carefully between demographic vulnerability and epidemiological risk;\nuse current public-health data;\ninclude uncertainty;\nuse interactive web maps or dashboards for detailed block-group exploration.\n\nEven with its limitations, the poster remains important because it documents an early effort to combine GIS, demographic data, public-health communication, conference participation, and collaborative cartographic design."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html",
-    "href": "projects/cumberland-trail/index.html",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "objectID": "projects/demographics-suitability/index.html",
+    "href": "projects/demographics-suitability/index.html",
+    "title": "Business Location Suitability Analysis",
     "section": "",
-    "text": "This collaborative project was completed for GIS 230: Project Management at Roane State Community College during spring 2009.\nThe class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.\nThe project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.\nThe team:\n\nscoped the project;\nevaluated feasibility;\nassigned formal roles;\ncreated a schedule;\nstandardized field procedures;\nconducted backpacking data-collection trips;\ncollected GPS waypoints and photographs;\ndocumented attributes and measurements;\nimported and managed the data;\ntracked progress, hours, and costs;\nprepared metadata;\nconducted quality assurance;\ndelivered project files, maps, reports, and a presentation.\n\nMy documented responsibilities included serving as a report writer, secretary, feasibility-study lead, and GPS data collector.\n\n\n\nCollecting a GPS waypoint and field notes for a trail sign."
+    "text": "For this independent project in GIS 220 at Roane State Community College, I was asked to select a hypothetical business, define the factors that would influence its location, find the necessary data, build a suitability model, and present a final recommendation.\nI created a fictional outdoor guiding company called Camponovo Adventure Travel. The concept combined guided outdoor experiences with equipment, transportation, trained guides, first-aid knowledge, and trip documentation through photographs and video.\nThe analysis followed two stages:\n\ncompare four candidate cities and identify the strongest regional market;\nconduct a more detailed site-selection analysis within the selected city.\n\nThe project ultimately recommended Bend, Oregon, then identified two commercially zoned areas within the city’s highest-ranked block groups."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#project-overview",
-    "href": "projects/cumberland-trail/index.html#project-overview",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "objectID": "projects/demographics-suitability/index.html#project-overview",
+    "href": "projects/demographics-suitability/index.html#project-overview",
+    "title": "Business Location Suitability Analysis",
     "section": "",
-    "text": "This collaborative project was completed for GIS 230: Project Management at Roane State Community College during spring 2009.\nThe class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.\nThe project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.\nThe team:\n\nscoped the project;\nevaluated feasibility;\nassigned formal roles;\ncreated a schedule;\nstandardized field procedures;\nconducted backpacking data-collection trips;\ncollected GPS waypoints and photographs;\ndocumented attributes and measurements;\nimported and managed the data;\ntracked progress, hours, and costs;\nprepared metadata;\nconducted quality assurance;\ndelivered project files, maps, reports, and a presentation.\n\nMy documented responsibilities included serving as a report writer, secretary, feasibility-study lead, and GPS data collector.\n\n\n\nCollecting a GPS waypoint and field notes for a trail sign."
+    "text": "For this independent project in GIS 220 at Roane State Community College, I was asked to select a hypothetical business, define the factors that would influence its location, find the necessary data, build a suitability model, and present a final recommendation.\nI created a fictional outdoor guiding company called Camponovo Adventure Travel. The concept combined guided outdoor experiences with equipment, transportation, trained guides, first-aid knowledge, and trip documentation through photographs and video.\nThe analysis followed two stages:\n\ncompare four candidate cities and identify the strongest regional market;\nconduct a more detailed site-selection analysis within the selected city.\n\nThe project ultimately recommended Bend, Oregon, then identified two commercially zoned areas within the city’s highest-ranked block groups."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#client-and-project-need",
-    "href": "projects/cumberland-trail/index.html#client-and-project-need",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Client and Project Need",
-    "text": "Client and Project Need\nFrozen Head State Park contains an extensive network of trails used by hikers, horseback riders, and mountain bikers.\nThe project client needed an inventory of infrastructure and natural features located along those trails. The data were intended to supplement an existing geodatabase maintained by park staff.\nThe planned inventory included:\n\nGPS locations;\ndigital photographs;\nfeature descriptions;\nmeasurements;\nelevation;\npositional error;\ncomments and unusual observations;\ndata suitable for transfer into the existing geodatabase.\n\nThe Cumberland Trail presented a particular challenge because portions shown on available maps were incomplete, closed, difficult to access, or not evident on the ground."
+    "objectID": "projects/demographics-suitability/index.html#defining-the-business",
+    "href": "projects/demographics-suitability/index.html#defining-the-business",
+    "title": "Business Location Suitability Analysis",
+    "section": "Defining the Business",
+    "text": "Defining the Business\nThe business concept reflected my own interest in outdoor recreation. Camponovo Adventure Travel was designed to make outdoor experiences easier for clients by reducing the amount of planning and equipment they would need to manage themselves.\n\n\n\n\n\n\nOpening slide introducing the business-location project.\n\n\n\n\n\n\n\nSlide connecting the business concept to my interest in outdoor activities.\n\n\n\n\n\n\n\n\n\nSummary of the spatial requirements for the business.\n\n\n\n\n\n\n\nOther requirements considered for the business, including natural areas, colleges, airports, and highways."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#course-and-project-management-requirements",
-    "href": "projects/cumberland-trail/index.html#course-and-project-management-requirements",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Course and Project-Management Requirements",
-    "text": "Course and Project-Management Requirements\nGIS 230 was designed to prepare students to complete independent work in GIS 290.\nThe course emphasized:\n\nplanning and completing a real-world GIS project;\nproject scoping;\nrole assignment;\nscheduling;\nmetadata documentation;\n3D visualization;\nprogress reporting;\npresentation and delivery.\n\nThe group assignment required:\n\na team leader;\ndocumentation management;\npresentation development;\nreport writing;\nquality assurance;\nGIS technical work;\nat least one spatial analysis;\nat least one 3D visualization;\nweekly progress reports;\na final report;\na PowerPoint presentation.\n\nThe project therefore evaluated both the GIS work and the team’s ability to manage time, responsibilities, data, and client expectations."
+    "objectID": "projects/demographics-suitability/index.html#building-the-suitability-criteria",
+    "href": "projects/demographics-suitability/index.html#building-the-suitability-criteria",
+    "title": "Business Location Suitability Analysis",
+    "section": "Building the Suitability Criteria",
+    "text": "Building the Suitability Criteria\nI developed the suitability criteria by combining market characteristics, workforce needs, accessibility, environmental setting, and quality-of-life measures.\nThe primary criteria included:\n\na likely client population between approximately 45 and 60 years old;\nparticipation by both men and women;\nhigher income and college education;\nproximity to national parks, national forests, rivers, mountains, and other outdoor amenities;\naccess by airport or highway;\nproximity to a college that could provide a workforce;\na reputation for outdoor recreation;\na clean and visually appealing setting;\nrelatively short commute times;\nmanageable population size;\nlower pollution;\nreasonable cost of living.\n\nThe original presentation included highlighted excerpts from market-research sources describing adventure travelers as both men and women, generally ages 45–60, and college educated. I no longer have enough documentation to identify or verify those sources, so I treat those criteria as part of the project’s historical context rather than as current market evidence.\n\n\n\nHistorical market-research excerpts used to identify likely adventure-travel customers."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#feasibility-study",
-    "href": "projects/cumberland-trail/index.html#feasibility-study",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Feasibility Study",
-    "text": "Feasibility Study\nOne of my primary assignments was preparing the project feasibility study.\nThe study evaluated whether the team could realistically collect detailed data along the park’s trail network within the available semester.\n\nMain Constraints\nThe study identified several concerns:\n\nthe park contained more than 80 miles of trails;\nthe project began late because weather delayed the initial client meeting;\nwet winter and spring conditions could prevent photography;\naccess by service road, ATV, or park vehicle was not available;\nall fieldwork had to be completed on foot;\ncanopy cover could affect GPS collection;\nthe semester allowed only a limited period for data collection and quality assurance.\n\nThe study concluded that collecting every trail was unlikely.\nThe recommended strategy was to:\n\nprioritize trails;\nbegin fieldwork as quickly as possible;\ndocument areas that were completed;\ndocument trails still needing work;\navoid future duplication by preserving clear collection records.\n\nThis was an important project-management decision. The feasibility study did not simply ask whether the project was desirable; it assessed what could reasonably be completed with the available people, equipment, weather, access, and time."
+    "objectID": "projects/demographics-suitability/index.html#selecting-candidate-cities",
+    "href": "projects/demographics-suitability/index.html#selecting-candidate-cities",
+    "title": "Business Location Suitability Analysis",
+    "section": "Selecting Candidate Cities",
+    "text": "Selecting Candidate Cities\nI used historical Outside magazine “Best Places to Live” lists to narrow the initial set of possibilities to four locations:\n\nBend, Oregon;\nBishop, California;\nDurango, Colorado;\nKnoxville, Tennessee, used as a comparison location.\n\nEach location was evaluated through a combination of maps, demographic measures, transportation access, environmental characteristics, and outdoor-recreation context.\n\n\n\n\n\n\nThe four candidate locations considered in the suitability analysis.\n\n\n\n\n\n\n\nRepresentative map of Durango, Colorado, showing transportation access.\n\n\n\n\n\n\n\nRepresentative map of Bend, Oregon, showing elevation trends."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#team-organization",
-    "href": "projects/cumberland-trail/index.html#team-organization",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Team Organization",
-    "text": "Team Organization\nThe class assigned formal roles during its first project meeting.\nRoles included:\n\nproject manager and accounting;\nGPS data collection;\npresentation development;\nreport writing and secretarial work;\nanalysis and quality assurance;\nrecord and data management;\nfile storage and backup;\ninternet data collection.\n\nI served as:\n\nreport writer;\nsecretary;\nGPS data collector;\nlead writer for the feasibility study.\n\nThe project’s meeting records document these assignments and the way responsibilities changed as the work progressed."
+    "objectID": "projects/demographics-suitability/index.html#comparing-the-cities",
+    "href": "projects/demographics-suitability/index.html#comparing-the-cities",
+    "title": "Business Location Suitability Analysis",
+    "section": "Comparing the Cities",
+    "text": "Comparing the Cities\nI created roughly a dozen maps for each candidate location. These maps highlighted natural features, transportation networks, aerial imagery, and other location characteristics.\nI also compared demographic and quality-of-life measures using a simple ordinal scoring system. For most criteria, each city received a score from 1 to 4, with 4 representing the strongest result. I assigned negative values to measures where a higher value was considered a disadvantage, including total population and pollution.\nThe positive criteria included:\n\npercentage of workers commuting less than 30 minutes;\nhousehold income;\neducational attainment;\nsize of the potential employee pool;\nsize of the potential client pool.\n\nThe negative criteria included:\n\ntotal population;\npollution ranking.\n\n\n\n\nComparison of commute times, used as a quality-of-life measure.\n\n\n\n\n\nFinal city-ranking table showing Bend and Durango tied for the highest score.\n\n\nThe final scores were:\n\n\n\nLocation\nFinal score\n\n\n\n\nBend, Oregon\n8\n\n\nDurango, Colorado\n8\n\n\nBishop, California\n7\n\n\nKnoxville, Tennessee\n7\n\n\n\nThis was a straightforward ordinal ranking rather than a statistically calibrated weighted model. Every category contributed equally to the final score."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#meeting-minutes-and-project-documentation",
-    "href": "projects/cumberland-trail/index.html#meeting-minutes-and-project-documentation",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Meeting Minutes and Project Documentation",
-    "text": "Meeting Minutes and Project Documentation\nAs secretary, I prepared meeting minutes documenting project decisions and progress.\nThe minutes recorded items such as:\n\npersonnel assignments;\nclient questions;\navailable GPS receivers and cameras;\nfile-management procedures;\nbackup expectations;\nnaming conventions;\ncoordinate standards;\npilot-study requirements;\ntime sheets;\nbudget totals;\ncollection-trip plans;\ndue dates;\nproject-creep concerns;\ndata-quality instructions.\n\nThe records show the project evolving from an initial assignment into a coordinated field operation.\nFor example, early meetings focused on defining responsibilities and preparing questions for the client. Later meetings addressed coordinate formatting, pilot data, quality assurance, cost tracking, and fieldwork progress."
+    "objectID": "projects/demographics-suitability/index.html#resolving-the-benddurango-tie",
+    "href": "projects/demographics-suitability/index.html#resolving-the-benddurango-tie",
+    "title": "Business Location Suitability Analysis",
+    "section": "Resolving the Bend–Durango Tie",
+    "text": "Resolving the Bend–Durango Tie\nBend and Durango tied for the highest overall score, so I conducted an additional comparison.\nI examined the visible amount of green and natural space surrounding each city and confirmed that both had nearby colleges with outdoor-recreation programs. Those programs could support a steady workforce while giving students opportunities to earn money and possibly receive academic credit.\nThe final tie-breaker was cost of living. At the time of the project:\n\nDurango was estimated to be 66% more expensive than Knoxville;\nBend was estimated to be 42% more expensive than Knoxville.\n\nBased on the lower relative cost of living, I selected Bend, Oregon as the strongest overall location.\n\n\n\nCost-of-living comparison used to resolve the tie between Bend and Durango."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#field-collection-standards",
-    "href": "projects/cumberland-trail/index.html#field-collection-standards",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Field-Collection Standards",
-    "text": "Field-Collection Standards\nThe team created a standardized procedure so that data collected by different crews and different GPS units could be combined.\n\nCoordinate and Projection Standards\nGPS units were configured to use:\n\nNAD 83;\ndecimal degrees.\n\nFinal data were projected to:\n\nNAD 83;\nTennessee State Plane;\nFIPS 4100;\nfeet.\n\n\n\nPoint Collection\nA waypoint was created for each manmade or natural feature included in the inventory.\nEach waypoint was averaged for approximately 60 seconds when the GPS equipment supported point averaging.\n\n\nNaming Convention\nWaypoint names used:\n\nthe collector’s first and last initials;\na three-digit sequential number.\n\nExample:\nMC012\nPhotographs were assigned matching identifiers so they could be linked to the corresponding feature.\n\n\n\nPhotographs organized using the same identifiers as their corresponding GPS features.\n\n\n\n\nField Records\nThe standard collection sheet included:\n\npoint ID;\ndescription;\nlatitude;\nlongitude;\nelevation;\nassociated positional error;\npicture ID;\nmeasurements;\ncomments.\n\nThe team was instructed to retain coordinate precision to five decimal places and to use positive and negative coordinate values rather than directional letters when preparing data for Excel and ArcMap.\nHandwritten field notes were transferred into a standardized spreadsheet so records from different collection teams could be combined consistently.\n\n\n\nData collection spreadsheet created from handwritten field notes."
+    "objectID": "projects/demographics-suitability/index.html#selecting-a-site-within-bend",
+    "href": "projects/demographics-suitability/index.html#selecting-a-site-within-bend",
+    "title": "Business Location Suitability Analysis",
+    "section": "Selecting a Site Within Bend",
+    "text": "Selecting a Site Within Bend\nAfter choosing Bend, I conducted a second-stage analysis to identify suitable areas within the city.\nI contacted the Bend GIS department and requested zoning data. I then combined that information with U.S. Census block-group data describing:\n\nhousehold income;\neducational attainment;\ntarget client population.\n\nI ranked the block groups using those demographic measures, identified the highest-ranked areas, and then compared them with commercial zoning.\n\n\n\nFinal block-group suitability ranking within Bend.\n\n\n\n\n\nCommercially zoned areas located within the highest-ranked block groups.\n\n\nThis process identified two commercially zoned areas within the highest-ranked block groups as potential locations for Camponovo Adventure Travel."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#backpacking-data-collection-trips",
-    "href": "projects/cumberland-trail/index.html#backpacking-data-collection-trips",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Backpacking Data-Collection Trips",
-    "text": "Backpacking Data-Collection Trips\nThe project required teams to hike and, in some cases, backpack along trails while carrying:\n\nGPS receivers;\ncameras;\nfield sheets or notebooks;\nmeasuring equipment;\nnormal hiking and overnight gear.\n\n\n\n\nGIS 230 students preparing for a backpacking data-collection trip in Frozen Head State Park.\n\n\n\n\n\nA GIS 230 field team member and his dog during a data-collection hike in Frozen Head State Park.\n\n\nThe group photograph is an important record of the project because it shows that data collection was not limited to roadside features or a short laboratory exercise.\nThe field crews had to manage:\n\ntrail distance;\nterrain;\naccess;\nweather;\nequipment;\nlimited daylight;\nfeature documentation;\ntravel time."
+    "objectID": "projects/demographics-suitability/index.html#final-recommendation",
+    "href": "projects/demographics-suitability/index.html#final-recommendation",
+    "title": "Business Location Suitability Analysis",
+    "section": "Final Recommendation",
+    "text": "Final Recommendation\nThe analysis recommended Bend, Oregon as the strongest city for the hypothetical business.\nBend combined:\n\naccess to outdoor amenities;\na strong outdoor-recreation identity;\na suitable client profile;\naccess to a potential college-based workforce;\nreasonable transportation access;\na lower estimated cost of living than Durango.\n\nWithin Bend, the second-stage analysis identified commercially zoned areas that also fell within the strongest demographic block groups."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#gps-and-attribute-collection",
-    "href": "projects/cumberland-trail/index.html#gps-and-attribute-collection",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "GPS and Attribute Collection",
-    "text": "GPS and Attribute Collection\nThe GPS photograph shows the workflow described in the project documentation: one team member collected and averaged the waypoint while also recording the feature information needed for later data entry.\n\n\n\nCollecting a GPS waypoint at a trail sign.\n\n\nThe field data were compiled in Microsoft Excel.\nDNR Garmin was used to transfer waypoints from the GPS receivers and export them for use in ArcMap.\n\n\n\nUsing the ArcMap Identify tool to review a collected trail feature.\n\n\nThe project presentation states that:\n\nwaypoint data were converted into shapefiles;\nfield attributes were added to the feature table;\nphotographs were linked to their mapped features."
+    "objectID": "projects/demographics-suitability/index.html#what-i-learned",
+    "href": "projects/demographics-suitability/index.html#what-i-learned",
+    "title": "Business Location Suitability Analysis",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project was my first experience developing an end-to-end suitability analysis around a self-defined business problem.\nIt required me to:\n\ntranslate a business idea into measurable spatial criteria;\nfind and evaluate multiple external datasets;\ncompare locations at regional and local scales;\ncreate maps for four candidate cities;\ndevelop a scoring system;\nresolve a tie using additional qualitative and quantitative criteria;\ncontact a local government GIS office for data;\ncombine demographic suitability with zoning;\npresent a clear recommendation.\n\nThe project also showed me that suitability analysis involves more than producing a final ranked map. The analyst must decide which variables matter, how they should be measured, how they should be combined, and what limitations affect the recommendation."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#data-management",
-    "href": "projects/cumberland-trail/index.html#data-management",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Data Management",
-    "text": "Data Management\nThe project relied on a shared network location for centralized storage.\nThe team created:\n\na predefined folder structure;\nbackup procedures;\na backup log;\nan access and work log;\ndata-transfer expectations;\ndocumentation procedures.\n\nData management proved more difficult than expected.\nThe final report notes that multiple people, collection crews, GPS models, file formats, and transfer steps created confusion. Ensuring that every crew delivered its files correctly and that all files were backed up required active coordination.\nThis became one of the project’s main lessons: collaborative GIS depends on clear data governance as much as field collection."
+    "objectID": "projects/demographics-suitability/index.html#looking-back",
+    "href": "projects/demographics-suitability/index.html#looking-back",
+    "title": "Business Location Suitability Analysis",
+    "section": "Looking Back",
+    "text": "Looking Back\nThe project was ambitious for an early GIS course and successfully connected demographic analysis, business planning, cartography, and site selection. Its strongest feature was the two-stage workflow: first selecting a city, then narrowing the recommendation to commercially zoned areas within that city.\nThere are several things I would approach differently today:\n\nuse more inclusive and better-documented market research;\ndistinguish more carefully between county-, city-, block-group-, and parcel-level data;\ndocument the sources and dates of pollution and cost-of-living measures;\napply explicit weights based on business priorities;\ntest how sensitive the result is to changes in weights and rankings;\nvalidate the recommendation with current market and competitive data.\n\nEven with those limitations, the project remains an important example of my early development as a GIS analyst. It shows the transition from making individual maps to designing a complete analytical workflow that supported a practical recommendation."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#quality-assurance",
-    "href": "projects/cumberland-trail/index.html#quality-assurance",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Quality Assurance",
-    "text": "Quality Assurance\nQuality assurance was built into the work plan.\nThe team planned to:\n\nsend a sample of collected data to the client;\nverify naming and coordinate formats;\nreview imported field data;\ncheck for errors;\nassociate metadata;\nlink photographs;\ndocument collected and uncollected trails;\nconduct final corrections before delivery.\n\nThe pilot-data process gave the client an opportunity to review the collection format before the entire project was completed.\nThe meeting records also show continued refinement of standards, including coordinate notation, decimal precision, and treatment of multiple photographs at the same location."
+    "objectID": "projects/city-as-human-environment/index.html",
+    "href": "projects/city-as-human-environment/index.html",
+    "title": "The City as Human Environment",
+    "section": "",
+    "text": "GEOG 566: The City as Human Environment examined cities as lived social environments rather than only as collections of buildings, infrastructure, and mapped features.\nThe course was qualitative and field-based. Readings, discussions, observation exercises, and comparative field projects explored how urban spaces are shaped by:\n\nidentity;\nrace and ethnicity;\nsocioeconomic difference;\nmigration;\nhousing;\npublic space;\ntourism;\nplanning;\nhistorical memory;\ncultural representation;\nformal and informal social control.\n\nThis course differed substantially from my GIS, remote-sensing, and spatial-analysis coursework. Instead of beginning with datasets and analytical tools, it began with people, places, behavior, interpretation, and the question of how cities are experienced."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#metadata-and-3d-analyst-training",
-    "href": "projects/cumberland-trail/index.html#metadata-and-3d-analyst-training",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Metadata and 3D Analyst Training",
-    "text": "Metadata and 3D Analyst Training\nMetadata documentation and 3D visualization were formal parts of GIS 230.\nOutside the group fieldwork, I completed two Esri Virtual Campus courses:\n\nCreating and Maintaining Metadata Using ArcGIS Desktop;\nLearning ArcGIS 3D Analyst.\n\nThese courses supported the class objectives of documenting spatial data and creating 3D visualizations.\nThe project required metadata to be collected, preserved, and included with the final documentation."
+    "objectID": "projects/city-as-human-environment/index.html#course-overview",
+    "href": "projects/city-as-human-environment/index.html#course-overview",
+    "title": "The City as Human Environment",
+    "section": "",
+    "text": "GEOG 566: The City as Human Environment examined cities as lived social environments rather than only as collections of buildings, infrastructure, and mapped features.\nThe course was qualitative and field-based. Readings, discussions, observation exercises, and comparative field projects explored how urban spaces are shaped by:\n\nidentity;\nrace and ethnicity;\nsocioeconomic difference;\nmigration;\nhousing;\npublic space;\ntourism;\nplanning;\nhistorical memory;\ncultural representation;\nformal and informal social control.\n\nThis course differed substantially from my GIS, remote-sensing, and spatial-analysis coursework. Instead of beginning with datasets and analytical tools, it began with people, places, behavior, interpretation, and the question of how cities are experienced."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#schedule-hours-and-budget",
-    "href": "projects/cumberland-trail/index.html#schedule-hours-and-budget",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Schedule, Hours, and Budget",
-    "text": "Schedule, Hours, and Budget\nThe feasibility study established milestones from January through the final presentation on April 28, 2009.\nThe schedule included:\n\nteam formation;\nclient consultation;\nproject scoping;\ntrail assignments;\npilot collection;\nrepeated field-collection and import periods;\nfinal data collection;\nanalysis;\nquality assurance;\npresentation rehearsal;\nfinal delivery.\n\nThe project also treated student time as a project cost.\nMeeting minutes tracked cumulative hours and a calculated project budget. This helped the class connect fieldwork and office work to the time and labor required for professional GIS services.\n\n\n\nFictitious project budget based on tracked labor and project tasks.\n\n\nAs a project-management exercise, the class also created a fictitious professional budget based on recorded labor hours and assigned project tasks. The totals were instructional estimates rather than charges submitted to TDEC."
+    "objectID": "projects/city-as-human-environment/index.html#reading-cities-qualitatively",
+    "href": "projects/city-as-human-environment/index.html#reading-cities-qualitatively",
+    "title": "The City as Human Environment",
+    "section": "Reading Cities Qualitatively",
+    "text": "Reading Cities Qualitatively\nThe reading reflections considered cities through several overlapping perspectives.\nThemes included:\n\ncities as products of social interaction;\neconomic segregation and neighborhood effects;\nborder identity and the construction of “the other”;\npublic space and town centers;\nSanta Fe’s constructed image of authenticity;\nNative American identity and urban relocation;\nurban growth and sprawl;\nlabor, gender, and violence in Ciudad Juárez.\n\nThe surviving reflections are not published here in full. Their value lies in documenting how I learned to move beyond summary and ask broader geographic questions:\n\nWho belongs in a place?\nWho is treated as an outsider?\nHow does the built environment encourage or discourage interaction?\nHow are identity and historical memory constructed?\nWhat role do policy, planning, and private development play in inequality?\nHow do local spaces reflect wider social and economic systems?"
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#deliverables",
-    "href": "projects/cumberland-trail/index.html#deliverables",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "objectID": "projects/city-as-human-environment/index.html#field-observation-as-a-method",
+    "href": "projects/city-as-human-environment/index.html#field-observation-as-a-method",
+    "title": "The City as Human Environment",
+    "section": "Field Observation as a Method",
+    "text": "Field Observation as a Method\nThe field projects used a repeatable qualitative approach.\nFor each site, I documented:\n\nwho appeared to use the space;\nhow people arrived and moved through it;\nwhat types of interaction occurred;\nhow architecture and scale affected behavior;\nwhether formal rules or informal design controlled use;\nwho appeared welcome, tolerated, discouraged, or excluded;\nwhether the space fulfilled its intended purpose;\nhow the site related to broader urban conditions.\n\nThe process required sustained observation rather than a quick visual inspection.\nOriginal notes recorded practical details such as:\n\ndate and time;\nweather;\nuser groups;\ntransportation modes;\nobserved interactions;\nsignage;\nsecurity;\nseating;\nsidewalks;\nsurrounding land uses;\nevidence of formal and informal social control.\n\nThis method taught me to treat ordinary urban spaces as evidence."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#comparative-field-projects",
+    "href": "projects/city-as-human-environment/index.html#comparative-field-projects",
+    "title": "The City as Human Environment",
+    "section": "Comparative Field Projects",
+    "text": "Comparative Field Projects"
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#bricklight-district-and-abq-uptown",
+    "href": "projects/city-as-human-environment/index.html#bricklight-district-and-abq-uptown",
+    "title": "The City as Human Environment",
+    "section": "Bricklight District and ABQ Uptown",
+    "text": "Bricklight District and ABQ Uptown\nThe first field project compared two commercial areas in Albuquerque:\n\nthe mixed-use Bricklight District near the University of New Mexico;\nthe privately managed ABQ Uptown shopping center.\n\nThe comparison focused on:\n\nsurrounding housing;\nretail and restaurant price points;\nstreet width and traffic speed;\nparking;\npublic transportation;\npedestrian and bicycle access;\nprivate security;\nsignage;\nformal and informal control.\n\nThe Bricklight District supported a wider mixture of users because it was accessible by foot, bicycle, bus, and automobile and was surrounded by housing at several price levels.\nABQ Uptown functioned more clearly as a destination for people arriving by private automobile and participating in a higher-cost retail environment.\nThe project demonstrated that commercial spaces do not merely attract different populations by accident. Transportation, zoning, design, pricing, and control help determine who can comfortably use them."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#old-town-and-civic-plaza",
+    "href": "projects/city-as-human-environment/index.html#old-town-and-civic-plaza",
+    "title": "The City as Human Environment",
+    "section": "Old Town and Civic Plaza",
+    "text": "Old Town and Civic Plaza\nThe second field project compared Albuquerque’s Old Town with Civic Plaza.\nThe observations were organized around five characteristics:\n\nhuman scale;\nnatural versus manufactured materials;\nnearby facilities;\nformal social control;\nhistorical significance.\n\nOld Town’s shaded plaza, smaller buildings, narrow streets, landscaping, historical associations, and relatively permissive atmosphere encouraged visitors to slow down.\nCivic Plaza was more monumental, open, concrete-dominated, and regulated. It often functioned as a pedestrian passage rather than a place to remain.\nThe project connected physical form with social interaction. Old Town produced more visible conversations among strangers, while users of Civic Plaza tended to remain within their own groups or move through the space toward another destination."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#cultural-centers-and-institutional-voice",
+    "href": "projects/city-as-human-environment/index.html#cultural-centers-and-institutional-voice",
+    "title": "The City as Human Environment",
+    "section": "Cultural Centers and Institutional Voice",
+    "text": "Cultural Centers and Institutional Voice\nThe third project compared:\n\nthe Indian Pueblo Cultural Center;\nthe National Hispanic Cultural Center.\n\nBoth institutions represented cultures that had often been described historically by outsiders, but they approached interpretation differently.\nThe Indian Pueblo Cultural Center was:\n\neasy for an unfamiliar visitor to navigate;\noriented toward tourists, students, and researchers;\nexplicit in explaining Pueblo history and culture;\ndesigned to present Pueblo history through a Pueblo institutional voice.\n\nThe National Hispanic Cultural Center functioned more like a campus and supported:\n\ngenealogy;\nliterary events;\nvisual art;\nperformance;\neducation;\ncontinuing cultural production.\n\nThe comparison showed that cultural institutions communicate through more than their exhibits. Location, entrances, architecture, labels, programming, and assumptions about visitor knowledge all influence who feels prepared to enter and participate."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#culminating-project-affordable-housing-in-santa-fe",
+    "href": "projects/city-as-human-environment/index.html#culminating-project-affordable-housing-in-santa-fe",
+    "title": "The City as Human Environment",
+    "section": "Culminating Project: Affordable Housing in Santa Fe",
+    "text": "Culminating Project: Affordable Housing in Santa Fe\nThe final field project became a mixed-method study of housing affordability in Santa Fe.\nThe project began as an attempt to demonstrate gentrification quantitatively. As the research developed, I recognized that the available evidence did not support a simple declaration that gentrification had or had not occurred.\nI therefore shifted the focus toward:\n\nchanging housing costs;\nthe relationship between income and housing;\naffordable-housing policy;\nnonprofit housing assistance;\nmixed-income development;\nthe lived characteristics of planned communities."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#quantitative-evidence",
+    "href": "projects/city-as-human-environment/index.html#quantitative-evidence",
+    "title": "The City as Human Environment",
+    "section": "Quantitative Evidence",
+    "text": "Quantitative Evidence\nThe project used Census and spatial data to examine:\n\nmedian household income;\nmedian home value;\nmedian rent.\n\nAfter adjusting values for inflation, I estimated that from 1980 to 2000:\n\nmedian household income increased by approximately 14%;\nmedian home value increased by approximately 30%;\nmedian rent increased by approximately 38%.\n\nThe analysis suggested that housing costs were increasing faster than local income.\n\n\n\nEconomic indicators of housing affordability in Santa Fe County.\n\n\nThe project also produced an early web map allowing users to compare selected demographic and housing indicators.\n\n\n\nOriginal web map of economic indicators in Santa Fe County."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#interview-and-site-visits",
+    "href": "projects/city-as-human-environment/index.html#interview-and-site-visits",
+    "title": "The City as Human Environment",
+    "section": "Interview and Site Visits",
+    "text": "Interview and Site Visits\nI interviewed Justin Robison of the Santa Fe Housing Trust about:\n\nclient education;\nfinancial readiness;\ndown-payment assistance;\nmortgage assistance;\nrental support;\nnonprofit development;\nlong-term affordability;\nassistance for essential workers and special-needs clients.\n\nThe interview was followed by visits to two planned communities:\n\nTierra Contenta;\nAldea.\n\n\n\n\nSanta Fe study locations, including Tierra Contenta and Aldea."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#tierra-contenta",
+    "href": "projects/city-as-human-environment/index.html#tierra-contenta",
+    "title": "The City as Human Environment",
+    "section": "Tierra Contenta",
+    "text": "Tierra Contenta\nTierra Contenta included:\n\nsingle-family homes;\napartments;\nschools;\nparks;\nsidewalks;\ntransit;\nneighborhood retail;\nhousing for several income levels and client needs.\n\nThe community appeared active and used, but it also showed visible signs of conflict and repeated graffiti.\nIts imperfections were part of what made it analytically valuable: it functioned as a lived neighborhood rather than as an idealized design diagram."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#aldea",
+    "href": "projects/city-as-human-environment/index.html#aldea",
+    "title": "The City as Human Environment",
+    "section": "Aldea",
+    "text": "Aldea\nAldea reflected New Urbanist planning principles:\n\ncompact development;\nnarrow streets;\nsidewalks;\nparks;\ntrails;\nPueblo-influenced architecture;\nmarket-rate and affordable housing.\n\nVisually, the community appeared highly polished. During the field visit, however, the public spaces were nearly empty.\nIts distance from ordinary services, commercial costs, homeowner-association obligations, and possible tensions between housing groups complicated the assumption that attractive physical design automatically creates active community life."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#what-the-comparison-revealed",
+    "href": "projects/city-as-human-environment/index.html#what-the-comparison-revealed",
+    "title": "The City as Human Environment",
+    "section": "What the Comparison Revealed",
+    "text": "What the Comparison Revealed\nThe comparison between Tierra Contenta and Aldea reinforced one of the course’s major lessons:\n\nA place that looks successful is not necessarily a place that functions successfully as a social environment.\n\nArchitecture and planning matter, but they do not alone determine whether people use public spaces, interact with neighbors, or feel that they belong.\nThe project also demonstrated the value of mixed methods.\nCensus data showed broad economic change. Maps revealed spatial patterns. Interviews explained institutional strategies. Field observations revealed how developments functioned on the ground.\nNone of those methods would have told the complete story by itself."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#what-i-learned",
+    "href": "projects/city-as-human-environment/index.html#what-i-learned",
+    "title": "The City as Human Environment",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis course changed how I observed cities.\nI learned to recognize that:\n\nbuilt form influences behavior;\naccess is social as well as physical;\npublic space is governed by both design and regulation;\nprivate spaces can imitate public environments while restricting who belongs;\ncultural institutions communicate through institutional voice and visitor expectations;\nauthenticity can be created, marketed, and contested;\nhousing affordability affects transportation, employment, family life, and community stability;\nattractive planning does not guarantee social interaction;\nobservations should be connected to broader historical, cultural, and economic systems;\nqualitative evidence can reveal patterns that are difficult to represent in a GIS."
+  },
+  {
+    "objectID": "projects/city-as-human-environment/index.html#looking-back",
+    "href": "projects/city-as-human-environment/index.html#looking-back",
+    "title": "The City as Human Environment",
+    "section": "Looking Back",
+    "text": "Looking Back\nGEOG 566 broadened my understanding of what geographic research could be.\nMost of my graduate work involved quantitative data, maps, imagery, databases, and spatial analysis. This course asked me to slow down, remain in a place, observe carefully, compare experiences, speak with people, and consider how my own background affected what I noticed.\nThe course also influenced how I later approached applied GIS work.\nMaps and spatial data are more meaningful when they are interpreted alongside:\n\nlocal knowledge;\nlived experience;\ninstitutional context;\npolicy;\nhistory;\nthe physical design of places.\n\nThe strongest outcome was learning to see cities not only as spatial arrangements, but as environments continually produced through human interaction, difference, memory, power, and everyday use."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html",
+    "href": "projects/camp-davy-crockett/index.html",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "",
+    "text": "This independent capstone project was completed for GIS 290: Directed Research at Roane State Community College during summer 2009.\nCamp Davy Crockett, operated by the Sequoyah Council of the Boy Scouts of America, supports a wide range of summer activities, including lakefront recreation, shooting sports, rope courses, hiking, and traditional Scout programming. Operating those activities requires the camp to maintain numerous roads, buildings, shelters, utilities, campsites, fields, ranges, and other facilities.\nThe project was designed to support that work by creating a geodatabase and maps of manmade features throughout the camp.\nThe workflow included:\n\nfield data collection with GPS;\nattribute collection and photography;\ngeodatabase design;\nmetadata creation;\nheads-up digitizing;\nsubtypes and domains;\nterrain-data preparation;\nstaff and visitor map production;\npublication for use in free Esri viewing applications.\n\nThis was my final project in the Roane State GIS certificate program and was completed independently.\n\n\n\nDetailed facilities map created for Camp Davy Crockett staff."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#project-overview",
+    "href": "projects/camp-davy-crockett/index.html#project-overview",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "",
+    "text": "This independent capstone project was completed for GIS 290: Directed Research at Roane State Community College during summer 2009.\nCamp Davy Crockett, operated by the Sequoyah Council of the Boy Scouts of America, supports a wide range of summer activities, including lakefront recreation, shooting sports, rope courses, hiking, and traditional Scout programming. Operating those activities requires the camp to maintain numerous roads, buildings, shelters, utilities, campsites, fields, ranges, and other facilities.\nThe project was designed to support that work by creating a geodatabase and maps of manmade features throughout the camp.\nThe workflow included:\n\nfield data collection with GPS;\nattribute collection and photography;\ngeodatabase design;\nmetadata creation;\nheads-up digitizing;\nsubtypes and domains;\nterrain-data preparation;\nstaff and visitor map production;\npublication for use in free Esri viewing applications.\n\nThis was my final project in the Roane State GIS certificate program and was completed independently.\n\n\n\nDetailed facilities map created for Camp Davy Crockett staff."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#project-goals",
+    "href": "projects/camp-davy-crockett/index.html#project-goals",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Project Goals",
+    "text": "Project Goals\nThe project had four primary goals:\n\ncreate a geodatabase of manmade features within the camp;\ncreate a detailed map for camp staff;\ncreate a simplified map for campers and visitors that reproduced well when copied;\nconvert the data into formats compatible with free Esri viewing software and, where practical, Google Earth.\n\nThese goals required more than creating a single map. The project needed to produce a structured and maintainable dataset that could support future camp operations."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#field-data-collection",
+    "href": "projects/camp-davy-crockett/index.html#field-data-collection",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Field Data Collection",
+    "text": "Field Data Collection\n\nEquipment and Records\nField data were collected using:\n\na Garmin eTrex Legend HCx GPS receiver;\na field notebook;\na digital camera;\na tape measure.\n\nThe GPS was used to collect point, line, and polygon features. Attribute information was recorded in a notebook and added to the geodatabase later. Photographs were taken to document many mapped features.\n\n\nPoint Features\nPoint locations were averaged for approximately ten seconds per feature.\nExamples included:\n\nflagpoles;\nelectrical boxes;\ndock anchors;\npropane tanks;\nspigots;\nwater tanks;\nutility poles;\nsigns.\n\n\n\nLine Features\nLinear features were walked or driven twice with GPS tracking enabled. The two tracks were then used as a reference when digitizing a representative centerline.\nExamples included:\n\nroads;\ntrails;\nfences;\npowerlines;\nstreams.\n\n\n\nPolygon Features\nPolygon vertices were collected as GPS points and averaged for approximately ten seconds each. The polygons were later digitized in ArcMap using snapping.\nLarge features visible in aerial imagery, including some fields and structures, were digitized directly from the imagery."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#designing-the-geodatabase",
+    "href": "projects/camp-davy-crockett/index.html#designing-the-geodatabase",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Designing the Geodatabase",
+    "text": "Designing the Geodatabase\nA file geodatabase was selected because it offered more flexibility than a personal geodatabase and could store both vector and raster datasets.\nThe geodatabase was planned around feature datasets and classes representing the major categories of camp infrastructure.\n\n\n\nPlanned organization of the Camp Davy Crockett geodatabase.\n\n\nThe primary categories included:\n\nadministrative boundaries;\nutilities;\nstructures;\ntransportation;\ncampsites;\nsigns;\nhydrography;\ncampfire areas;\nshooting ranges;\nactivity fields;\nCOPE facilities;\nAkela’s Challenge facilities.\n\nThe structure was intended to make the database understandable and maintainable rather than placing every feature into an unorganized collection.\n\nExample Feature Classes\nThe geodatabase included features such as:\n\nbuildings, cabins, shelters, and storage buildings;\nroads, parking areas, trailer pads, and trails;\nelectrical boxes, utility poles, tanks, and spigots;\ncampsites and campfire areas;\nrifle, shotgun, and archery ranges;\nassembly, volleyball, pool, and headquarters fields;\nsigns and bulletin boards;\nlake and stream features.\n\n\n\n\nFile geodatabase displayed in ArcCatalog."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#data-preparation-and-metadata",
+    "href": "projects/camp-davy-crockett/index.html#data-preparation-and-metadata",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Data Preparation and Metadata",
+    "text": "Data Preparation and Metadata\nBackground data were collected from several sources.\nThese included:\n\nDigital Ortho Quarter Quadrangles from the Tennessee Spatial Data Server;\nDigital Raster Graphics;\nDigital Elevation Models;\n2008 TIGER shapefiles from the U.S. Census Bureau;\nadministrative boundaries from Esri;\nGeographic Names Information System records;\nEsri World Imagery and US Topographic Map services.\n\nDownloaded data were checked in ArcCatalog for coordinate systems and metadata. Most data were converted to NAD 83 Tennessee State Plane feet to reduce alignment problems.\n\nISO Metadata\nMetadata were created using the ISO Metadata Wizard in ArcCatalog.\nA reusable XML template was created and then adapted for:\n\neach feature class;\neach feature dataset;\nthe complete file geodatabase.\n\n\n\n\nISO Metadata Wizard used to document the project data.\n\n\nThe metadata workflow was important because the project was intended to remain useful after the original fieldwork was complete."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#subtypes-and-domains",
+    "href": "projects/camp-davy-crockett/index.html#subtypes-and-domains",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Subtypes and Domains",
+    "text": "Subtypes and Domains\nSubtypes and domains were created where appropriate to improve consistency during data entry.\nFor example, structure features could be assigned controlled values such as:\n\nbuilding;\ncabin;\nshelter;\nstorage building.\n\n\n\n\nControlled attribute values for structure type.\n\n\nUsing controlled values reduced spelling differences and made the data easier to symbolize, query, and maintain."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#digitizing-and-editing",
+    "href": "projects/camp-davy-crockett/index.html#digitizing-and-editing",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Digitizing and Editing",
+    "text": "Digitizing and Editing\nArcMap was used to digitize and edit line and polygon features.\nSnapping tolerances helped ensure that newly digitized geometry aligned with collected vertices and nearby features.\n\n\n\nSnapping used while digitizing a building feature.\n\n\nThe workflow varied by feature type:\n\npoints were imported directly from GPS data;\nlines were digitized using repeated GPS tracks as reference;\npolygons were digitized from collected vertices;\nlarge visible features were digitized from aerial imagery.\n\nAttribute information collected in the field was added after the spatial features were created."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#photos-and-feature-documentation",
+    "href": "projects/camp-davy-crockett/index.html#photos-and-feature-documentation",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Photos and Feature Documentation",
+    "text": "Photos and Feature Documentation\nPhotographs were linked to mapped features through paths stored in the attribute table.\nThe signs layer, for example, included the sign text and the location of its associated photograph.\n\n\n\nPhotograph paths linked to sign records.\n\n\nThis allowed users to move beyond a symbol on the map and review an image of the actual facility or sign.\nThe approach anticipated later field-inventory systems in which mapped assets are connected to photographs and descriptive records."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#staff-and-visitor-maps",
+    "href": "projects/camp-davy-crockett/index.html#staff-and-visitor-maps",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Staff and Visitor Maps",
+    "text": "Staff and Visitor Maps\nTwo final maps were designed for different audiences.\n\nDetailed Staff Map\nThe staff map was a full-color, large-format product containing the most complete representation of the camp’s facilities and infrastructure.\nIt included features such as:\n\nstructures and shelters;\ncampsites;\nroads and parking;\nutilities;\nranges and activity areas;\nsigns;\nstreams and lake features;\nCOPE and Akela’s Challenge areas.\n\n\n\n\nDetailed Camp Davy Crockett facilities map for staff.\n\n\nThe map was intended to support camp management and maintenance rather than function only as a visitor guide.\n\n\nSimplified Visitor Map\nThe visitor map was simplified for legibility and grayscale reproduction on letter-size paper.\nIt emphasized:\n\nroads;\nstreams;\nmajor structures;\ncampsites;\nparking;\nAkela’s Challenge;\nthe main campfire area;\nthe assembly field.\n\n\n\n\nSimplified visitor map of Camp Davy Crockett.\n\n\nProducing separate maps acknowledged that camp staff and visitors needed different levels of detail. The same database supported both products, but the information hierarchy and visual design changed with the audience."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#publishing-for-free-esri-viewers",
+    "href": "projects/camp-davy-crockett/index.html#publishing-for-free-esri-viewers",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Publishing for Free Esri Viewers",
+    "text": "Publishing for Free Esri Viewers\nA goal of the project was to make the data usable without requiring camp staff to own a full ArcGIS Desktop license.\nThe project was tested in free Esri applications, including ArcReader or ArcExplorer and ArcGIS Explorer.\n\n\n\nPublished camp map viewed in ArcReader or ArcExplorer.\n\n\nThe published map preserved a detailed layer list and symbology while preventing users from accidentally editing the source data.\n\nArcGIS Explorer\nThe project was also reviewed in ArcGIS Explorer.\n\n\n\nCamp data displayed over imagery in ArcGIS Explorer.\n\n\nArcGIS Explorer provided a more visually appealing 3D and imagery-based environment, but the original assessment noted that it performed better with a high-speed internet connection."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#terrain-analysis",
+    "href": "projects/camp-davy-crockett/index.html#terrain-analysis",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Terrain Analysis",
+    "text": "Terrain Analysis\nDigital Elevation Model data were used to create:\n\nhillshade;\nslope;\naspect;\na Triangulated Irregular Network.\n\nThe hillshade was useful as a cartographic background.\nThe slope, aspect, and TIN analyses had more limited value because an accurate camp property boundary could not be obtained during the project. Without a reliable boundary, calculations could not be confidently restricted to the camp property.\nThe terrain products were retained so that they could support later analysis once an authoritative boundary became available."
+  },
+  {
+    "objectID": "projects/camp-davy-crockett/index.html#deliverables",
+    "href": "projects/camp-davy-crockett/index.html#deliverables",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
     "section": "Deliverables",
-    "text": "Deliverables\nThe final project produced a combination of digital and printed materials.\n\nDigital Deliverables\nThe planned digital delivery included:\n\nfield photographs;\ndigital data-collection sheets;\nGPS point files;\nshapefiles of infrastructure and natural features;\nArcMap project files;\nmetadata;\na PDF presentation map;\nthe PowerPoint presentation.\n\n\n\nPrinted Deliverables\nPrinted materials included:\n\nfield notes;\ncollection sheets;\nGPS text files;\nmetadata;\na presentation-quality map;\na project binder containing supporting documentation.\n\nThe final materials were presented to the client on April 28, 2009."
+    "text": "Deliverables\nThe completed project included:\n\na project proposal;\na final report;\na file geodatabase;\na detailed camp-staff map;\na simplified visitor map;\ncolor and grayscale map versions;\na published map for free Esri viewing software;\nproject documentation;\na PowerPoint presentation.\n\nThe large-format map could not be plotted during the project because the available plotter was not working, but the digital map was completed."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#final-map",
-    "href": "projects/cumberland-trail/index.html#final-map",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Final Map",
-    "text": "Final Map\nThe final map combined the collected manmade features with park trails, the Cumberland Trail, streams, the park boundary, hillshade, and elevation information.\n\n\n\nFinal Frozen Head State Park project map.\n\n\nThe map illustrates both the extent of the trail network and the distribution of features documented by the field crews."
+    "objectID": "projects/camp-davy-crockett/index.html#limitations-and-future-work",
+    "href": "projects/camp-davy-crockett/index.html#limitations-and-future-work",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "section": "Limitations and Future Work",
+    "text": "Limitations and Future Work\n\nCamp Boundary\nThe main limitation was the lack of an authoritative camp boundary.\nThe property assessor initially supplied incomplete data and then became unavailable for several weeks. As a result, the project could not confidently calculate terrain characteristics or other measurements strictly within the camp property.\n\n\nVerification and Maintenance\nThe report recommended that future work include:\n\nverifying existing locations and attributes;\ncollecting missing photographs;\nadding newly constructed facilities;\nupdating the geodatabase as the camp changed.\n\nFeatures identified for future collection included:\n\nthe perimeter fence;\nnature and interpretive trails;\ninformal footpaths;\nindividual COPE course obstacles;\nindividual Akela’s Challenge obstacles;\nnew campsites;\na Frisbee golf course;\na new frontier camp;\na new campfire area.\n\nThis maintenance plan was important because a facilities inventory begins to lose value when it is not updated."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#problems-encountered",
-    "href": "projects/cumberland-trail/index.html#problems-encountered",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Problems Encountered",
-    "text": "Problems Encountered\n\nTrails Missing or Incomplete\nSome trails shown on park maps did not exist on the ground.\nThis was especially problematic for portions of the Cumberland Trail on the eastern and western sides of the park.\nCrews spent additional time:\n\nsearching for trail locations;\nverifying endpoints;\ndetermining whether trails were incomplete;\nlearning that some areas were closed or under renovation.\n\n\n\nLimited Vehicle Access\nPark officials did not authorize motorized collection access.\nSome service roads were routinely traveled by park vehicles, but students had to reach those areas on foot.\nThis increased the time and physical effort needed for data collection.\n\n\nMultiple GPS Models\nThe class used personally owned and school-owned GPS receivers from different manufacturers and model generations.\nProblems included:\n\ndifferent setup procedures;\ndifferent download hardware;\ninconsistent capabilities;\nsome units lacking point averaging.\n\n\n\nData Storage and Communication\nCentralized data management became confusing because many team members were responsible for collection, transfer, storage, backup, and analysis.\nThe final report concluded that stronger early communication could have prevented some of those problems.\n\n\nEstimating Field Time\nA pilot estimate of collection time per trail mile did not predict the full field effort accurately.\nEach trail differed in:\n\ndifficulty;\naccess;\nnumber of mapped features;\nvisibility;\ncompletion status;\ntravel time.\n\n\n\nWeather and Travel\nWeather affected both trail access and the ability to use cameras.\nSome team members also faced long drives to reach the park, making efficient task assignment especially important."
-  },
-  {
-    "objectID": "projects/cumberland-trail/index.html#lessons-learned",
-    "href": "projects/cumberland-trail/index.html#lessons-learned",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "Lessons Learned",
-    "text": "Lessons Learned\nThe final report identified several major project-management lessons.\n\nLeadership Matters\nA strong project leader was essential for:\n\ndefining goals;\nassigning work;\ntracking progress;\naddressing delays;\ntaking on unassigned duties.\n\n\n\nWeekly Meetings Were Valuable\nRegular progress meetings helped the group:\n\nidentify schedule problems early;\nredistribute work;\nresolve confusion;\ntrack hours;\nmaintain momentum.\n\n\n\nCommunication Needed to Be Explicit\nSome early data-management problems occurred because responsibilities were not understood consistently.\nClear ownership of storage, backup, analysis, and documentation should have been established and repeated more explicitly.\n\n\nPre-Field Research Saves Time\nA short conversation with park staff eventually clarified that some trails were incomplete or closed.\nConducting that research before field visits would have prevented wasted time and travel.\n\n\nAssignments Should Reflect Logistics\nThe final report recognized that team assignments could have better reflected:\n\ntravel distance;\ninterest in fieldwork;\nphysical demands;\navailability;\noffice responsibilities."
-  },
-  {
-    "objectID": "projects/cumberland-trail/index.html#my-contribution",
-    "href": "projects/cumberland-trail/index.html#my-contribution",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
-    "section": "My Contribution",
-    "text": "My Contribution\nBecause this was a group project, the portfolio should distinguish the team’s shared outputs from my documented responsibilities.\nMy contributions included:\n\nparticipating in GPS field collection;\nhelping collect photographs and written field records;\nserving as project secretary;\npreparing and submitting meeting minutes;\nwriting the feasibility study;\ncontributing to report writing;\nparticipating in planning and progress meetings;\nhelping document project decisions and standards.\n\nThe surviving minutes and feasibility study provide unusually strong documentation of those responsibilities."
-  },
-  {
-    "objectID": "projects/cumberland-trail/index.html#what-i-learned",
-    "href": "projects/cumberland-trail/index.html#what-i-learned",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "objectID": "projects/camp-davy-crockett/index.html#what-i-learned",
+    "href": "projects/camp-davy-crockett/index.html#what-i-learned",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
     "section": "What I Learned",
-    "text": "What I Learned\nThis project provided experience with:\n\nplanning a GIS project for a real client;\nevaluating project feasibility;\ndefining scope;\nassigning team roles;\nbuilding a project schedule;\nstandardizing GPS collection;\ncollecting field data in remote terrain;\nmanaging photographs and feature identifiers;\nimporting data with DNR Garmin;\npreparing attribute tables;\nlinking photographs to features;\ndocumenting metadata;\ncoordinating shared files and backups;\ntracking labor and cost;\nconducting pilot quality assurance;\npreparing reports, minutes, and deliverables;\nresponding to incomplete trails, access limitations, and schedule pressure.\n\nThe strongest lesson was that successful GIS work depends on coordination.\nEven technically accurate data can become difficult to use when:\n\nnaming conventions differ;\nequipment behaves inconsistently;\nfile responsibilities are unclear;\nfield crews document features differently;\nproject scope exceeds available time."
+    "text": "What I Learned\nThis project combined many of the skills developed across the GIS certificate program.\nIt provided experience with:\n\nplanning an independent GIS project;\nworking with an organizational partner;\ndesigning a field-data collection strategy;\ncollecting point, line, and polygon features with GPS;\nrecording field attributes and photographs;\ndesigning a file geodatabase;\ncreating subtypes and domains;\ndocumenting data with ISO metadata;\nmanaging projections;\nheads-up digitizing with snapping;\nincorporating raster and vector data;\ndesigning products for different audiences;\npublishing GIS content for users without full desktop software;\ndocumenting limitations and future maintenance needs.\n\nThe most important lesson was that a useful organizational GIS project depends on more than accurate geometry. It also requires clear attributes, documentation, photographs, logical database organization, appropriate deliverables, and a plan for future updates."
   },
   {
-    "objectID": "projects/cumberland-trail/index.html#looking-back",
-    "href": "projects/cumberland-trail/index.html#looking-back",
-    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "objectID": "projects/camp-davy-crockett/index.html#looking-back",
+    "href": "projects/camp-davy-crockett/index.html#looking-back",
+    "title": "Camp Davy Crockett Facilities Geodatabase",
     "section": "Looking Back",
-    "text": "Looking Back\nThis project was one of my earliest experiences treating GIS as a managed professional service rather than only a technical classroom exercise.\nThe work involved:\n\na client;\na project scope;\nfeasibility analysis;\nformal roles;\nfield crews;\ndeadlines;\nbudgets;\nquality assurance;\ndata standards;\ndeliverables;\nincomplete information;\nchanging conditions.\n\nA modern version would likely use mobile GIS applications, hosted feature layers, shared field forms, automatic photo attachments, real-time synchronization, GNSS receivers with consistent settings, and cloud-based project dashboards.\nThose tools would reduce some of the data-transfer and coordination problems, but they would not remove the need for:\n\nrealistic scope;\nclear leadership;\ncommunication;\nfield planning;\nquality standards;\ndocumentation.\n\nThe project remains valuable because it shows how those fundamentals were learned through a physically demanding, collaborative, real-world GIS assignment."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html",
-    "href": "projects/cartography-portfolio/index.html",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "",
-    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#course-overview",
-    "href": "projects/cartography-portfolio/index.html#course-overview",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "",
-    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#design-process-and-tools",
-    "href": "projects/cartography-portfolio/index.html#design-process-and-tools",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Design Process and Tools",
-    "text": "Design Process and Tools\nThe course emphasized iterative design rather than one-pass production. Projects typically moved through a sequence of sketching, construction, critique, revision, and final refinement.\nThe primary tools and methods included:\n\nhand-drawn sketches used to explore layout, proportion, and spatial relationships;\nAdobe Illustrator for manually constructing and refining final maps;\nMicrosoft Excel for calculating rates, proportional-symbol sizes, and other numerical values;\npeer critique and instructor feedback to identify weaknesses and improve design decisions;\nrepeated revision of typography, hierarchy, figure-ground contrast, balance, and map composition.\n\nThe selected projects below show both finished maps and intermediate stages where surviving materials are available."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#brazil-reference-map",
-    "href": "projects/cartography-portfolio/index.html#brazil-reference-map",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Brazil Reference Map",
-    "text": "Brazil Reference Map\n\nAssignment and Design Goal\nThe Brazil reference-map project focused on building a clear and visually balanced regional map through a series of deliberate design decisions. I developed the map in stages, gradually adding geographic information, refining labels, and establishing a visual hierarchy among national, state, physical, and reference features.\nThe intermediate versions show how the composition changed as additional information was introduced. Each stage required reconsidering spacing, typography, line weight, contrast, feature emphasis, and the relationships among map elements. The final map was completed in Adobe Illustrator after several rounds of revision and feedback.\n\n\nDesign Progression\n\n\n\n\n\n\nEarly version of the Brazil reference map showing the initial geographic framework and state boundaries.\n\n\n\n\n\n\n\nIntermediate version with additional geographic information and a developing visual hierarchy.\n\n\n\n\n\n\n\n\n\nLater revision showing further refinement of labels, symbols, and visual hierarchy.\n\n\n\n\n\n\n\nFinal Brazil reference map completed in Adobe Illustrator.\n\n\n\n\n\n\n\nWhat I Learned\nThis project reinforced the value of building a map in stages. Adding more information did not simply mean placing more features on the page; each addition required reconsidering the entire visual hierarchy.\nThe progression also helped me see how typography, line weight, spacing, and contrast work together. The final map was not the product of a single design decision, but of many small revisions made across the full composition."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
-    "href": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Visualizing One Dataset in Multiple Ways",
-    "text": "Visualizing One Dataset in Multiple Ways\nSeveral assignments used the same dataset—2004 alcohol-related traffic fatalities—to examine how different cartographic methods influence interpretation.\nAcross the sequence, I created proportional-symbol maps using three scaling methods, a choropleth map, and a contiguous-area cartogram. Although I have not located the choropleth map, the surviving work still documents the central purpose of the exercise: comparing how symbol size, classification, shading, and geographic distortion communicate the same underlying data differently.\nUsing a common dataset made it easier to focus on the strengths and limitations of each design method rather than on differences in subject matter."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
-    "href": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Comparing Proportional Symbol Methods",
-    "text": "Comparing Proportional Symbol Methods\n\nAssignment and Design Goal\nThis assignment compared three methods for displaying the same dataset: 2004 alcohol-related traffic fatalities in the 50 states and the District of Columbia.\nEach map was produced in grayscale and used proportional circles, but the circle sizes were determined using a different method:\n\nsquare-root scaling;\nFlannery scaling;\nrange-graded natural breaks.\n\nCreating the maps required more than changing symbol sizes. Each version had to function as a complete cartographic composition, including titles, legends, typography, figure-ground contrast, and balanced page layout. Because the symbols were constructed manually in Adobe Illustrator, the assignment also required careful calculation and consistent placement.\n\n\nMap Comparison\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using Flannery proportional-circle scaling.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using range-graded natural-breaks symbols.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using square-root proportional-circle scaling.\n\n\n\n\n\n\n\nEvaluating the Methods\nThe three techniques created noticeably different impressions of the same data.\nThe range-graded natural-breaks method did not represent the variation especially well because a few high values acted as outliers and occupied two of the four classes. That compressed most of the remaining values into only two categories and concealed much of the detail present in the original data.\nSquare-root and Flannery scaling both preserved an individual symbol size for each value. Their primary limitation was perceptual: similarly sized circles could be difficult to distinguish, especially among the largest symbols.\nFlannery scaling addressed that problem by enlarging the largest circles somewhat more aggressively while only slightly enlarging smaller circles. Based on that comparison, I concluded that the Flannery method communicated this dataset most effectively.\n\n\nWhat I Learned\nThis assignment showed that symbol scaling is not a neutral technical choice. Different methods can emphasize, compress, or obscure variation even when they use the same values.\nIt also reinforced the importance of matching the symbolization method to both the data distribution and the way people visually compare area."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
-    "href": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Contiguous-Area Cartogram",
-    "text": "Contiguous-Area Cartogram\n\nAssignment and Design Goal\nThe contiguous-area cartogram used the rate of alcohol-related traffic fatalities per 100,000 people to resize the states. Instead of using shading or proportional symbols, the area of each state represented its value.\nThe assignment required two competing goals:\n\nstate areas had to change enough to represent the data;\ngeographic contiguity and recognizable state shapes had to be preserved as much as possible.\n\nI first calculated the approximate area required for each state and then constructed the map by hand on graph paper.\n\n\nSketching and Revision\nThe two sketches document the trial-and-error process of fitting the states together. I repeatedly adjusted their shapes and positions while trying to preserve neighboring relationships.\n\n\n\n\n\n\nInitial hand-drawn cartogram sketch exploring the proportional size, shape, and position of each state.\n\n\n\n\n\n\n\nRevised hand-drawn cartogram sketch showing adjustments to state shapes and contiguity.\n\n\n\n\n\nAfter resolving the overall structure by hand, I recreated and refined the cartogram in Adobe Illustrator.\n\n\n\nFinal contiguous-area cartogram completed in Adobe Illustrator.\n\n\n\n\nWhat I Learned\nThis project demonstrated that a cartogram is not simply a distorted conventional map. It is a negotiated design in which statistical proportionality, geographic relationships, recognition, and visual legibility must all be balanced.\nThe hand-drawn process was especially useful because it forced me to work through contiguity and proportion before moving into digital production."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#additional-course-work",
-    "href": "projects/cartography-portfolio/index.html#additional-course-work",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Additional Course Work",
-    "text": "Additional Course Work\nThe course included additional assignments that are not represented visually on this page.\nOne assignment used the same alcohol-related traffic fatality dataset to create a choropleth map, extending the comparison among proportional symbols, classified shading, and cartogram-based representation. I have not located a surviving copy of that map.\nFor the independent final project, I mapped socioeconomic and demographic indicators associated with gentrification in Santa Fe, New Mexico. Although I still have written materials related to that research, I have not found a copy of the final map suitable for inclusion here.\nThese missing artifacts are part of the course history, but this portfolio emphasizes the projects for which I can present both the finished work and meaningful evidence of the design process."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#what-i-learned-3",
-    "href": "projects/cartography-portfolio/index.html#what-i-learned-3",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "What I Learned",
-    "text": "What I Learned\nAcross the semester, I developed a stronger understanding of cartography as an iterative design discipline.\nThe course taught me to:\n\nbegin with sketches rather than software;\nbuild visual hierarchy deliberately;\ntreat typography as a central cartographic element;\nevaluate how symbolization methods shape interpretation;\nrevise maps in response to critique;\nbalance accuracy, legibility, and visual appeal;\nseparate the design process from the analytical workflow;\nrecognize that strong maps are constructed through repeated refinement.\n\nThe experience also gave me a lasting appreciation for slowing down the mapmaking process. Because every symbol and label had to be placed manually, each decision was visible and intentional."
-  },
-  {
-    "objectID": "projects/cartography-portfolio/index.html#looking-back",
-    "href": "projects/cartography-portfolio/index.html#looking-back",
-    "title": "Graduate Cartographic Design Portfolio",
-    "section": "Looking Back",
-    "text": "Looking Back\nThis course remains one of the most enjoyable and influential parts of my graduate education. It gave me space to concentrate on the final deliverable, experiment with multiple versions of the same idea, and receive detailed feedback from peers and the instructor.\nThe surviving projects document more than finished maps. They show a process of sketching, testing, revising, comparing, and refining. That process continues to shape how I approach cartography, visual communication, and the way I teach students to evaluate their own work."
+    "text": "Looking Back\nThis project is one of the clearest early examples of the kind of applied GIS work that later became central to my professional practice.\nRather than beginning with a supplied dataset and a prescribed series of tools, I had to determine:\n\nwhat information the organization needed;\nhow it could be collected;\nhow it should be organized;\nhow different audiences would use it;\nhow the finished products could remain accessible after the project ended.\n\nSeveral aspects would be handled differently today. A modern workflow might use mobile GIS applications, hosted feature layers, attachments rather than local photo paths, authoritative parcel services, and web maps instead of published desktop map files.\nEven so, the project already contained the core elements of a modern facilities inventory: field collection, structured asset data, controlled attributes, photographs, metadata, multiple user products, and long-term maintenance planning."
   },
   {
     "objectID": "projects/arches-national-park/index.html",
@@ -1211,305 +1295,375 @@
     "text": "Looking Back\nThis course combined technical image processing with questions about evidence, interpretation, and uncertainty.\nThe team labs moved from image display through correction, filtering, classification, and post-processing. The final project then applied those ideas to a disaster-response problem where no source could be assumed to be perfectly correct.\nA modern version would likely use ArcGIS Pro, current ERDAS Imagine tools, Python or R notebooks, cloud platforms, machine-learning classification, object-based image analysis, and reproducible accuracy assessment.\nThe most important lesson remains that remote sensing is not simply extracting information from imagery. It is a process of selecting methods, interpreting uncertainty, validating results, and understanding how data quality affects decisions."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html",
-    "href": "projects/camp-davy-crockett/index.html",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "objectID": "projects/assessing-uncertainty-vgi/index.html",
+    "href": "projects/assessing-uncertainty-vgi/index.html",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
     "section": "",
-    "text": "This independent capstone project was completed for GIS 290: Directed Research at Roane State Community College during summer 2009.\nCamp Davy Crockett, operated by the Sequoyah Council of the Boy Scouts of America, supports a wide range of summer activities, including lakefront recreation, shooting sports, rope courses, hiking, and traditional Scout programming. Operating those activities requires the camp to maintain numerous roads, buildings, shelters, utilities, campsites, fields, ranges, and other facilities.\nThe project was designed to support that work by creating a geodatabase and maps of manmade features throughout the camp.\nThe workflow included:\n\nfield data collection with GPS;\nattribute collection and photography;\ngeodatabase design;\nmetadata creation;\nheads-up digitizing;\nsubtypes and domains;\nterrain-data preparation;\nstaff and visitor map production;\npublication for use in free Esri viewing applications.\n\nThis was my final project in the Roane State GIS certificate program and was completed independently.\n\n\n\nDetailed facilities map created for Camp Davy Crockett staff."
+    "text": "My master’s thesis examined uncertainty in volunteered geographic information produced through the Ushahidi platform after the January 2010 Haiti earthquake.\nThe project asked:\n\nWhat was the nature of uncertainty in the attribute data distributed through the Ushahidi geospatial platform?\n\nVolunteers working remotely received messages, translated them, categorized them by emergency need, georeferenced them, and published them through a dynamic web map.\n\n\n\nHaiti administrative boundaries and the location of Port-au-Prince."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#project-overview",
-    "href": "projects/camp-davy-crockett/index.html#project-overview",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#project-overview",
+    "href": "projects/assessing-uncertainty-vgi/index.html#project-overview",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
     "section": "",
-    "text": "This independent capstone project was completed for GIS 290: Directed Research at Roane State Community College during summer 2009.\nCamp Davy Crockett, operated by the Sequoyah Council of the Boy Scouts of America, supports a wide range of summer activities, including lakefront recreation, shooting sports, rope courses, hiking, and traditional Scout programming. Operating those activities requires the camp to maintain numerous roads, buildings, shelters, utilities, campsites, fields, ranges, and other facilities.\nThe project was designed to support that work by creating a geodatabase and maps of manmade features throughout the camp.\nThe workflow included:\n\nfield data collection with GPS;\nattribute collection and photography;\ngeodatabase design;\nmetadata creation;\nheads-up digitizing;\nsubtypes and domains;\nterrain-data preparation;\nstaff and visitor map production;\npublication for use in free Esri viewing applications.\n\nThis was my final project in the Roane State GIS certificate program and was completed independently.\n\n\n\nDetailed facilities map created for Camp Davy Crockett staff."
+    "text": "My master’s thesis examined uncertainty in volunteered geographic information produced through the Ushahidi platform after the January 2010 Haiti earthquake.\nThe project asked:\n\nWhat was the nature of uncertainty in the attribute data distributed through the Ushahidi geospatial platform?\n\nVolunteers working remotely received messages, translated them, categorized them by emergency need, georeferenced them, and published them through a dynamic web map.\n\n\n\nHaiti administrative boundaries and the location of Port-au-Prince."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#project-goals",
-    "href": "projects/camp-davy-crockett/index.html#project-goals",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Project Goals",
-    "text": "Project Goals\nThe project had four primary goals:\n\ncreate a geodatabase of manmade features within the camp;\ncreate a detailed map for camp staff;\ncreate a simplified map for campers and visitors that reproduced well when copied;\nconvert the data into formats compatible with free Esri viewing software and, where practical, Google Earth.\n\nThese goals required more than creating a single map. The project needed to produce a structured and maintainable dataset that could support future camp operations."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#why-the-study-mattered",
+    "href": "projects/assessing-uncertainty-vgi/index.html#why-the-study-mattered",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Why the Study Mattered",
+    "text": "Why the Study Mattered\nThe spread of smartphones, GPS, broadband internet, social media, open-source software, and online mapping lowered the cost of creating and sharing geographic information.\nThis created an important opportunity during disasters. People affected by an event could report conditions directly and volunteers could help transform those reports into mapped information.\nThe same process raised concerns about consistency, credibility, accuracy, completeness, timeliness, interpretation, and fitness for use."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#field-data-collection",
-    "href": "projects/camp-davy-crockett/index.html#field-data-collection",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Field Data Collection",
-    "text": "Field Data Collection\n\nEquipment and Records\nField data were collected using:\n\na Garmin eTrex Legend HCx GPS receiver;\na field notebook;\na digital camera;\na tape measure.\n\nThe GPS was used to collect point, line, and polygon features. Attribute information was recorded in a notebook and added to the geodatabase later. Photographs were taken to document many mapped features.\n\n\nPoint Features\nPoint locations were averaged for approximately ten seconds per feature.\nExamples included:\n\nflagpoles;\nelectrical boxes;\ndock anchors;\npropane tanks;\nspigots;\nwater tanks;\nutility poles;\nsigns.\n\n\n\nLine Features\nLinear features were walked or driven twice with GPS tracking enabled. The two tracks were then used as a reference when digitizing a representative centerline.\nExamples included:\n\nroads;\ntrails;\nfences;\npowerlines;\nstreams.\n\n\n\nPolygon Features\nPolygon vertices were collected as GPS points and averaged for approximately ten seconds each. The polygons were later digitized in ArcMap using snapping.\nLarge features visible in aerial imagery, including some fields and structures, were digitized directly from the imagery."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#the-ushahidi-workflow",
+    "href": "projects/assessing-uncertainty-vgi/index.html#the-ushahidi-workflow",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "The Ushahidi Workflow",
+    "text": "The Ushahidi Workflow\n\n\n\nIllustration of the Ushahidi Haiti reporting workflow.\n\n\nA message could pass through translation, interpretation, categorization, georeferencing, publication, and eventual use by responders.\nThe workflow was powerful because it connected people across great distances.\nIt was also vulnerable to uncertainty because each transformation depended on human judgment."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#designing-the-geodatabase",
-    "href": "projects/camp-davy-crockett/index.html#designing-the-geodatabase",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Designing the Geodatabase",
-    "text": "Designing the Geodatabase\nA file geodatabase was selected because it offered more flexibility than a personal geodatabase and could store both vector and raster datasets.\nThe geodatabase was planned around feature datasets and classes representing the major categories of camp infrastructure.\n\n\n\nPlanned organization of the Camp Davy Crockett geodatabase.\n\n\nThe primary categories included:\n\nadministrative boundaries;\nutilities;\nstructures;\ntransportation;\ncampsites;\nsigns;\nhydrography;\ncampfire areas;\nshooting ranges;\nactivity fields;\nCOPE facilities;\nAkela’s Challenge facilities.\n\nThe structure was intended to make the database understandable and maintainable rather than placing every feature into an unorganized collection.\n\nExample Feature Classes\nThe geodatabase included features such as:\n\nbuildings, cabins, shelters, and storage buildings;\nroads, parking areas, trailer pads, and trails;\nelectrical boxes, utility poles, tanks, and spigots;\ncampsites and campfire areas;\nrifle, shotgun, and archery ranges;\nassembly, volleyball, pool, and headquarters fields;\nsigns and bulletin boards;\nlake and stream features.\n\n\n\n\nFile geodatabase displayed in ArcCatalog."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#data",
+    "href": "projects/assessing-uncertainty-vgi/index.html#data",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Data",
+    "text": "Data\nThe research used the complete set of eligible records after removing duplicate records and records that did not meet the study criteria.\nThe analysis did not use a sample drawn from the eligible records. It used the full qualifying dataset.\nThe original CSV is preserved in the project archive but is not published directly because it contains raw event-report content and is not necessary for understanding the project."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#data-preparation-and-metadata",
-    "href": "projects/camp-davy-crockett/index.html#data-preparation-and-metadata",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Data Preparation and Metadata",
-    "text": "Data Preparation and Metadata\nBackground data were collected from several sources.\nThese included:\n\nDigital Ortho Quarter Quadrangles from the Tennessee Spatial Data Server;\nDigital Raster Graphics;\nDigital Elevation Models;\n2008 TIGER shapefiles from the U.S. Census Bureau;\nadministrative boundaries from Esri;\nGeographic Names Information System records;\nEsri World Imagery and US Topographic Map services.\n\nDownloaded data were checked in ArcCatalog for coordinate systems and metadata. Most data were converted to NAD 83 Tennessee State Plane feet to reduce alignment problems.\n\nISO Metadata\nMetadata were created using the ISO Metadata Wizard in ArcCatalog.\nA reusable XML template was created and then adapted for:\n\neach feature class;\neach feature dataset;\nthe complete file geodatabase.\n\n\n\n\nISO Metadata Wizard used to document the project data.\n\n\nThe metadata workflow was important because the project was intended to remain useful after the original fieldwork was complete."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#methodology",
+    "href": "projects/assessing-uncertainty-vgi/index.html#methodology",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Methodology",
+    "text": "Methodology\n\nData Preparation\nThe original data was cleaned and reorganized into a database suitable for comparison.\nThis included:\n\nremoving duplicate records;\nidentifying eligible records;\nstandardizing date fields;\npreserving original category assignments;\npreparing fields for recategorization.\n\n\n\nRecategorization\nI reread each eligible report and assigned categories using the available Ushahidi category definitions.\nThe original volunteer-assigned categories and revised categories were then compared.\n\n\nCategory Structure\nThe deployment allowed reports to be assigned to:\n\n8 main categories;\n42 subcategories.\n\nSome reports contained multiple needs and could receive multiple assignments.\n\n\nAutomated Comparison\nPython scripts compared the original and revised category assignments record by record.\nThe scripts produced agreement and disagreement values, category totals, subcategory totals, daily summaries, and files used to build charts and tables."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#subtypes-and-domains",
-    "href": "projects/camp-davy-crockett/index.html#subtypes-and-domains",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Subtypes and Domains",
-    "text": "Subtypes and Domains\nSubtypes and domains were created where appropriate to improve consistency during data entry.\nFor example, structure features could be assigned controlled values such as:\n\nbuilding;\ncabin;\nshelter;\nstorage building.\n\n\n\n\nControlled attribute values for structure type.\n\n\nUsing controlled values reduced spelling differences and made the data easier to symbolize, query, and maintain."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#results",
+    "href": "projects/assessing-uncertainty-vgi/index.html#results",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Results",
+    "text": "Results\nThe study found substantial inconsistency between the content of the messages and the categories originally assigned by volunteers.\nAt the detailed category level, only 26.59% of eligible reports were categorized consistently when compared with the revised dataset.\nWhen subcategories were aggregated to their broader main categories, consistency increased to 49.88%.\nThis suggests that volunteers often captured the general theme of a report even when the detailed subcategory assignment differed.\n\n\n\nOriginal and revised main-category totals.\n\n\n\n\n\nOriginal and revised category assignments through time."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#digitizing-and-editing",
-    "href": "projects/camp-davy-crockett/index.html#digitizing-and-editing",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Digitizing and Editing",
-    "text": "Digitizing and Editing\nArcMap was used to digitize and edit line and polygon features.\nSnapping tolerances helped ensure that newly digitized geometry aligned with collected vertices and nearby features.\n\n\n\nSnapping used while digitizing a building feature.\n\n\nThe workflow varied by feature type:\n\npoints were imported directly from GPS data;\nlines were digitized using repeated GPS tracks as reference;\npolygons were digitized from collected vertices;\nlarge visible features were digitized from aerial imagery.\n\nAttribute information collected in the field was added after the spatial features were created."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#interpreting-the-findings",
+    "href": "projects/assessing-uncertainty-vgi/index.html#interpreting-the-findings",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Interpreting the Findings",
+    "text": "Interpreting the Findings\nThe findings did not mean that the volunteer response failed.\nThe Haiti deployment represented an important shift in emergency response because affected people could communicate needs through channels outside traditional systems.\nThe results instead showed that:\n\nrapid information production involves interpretation;\ncategory systems can introduce ambiguity;\nvolunteers need clear definitions and training;\ncategories may be too detailed for consistent use under pressure;\nbroad categories may communicate needs more reliably;\ndata consumers should understand how records were transformed before analysis."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#photos-and-feature-documentation",
-    "href": "projects/camp-davy-crockett/index.html#photos-and-feature-documentation",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Photos and Feature Documentation",
-    "text": "Photos and Feature Documentation\nPhotographs were linked to mapped features through paths stored in the attribute table.\nThe signs layer, for example, included the sign text and the location of its associated photograph.\n\n\n\nPhotograph paths linked to sign records.\n\n\nThis allowed users to move beyond a symbol on the map and review an image of the actual facility or sign.\nThe approach anticipated later field-inventory systems in which mapped assets are connected to photographs and descriptive records."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#limitations",
+    "href": "projects/assessing-uncertainty-vgi/index.html#limitations",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Limitations",
+    "text": "Limitations\nThe study focused on one component of data quality in one deployment.\nImportant limitations included:\n\na single disaster;\none VGI platform;\nambiguity in category definitions;\nreports that could reasonably belong to multiple categories;\ndifferences between volunteer knowledge and researcher interpretation;\ninability to measure every component of data quality.\n\nThe project assessed consistency, not absolute truth."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#staff-and-visitor-maps",
-    "href": "projects/camp-davy-crockett/index.html#staff-and-visitor-maps",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Staff and Visitor Maps",
-    "text": "Staff and Visitor Maps\nTwo final maps were designed for different audiences.\n\nDetailed Staff Map\nThe staff map was a full-color, large-format product containing the most complete representation of the camp’s facilities and infrastructure.\nIt included features such as:\n\nstructures and shelters;\ncampsites;\nroads and parking;\nutilities;\nranges and activity areas;\nsigns;\nstreams and lake features;\nCOPE and Akela’s Challenge areas.\n\n\n\n\nDetailed Camp Davy Crockett facilities map for staff.\n\n\nThe map was intended to support camp management and maintenance rather than function only as a visitor guide.\n\n\nSimplified Visitor Map\nThe visitor map was simplified for legibility and grayscale reproduction on letter-size paper.\nIt emphasized:\n\nroads;\nstreams;\nmajor structures;\ncampsites;\nparking;\nAkela’s Challenge;\nthe main campfire area;\nthe assembly field.\n\n\n\n\nSimplified visitor map of Camp Davy Crockett.\n\n\nProducing separate maps acknowledged that camp staff and visitors needed different levels of detail. The same database supported both products, but the information hierarchy and visual design changed with the audience."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#defense-and-revision",
+    "href": "projects/assessing-uncertainty-vgi/index.html#defense-and-revision",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Defense and Revision",
+    "text": "Defense and Revision\nThe defense included draft statistical material that was later removed.\nThe committee questioned the statistical technique and then asked about sample size. The analysis used the full population of eligible records rather than a sample.\nBecause no sample had been drawn from the qualifying dataset, the inferential statistical section was unnecessary and was omitted from the final thesis.\nFor this page, the submitted thesis and later publication are treated as the authoritative versions."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#publishing-for-free-esri-viewers",
-    "href": "projects/camp-davy-crockett/index.html#publishing-for-free-esri-viewers",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Publishing for Free Esri Viewers",
-    "text": "Publishing for Free Esri Viewers\nA goal of the project was to make the data usable without requiring camp staff to own a full ArcGIS Desktop license.\nThe project was tested in free Esri applications, including ArcReader or ArcExplorer and ArcGIS Explorer.\n\n\n\nPublished camp map viewed in ArcReader or ArcExplorer.\n\n\nThe published map preserved a detailed layer list and symbology while preventing users from accidentally editing the source data.\n\nArcGIS Explorer\nThe project was also reviewed in ArcGIS Explorer.\n\n\n\nCamp data displayed over imagery in ArcGIS Explorer.\n\n\nArcGIS Explorer provided a more visually appealing 3D and imagery-based environment, but the original assessment noted that it performed better with a high-speed internet connection."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#from-thesis-to-publication",
+    "href": "projects/assessing-uncertainty-vgi/index.html#from-thesis-to-publication",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "From Thesis to Publication",
+    "text": "From Thesis to Publication\nThe thesis was later revised with Dr. Scott Freundschuh into a journal article titled:\n\nAssessing Uncertainty in VGI for Emergency Response\n\nThe article condensed the larger thesis while retaining the central argument:\n\nVGI can provide important and timely information during disasters;\nvolunteer-created attributes may contain substantial uncertainty;\ndata quality should be evaluated in relation to intended use;\nuncertainty does not erase the broader value of citizen participation."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#terrain-analysis",
-    "href": "projects/camp-davy-crockett/index.html#terrain-analysis",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Terrain Analysis",
-    "text": "Terrain Analysis\nDigital Elevation Model data were used to create:\n\nhillshade;\nslope;\naspect;\na Triangulated Irregular Network.\n\nThe hillshade was useful as a cartographic background.\nThe slope, aspect, and TIN analyses had more limited value because an accurate camp property boundary could not be obtained during the project. Without a reliable boundary, calculations could not be confidently restricted to the camp property.\nThe terrain products were retained so that they could support later analysis once an authoritative boundary became available."
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#research-outputs",
+    "href": "projects/assessing-uncertainty-vgi/index.html#research-outputs",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "Research Outputs",
+    "text": "Research Outputs\nThe project produced:\n\na master’s thesis;\na thesis defense;\na journal article;\nPython scripts;\na cleaned and recategorized database;\ncategory-comparison tables;\ndaily summaries;\ncharts;\na Haiti locator map;\nan Ushahidi workflow diagram."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#deliverables",
-    "href": "projects/camp-davy-crockett/index.html#deliverables",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "objectID": "projects/assessing-uncertainty-vgi/index.html#what-i-learned",
+    "href": "projects/assessing-uncertainty-vgi/index.html#what-i-learned",
+    "title": "Assessing Uncertainty in Volunteered Geographic Information",
+    "section": "What I Learned",
+    "text": "What I Learned\nThis project reinforced that data quality has multiple dimensions, attribute uncertainty can be as consequential as positional error, categories are analytical decisions rather than neutral labels, and rapid information can still be useful without being perfect.\nThe central lesson is not that volunteered geographic information should be rejected.\nIts value depends on understanding how it was produced, what transformations occurred, and whether its quality is sufficient for the decision at hand."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html",
+    "href": "projects/cartography-portfolio/index.html",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#course-overview",
+    "href": "projects/cartography-portfolio/index.html#course-overview",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "",
+    "text": "This portfolio presents selected work from GEOG 586, a semester-long graduate cartography course that I completed at the University of New Mexico in spring 2011 with Dr. Scott Freundschuh.\nUnlike most of my other geospatial coursework, the class did not use GIS software. The emphasis was on cartographic design, visual communication, and the deliberate construction of finished maps. We began projects with hand-drawn sketches and created the final maps in Adobe Illustrator. When calculations were required, such as determining alcohol-related traffic fatality rates or proportional-symbol sizes, I used Microsoft Excel.\nEvery symbol, label, legend component, and graphic element in Illustrator was placed and configured manually. This made the design process highly intentional and required close attention to visual hierarchy, typography, balance, figure-ground relationships, layout, and audience.\nI particularly enjoyed the course because it allowed me to focus on the final visual product rather than the spatial-analysis process. Assignments often involved multiple iterations, critique, revision, and peer feedback. That experience helped me understand cartography not simply as the final step in GIS, but as a distinct discipline centered on clarity, communication, and visual storytelling."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#design-process-and-tools",
+    "href": "projects/cartography-portfolio/index.html#design-process-and-tools",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Design Process and Tools",
+    "text": "Design Process and Tools\nThe course emphasized iterative design rather than one-pass production. Projects typically moved through a sequence of sketching, construction, critique, revision, and final refinement.\nThe primary tools and methods included:\n\nhand-drawn sketches used to explore layout, proportion, and spatial relationships;\nAdobe Illustrator for manually constructing and refining final maps;\nMicrosoft Excel for calculating rates, proportional-symbol sizes, and other numerical values;\npeer critique and instructor feedback to identify weaknesses and improve design decisions;\nrepeated revision of typography, hierarchy, figure-ground contrast, balance, and map composition.\n\nThe selected projects below show both finished maps and intermediate stages where surviving materials are available."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#brazil-reference-map",
+    "href": "projects/cartography-portfolio/index.html#brazil-reference-map",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Brazil Reference Map",
+    "text": "Brazil Reference Map\n\nAssignment and Design Goal\nThe Brazil reference-map project focused on building a clear and visually balanced regional map through a series of deliberate design decisions. I developed the map in stages, gradually adding geographic information, refining labels, and establishing a visual hierarchy among national, state, physical, and reference features.\nThe intermediate versions show how the composition changed as additional information was introduced. Each stage required reconsidering spacing, typography, line weight, contrast, feature emphasis, and the relationships among map elements. The final map was completed in Adobe Illustrator after several rounds of revision and feedback.\n\n\nDesign Progression\n\n\n\n\n\n\nEarly version of the Brazil reference map showing the initial geographic framework and state boundaries.\n\n\n\n\n\n\n\nIntermediate version with additional geographic information and a developing visual hierarchy.\n\n\n\n\n\n\n\n\n\nLater revision showing further refinement of labels, symbols, and visual hierarchy.\n\n\n\n\n\n\n\nFinal Brazil reference map completed in Adobe Illustrator.\n\n\n\n\n\n\n\nWhat I Learned\nThis project reinforced the value of building a map in stages. Adding more information did not simply mean placing more features on the page; each addition required reconsidering the entire visual hierarchy.\nThe progression also helped me see how typography, line weight, spacing, and contrast work together. The final map was not the product of a single design decision, but of many small revisions made across the full composition."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
+    "href": "projects/cartography-portfolio/index.html#visualizing-one-dataset-in-multiple-ways",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Visualizing One Dataset in Multiple Ways",
+    "text": "Visualizing One Dataset in Multiple Ways\nSeveral assignments used the same dataset—2004 alcohol-related traffic fatalities—to examine how different cartographic methods influence interpretation.\nAcross the sequence, I created proportional-symbol maps using three scaling methods, a choropleth map, and a contiguous-area cartogram. Although I have not located the choropleth map, the surviving work still documents the central purpose of the exercise: comparing how symbol size, classification, shading, and geographic distortion communicate the same underlying data differently.\nUsing a common dataset made it easier to focus on the strengths and limitations of each design method rather than on differences in subject matter."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
+    "href": "projects/cartography-portfolio/index.html#comparing-proportional-symbol-methods",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Comparing Proportional Symbol Methods",
+    "text": "Comparing Proportional Symbol Methods\n\nAssignment and Design Goal\nThis assignment compared three methods for displaying the same dataset: 2004 alcohol-related traffic fatalities in the 50 states and the District of Columbia.\nEach map was produced in grayscale and used proportional circles, but the circle sizes were determined using a different method:\n\nsquare-root scaling;\nFlannery scaling;\nrange-graded natural breaks.\n\nCreating the maps required more than changing symbol sizes. Each version had to function as a complete cartographic composition, including titles, legends, typography, figure-ground contrast, and balanced page layout. Because the symbols were constructed manually in Adobe Illustrator, the assignment also required careful calculation and consistent placement.\n\n\nMap Comparison\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using Flannery proportional-circle scaling.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using range-graded natural-breaks symbols.\n\n\n\n\n\n\n\nAlcohol-related traffic fatalities mapped using square-root proportional-circle scaling.\n\n\n\n\n\n\n\nEvaluating the Methods\nThe three techniques created noticeably different impressions of the same data.\nThe range-graded natural-breaks method did not represent the variation especially well because a few high values acted as outliers and occupied two of the four classes. That compressed most of the remaining values into only two categories and concealed much of the detail present in the original data.\nSquare-root and Flannery scaling both preserved an individual symbol size for each value. Their primary limitation was perceptual: similarly sized circles could be difficult to distinguish, especially among the largest symbols.\nFlannery scaling addressed that problem by enlarging the largest circles somewhat more aggressively while only slightly enlarging smaller circles. Based on that comparison, I concluded that the Flannery method communicated this dataset most effectively.\n\n\nWhat I Learned\nThis assignment showed that symbol scaling is not a neutral technical choice. Different methods can emphasize, compress, or obscure variation even when they use the same values.\nIt also reinforced the importance of matching the symbolization method to both the data distribution and the way people visually compare area."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
+    "href": "projects/cartography-portfolio/index.html#contiguous-area-cartogram",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Contiguous-Area Cartogram",
+    "text": "Contiguous-Area Cartogram\n\nAssignment and Design Goal\nThe contiguous-area cartogram used the rate of alcohol-related traffic fatalities per 100,000 people to resize the states. Instead of using shading or proportional symbols, the area of each state represented its value.\nThe assignment required two competing goals:\n\nstate areas had to change enough to represent the data;\ngeographic contiguity and recognizable state shapes had to be preserved as much as possible.\n\nI first calculated the approximate area required for each state and then constructed the map by hand on graph paper.\n\n\nSketching and Revision\nThe two sketches document the trial-and-error process of fitting the states together. I repeatedly adjusted their shapes and positions while trying to preserve neighboring relationships.\n\n\n\n\n\n\nInitial hand-drawn cartogram sketch exploring the proportional size, shape, and position of each state.\n\n\n\n\n\n\n\nRevised hand-drawn cartogram sketch showing adjustments to state shapes and contiguity.\n\n\n\n\n\nAfter resolving the overall structure by hand, I recreated and refined the cartogram in Adobe Illustrator.\n\n\n\nFinal contiguous-area cartogram completed in Adobe Illustrator.\n\n\n\n\nWhat I Learned\nThis project demonstrated that a cartogram is not simply a distorted conventional map. It is a negotiated design in which statistical proportionality, geographic relationships, recognition, and visual legibility must all be balanced.\nThe hand-drawn process was especially useful because it forced me to work through contiguity and proportion before moving into digital production."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#additional-course-work",
+    "href": "projects/cartography-portfolio/index.html#additional-course-work",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Additional Course Work",
+    "text": "Additional Course Work\nThe course included additional assignments that are not represented visually on this page.\nOne assignment used the same alcohol-related traffic fatality dataset to create a choropleth map, extending the comparison among proportional symbols, classified shading, and cartogram-based representation. I have not located a surviving copy of that map.\nFor the independent final project, I mapped socioeconomic and demographic indicators associated with gentrification in Santa Fe, New Mexico. Although I still have written materials related to that research, I have not found a copy of the final map suitable for inclusion here.\nThese missing artifacts are part of the course history, but this portfolio emphasizes the projects for which I can present both the finished work and meaningful evidence of the design process."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#what-i-learned-3",
+    "href": "projects/cartography-portfolio/index.html#what-i-learned-3",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "What I Learned",
+    "text": "What I Learned\nAcross the semester, I developed a stronger understanding of cartography as an iterative design discipline.\nThe course taught me to:\n\nbegin with sketches rather than software;\nbuild visual hierarchy deliberately;\ntreat typography as a central cartographic element;\nevaluate how symbolization methods shape interpretation;\nrevise maps in response to critique;\nbalance accuracy, legibility, and visual appeal;\nseparate the design process from the analytical workflow;\nrecognize that strong maps are constructed through repeated refinement.\n\nThe experience also gave me a lasting appreciation for slowing down the mapmaking process. Because every symbol and label had to be placed manually, each decision was visible and intentional."
+  },
+  {
+    "objectID": "projects/cartography-portfolio/index.html#looking-back",
+    "href": "projects/cartography-portfolio/index.html#looking-back",
+    "title": "Graduate Cartographic Design Portfolio",
+    "section": "Looking Back",
+    "text": "Looking Back\nThis course remains one of the most enjoyable and influential parts of my graduate education. It gave me space to concentrate on the final deliverable, experiment with multiple versions of the same idea, and receive detailed feedback from peers and the instructor.\nThe surviving projects document more than finished maps. They show a process of sketching, testing, revising, comparing, and refining. That process continues to shape how I approach cartography, visual communication, and the way I teach students to evaluate their own work."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html",
+    "href": "projects/cumberland-trail/index.html",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "",
+    "text": "This collaborative project was completed for GIS 230: Project Management at Roane State Community College during spring 2009.\nThe class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.\nThe project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.\nThe team:\n\nscoped the project;\nevaluated feasibility;\nassigned formal roles;\ncreated a schedule;\nstandardized field procedures;\nconducted backpacking data-collection trips;\ncollected GPS waypoints and photographs;\ndocumented attributes and measurements;\nimported and managed the data;\ntracked progress, hours, and costs;\nprepared metadata;\nconducted quality assurance;\ndelivered project files, maps, reports, and a presentation.\n\nMy documented responsibilities included serving as a report writer, secretary, feasibility-study lead, and GPS data collector.\n\n\n\nCollecting a GPS waypoint and field notes for a trail sign."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#project-overview",
+    "href": "projects/cumberland-trail/index.html#project-overview",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "",
+    "text": "This collaborative project was completed for GIS 230: Project Management at Roane State Community College during spring 2009.\nThe class worked with James Brannon of the Tennessee Department of Environment and Conservation to collect geographic data along trails in Frozen Head State Park. The work supported a larger effort to document and map the Cumberland Trail and related park infrastructure.\nThe project required the class to function as a coordinated GIS team rather than as a collection of students completing separate assignments.\nThe team:\n\nscoped the project;\nevaluated feasibility;\nassigned formal roles;\ncreated a schedule;\nstandardized field procedures;\nconducted backpacking data-collection trips;\ncollected GPS waypoints and photographs;\ndocumented attributes and measurements;\nimported and managed the data;\ntracked progress, hours, and costs;\nprepared metadata;\nconducted quality assurance;\ndelivered project files, maps, reports, and a presentation.\n\nMy documented responsibilities included serving as a report writer, secretary, feasibility-study lead, and GPS data collector.\n\n\n\nCollecting a GPS waypoint and field notes for a trail sign."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#client-and-project-need",
+    "href": "projects/cumberland-trail/index.html#client-and-project-need",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Client and Project Need",
+    "text": "Client and Project Need\nFrozen Head State Park contains an extensive network of trails used by hikers, horseback riders, and mountain bikers.\nThe project client needed an inventory of infrastructure and natural features located along those trails. The data were intended to supplement an existing geodatabase maintained by park staff.\nThe planned inventory included:\n\nGPS locations;\ndigital photographs;\nfeature descriptions;\nmeasurements;\nelevation;\npositional error;\ncomments and unusual observations;\ndata suitable for transfer into the existing geodatabase.\n\nThe Cumberland Trail presented a particular challenge because portions shown on available maps were incomplete, closed, difficult to access, or not evident on the ground."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#course-and-project-management-requirements",
+    "href": "projects/cumberland-trail/index.html#course-and-project-management-requirements",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Course and Project-Management Requirements",
+    "text": "Course and Project-Management Requirements\nGIS 230 was designed to prepare students to complete independent work in GIS 290.\nThe course emphasized:\n\nplanning and completing a real-world GIS project;\nproject scoping;\nrole assignment;\nscheduling;\nmetadata documentation;\n3D visualization;\nprogress reporting;\npresentation and delivery.\n\nThe group assignment required:\n\na team leader;\ndocumentation management;\npresentation development;\nreport writing;\nquality assurance;\nGIS technical work;\nat least one spatial analysis;\nat least one 3D visualization;\nweekly progress reports;\na final report;\na PowerPoint presentation.\n\nThe project therefore evaluated both the GIS work and the team’s ability to manage time, responsibilities, data, and client expectations."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#feasibility-study",
+    "href": "projects/cumberland-trail/index.html#feasibility-study",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Feasibility Study",
+    "text": "Feasibility Study\nOne of my primary assignments was preparing the project feasibility study.\nThe study evaluated whether the team could realistically collect detailed data along the park’s trail network within the available semester.\n\nMain Constraints\nThe study identified several concerns:\n\nthe park contained more than 80 miles of trails;\nthe project began late because weather delayed the initial client meeting;\nwet winter and spring conditions could prevent photography;\naccess by service road, ATV, or park vehicle was not available;\nall fieldwork had to be completed on foot;\ncanopy cover could affect GPS collection;\nthe semester allowed only a limited period for data collection and quality assurance.\n\nThe study concluded that collecting every trail was unlikely.\nThe recommended strategy was to:\n\nprioritize trails;\nbegin fieldwork as quickly as possible;\ndocument areas that were completed;\ndocument trails still needing work;\navoid future duplication by preserving clear collection records.\n\nThis was an important project-management decision. The feasibility study did not simply ask whether the project was desirable; it assessed what could reasonably be completed with the available people, equipment, weather, access, and time."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#team-organization",
+    "href": "projects/cumberland-trail/index.html#team-organization",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Team Organization",
+    "text": "Team Organization\nThe class assigned formal roles during its first project meeting.\nRoles included:\n\nproject manager and accounting;\nGPS data collection;\npresentation development;\nreport writing and secretarial work;\nanalysis and quality assurance;\nrecord and data management;\nfile storage and backup;\ninternet data collection.\n\nI served as:\n\nreport writer;\nsecretary;\nGPS data collector;\nlead writer for the feasibility study.\n\nThe project’s meeting records document these assignments and the way responsibilities changed as the work progressed."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#meeting-minutes-and-project-documentation",
+    "href": "projects/cumberland-trail/index.html#meeting-minutes-and-project-documentation",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Meeting Minutes and Project Documentation",
+    "text": "Meeting Minutes and Project Documentation\nAs secretary, I prepared meeting minutes documenting project decisions and progress.\nThe minutes recorded items such as:\n\npersonnel assignments;\nclient questions;\navailable GPS receivers and cameras;\nfile-management procedures;\nbackup expectations;\nnaming conventions;\ncoordinate standards;\npilot-study requirements;\ntime sheets;\nbudget totals;\ncollection-trip plans;\ndue dates;\nproject-creep concerns;\ndata-quality instructions.\n\nThe records show the project evolving from an initial assignment into a coordinated field operation.\nFor example, early meetings focused on defining responsibilities and preparing questions for the client. Later meetings addressed coordinate formatting, pilot data, quality assurance, cost tracking, and fieldwork progress."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#field-collection-standards",
+    "href": "projects/cumberland-trail/index.html#field-collection-standards",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Field-Collection Standards",
+    "text": "Field-Collection Standards\nThe team created a standardized procedure so that data collected by different crews and different GPS units could be combined.\n\nCoordinate and Projection Standards\nGPS units were configured to use:\n\nNAD 83;\ndecimal degrees.\n\nFinal data were projected to:\n\nNAD 83;\nTennessee State Plane;\nFIPS 4100;\nfeet.\n\n\n\nPoint Collection\nA waypoint was created for each manmade or natural feature included in the inventory.\nEach waypoint was averaged for approximately 60 seconds when the GPS equipment supported point averaging.\n\n\nNaming Convention\nWaypoint names used:\n\nthe collector’s first and last initials;\na three-digit sequential number.\n\nExample:\nMC012\nPhotographs were assigned matching identifiers so they could be linked to the corresponding feature.\n\n\n\nPhotographs organized using the same identifiers as their corresponding GPS features.\n\n\n\n\nField Records\nThe standard collection sheet included:\n\npoint ID;\ndescription;\nlatitude;\nlongitude;\nelevation;\nassociated positional error;\npicture ID;\nmeasurements;\ncomments.\n\nThe team was instructed to retain coordinate precision to five decimal places and to use positive and negative coordinate values rather than directional letters when preparing data for Excel and ArcMap.\nHandwritten field notes were transferred into a standardized spreadsheet so records from different collection teams could be combined consistently.\n\n\n\nData collection spreadsheet created from handwritten field notes."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#backpacking-data-collection-trips",
+    "href": "projects/cumberland-trail/index.html#backpacking-data-collection-trips",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Backpacking Data-Collection Trips",
+    "text": "Backpacking Data-Collection Trips\nThe project required teams to hike and, in some cases, backpack along trails while carrying:\n\nGPS receivers;\ncameras;\nfield sheets or notebooks;\nmeasuring equipment;\nnormal hiking and overnight gear.\n\n\n\n\nGIS 230 students preparing for a backpacking data-collection trip in Frozen Head State Park.\n\n\n\n\n\nA GIS 230 field team member and his dog during a data-collection hike in Frozen Head State Park.\n\n\nThe group photograph is an important record of the project because it shows that data collection was not limited to roadside features or a short laboratory exercise.\nThe field crews had to manage:\n\ntrail distance;\nterrain;\naccess;\nweather;\nequipment;\nlimited daylight;\nfeature documentation;\ntravel time."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#gps-and-attribute-collection",
+    "href": "projects/cumberland-trail/index.html#gps-and-attribute-collection",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "GPS and Attribute Collection",
+    "text": "GPS and Attribute Collection\nThe GPS photograph shows the workflow described in the project documentation: one team member collected and averaged the waypoint while also recording the feature information needed for later data entry.\n\n\n\nCollecting a GPS waypoint at a trail sign.\n\n\nThe field data were compiled in Microsoft Excel.\nDNR Garmin was used to transfer waypoints from the GPS receivers and export them for use in ArcMap.\n\n\n\nUsing the ArcMap Identify tool to review a collected trail feature.\n\n\nThe project presentation states that:\n\nwaypoint data were converted into shapefiles;\nfield attributes were added to the feature table;\nphotographs were linked to their mapped features."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#data-management",
+    "href": "projects/cumberland-trail/index.html#data-management",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Data Management",
+    "text": "Data Management\nThe project relied on a shared network location for centralized storage.\nThe team created:\n\na predefined folder structure;\nbackup procedures;\na backup log;\nan access and work log;\ndata-transfer expectations;\ndocumentation procedures.\n\nData management proved more difficult than expected.\nThe final report notes that multiple people, collection crews, GPS models, file formats, and transfer steps created confusion. Ensuring that every crew delivered its files correctly and that all files were backed up required active coordination.\nThis became one of the project’s main lessons: collaborative GIS depends on clear data governance as much as field collection."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#quality-assurance",
+    "href": "projects/cumberland-trail/index.html#quality-assurance",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Quality Assurance",
+    "text": "Quality Assurance\nQuality assurance was built into the work plan.\nThe team planned to:\n\nsend a sample of collected data to the client;\nverify naming and coordinate formats;\nreview imported field data;\ncheck for errors;\nassociate metadata;\nlink photographs;\ndocument collected and uncollected trails;\nconduct final corrections before delivery.\n\nThe pilot-data process gave the client an opportunity to review the collection format before the entire project was completed.\nThe meeting records also show continued refinement of standards, including coordinate notation, decimal precision, and treatment of multiple photographs at the same location."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#metadata-and-3d-analyst-training",
+    "href": "projects/cumberland-trail/index.html#metadata-and-3d-analyst-training",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Metadata and 3D Analyst Training",
+    "text": "Metadata and 3D Analyst Training\nMetadata documentation and 3D visualization were formal parts of GIS 230.\nOutside the group fieldwork, I completed two Esri Virtual Campus courses:\n\nCreating and Maintaining Metadata Using ArcGIS Desktop;\nLearning ArcGIS 3D Analyst.\n\nThese courses supported the class objectives of documenting spatial data and creating 3D visualizations.\nThe project required metadata to be collected, preserved, and included with the final documentation."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#schedule-hours-and-budget",
+    "href": "projects/cumberland-trail/index.html#schedule-hours-and-budget",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Schedule, Hours, and Budget",
+    "text": "Schedule, Hours, and Budget\nThe feasibility study established milestones from January through the final presentation on April 28, 2009.\nThe schedule included:\n\nteam formation;\nclient consultation;\nproject scoping;\ntrail assignments;\npilot collection;\nrepeated field-collection and import periods;\nfinal data collection;\nanalysis;\nquality assurance;\npresentation rehearsal;\nfinal delivery.\n\nThe project also treated student time as a project cost.\nMeeting minutes tracked cumulative hours and a calculated project budget. This helped the class connect fieldwork and office work to the time and labor required for professional GIS services.\n\n\n\nFictitious project budget based on tracked labor and project tasks.\n\n\nAs a project-management exercise, the class also created a fictitious professional budget based on recorded labor hours and assigned project tasks. The totals were instructional estimates rather than charges submitted to TDEC."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#deliverables",
+    "href": "projects/cumberland-trail/index.html#deliverables",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
     "section": "Deliverables",
-    "text": "Deliverables\nThe completed project included:\n\na project proposal;\na final report;\na file geodatabase;\na detailed camp-staff map;\na simplified visitor map;\ncolor and grayscale map versions;\na published map for free Esri viewing software;\nproject documentation;\na PowerPoint presentation.\n\nThe large-format map could not be plotted during the project because the available plotter was not working, but the digital map was completed."
+    "text": "Deliverables\nThe final project produced a combination of digital and printed materials.\n\nDigital Deliverables\nThe planned digital delivery included:\n\nfield photographs;\ndigital data-collection sheets;\nGPS point files;\nshapefiles of infrastructure and natural features;\nArcMap project files;\nmetadata;\na PDF presentation map;\nthe PowerPoint presentation.\n\n\n\nPrinted Deliverables\nPrinted materials included:\n\nfield notes;\ncollection sheets;\nGPS text files;\nmetadata;\na presentation-quality map;\na project binder containing supporting documentation.\n\nThe final materials were presented to the client on April 28, 2009."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#limitations-and-future-work",
-    "href": "projects/camp-davy-crockett/index.html#limitations-and-future-work",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
-    "section": "Limitations and Future Work",
-    "text": "Limitations and Future Work\n\nCamp Boundary\nThe main limitation was the lack of an authoritative camp boundary.\nThe property assessor initially supplied incomplete data and then became unavailable for several weeks. As a result, the project could not confidently calculate terrain characteristics or other measurements strictly within the camp property.\n\n\nVerification and Maintenance\nThe report recommended that future work include:\n\nverifying existing locations and attributes;\ncollecting missing photographs;\nadding newly constructed facilities;\nupdating the geodatabase as the camp changed.\n\nFeatures identified for future collection included:\n\nthe perimeter fence;\nnature and interpretive trails;\ninformal footpaths;\nindividual COPE course obstacles;\nindividual Akela’s Challenge obstacles;\nnew campsites;\na Frisbee golf course;\na new frontier camp;\na new campfire area.\n\nThis maintenance plan was important because a facilities inventory begins to lose value when it is not updated."
+    "objectID": "projects/cumberland-trail/index.html#final-map",
+    "href": "projects/cumberland-trail/index.html#final-map",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Final Map",
+    "text": "Final Map\nThe final map combined the collected manmade features with park trails, the Cumberland Trail, streams, the park boundary, hillshade, and elevation information.\n\n\n\nFinal Frozen Head State Park project map.\n\n\nThe map illustrates both the extent of the trail network and the distribution of features documented by the field crews."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#what-i-learned",
-    "href": "projects/camp-davy-crockett/index.html#what-i-learned",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "objectID": "projects/cumberland-trail/index.html#problems-encountered",
+    "href": "projects/cumberland-trail/index.html#problems-encountered",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Problems Encountered",
+    "text": "Problems Encountered\n\nTrails Missing or Incomplete\nSome trails shown on park maps did not exist on the ground.\nThis was especially problematic for portions of the Cumberland Trail on the eastern and western sides of the park.\nCrews spent additional time:\n\nsearching for trail locations;\nverifying endpoints;\ndetermining whether trails were incomplete;\nlearning that some areas were closed or under renovation.\n\n\n\nLimited Vehicle Access\nPark officials did not authorize motorized collection access.\nSome service roads were routinely traveled by park vehicles, but students had to reach those areas on foot.\nThis increased the time and physical effort needed for data collection.\n\n\nMultiple GPS Models\nThe class used personally owned and school-owned GPS receivers from different manufacturers and model generations.\nProblems included:\n\ndifferent setup procedures;\ndifferent download hardware;\ninconsistent capabilities;\nsome units lacking point averaging.\n\n\n\nData Storage and Communication\nCentralized data management became confusing because many team members were responsible for collection, transfer, storage, backup, and analysis.\nThe final report concluded that stronger early communication could have prevented some of those problems.\n\n\nEstimating Field Time\nA pilot estimate of collection time per trail mile did not predict the full field effort accurately.\nEach trail differed in:\n\ndifficulty;\naccess;\nnumber of mapped features;\nvisibility;\ncompletion status;\ntravel time.\n\n\n\nWeather and Travel\nWeather affected both trail access and the ability to use cameras.\nSome team members also faced long drives to reach the park, making efficient task assignment especially important."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#lessons-learned",
+    "href": "projects/cumberland-trail/index.html#lessons-learned",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "Lessons Learned",
+    "text": "Lessons Learned\nThe final report identified several major project-management lessons.\n\nLeadership Matters\nA strong project leader was essential for:\n\ndefining goals;\nassigning work;\ntracking progress;\naddressing delays;\ntaking on unassigned duties.\n\n\n\nWeekly Meetings Were Valuable\nRegular progress meetings helped the group:\n\nidentify schedule problems early;\nredistribute work;\nresolve confusion;\ntrack hours;\nmaintain momentum.\n\n\n\nCommunication Needed to Be Explicit\nSome early data-management problems occurred because responsibilities were not understood consistently.\nClear ownership of storage, backup, analysis, and documentation should have been established and repeated more explicitly.\n\n\nPre-Field Research Saves Time\nA short conversation with park staff eventually clarified that some trails were incomplete or closed.\nConducting that research before field visits would have prevented wasted time and travel.\n\n\nAssignments Should Reflect Logistics\nThe final report recognized that team assignments could have better reflected:\n\ntravel distance;\ninterest in fieldwork;\nphysical demands;\navailability;\noffice responsibilities."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#my-contribution",
+    "href": "projects/cumberland-trail/index.html#my-contribution",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
+    "section": "My Contribution",
+    "text": "My Contribution\nBecause this was a group project, the portfolio should distinguish the team’s shared outputs from my documented responsibilities.\nMy contributions included:\n\nparticipating in GPS field collection;\nhelping collect photographs and written field records;\nserving as project secretary;\npreparing and submitting meeting minutes;\nwriting the feasibility study;\ncontributing to report writing;\nparticipating in planning and progress meetings;\nhelping document project decisions and standards.\n\nThe surviving minutes and feasibility study provide unusually strong documentation of those responsibilities."
+  },
+  {
+    "objectID": "projects/cumberland-trail/index.html#what-i-learned",
+    "href": "projects/cumberland-trail/index.html#what-i-learned",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
     "section": "What I Learned",
-    "text": "What I Learned\nThis project combined many of the skills developed across the GIS certificate program.\nIt provided experience with:\n\nplanning an independent GIS project;\nworking with an organizational partner;\ndesigning a field-data collection strategy;\ncollecting point, line, and polygon features with GPS;\nrecording field attributes and photographs;\ndesigning a file geodatabase;\ncreating subtypes and domains;\ndocumenting data with ISO metadata;\nmanaging projections;\nheads-up digitizing with snapping;\nincorporating raster and vector data;\ndesigning products for different audiences;\npublishing GIS content for users without full desktop software;\ndocumenting limitations and future maintenance needs.\n\nThe most important lesson was that a useful organizational GIS project depends on more than accurate geometry. It also requires clear attributes, documentation, photographs, logical database organization, appropriate deliverables, and a plan for future updates."
+    "text": "What I Learned\nThis project provided experience with:\n\nplanning a GIS project for a real client;\nevaluating project feasibility;\ndefining scope;\nassigning team roles;\nbuilding a project schedule;\nstandardizing GPS collection;\ncollecting field data in remote terrain;\nmanaging photographs and feature identifiers;\nimporting data with DNR Garmin;\npreparing attribute tables;\nlinking photographs to features;\ndocumenting metadata;\ncoordinating shared files and backups;\ntracking labor and cost;\nconducting pilot quality assurance;\npreparing reports, minutes, and deliverables;\nresponding to incomplete trails, access limitations, and schedule pressure.\n\nThe strongest lesson was that successful GIS work depends on coordination.\nEven technically accurate data can become difficult to use when:\n\nnaming conventions differ;\nequipment behaves inconsistently;\nfile responsibilities are unclear;\nfield crews document features differently;\nproject scope exceeds available time."
   },
   {
-    "objectID": "projects/camp-davy-crockett/index.html#looking-back",
-    "href": "projects/camp-davy-crockett/index.html#looking-back",
-    "title": "Camp Davy Crockett Facilities Geodatabase",
+    "objectID": "projects/cumberland-trail/index.html#looking-back",
+    "href": "projects/cumberland-trail/index.html#looking-back",
+    "title": "Cumberland Trail Field Inventory at Frozen Head State Park",
     "section": "Looking Back",
-    "text": "Looking Back\nThis project is one of the clearest early examples of the kind of applied GIS work that later became central to my professional practice.\nRather than beginning with a supplied dataset and a prescribed series of tools, I had to determine:\n\nwhat information the organization needed;\nhow it could be collected;\nhow it should be organized;\nhow different audiences would use it;\nhow the finished products could remain accessible after the project ended.\n\nSeveral aspects would be handled differently today. A modern workflow might use mobile GIS applications, hosted feature layers, attachments rather than local photo paths, authoritative parcel services, and web maps instead of published desktop map files.\nEven so, the project already contained the core elements of a modern facilities inventory: field collection, structured asset data, controlled attributes, photographs, metadata, multiple user products, and long-term maintenance planning."
+    "text": "Looking Back\nThis project was one of my earliest experiences treating GIS as a managed professional service rather than only a technical classroom exercise.\nThe work involved:\n\na client;\na project scope;\nfeasibility analysis;\nformal roles;\nfield crews;\ndeadlines;\nbudgets;\nquality assurance;\ndata standards;\ndeliverables;\nincomplete information;\nchanging conditions.\n\nA modern version would likely use mobile GIS applications, hosted feature layers, shared field forms, automatic photo attachments, real-time synchronization, GNSS receivers with consistent settings, and cloud-based project dashboards.\nThose tools would reduce some of the data-transfer and coordination problems, but they would not remove the need for:\n\nrealistic scope;\nclear leadership;\ncommunication;\nfield planning;\nquality standards;\ndocumentation.\n\nThe project remains valuable because it shows how those fundamentals were learned through a physically demanding, collaborative, real-world GIS assignment."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html",
-    "href": "projects/city-as-human-environment/index.html",
-    "title": "The City as Human Environment",
+    "objectID": "projects/developing-thesis-research/index.html",
+    "href": "projects/developing-thesis-research/index.html",
+    "title": "Developing a Thesis Research Agenda",
     "section": "",
-    "text": "GEOG 566: The City as Human Environment examined cities as lived social environments rather than only as collections of buildings, infrastructure, and mapped features.\nThe course was qualitative and field-based. Readings, discussions, observation exercises, and comparative field projects explored how urban spaces are shaped by:\n\nidentity;\nrace and ethnicity;\nsocioeconomic difference;\nmigration;\nhousing;\npublic space;\ntourism;\nplanning;\nhistorical memory;\ncultural representation;\nformal and informal social control.\n\nThis course differed substantially from my GIS, remote-sensing, and spatial-analysis coursework. Instead of beginning with datasets and analytical tools, it began with people, places, behavior, interpretation, and the question of how cities are experienced."
+    "text": "My graduate research began with a Wired article, “What a Hundred Million Calls to 311 Reveal About New York”.\nThe article described how residents reported local problems and how those reports could be georeferenced, combined, and analyzed to identify patterns that might not have been visible through conventional government data alone.\nThat article produced an immediate realization:\n\nUseful geographic information did not always have to originate with an authoritative mapping agency.\n\nThat raised several questions:\n\nHow reliable is geographic information created by non-experts?\nHow quickly can it become useful?\nWhat happens when timely information and verified information are not the same thing?\nHow should governments and emergency responders decide whether to trust it?\nWho is represented in volunteered data, and who may be left out?"
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#course-overview",
-    "href": "projects/city-as-human-environment/index.html#course-overview",
-    "title": "The City as Human Environment",
+    "objectID": "projects/developing-thesis-research/index.html#an-unexpected-starting-point",
+    "href": "projects/developing-thesis-research/index.html#an-unexpected-starting-point",
+    "title": "Developing a Thesis Research Agenda",
     "section": "",
-    "text": "GEOG 566: The City as Human Environment examined cities as lived social environments rather than only as collections of buildings, infrastructure, and mapped features.\nThe course was qualitative and field-based. Readings, discussions, observation exercises, and comparative field projects explored how urban spaces are shaped by:\n\nidentity;\nrace and ethnicity;\nsocioeconomic difference;\nmigration;\nhousing;\npublic space;\ntourism;\nplanning;\nhistorical memory;\ncultural representation;\nformal and informal social control.\n\nThis course differed substantially from my GIS, remote-sensing, and spatial-analysis coursework. Instead of beginning with datasets and analytical tools, it began with people, places, behavior, interpretation, and the question of how cities are experienced."
+    "text": "My graduate research began with a Wired article, “What a Hundred Million Calls to 311 Reveal About New York”.\nThe article described how residents reported local problems and how those reports could be georeferenced, combined, and analyzed to identify patterns that might not have been visible through conventional government data alone.\nThat article produced an immediate realization:\n\nUseful geographic information did not always have to originate with an authoritative mapping agency.\n\nThat raised several questions:\n\nHow reliable is geographic information created by non-experts?\nHow quickly can it become useful?\nWhat happens when timely information and verified information are not the same thing?\nHow should governments and emergency responders decide whether to trust it?\nWho is represented in volunteered data, and who may be left out?"
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#reading-cities-qualitatively",
-    "href": "projects/city-as-human-environment/index.html#reading-cities-qualitatively",
-    "title": "The City as Human Environment",
-    "section": "Reading Cities Qualitatively",
-    "text": "Reading Cities Qualitatively\nThe reading reflections considered cities through several overlapping perspectives.\nThemes included:\n\ncities as products of social interaction;\neconomic segregation and neighborhood effects;\nborder identity and the construction of “the other”;\npublic space and town centers;\nSanta Fe’s constructed image of authenticity;\nNative American identity and urban relocation;\nurban growth and sprawl;\nlabor, gender, and violence in Ciudad Juárez.\n\nThe surviving reflections are not published here in full. Their value lies in documenting how I learned to move beyond summary and ask broader geographic questions:\n\nWho belongs in a place?\nWho is treated as an outsider?\nHow does the built environment encourage or discourage interaction?\nHow are identity and historical memory constructed?\nWhat role do policy, planning, and private development play in inequality?\nHow do local spaces reflect wider social and economic systems?"
+    "objectID": "projects/developing-thesis-research/index.html#why-disaster-response",
+    "href": "projects/developing-thesis-research/index.html#why-disaster-response",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "Why Disaster Response?",
+    "text": "Why Disaster Response?\nThe topic became more urgent because several major disasters and humanitarian crises were unfolding as I began graduate school.\nNew platforms and organizations were demonstrating how volunteers could contribute to emergency mapping and information management, including Ushahidi, Humanitarian OpenStreetMap, Crisis Mappers, the Standby Volunteer Task Force, Sahana, and MapAction.\nThe Haiti earthquake of 2010 became especially important because volunteers translated, categorized, and georeferenced reports submitted through text messages, email, social media, and other channels.\nThe promise was clear: information could be produced rapidly by people directly affected by a disaster and by remote volunteers.\nThe uncertainty was equally clear: the resulting information might be incomplete, inconsistently categorized, incorrectly located, or difficult to verify."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#field-observation-as-a-method",
-    "href": "projects/city-as-human-environment/index.html#field-observation-as-a-method",
-    "title": "The City as Human Environment",
-    "section": "Field Observation as a Method",
-    "text": "Field Observation as a Method\nThe field projects used a repeatable qualitative approach.\nFor each site, I documented:\n\nwho appeared to use the space;\nhow people arrived and moved through it;\nwhat types of interaction occurred;\nhow architecture and scale affected behavior;\nwhether formal rules or informal design controlled use;\nwho appeared welcome, tolerated, discouraged, or excluded;\nwhether the space fulfilled its intended purpose;\nhow the site related to broader urban conditions.\n\nThe process required sustained observation rather than a quick visual inspection.\nOriginal notes recorded practical details such as:\n\ndate and time;\nweather;\nuser groups;\ntransportation modes;\nobserved interactions;\nsignage;\nsecurity;\nseating;\nsidewalks;\nsurrounding land uses;\nevidence of formal and informal social control.\n\nThis method taught me to treat ordinary urban spaces as evidence."
+    "objectID": "projects/developing-thesis-research/index.html#geog-501-building-the-scholarly-foundation",
+    "href": "projects/developing-thesis-research/index.html#geog-501-building-the-scholarly-foundation",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "GEOG 501 — Building the Scholarly Foundation",
+    "text": "GEOG 501 — Building the Scholarly Foundation\nGEOG 501: History and Methods in Geography required an annotated bibliography.\nI organized the emerging topic into three bodies of literature:\n\nGIS and hazards;\ncrowdsourcing and social media;\ngeospatial data quality.\n\nThe bibliography established concepts that shaped the later thesis:\n\nauthoritative versus volunteered data;\ncredibility and trust;\npositional and attribute accuracy;\ncompleteness;\ntemporal quality;\nuncertainty;\nfitness for use;\nspatial decision support;\nemergency management.\n\nThe most important shift was moving from asking whether volunteered geographic information was simply “good” or “bad” toward asking whether it was fit for a particular use."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#comparative-field-projects",
-    "href": "projects/city-as-human-environment/index.html#comparative-field-projects",
-    "title": "The City as Human Environment",
-    "section": "Comparative Field Projects",
-    "text": "Comparative Field Projects"
+    "objectID": "projects/developing-thesis-research/index.html#geog-525-locating-the-problem-within-giscience",
+    "href": "projects/developing-thesis-research/index.html#geog-525-locating-the-problem-within-giscience",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "GEOG 525 — Locating the Problem Within GIScience",
+    "text": "GEOG 525 — Locating the Problem Within GIScience\nGEOG 525: Advanced GIScience Seminar helped place the topic within broader GIScience research agendas.\nCourse materials examined Public Participation GIS, empowerment and marginalization, emergency data acquisition, rapid dissemination, uncertainty, interoperability, institutional barriers, ethics, privacy, and evaluation.\nThe seminar also included a two-day instructional module on volunteered geographic information and disaster response.\nPreparing that material required me to explain:\n\nwhat VGI was;\nwho created it;\nhow it differed from authoritative data;\nwhich platforms and organizations were involved;\nwho benefited;\nwho might be excluded;\nhow volunteered information might be misused.\n\nTeaching the topic helped reveal where the research questions were still too broad."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#bricklight-district-and-abq-uptown",
-    "href": "projects/city-as-human-environment/index.html#bricklight-district-and-abq-uptown",
-    "title": "The City as Human Environment",
-    "section": "Bricklight District and ABQ Uptown",
-    "text": "Bricklight District and ABQ Uptown\nThe first field project compared two commercial areas in Albuquerque:\n\nthe mixed-use Bricklight District near the University of New Mexico;\nthe privately managed ABQ Uptown shopping center.\n\nThe comparison focused on:\n\nsurrounding housing;\nretail and restaurant price points;\nstreet width and traffic speed;\nparking;\npublic transportation;\npedestrian and bicycle access;\nprivate security;\nsignage;\nformal and informal control.\n\nThe Bricklight District supported a wider mixture of users because it was accessible by foot, bicycle, bus, and automobile and was surrounded by housing at several price levels.\nABQ Uptown functioned more clearly as a destination for people arriving by private automobile and participating in a higher-cost retail environment.\nThe project demonstrated that commercial spaces do not merely attract different populations by accident. Transportation, zoning, design, pricing, and control help determine who can comfortably use them."
+    "objectID": "projects/developing-thesis-research/index.html#geog-502-from-topic-to-research-question",
+    "href": "projects/developing-thesis-research/index.html#geog-502-from-topic-to-research-question",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "GEOG 502 — From Topic to Research Question",
+    "text": "GEOG 502 — From Topic to Research Question\nGEOG 502: Approaches to Geographical Research documented the most visible stage of refinement.\nThe process included:\n\ndefining the general topic;\nevaluating the literature;\ndrafting several potential questions;\nreceiving faculty and committee feedback;\nnarrowing the scope;\noutlining methods;\nidentifying necessary datasets;\npreparing a formal thesis proposal.\n\nAn early version asked:\n\nWhat impact does volunteered geographic information quality have on the analysis used in decision-making during time-critical emergencies?\n\nA later version became:\n\nWhich components of volunteered geographic information quality have the greatest impact on time-critical decisions made using VGI?\n\nThe proposed design initially considered search and rescue, emergency routing, resource allocation, error analysis, sensitivity analysis, and comparison of authoritative and volunteered datasets."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#old-town-and-civic-plaza",
-    "href": "projects/city-as-human-environment/index.html#old-town-and-civic-plaza",
-    "title": "The City as Human Environment",
-    "section": "Old Town and Civic Plaza",
-    "text": "Old Town and Civic Plaza\nThe second field project compared Albuquerque’s Old Town with Civic Plaza.\nThe observations were organized around five characteristics:\n\nhuman scale;\nnatural versus manufactured materials;\nnearby facilities;\nformal social control;\nhistorical significance.\n\nOld Town’s shaded plaza, smaller buildings, narrow streets, landscaping, historical associations, and relatively permissive atmosphere encouraged visitors to slow down.\nCivic Plaza was more monumental, open, concrete-dominated, and regulated. It often functioned as a pedestrian passage rather than a place to remain.\nThe project connected physical form with social interaction. Old Town produced more visible conversations among strangers, while users of Civic Plaza tended to remain within their own groups or move through the space toward another destination."
+    "objectID": "projects/developing-thesis-research/index.html#the-research-framework",
+    "href": "projects/developing-thesis-research/index.html#the-research-framework",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "The Research Framework",
+    "text": "The Research Framework\nCitizen observations\n        ↓\nVolunteered geographic information\n        ↓\nData-quality dimensions\n        ↓\nSpatial analysis\n        ↓\nTime-critical decisions\n        ↓\nEmergency-response consequences\n\n\n\nIllustration of a volunteered message moving from a person affected by a disaster to translators, mappers, and responders.\n\n\nThe diagram illustrates the human decisions embedded in the process. A message did not move directly from a victim to a responder. Volunteers interpreted, translated, categorized, and located it before it became usable geographic information.\nEach step created both value and potential uncertainty."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#cultural-centers-and-institutional-voice",
-    "href": "projects/city-as-human-environment/index.html#cultural-centers-and-institutional-voice",
-    "title": "The City as Human Environment",
-    "section": "Cultural Centers and Institutional Voice",
-    "text": "Cultural Centers and Institutional Voice\nThe third project compared:\n\nthe Indian Pueblo Cultural Center;\nthe National Hispanic Cultural Center.\n\nBoth institutions represented cultures that had often been described historically by outsiders, but they approached interpretation differently.\nThe Indian Pueblo Cultural Center was:\n\neasy for an unfamiliar visitor to navigate;\noriented toward tourists, students, and researchers;\nexplicit in explaining Pueblo history and culture;\ndesigned to present Pueblo history through a Pueblo institutional voice.\n\nThe National Hispanic Cultural Center functioned more like a campus and supported:\n\ngenealogy;\nliterary events;\nvisual art;\nperformance;\neducation;\ncontinuing cultural production.\n\nThe comparison showed that cultural institutions communicate through more than their exhibits. Location, entrances, architecture, labels, programming, and assumptions about visitor knowledge all influence who feels prepared to enter and participate."
+    "objectID": "projects/developing-thesis-research/index.html#from-proposal-to-feasible-study",
+    "href": "projects/developing-thesis-research/index.html#from-proposal-to-feasible-study",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "From Proposal to Feasible Study",
+    "text": "From Proposal to Feasible Study\nThe original proposal was intentionally broad.\nIt considered multiple disasters, multiple VGI platforms, several components of data quality, and several kinds of emergency analysis.\nAs the project moved toward implementation, data access and feasibility became decisive.\nThe final thesis narrowed the study to:\n\nthe Ushahidi Haiti deployment;\nattribute categorization;\nconsistency between original volunteer-assigned categories and later recategorization;\nuncertainty introduced during classification."
   },
   {
-    "objectID": "projects/city-as-human-environment/index.html#culminating-project-affordable-housing-in-santa-fe",
-    "href": "projects/city-as-human-environment/index.html#culminating-project-affordable-housing-in-santa-fe",
-    "title": "The City as Human Environment",
-    "section": "Culminating Project: Affordable Housing in Santa Fe",
-    "text": "Culminating Project: Affordable Housing in Santa Fe\nThe final field project became a mixed-method study of housing affordability in Santa Fe.\nThe project began as an attempt to demonstrate gentrification quantitatively. As the research developed, I recognized that the available evidence did not support a simple declaration that gentrification had or had not occurred.\nI therefore shifted the focus toward:\n\nchanging housing costs;\nthe relationship between income and housing;\naffordable-housing policy;\nnonprofit housing assistance;\nmixed-income development;\nthe lived characteristics of planned communities."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#quantitative-evidence",
-    "href": "projects/city-as-human-environment/index.html#quantitative-evidence",
-    "title": "The City as Human Environment",
-    "section": "Quantitative Evidence",
-    "text": "Quantitative Evidence\nThe project used Census and spatial data to examine:\n\nmedian household income;\nmedian home value;\nmedian rent.\n\nAfter adjusting values for inflation, I estimated that from 1980 to 2000:\n\nmedian household income increased by approximately 14%;\nmedian home value increased by approximately 30%;\nmedian rent increased by approximately 38%.\n\nThe analysis suggested that housing costs were increasing faster than local income.\n\n\n\nEconomic indicators of housing affordability in Santa Fe County.\n\n\nThe project also produced an early web map allowing users to compare selected demographic and housing indicators.\n\n\n\nOriginal web map of economic indicators in Santa Fe County."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#interview-and-site-visits",
-    "href": "projects/city-as-human-environment/index.html#interview-and-site-visits",
-    "title": "The City as Human Environment",
-    "section": "Interview and Site Visits",
-    "text": "Interview and Site Visits\nI interviewed Justin Robison of the Santa Fe Housing Trust about:\n\nclient education;\nfinancial readiness;\ndown-payment assistance;\nmortgage assistance;\nrental support;\nnonprofit development;\nlong-term affordability;\nassistance for essential workers and special-needs clients.\n\nThe interview was followed by visits to two planned communities:\n\nTierra Contenta;\nAldea.\n\n\n\n\nSanta Fe study locations, including Tierra Contenta and Aldea."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#tierra-contenta",
-    "href": "projects/city-as-human-environment/index.html#tierra-contenta",
-    "title": "The City as Human Environment",
-    "section": "Tierra Contenta",
-    "text": "Tierra Contenta\nTierra Contenta included:\n\nsingle-family homes;\napartments;\nschools;\nparks;\nsidewalks;\ntransit;\nneighborhood retail;\nhousing for several income levels and client needs.\n\nThe community appeared active and used, but it also showed visible signs of conflict and repeated graffiti.\nIts imperfections were part of what made it analytically valuable: it functioned as a lived neighborhood rather than as an idealized design diagram."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#aldea",
-    "href": "projects/city-as-human-environment/index.html#aldea",
-    "title": "The City as Human Environment",
-    "section": "Aldea",
-    "text": "Aldea\nAldea reflected New Urbanist planning principles:\n\ncompact development;\nnarrow streets;\nsidewalks;\nparks;\ntrails;\nPueblo-influenced architecture;\nmarket-rate and affordable housing.\n\nVisually, the community appeared highly polished. During the field visit, however, the public spaces were nearly empty.\nIts distance from ordinary services, commercial costs, homeowner-association obligations, and possible tensions between housing groups complicated the assumption that attractive physical design automatically creates active community life."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#what-the-comparison-revealed",
-    "href": "projects/city-as-human-environment/index.html#what-the-comparison-revealed",
-    "title": "The City as Human Environment",
-    "section": "What the Comparison Revealed",
-    "text": "What the Comparison Revealed\nThe comparison between Tierra Contenta and Aldea reinforced one of the course’s major lessons:\n\nA place that looks successful is not necessarily a place that functions successfully as a social environment.\n\nArchitecture and planning matter, but they do not alone determine whether people use public spaces, interact with neighbors, or feel that they belong.\nThe project also demonstrated the value of mixed methods.\nCensus data showed broad economic change. Maps revealed spatial patterns. Interviews explained institutional strategies. Field observations revealed how developments functioned on the ground.\nNone of those methods would have told the complete story by itself."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#what-i-learned",
-    "href": "projects/city-as-human-environment/index.html#what-i-learned",
-    "title": "The City as Human Environment",
-    "section": "What I Learned",
-    "text": "What I Learned\nThis course changed how I observed cities.\nI learned to recognize that:\n\nbuilt form influences behavior;\naccess is social as well as physical;\npublic space is governed by both design and regulation;\nprivate spaces can imitate public environments while restricting who belongs;\ncultural institutions communicate through institutional voice and visitor expectations;\nauthenticity can be created, marketed, and contested;\nhousing affordability affects transportation, employment, family life, and community stability;\nattractive planning does not guarantee social interaction;\nobservations should be connected to broader historical, cultural, and economic systems;\nqualitative evidence can reveal patterns that are difficult to represent in a GIS."
-  },
-  {
-    "objectID": "projects/city-as-human-environment/index.html#looking-back",
-    "href": "projects/city-as-human-environment/index.html#looking-back",
-    "title": "The City as Human Environment",
-    "section": "Looking Back",
-    "text": "Looking Back\nGEOG 566 broadened my understanding of what geographic research could be.\nMost of my graduate work involved quantitative data, maps, imagery, databases, and spatial analysis. This course asked me to slow down, remain in a place, observe carefully, compare experiences, speak with people, and consider how my own background affected what I noticed.\nThe course also influenced how I later approached applied GIS work.\nMaps and spatial data are more meaningful when they are interpreted alongside:\n\nlocal knowledge;\nlived experience;\ninstitutional context;\npolicy;\nhistory;\nthe physical design of places.\n\nThe strongest outcome was learning to see cities not only as spatial arrangements, but as environments continually produced through human interaction, difference, memory, power, and everyday use."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html",
-    "href": "projects/demographics-suitability/index.html",
-    "title": "Business Location Suitability Analysis",
-    "section": "",
-    "text": "For this independent project in GIS 220 at Roane State Community College, I was asked to select a hypothetical business, define the factors that would influence its location, find the necessary data, build a suitability model, and present a final recommendation.\nI created a fictional outdoor guiding company called Camponovo Adventure Travel. The concept combined guided outdoor experiences with equipment, transportation, trained guides, first-aid knowledge, and trip documentation through photographs and video.\nThe analysis followed two stages:\n\ncompare four candidate cities and identify the strongest regional market;\nconduct a more detailed site-selection analysis within the selected city.\n\nThe project ultimately recommended Bend, Oregon, then identified two commercially zoned areas within the city’s highest-ranked block groups."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#project-overview",
-    "href": "projects/demographics-suitability/index.html#project-overview",
-    "title": "Business Location Suitability Analysis",
-    "section": "",
-    "text": "For this independent project in GIS 220 at Roane State Community College, I was asked to select a hypothetical business, define the factors that would influence its location, find the necessary data, build a suitability model, and present a final recommendation.\nI created a fictional outdoor guiding company called Camponovo Adventure Travel. The concept combined guided outdoor experiences with equipment, transportation, trained guides, first-aid knowledge, and trip documentation through photographs and video.\nThe analysis followed two stages:\n\ncompare four candidate cities and identify the strongest regional market;\nconduct a more detailed site-selection analysis within the selected city.\n\nThe project ultimately recommended Bend, Oregon, then identified two commercially zoned areas within the city’s highest-ranked block groups."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#defining-the-business",
-    "href": "projects/demographics-suitability/index.html#defining-the-business",
-    "title": "Business Location Suitability Analysis",
-    "section": "Defining the Business",
-    "text": "Defining the Business\nThe business concept reflected my own interest in outdoor recreation. Camponovo Adventure Travel was designed to make outdoor experiences easier for clients by reducing the amount of planning and equipment they would need to manage themselves.\n\n\n\n\n\n\nOpening slide introducing the business-location project.\n\n\n\n\n\n\n\nSlide connecting the business concept to my interest in outdoor activities.\n\n\n\n\n\n\n\n\n\nSummary of the spatial requirements for the business.\n\n\n\n\n\n\n\nOther requirements considered for the business, including natural areas, colleges, airports, and highways."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#building-the-suitability-criteria",
-    "href": "projects/demographics-suitability/index.html#building-the-suitability-criteria",
-    "title": "Business Location Suitability Analysis",
-    "section": "Building the Suitability Criteria",
-    "text": "Building the Suitability Criteria\nI developed the suitability criteria by combining market characteristics, workforce needs, accessibility, environmental setting, and quality-of-life measures.\nThe primary criteria included:\n\na likely client population between approximately 45 and 60 years old;\nparticipation by both men and women;\nhigher income and college education;\nproximity to national parks, national forests, rivers, mountains, and other outdoor amenities;\naccess by airport or highway;\nproximity to a college that could provide a workforce;\na reputation for outdoor recreation;\na clean and visually appealing setting;\nrelatively short commute times;\nmanageable population size;\nlower pollution;\nreasonable cost of living.\n\nThe original presentation included highlighted excerpts from market-research sources describing adventure travelers as both men and women, generally ages 45–60, and college educated. I no longer have enough documentation to identify or verify those sources, so I treat those criteria as part of the project’s historical context rather than as current market evidence.\n\n\n\nHistorical market-research excerpts used to identify likely adventure-travel customers."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#selecting-candidate-cities",
-    "href": "projects/demographics-suitability/index.html#selecting-candidate-cities",
-    "title": "Business Location Suitability Analysis",
-    "section": "Selecting Candidate Cities",
-    "text": "Selecting Candidate Cities\nI used historical Outside magazine “Best Places to Live” lists to narrow the initial set of possibilities to four locations:\n\nBend, Oregon;\nBishop, California;\nDurango, Colorado;\nKnoxville, Tennessee, used as a comparison location.\n\nEach location was evaluated through a combination of maps, demographic measures, transportation access, environmental characteristics, and outdoor-recreation context.\n\n\n\n\n\n\nThe four candidate locations considered in the suitability analysis.\n\n\n\n\n\n\n\nRepresentative map of Durango, Colorado, showing transportation access.\n\n\n\n\n\n\n\nRepresentative map of Bend, Oregon, showing elevation trends."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#comparing-the-cities",
-    "href": "projects/demographics-suitability/index.html#comparing-the-cities",
-    "title": "Business Location Suitability Analysis",
-    "section": "Comparing the Cities",
-    "text": "Comparing the Cities\nI created roughly a dozen maps for each candidate location. These maps highlighted natural features, transportation networks, aerial imagery, and other location characteristics.\nI also compared demographic and quality-of-life measures using a simple ordinal scoring system. For most criteria, each city received a score from 1 to 4, with 4 representing the strongest result. I assigned negative values to measures where a higher value was considered a disadvantage, including total population and pollution.\nThe positive criteria included:\n\npercentage of workers commuting less than 30 minutes;\nhousehold income;\neducational attainment;\nsize of the potential employee pool;\nsize of the potential client pool.\n\nThe negative criteria included:\n\ntotal population;\npollution ranking.\n\n\n\n\nComparison of commute times, used as a quality-of-life measure.\n\n\n\n\n\nFinal city-ranking table showing Bend and Durango tied for the highest score.\n\n\nThe final scores were:\n\n\n\nLocation\nFinal score\n\n\n\n\nBend, Oregon\n8\n\n\nDurango, Colorado\n8\n\n\nBishop, California\n7\n\n\nKnoxville, Tennessee\n7\n\n\n\nThis was a straightforward ordinal ranking rather than a statistically calibrated weighted model. Every category contributed equally to the final score."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#resolving-the-benddurango-tie",
-    "href": "projects/demographics-suitability/index.html#resolving-the-benddurango-tie",
-    "title": "Business Location Suitability Analysis",
-    "section": "Resolving the Bend–Durango Tie",
-    "text": "Resolving the Bend–Durango Tie\nBend and Durango tied for the highest overall score, so I conducted an additional comparison.\nI examined the visible amount of green and natural space surrounding each city and confirmed that both had nearby colleges with outdoor-recreation programs. Those programs could support a steady workforce while giving students opportunities to earn money and possibly receive academic credit.\nThe final tie-breaker was cost of living. At the time of the project:\n\nDurango was estimated to be 66% more expensive than Knoxville;\nBend was estimated to be 42% more expensive than Knoxville.\n\nBased on the lower relative cost of living, I selected Bend, Oregon as the strongest overall location.\n\n\n\nCost-of-living comparison used to resolve the tie between Bend and Durango."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#selecting-a-site-within-bend",
-    "href": "projects/demographics-suitability/index.html#selecting-a-site-within-bend",
-    "title": "Business Location Suitability Analysis",
-    "section": "Selecting a Site Within Bend",
-    "text": "Selecting a Site Within Bend\nAfter choosing Bend, I conducted a second-stage analysis to identify suitable areas within the city.\nI contacted the Bend GIS department and requested zoning data. I then combined that information with U.S. Census block-group data describing:\n\nhousehold income;\neducational attainment;\ntarget client population.\n\nI ranked the block groups using those demographic measures, identified the highest-ranked areas, and then compared them with commercial zoning.\n\n\n\nFinal block-group suitability ranking within Bend.\n\n\n\n\n\nCommercially zoned areas located within the highest-ranked block groups.\n\n\nThis process identified two commercially zoned areas within the highest-ranked block groups as potential locations for Camponovo Adventure Travel."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#final-recommendation",
-    "href": "projects/demographics-suitability/index.html#final-recommendation",
-    "title": "Business Location Suitability Analysis",
-    "section": "Final Recommendation",
-    "text": "Final Recommendation\nThe analysis recommended Bend, Oregon as the strongest city for the hypothetical business.\nBend combined:\n\naccess to outdoor amenities;\na strong outdoor-recreation identity;\na suitable client profile;\naccess to a potential college-based workforce;\nreasonable transportation access;\na lower estimated cost of living than Durango.\n\nWithin Bend, the second-stage analysis identified commercially zoned areas that also fell within the strongest demographic block groups."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#what-i-learned",
-    "href": "projects/demographics-suitability/index.html#what-i-learned",
-    "title": "Business Location Suitability Analysis",
-    "section": "What I Learned",
-    "text": "What I Learned\nThis project was my first experience developing an end-to-end suitability analysis around a self-defined business problem.\nIt required me to:\n\ntranslate a business idea into measurable spatial criteria;\nfind and evaluate multiple external datasets;\ncompare locations at regional and local scales;\ncreate maps for four candidate cities;\ndevelop a scoring system;\nresolve a tie using additional qualitative and quantitative criteria;\ncontact a local government GIS office for data;\ncombine demographic suitability with zoning;\npresent a clear recommendation.\n\nThe project also showed me that suitability analysis involves more than producing a final ranked map. The analyst must decide which variables matter, how they should be measured, how they should be combined, and what limitations affect the recommendation."
-  },
-  {
-    "objectID": "projects/demographics-suitability/index.html#looking-back",
-    "href": "projects/demographics-suitability/index.html#looking-back",
-    "title": "Business Location Suitability Analysis",
-    "section": "Looking Back",
-    "text": "Looking Back\nThe project was ambitious for an early GIS course and successfully connected demographic analysis, business planning, cartography, and site selection. Its strongest feature was the two-stage workflow: first selecting a city, then narrowing the recommendation to commercially zoned areas within that city.\nThere are several things I would approach differently today:\n\nuse more inclusive and better-documented market research;\ndistinguish more carefully between county-, city-, block-group-, and parcel-level data;\ndocument the sources and dates of pollution and cost-of-living measures;\napply explicit weights based on business priorities;\ntest how sensitive the result is to changes in weights and rankings;\nvalidate the recommendation with current market and competitive data.\n\nEven with those limitations, the project remains an important example of my early development as a GIS analyst. It shows the transition from making individual maps to designing a complete analytical workflow that supported a practical recommendation."
+    "objectID": "projects/developing-thesis-research/index.html#what-i-learned-about-research",
+    "href": "projects/developing-thesis-research/index.html#what-i-learned-about-research",
+    "title": "Developing a Thesis Research Agenda",
+    "section": "What I Learned About Research",
+    "text": "What I Learned About Research\nThe most important lesson was that a thesis question develops through iteration.\nThe process required reading broadly, identifying gaps, testing questions, receiving criticism, revising scope, confronting data limitations, and distinguishing an interesting problem from an answerable one.\nThe completed thesis was only the endpoint. Before it came curiosity, annotated sources, seminar notes, teaching, abandoned questions, competing methods, committee feedback, proposal drafts, and revised plans."
   },
   {
     "objectID": "projects/glacier-national-park/index.html",

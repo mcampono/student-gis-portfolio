@@ -1,0 +1,166 @@
+---
+title: "Developing a Thesis Research Agenda"
+subtitle: "From an unexpected idea to a researchable question about volunteered geographic information and disaster response"
+description: "A retrospective on how GEOG 501, GEOG 502, and GEOG 525 transformed an initial interest in crowdsourced location data into a graduate thesis research agenda."
+institution: "University of New Mexico"
+date: "2011–2013"
+categories:
+  - Volunteered Geographic Information
+  - GIScience
+  - Disaster Response
+  - Research Design
+  - Graduate Coursework
+  - UNM
+project-type: "Research development retrospective"
+image: "images/thesis-development-thumbnail.png"
+image-alt: "A research-development sequence connecting citizen reports, volunteered geographic information, data quality, and emergency response."
+featured: false
+tier: 2
+toc: true
+toc-depth: 2
+lightbox: true
+---
+
+## An Unexpected Starting Point
+
+My graduate research began with a *Wired* article, [“What a Hundred Million Calls to 311 Reveal About New York”](https://www.wired.com/2010/11/ff_311_new_york/).
+
+The article described how residents reported local problems and how those reports could be georeferenced, combined, and analyzed to identify patterns that might not have been visible through conventional government data alone.
+
+That article produced an immediate realization:
+
+> Useful geographic information did not always have to originate with an authoritative mapping agency.
+
+That raised several questions:
+
+- How reliable is geographic information created by non-experts?
+- How quickly can it become useful?
+- What happens when timely information and verified information are not the same thing?
+- How should governments and emergency responders decide whether to trust it?
+- Who is represented in volunteered data, and who may be left out?
+
+## Why Disaster Response?
+
+The topic became more urgent because several major disasters and humanitarian crises were unfolding as I began graduate school.
+
+New platforms and organizations were demonstrating how volunteers could contribute to emergency mapping and information management, including Ushahidi, Humanitarian OpenStreetMap, Crisis Mappers, the Standby Volunteer Task Force, Sahana, and MapAction.
+
+The Haiti earthquake of 2010 became especially important because volunteers translated, categorized, and georeferenced reports submitted through text messages, email, social media, and other channels.
+
+The promise was clear: information could be produced rapidly by people directly affected by a disaster and by remote volunteers.
+
+The uncertainty was equally clear: the resulting information might be incomplete, inconsistently categorized, incorrectly located, or difficult to verify.
+
+## GEOG 501 — Building the Scholarly Foundation
+
+**GEOG 501: History and Methods in Geography** required an annotated bibliography.
+
+I organized the emerging topic into three bodies of literature:
+
+- GIS and hazards;
+- crowdsourcing and social media;
+- geospatial data quality.
+
+The bibliography established concepts that shaped the later thesis:
+
+- authoritative versus volunteered data;
+- credibility and trust;
+- positional and attribute accuracy;
+- completeness;
+- temporal quality;
+- uncertainty;
+- fitness for use;
+- spatial decision support;
+- emergency management.
+
+The most important shift was moving from asking whether volunteered geographic information was simply “good” or “bad” toward asking whether it was **fit for a particular use**.
+
+## GEOG 525 — Locating the Problem Within GIScience
+
+**GEOG 525: Advanced GIScience Seminar** helped place the topic within broader GIScience research agendas.
+
+Course materials examined Public Participation GIS, empowerment and marginalization, emergency data acquisition, rapid dissemination, uncertainty, interoperability, institutional barriers, ethics, privacy, and evaluation.
+
+The seminar also included a two-day instructional module on volunteered geographic information and disaster response.
+
+Preparing that material required me to explain:
+
+- what VGI was;
+- who created it;
+- how it differed from authoritative data;
+- which platforms and organizations were involved;
+- who benefited;
+- who might be excluded;
+- how volunteered information might be misused.
+
+Teaching the topic helped reveal where the research questions were still too broad.
+
+## GEOG 502 — From Topic to Research Question
+
+**GEOG 502: Approaches to Geographical Research** documented the most visible stage of refinement.
+
+The process included:
+
+- defining the general topic;
+- evaluating the literature;
+- drafting several potential questions;
+- receiving faculty and committee feedback;
+- narrowing the scope;
+- outlining methods;
+- identifying necessary datasets;
+- preparing a formal thesis proposal.
+
+An early version asked:
+
+> What impact does volunteered geographic information quality have on the analysis used in decision-making during time-critical emergencies?
+
+A later version became:
+
+> Which components of volunteered geographic information quality have the greatest impact on time-critical decisions made using VGI?
+
+The proposed design initially considered search and rescue, emergency routing, resource allocation, error analysis, sensitivity analysis, and comparison of authoritative and volunteered datasets.
+
+## The Research Framework
+
+```text
+Citizen observations
+        ↓
+Volunteered geographic information
+        ↓
+Data-quality dimensions
+        ↓
+Spatial analysis
+        ↓
+Time-critical decisions
+        ↓
+Emergency-response consequences
+```
+
+![Illustration of a volunteered message moving from a person affected by a disaster to translators, mappers, and responders.](images/ushahidi-flow-chart.png){.lightbox group="thesis-development" fig-alt="Diagram showing a disaster victim sending a message that is translated, categorized, georeferenced, mapped, and passed to responders."}
+
+The diagram illustrates the human decisions embedded in the process. A message did not move directly from a victim to a responder. Volunteers interpreted, translated, categorized, and located it before it became usable geographic information.
+
+Each step created both value and potential uncertainty.
+
+## From Proposal to Feasible Study
+
+The original proposal was intentionally broad.
+
+It considered multiple disasters, multiple VGI platforms, several components of data quality, and several kinds of emergency analysis.
+
+As the project moved toward implementation, data access and feasibility became decisive.
+
+The final thesis narrowed the study to:
+
+- the Ushahidi Haiti deployment;
+- attribute categorization;
+- consistency between original volunteer-assigned categories and later recategorization;
+- uncertainty introduced during classification.
+
+## What I Learned About Research
+
+The most important lesson was that a thesis question develops through iteration.
+
+The process required reading broadly, identifying gaps, testing questions, receiving criticism, revising scope, confronting data limitations, and distinguishing an interesting problem from an answerable one.
+
+The completed thesis was only the endpoint. Before it came curiosity, annotated sources, seminar notes, teaching, abandoned questions, competing methods, committee feedback, proposal drafts, and revised plans.

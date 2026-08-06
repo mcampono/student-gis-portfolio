@@ -58,5 +58,8 @@
   },
   "projects/volunteer-gis/index.qmd": {
     "index.html": "32bc776c"
+  },
+  "awards-recognition.qmd": {
+    "awards-recognition.html": "f34d153d"
   }
 }

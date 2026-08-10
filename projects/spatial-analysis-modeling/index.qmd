@@ -395,7 +395,7 @@ The review examined methods such as:
 
 The paper also reviewed early studies comparing OpenStreetMap with authoritative and commercial datasets.
 
-[Download the final paper](documents/vgi-accuracy-final-paper.pdf)
+[View the final paper](documents/vgi-accuracy-final-paper.pdf)
 
 ## What I Learned
 

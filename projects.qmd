@@ -42,3 +42,5 @@ These projects represent several stages of my development in GIS, cartography, s
 ## Projects in Development
 
 The remaining projects planned for future additions focus primarily on research completed through graduate assistantships and other early professional experiences. They will be added as I recover, review, and document the original materials.
+
+test text to see if this is working. 

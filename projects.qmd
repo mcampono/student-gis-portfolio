@@ -21,6 +21,7 @@ listing:
       - projects/city-as-human-environment/index.qmd
       - projects/internet-mapping-open-web-gis/index.qmd
       - projects/python-geoprocessing-automation/index.qmd
+      - projects/spatial-analysis-modeling/index.qmd
     type: grid
     grid-columns: 2
     sort: false

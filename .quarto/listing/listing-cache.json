@@ -25,7 +25,8 @@
       "projects/applied-remote-sensing/index.qmd",
       "projects/city-as-human-environment/index.qmd",
       "projects/internet-mapping-open-web-gis/index.qmd",
-      "projects/python-geoprocessing-automation/index.qmd"
+      "projects/python-geoprocessing-automation/index.qmd",
+      "projects/spatial-analysis-modeling/index.qmd"
     ]
   }
 }

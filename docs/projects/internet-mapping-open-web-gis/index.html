@@ -404,14 +404,14 @@ ul.task-list li input[type="checkbox"] {
 <p>The first request used a 600 × 257 pixel output that matched the original geographic bounding box.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/wms-adjusted-bounding-box.png-aspect-ratio.png" class="lightbox" data-gallery="internet-mapping" title="WMS image using dimensions matched to the geographic bounding-box ratio."><img src="images/wms-adjusted-bounding-box.png-aspect-ratio.png" class="img-fluid figure-img" alt="WMS map image of western New Mexico using dimensions matched to the geographic bounding-box aspect ratio."></a></p>
+<p><a href="images/wms-adjusted-bounding-box.png" class="lightbox" data-gallery="internet-mapping" title="WMS image using dimensions matched to the geographic bounding-box ratio."><img src="images/wms-adjusted-bounding-box.png" class="img-fluid figure-img" alt="WMS map image of western New Mexico using dimensions matched to the geographic bounding-box aspect ratio."></a></p>
 <figcaption>WMS image using dimensions matched to the geographic bounding-box ratio.</figcaption>
 </figure>
 </div>
 <p>A second request used a 600 × 400 output and expanded the latitude extent so the image would preserve geographic proportions without stretching.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/wms-corrected-bounding-box.png" class="lightbox" data-gallery="internet-mapping" title="WMS image using an adjusted bounding box for a 600 by 400 pixel output."><img src="images/wms-corrected-bounding-box.png" class="img-fluid figure-img" alt="WMS map image using an expanded north-south extent to match a 600 by 400 pixel display."></a></p>
+<p><a href="images/wms-corrected-aspect.png" class="lightbox" data-gallery="internet-mapping" title="WMS image using an adjusted bounding box for a 600 by 400 pixel output."><img src="images/wms-corrected-aspect.png" class="img-fluid figure-img" alt="WMS map image using an expanded north-south extent to match a 600 by 400 pixel display."></a></p>
 <figcaption>WMS image using an adjusted bounding box for a 600 by 400 pixel output.</figcaption>
 </figure>
 </div>
@@ -648,8 +648,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="proposed-data" class="level3">
 <h3 class="anchored" data-anchor-id="proposed-data">Proposed Data</h3>
-<p>The project planned to compare 1990 and 2000 Census data at several geographic levels.</p>
-<p>Potential indicators included:</p>
+<p>The project compared 1990 and 2000 Census data at several geographic levels.</p>
+<p>Indicators included:</p>
 <ul>
 <li>median household income;</li>
 <li>median home value;</li>
@@ -661,11 +661,11 @@ ul.task-list li input[type="checkbox"] {
 <li>streams;</li>
 <li>railroads.</li>
 </ul>
-<p>The proposed coordinate system was NAD83 geographic coordinates, EPSG:4269.</p>
+<p>The coordinate system was NAD83 geographic coordinates, EPSG:4269.</p>
 </section>
 <section id="data-acquisition-and-preparation" class="level3">
 <h3 class="anchored" data-anchor-id="data-acquisition-and-preparation">Data Acquisition and Preparation</h3>
-<p>The workflow anticipated using:</p>
+<p>The workflow used:</p>
 <ul>
 <li>Census TIGER data;</li>
 <li>Census demographic tables;</li>
@@ -674,7 +674,7 @@ ul.task-list li input[type="checkbox"] {
 <li><code>ogrinfo</code>;</li>
 <li>GDAL/OGR-compatible formats.</li>
 </ul>
-<p>The surviving project-planning page documents:</p>
+<p>The project-planning page documents:</p>
 <ul>
 <li>problem definition;</li>
 <li>study area;</li>
@@ -691,8 +691,13 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Excerpt from the Santa Fe gentrification web-mapping project proposal.</figcaption>
 </figure>
 </div>
-<p>No complete final web application survives in the files reviewed for this reconstruction.</p>
-<p>For that reason, this section documents the project design and data-planning stage rather than claiming that the full application was completed.</p>
+<p>A screen capture from the completed web map survives and is shown below. The application presented socioeconomic and physical characteristics of Santa Fe County as part of the broader investigation of possible gentrification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../city-as-human-environment/images/santa-fe-gentrification-web-map.png" class="lightbox" data-gallery="internet-mapping" title="Completed Santa Fe web-mapping project displaying socioeconomic and physical characteristics of Santa Fe County."><img src="../city-as-human-environment/images/santa-fe-gentrification-web-map.png" class="img-fluid figure-img" alt="Screen capture of the completed Santa Fe County web map displaying socioeconomic and physical geographic information."></a></p>
+<figcaption>Completed Santa Fe web-mapping project displaying socioeconomic and physical characteristics of Santa Fe County.</figcaption>
+</figure>
+</div>
 </section>
 </section>
 <section id="preserved-topographic-map-outputs" class="level2">

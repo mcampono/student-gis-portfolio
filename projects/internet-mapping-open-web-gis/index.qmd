@@ -228,11 +228,11 @@ One exercise used McKinley County, New Mexico, to compare geographic and image a
 
 The first request used a 600 × 257 pixel output that matched the original geographic bounding box.
 
-![WMS image using dimensions matched to the geographic bounding-box ratio.](images/wms-adjusted-bounding-box.png-aspect-ratio.png){.lightbox group="internet-mapping" fig-alt="WMS map image of western New Mexico using dimensions matched to the geographic bounding-box aspect ratio."}
+![WMS image using dimensions matched to the geographic bounding-box ratio.](images/wms-adjusted-bounding-box.png){.lightbox group="internet-mapping" fig-alt="WMS map image of western New Mexico using dimensions matched to the geographic bounding-box aspect ratio."}
 
 A second request used a 600 × 400 output and expanded the latitude extent so the image would preserve geographic proportions without stretching.
 
-![WMS image using an adjusted bounding box for a 600 by 400 pixel output.](images/wms-corrected-bounding-box.png){.lightbox group="internet-mapping" fig-alt="WMS map image using an expanded north-south extent to match a 600 by 400 pixel display."}
+![WMS image using an adjusted bounding box for a 600 by 400 pixel output.](images/wms-corrected-aspect.png){.lightbox group="internet-mapping" fig-alt="WMS map image using an expanded north-south extent to match a 600 by 400 pixel display."}
 
 This exercise demonstrated that output dimensions and geographic extent must be coordinated carefully.
 
@@ -428,9 +428,9 @@ Potential audiences included:
 
 ### Proposed Data
 
-The project planned to compare 1990 and 2000 Census data at several geographic levels.
+The project compared 1990 and 2000 Census data at several geographic levels.
 
-Potential indicators included:
+Indicators included:
 
 - median household income;
 - median home value;
@@ -442,11 +442,11 @@ Potential indicators included:
 - streams;
 - railroads.
 
-The proposed coordinate system was NAD83 geographic coordinates, EPSG:4269.
+The coordinate system was NAD83 geographic coordinates, EPSG:4269.
 
 ### Data Acquisition and Preparation
 
-The workflow anticipated using:
+The workflow used:
 
 - Census TIGER data;
 - Census demographic tables;
@@ -455,7 +455,7 @@ The workflow anticipated using:
 - `ogrinfo`;
 - GDAL/OGR-compatible formats.
 
-The surviving project-planning page documents:
+The project-planning page documents:
 
 - problem definition;
 - study area;
@@ -468,9 +468,9 @@ The surviving project-planning page documents:
 
 ![Excerpt from the Santa Fe gentrification web-mapping project proposal.](images/santa-fe-project-planning.png){.lightbox group="internet-mapping" fig-alt="HTML project-planning page describing a proposed web map of gentrification indicators in Santa Fe County."}
 
-No complete final web application survives in the files reviewed for this reconstruction.
+A screen capture from the completed web map survives and is shown below. The application presented socioeconomic and physical characteristics of Santa Fe County as part of the broader investigation of possible gentrification.
 
-For that reason, this section documents the project design and data-planning stage rather than claiming that the full application was completed.
+![Completed Santa Fe web-mapping project displaying socioeconomic and physical characteristics of Santa Fe County.](../city-as-human-environment/images/santa-fe-gentrification-web-map.png){.lightbox group="internet-mapping" fig-alt="Screen capture of the completed Santa Fe County web map displaying socioeconomic and physical geographic information."}
 
 ## Preserved Topographic Map Outputs
 

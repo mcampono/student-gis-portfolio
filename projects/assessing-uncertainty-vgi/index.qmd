@@ -176,6 +176,8 @@ The project produced:
 - charts;
 - a Haiti locator map;
 - an Ushahidi workflow diagram.
+- [Read the published article](documents/assessing-uncertainty-vgi-paper.pdf)
+- [Read the master's thesis](documents/camponovo-thesis.pdf)
 
 ## What I Learned
 

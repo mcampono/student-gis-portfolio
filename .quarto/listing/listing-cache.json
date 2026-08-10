@@ -21,7 +21,11 @@
       "projects/h1n1-risk-assessment/index.qmd",
       "projects/volunteer-gis/index.qmd",
       "projects/developing-thesis-research/index.qmd",
-      "projects/assessing-uncertainty-vgi/index.qmd"
+      "projects/assessing-uncertainty-vgi/index.qmd",
+      "projects/applied-remote-sensing/index.qmd",
+      "projects/city-as-human-environment/index.qmd",
+      "projects/internet-mapping-open-web-gis/index.qmd",
+      "projects/python-geoprocessing-automation/index.qmd"
     ]
   }
 }

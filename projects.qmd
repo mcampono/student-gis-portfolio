@@ -17,6 +17,10 @@ listing:
       - projects/volunteer-gis/index.qmd
       - projects/developing-thesis-research/index.qmd
       - projects/assessing-uncertainty-vgi/index.qmd
+      - projects/applied-remote-sensing/index.qmd
+      - projects/city-as-human-environment/index.qmd
+      - projects/internet-mapping-open-web-gis/index.qmd
+      - projects/python-geoprocessing-automation/index.qmd
     type: grid
     grid-columns: 2
     sort: false
@@ -26,7 +30,7 @@ listing:
       - description
       - categories
     image-height: 220px
-    page-size: 12
+    page-size: 20
     filter-ui: false
     sort-ui: false
     categories: false
